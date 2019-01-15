@@ -18,8 +18,21 @@ title_tag = head_tag.contents[1]
 # print(title_tag)
 # print(head_tag.contentss)
 
-print()
 
-# Lists everything
-# for string in html.stripped_strings:
-#     print(string)
+
+content = html.find("div", {"class": "cPost_contentWrap ipsPad"})
+
+# all_plane = html.body.find_all("div", {"class": "ipsSpoiler"})
+
+first_plane = content.span.parent.find_next('p').find_next('p')
+
+print(first_plane.text.strip())
+
+first_content = content.find("div", {"class": "ipsSpoiler_contents"})
+
+for line in first_content.stripped_strings:
+    print(line)
+
+# Check 
+# check_content = dir(content.span)
+# [ print(line) for line in check_content ]
