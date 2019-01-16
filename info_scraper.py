@@ -30,10 +30,24 @@ for line in comment:
 	for row in line.stripped_strings:
 		result.append(row)
 
+# result = [ row for row in line.stripped_strings for line in comment ]
+
 # Clean up comments surrounding data
 result.pop(0)
 result.pop(0)
 result.pop(len(result)-1)
 result.pop(len(result)-1)
 
-[ print(line) for line in result ]
+final = []
+
+for line in range(len(result)):
+    if "Indicated stall speed in flight configuration:" in result[line]:
+        final.insert((line-1), "\n####")
+    elif "Engine" == result[line]:
+        final.insert((line-1), "\n####")
+    # elif "Airplanes of" in result[line] and line != 0:
+    #     final.insert((line-1), "\n====")
+    else:
+        final.append(result[line])
+
+[ print(line) for line in final ]
