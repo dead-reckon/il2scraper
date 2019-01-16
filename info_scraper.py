@@ -23,31 +23,46 @@ for line in comment:
 	for row in line.select("div > span"):
 		row.extract()
 
-result = []
+raw = []
 
 # The List
 for line in comment:
 	for row in line.stripped_strings:
-		result.append(row)
+		raw.append(row)
 
-# result = [ row for row in line.stripped_strings for line in comment ]
+# raw = [ row for row in line.stripped_strings for line in comment ]
 
 # Clean up comments surrounding data
-result.pop(0)
-result.pop(0)
-result.pop(len(result)-1)
-result.pop(len(result)-1)
+raw.pop(0)
+raw.pop(0)
+raw.pop(len(raw)-1)
+raw.pop(len(raw)-1)
 
 final = []
+offset = len(raw)
 
-for line in range(len(result)):
-    if "Indicated stall speed in flight configuration:" in result[line]:
+for line in range(len(raw)):
+    if "Indicated stall speed in flight configuration:" in raw[line]:
         final.insert((line-1), "\n####")
-    elif "Engine" == result[line]:
+        offset = offset + 1
+    elif "Engine" == raw[line]:
         final.insert((line-1), "\n####")
-    # elif "Airplanes of" in result[line] and line != 0:
+        offset = offset + 1
+    # elif "Airplanes of" in raw[line] and line != 0:
     #     final.insert((line-1), "\n====")
-    else:
-        final.append(result[line])
+    final.append(raw[line])
+    # print(offset)
+    
 
 [ print(line) for line in final ]
+
+# final = []
+
+# for line in range(len(step1)):
+#     if "Airplanes of" in step1[line]:
+#         # final.insert((line+1), "\n====")
+#         print(line)
+#     else:
+#         final.append(step1[line])
+
+# [ print(line) for line in final ]
