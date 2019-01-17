@@ -6,7 +6,7 @@ from bs4 import BeautifulSoup
 
 
 # Open and Store Raw Page HTML
-raw_html = open('source.html',encoding="utf8").read()
+raw_html = open('source.html',encoding="utf8").read()	
 
 html = BeautifulSoup(raw_html, 'html.parser')
 
@@ -38,23 +38,36 @@ raw.pop(0)
 raw.pop(len(raw)-1)
 raw.pop(len(raw)-1)
 
-final = []
-offset = len(raw)
+l_final = []
+l_planes = []
+
+# for line in range(len(raw)):
+#     if "Indicated stall speed in flight configuration:" in raw[line]:
+#         final.insert((line-1), "\n####")
+#     elif "Engine" == raw[line]:
+#         final.insert((line-1), "\n####")
+#     # elif "Airplanes of" in raw[line] and line != 0:
+#     #     final.insert((line-1), "\n====")
+#     final.append(raw[line])
 
 for line in range(len(raw)):
     if "Indicated stall speed in flight configuration:" in raw[line]:
-        final.insert((line-1), "\n####")
-        offset = offset + 1
+        l_planes.append(raw[line-1])
     elif "Engine" == raw[line]:
-        final.insert((line-1), "\n####")
-        offset = offset + 1
-    # elif "Airplanes of" in raw[line] and line != 0:
-    #     final.insert((line-1), "\n====")
-    final.append(raw[line])
-    # print(offset)
+    	l_planes.append(raw[line-1])
+
+for line in range(len(raw)):
+    for row in l_planes:
+    	if row == raw[line]:
+    		l_final.append("\n## " + raw[line])
+
+    if "Airplanes of" in raw[line]:
+        l_final.append("\n# " + raw[line])
+    else:
+    	l_final.append(raw[line])
     
 
-[ print(line) for line in final ]
+[ print(line) for line in l_final ]
 
 # final = []
 
