@@ -1,8 +1,8 @@
 
+
 # Airplanes of "Battle of Moscow":
 
 ## I-16 type 24
-I-16 type 24
 Indicated stall speed in flight configuration: 143..164 km/h
 Indicated stall speed in takeoff/landing configuration: 142..163 km/h
 Dive speed limit: 620 km/h
@@ -111,7 +111,6 @@ Operation features:
 - The gunsight has a sliding sun-filter. There is also a back-up folding mechanical sight which can be used if main sight is damaged.
 
 ## MiG-3 series 24
-MiG-3 series 24
 Indicated stall speed in flight configuration: 159..175 km/h
 Indicated stall speed in takeoff/landing configuration: 134..147 km/h
 Dive speed limit: 750 km/h
@@ -224,7 +223,6 @@ Operation features:
 - When rockets are installed a salvo controller can be used, it has three launch modes: single fire, fire two in a salvo or fire four in a salvo.
 
 ## Il-2 model of 1941
-Il-2 model of 1941
 Indicated stall speed in flight configuration: 136..156 km/h
 Indicated stall speed in takeoff/landing configuration: 128..146 km/h
 Dive speed limit: 570 km/h
@@ -337,7 +335,6 @@ Operation features:
 - The gunsight is installed on a sliding bar which allows the pilot to extend the gunsight towards the pilot allowing fo an increase in the field of view through the gunsight.
 
 ## Pe-2 series 35
-Pe-2 series 35
 Indicated stall speed in flight configuration: 175..200 km/h
 Indicated stall speed in takeoff/landing configuration: 148..169 km/h
 Dive speed limit: 790 km/h
@@ -439,7 +436,6 @@ Operation features:
 - When rockets are installed a salvo controller can be used, it has three launch modes: single fire, fire two in a salvo or fire four in a salvo. Aircraft has a fire control system that is designed for eight rockets. However, for added punch, ten rockets were typically loaded. In that case, the ninth rocket will fire with the seventh and the tenth will fire with the eighth.
 
 ## Bf 109 E-7
-Bf 109 E-7
 Indicated stall speed in flight configuration: 152..159 km/h
 Indicated stall speed in takeoff/landing configuration: 147..146 km/h
 Dive speed limit: 850 km/h
@@ -537,7 +533,6 @@ Operation features:
 - The gunsight has a sliding sun-filter.
 
 ## Bf 109 F-2
-Bf 109 F-2
 Indicated stall speed in flight configuration: 151..168 km/h
 Indicated stall speed in takeoff/landing configuration: 144 km/h..159 km/h
 Dive speed limit: 850 km/h
@@ -636,7 +631,6 @@ Operation features:
 - The gunsight has a sliding sun-filter.
 
 ## Bf 110 E-2
-Bf 110 E-2
 Indicated stall speed in flight configuration: 148..182 km/h
 Indicated stall speed in takeoff/landing configuration: 131..162 km/h
 Dive speed limit: 740 km/h
@@ -743,7 +737,6 @@ Operation features:
 - The gunsight has a sliding sun-filter.
 
 ## Ju 88 A-4
-Ju 88 A-4
 Indicated stall speed in flight configuration: 188..205 km/h
 Indicated stall speed in takeoff/landing configuration: 158..185 km/h
 Dive speed limit: 670 km/h
@@ -851,7 +844,6 @@ Operation features:
 # Airplanes of "Battle of Stalingrad":
 
 ## LaGG-3 series 29
-LaGG-3 series 29
 Indicated stall speed in flight configuration: 163..189 km/h
 Indicated stall speed in takeoff/landing configuration: 138..168 km/h
 Dive speed limit: 750 km/h
@@ -952,7 +944,6 @@ Operation features:
 - When rockets are installed a salvo controller is used, it has three launch modes: single fire, fire two in a salvo or fire four in a salvo.
 
 ## Yak-1 series 69
-Yak-1 series 69
 Indicated stall speed in flight configuration: 155..171 km/h
 Indicated stall speed in takeoff/landing configuration: 133..146 km/h
 Dive speed limit: 720 km/h
@@ -1051,7 +1042,6 @@ Operation features:
 - When rockets are installed a salvo controller can be used, it has three launch modes: single fire, fire two in a salvo or fire four in a salvo.
 
 ## Il-2 model of 1942
-Il-2 model of 1942
 Indicated stall speed in flight configuration: 138..158 km/h
 Indicated stall speed in takeoff/landing configuration: 130..148 km/h
 Dive speed limit: 570 km/h
@@ -1166,7 +1156,6 @@ Operation features:
 - The gunsight is installed on a sliding bar which allows the pilot to extend the gunsight towards the pilot allowing fo an increase in the field of view through the gunsight.
 
 ## Pe-2 series 87
-Pe-2 series 87
 Indicated stall speed in flight configuration: 175..200 km/h
 Indicated stall speed in takeoff/landing configuration: 148..169 km/h
 Dive speed limit: 790 km/h
@@ -1269,7 +1258,6 @@ Operation features:
 - When rockets are installed a salvo controller can be used, it has three launch modes: single fire, fire two in a salvo or fire four in a salvo. Aircraft has a fire control system that is designed for eight rockets. However, for added punch, ten rockets were typically loaded. In that case, the ninth rocket will fire with the seventh and the tenth will fire with the eighth.
 
 ## Bf 109 F-4
-Bf 109 F-4
 Indicated stall speed in flight configuration: 154..171 km/h
 Indicated stall speed in takeoff/landing configuration: 148..161 km/h
 Dive speed limit: 850 km/h
@@ -1372,7 +1360,6 @@ Operation features:
 - The gunsight has a sliding sun-filter.
 
 ## Bf 109 G-2
-Bf 109 G-2
 Indicated stall speed in flight configuration: 158..174 km/h
 Indicated stall speed in takeoff/landing configuration: 153..164 km/h
 Dive speed limit: 850 km/h
@@ -1466,7 +1453,6 @@ Operation features:
 - The gunsight has a sliding sun-filter.
 
 ## Ju 87 D-3
-Ju 87 D-3
 Indicated stall speed in flight configuration: 137..176 km/h
 Indicated stall speed in takeoff/landing configuration: 123..155 km/h
 Dive speed limit: 650 km/h
@@ -1569,7 +1555,6 @@ Operation features:
 - The gunsight has a sliding sun-filter.
 
 ## He 111 H-6
-He 111 H-6
 Indicated stall speed in flight configuration: 150..184 km/h
 Indicated stall speed in takeoff/landing configuration: 123..151 km/h
 Dive speed limit: 560 km/h
@@ -1673,7 +1658,6 @@ Operation features:
 # Airplanes of "Battle of Kuban":
 
 ## Yak-7B series 36
-Yak-7B series 36
 Indicated stall speed in flight configuration: 155..172 km/h
 Indicated stall speed in takeoff/landing configuration: 139..154 km/h
 Dive speed limit: 740 km/h
@@ -1768,7 +1752,6 @@ Operation features:
 - The control system for the wing-mounted bomb racks only allows releasing of both bombs together.
 
 ## P-39L-1
-P-39L-1
 Indicated stall speed in flight configuration: 160..172 km/h
 Indicated stall speed in takeoff/landing configuration: 140..151 km/h
 Dive speed limit: 841 km/h
@@ -1869,7 +1852,6 @@ Operation features:
 - The gunsight has a sliding sun-filter. There is also a back-up mechanical sight which can be used if main sight is damaged.
 
 ## Il-2 model of 1943
-Il-2 model of 1943
 Indicated stall speed in flight configuration: 144..159 km/h
 Indicated stall speed in takeoff/landing configuration: 135..152 km/h
 Dive speed limit: 570 km/h
@@ -1986,7 +1968,6 @@ Operation features:
 - The mechanical gun sight "Visier Vladimirova" allows aiming rockets and guns at ground and air targets and horizontal bombing at certain speeds and altitudes.
 
 ## A-20B
-A-20B
 Indicated stall speed in flight configuration: 161..193 km/h (100..120 mph)
 Indicated stall speed in takeoff/landing configuration: 139..166 km/h (86..103 mph)
 Dive speed limit: 665 km/h (412 mph)
@@ -2086,7 +2067,6 @@ Operation features:
 - Airplane is equipped with a bomb salvo controller that has four release modes: drop single, drop two in a salvo, drop four in a salvo or drop all bombs in salvo. There is also a controller for a drop delay between each bomb in the salvo.
 
 ## Bf 109 G-4
-Bf 109 G-4
 Indicated stall speed in flight configuration: 165..175 km/h
 Indicated stall speed in takeoff/landing configuration: 154..167 km/h
 Dive speed limit: 850 km/h
@@ -2184,7 +2164,6 @@ Operation features:
 - The gunsight has a sliding sun-filter.
 
 ## Fw 190 A-5
-Fw 190 A-5
 Indicated stall speed in flight configuration: 169..195 km/h
 Indicated stall speed in takeoff/landing configuration: 160..175 km/h
 Dive speed limit: 850 km/h
@@ -2297,7 +2276,6 @@ Operation features:
 - The gunsight has a sliding sun-filter.
 
 ## Bf 110 G-2
-Bf 110 G-2
 Indicated stall speed in flight configuration: 160..190 km/h
 Indicated stall speed in takeoff/landing configuration: 141..168 km/h
 Dive speed limit: 740 km/h
@@ -2410,7 +2388,6 @@ Operation features:
 - The gunsight has a sliding sun-filter.
 
 ## He 111 H-16
-He 111 H-16
 Indicated stall speed in flight configuration: 150..194 km/h
 Indicated stall speed in takeoff/landing configuration: 123..156 km/h
 Dive speed limit: 560 km/h
@@ -2505,7 +2482,6 @@ Operation features:
 # Airplanes of "Operation Bodenplatte":
 
 ## Spitfire Mk.IXe
-Spitfire Mk.IXe
 Indicated stall speed in flight configuration: 143...163 km/h
 Indicated stall speed in takeoff/landing configuration: 135...154 km/h
 Dive speed limit: 725 km/h
@@ -2639,7 +2615,6 @@ Operation features:
 - Both gunsights have sliding sun-filters.
 
 ## P-47D-28
-P-47D-28
 Indicated stall speed in flight configuration: 178..222 km/h (111..138 mph)
 Indicated stall speed in takeoff/landing configuration: 139..171 km/h (86..106 mph)
 Dive speed limit: 805 km/h (500 mph)
@@ -2789,7 +2764,6 @@ Operation features:
 - The gyroscopic gunsight automatically calculates required angular deflection while firing at a target. It has 3 modes: fixed reticle, fixed and gyro reticle, gyro reticle. The angular deflection will be calculated correctly only if the target range is set properly. To set the range, adjust the target base first using separate controls and then set the range by adjusting the size of the range-finding reticle to be the same as the target size.
 
 ## Bf 109 G-14
-Bf 109 G-14
 Indicated stall speed in flight configuration: 164..181 km/h
 Indicated stall speed in takeoff/landing configuration: 156..172 km/h
 Dive speed limit: 850 km/h
@@ -2901,7 +2875,6 @@ Operation features:
 - The gunsight has a sliding sun-filter.
 
 ## Bf 109 K-4
-Bf 109 K-4
 Indicated stall speed in flight configuration: 167..190 km/h
 Indicated stall speed in takeoff/landing configuration: 160..181 km/h
 Dive speed limit: 850 km/h
@@ -3018,7 +2991,6 @@ Operation features:
 - The gunsight has a sliding sun-filter.
 
 ## Fw 190 A-8
-Fw 190 A-8
 Indicated stall speed in flight configuration: 177..208 km/h
 Indicated stall speed in takeoff/landing configuration: 164..188 km/h
 Dive speed limit: 850 km/h
@@ -3155,7 +3127,6 @@ Operation features:
 # Airplanes of "Flying Circus":
 
 ## SPAD 13.C1
-SPAD 13.C1
 Engine
 V8 Hispano—Suiza 8Ba 220 hp
 Dimensions
@@ -3217,7 +3188,6 @@ The S.XIII first appeared at the front in late summer-early fall 1917, being ini
 French pilots were eager to receive the S.XIII. The second machine gun provided increased firepower, and the new engine allowed it to fly and climb faster than its predecessors. Its controls remained effective even at high altitudes. The only remaining drawback, owing to its thin wing profile, was its decreased sensitivity of controls at low speeds, which often resulted in a stall. In a dive and level flight, the SPAD S.XIII was one of the fastest aircraft of its time. Pilots who flew it remarked, “It dives faster than the wind!” It participated in battles on all fronts during WWI. French, British, American and Italian units were all equipped with the type.
 
 ## Sopwith Camel
-Sopwith Camel
 Engine
 Clerget 9B rotary 9 cyl., 130 h.p.
 Dimensions
@@ -3265,7 +3235,6 @@ A remarkable detail of the plane’s construction was its compactness: the pilot
 Camel pilots mentioned the plane’s well-balanced flight controls, the good upward view, and the high cruising speed. Due to the aircraft's unique balance, the plane could almost instantly change its heading, which made the Camel a dangerous opponent. The typical combat scenario for the Camel pilot was a dogfight at low and medium altitudes, where the Camel had the advantage in steep turns. Veterans were known to say, “Once you become a Camel pilot, you will fly it forever.” In addition to equipping British units, this plane was also piloted by four American squadrons of the U.S. Air Service and by some Belgian pilots.
 
 ## Fokker Dr.I
-Fokker Dr.I
 Engine
 Oberursel UR II  rotary 9 cyl. 110 hp
 Dimensions
@@ -3327,7 +3296,6 @@ RFC pilots were especially apprehensive of situations where the Fokker Dr.I and 
 By the spring of 1918, the plane was obsolete. Only the most outstanding German aces, masterfully piloting the plane and sharpshooting their enemies, continued to fly the triplane in combat.
 
 ## Pfalz D.IIIa
-Pfalz D.IIIa
 Engine
 Inline 6 cyl. Mercedes D.IIIa, 180 hp
 Dimensions
@@ -3386,7 +3354,6 @@ In June 1917, the first Pfalz D.IIIs entered service with combat squadrons. The 
 Collector's airplanes:
 
 ## La-5 series 8
-La-5 series 8
 Indicated stall speed in flight configuration: 165..183 km/h
 Indicated stall speed in takeoff/landing configuration: 147..162 km/h
 Dive speed limit: 720 km/h
@@ -3480,7 +3447,6 @@ Operation features:
 - The control system of wing-mounted bomb racks only allows the dropping of bombs one by one.
 
 ## La-5FN series 2
-La-5FN series 2
 Indicated stall speed in flight configuration: 168..185 km/h
 Indicated stall speed in takeoff/landing configuration: 147..159 km/h
 Dive speed limit: 720 km/h
@@ -3574,7 +3540,6 @@ Operation features:
 - The control system for the bomb rack only allows to drop bombs one by one.
 
 ## Yak-1(b) series 127
-Yak-1(b) series 127
 Indicated stall speed in flight configuration: 153..169 km/h
 Indicated stall speed in takeoff/landing configuration: 132..145 km/h
 Dive speed limit: 720 km/h
@@ -3664,7 +3629,6 @@ Operation features:
 - The control system for the wing-mounted bomb racks only allows releasing of both bombs together.
 
 ## P-40E-1
-P-40E-1
 Indicated stall speed in flight configuration: 153..176 km/h
 Indicated stall speed in takeoff/landing configuration: 141..164 km/h
 Dive speed limit: 860 km/h
@@ -3775,7 +3739,6 @@ Operation features:
 - The gunsight has a sliding sun-filter. There is also a back-up mechanical sight which can be used if main sight is damaged.
 
 ## Supermarine Spitfire Mk.VB
-Supermarine Spitfire Mk.VB
 Indicated stall speed in flight configuration: 137..144 km/h
 Indicated stall speed in takeoff/landing configuration: 129..135 km/h
 Dive speed limit: 725 km/h
@@ -3869,7 +3832,6 @@ Operation features:
 - The gunsight has a sliding sun-filter.
 
 ## Bf 109 G-6
-Bf 109 G-6
 Indicated stall speed in flight configuration: 160..177 km/h
 Indicated stall speed in takeoff/landing configuration: 153..169 km/h
 Dive speed limit: 850 km/h
@@ -3976,7 +3938,6 @@ Operation features:
 - The gunsight has a sliding sun-filter.
 
 ## Fw 190 A-3
-Fw 190 A-3
 Indicated stall speed in flight configuration: 166..189 km/h
 Indicated stall speed in takeoff/landing configuration: 166..172 km/h
 Dive speed limit: 850 km/h
@@ -4083,7 +4044,6 @@ Operation features:
 - The gunsight has a sliding sun-filter.
 
 ## MC.202 series VIII
-MC.202 series VIII
 Indicated stall speed in flight configuration: 151..166 km/h
 Indicated stall speed in takeoff/landing configuration: 139..152 km/h
 Dive speed limit: 850 km/h
@@ -4185,7 +4145,6 @@ Operation features:
 - The gunsight has a sliding sun-filter. There is also a back-up folding mechanical sight which can be used if main sight is damaged.
 
 ## Hs 129 B-2
-Hs 129 B-2
 Indicated stall speed in flight configuration: 143..159 km/h
 Indicated stall speed in takeoff/landing configuration: 136..150 km/h
 Dive speed limit: 670 km/h
@@ -4285,7 +4244,6 @@ Operation features:
 - The gunsight has a sliding sun-filter.
 
 ## Ju 52/3m g4e
-Ju 52/3m g4e
 Indicated stall speed in flight configuration: 105..117 km/h
 Indicated stall speed in takeoff/landing configuration: 92..109 km/h
 Dive speed limit: 330 km/h
