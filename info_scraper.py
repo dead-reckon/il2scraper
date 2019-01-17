@@ -46,10 +46,11 @@ def forum_scrape(html):
     # Final List that adds markdown to Game and Plane title
     for line in range(len(raw)):
         value = raw[line]
+
         for row in l_planes:
             if row == raw[line]:
                 value = "\n## " + raw[line]
-
+                
         if "Airplanes of" in raw[line]:
             l_final.append("\n# " + raw[line])
         else:
@@ -64,5 +65,5 @@ def generate_log(plane_list):
     [ file.write("\n" + line) for line in plane_list ]
     file.close()
 
-print(forum_scrape(html))
+# Generate Log of Plane list on exectuion
 generate_log(forum_scrape(html))
