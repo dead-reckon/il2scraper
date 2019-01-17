@@ -8,6 +8,12 @@ from bs4 import BeautifulSoup
 raw_html = open('source.html',encoding="utf8").read()   
 html = BeautifulSoup(raw_html, 'html.parser')
 
+def generate_log(plane_list):
+    # Write to Log file for reference  
+    file = open("plane.log", "w")
+    [ file.write("\n" + line) for line in plane_list ]
+    file.close()
+
 def forum_scrape(html):
     # This Function takes a Beuatifulsoup html object and returns a clean list
     # of plane data.  This function was written for a specific forum post.
@@ -50,7 +56,7 @@ def forum_scrape(html):
         for row in l_planes:
             if row == raw[line]:
                 value = "\n## " + raw[line]
-                
+
         if "Airplanes of" in raw[line]:
             l_final.append("\n# " + raw[line])
         else:
@@ -59,11 +65,9 @@ def forum_scrape(html):
     # Return the Final list
     return l_final
 
-def generate_log(plane_list):
-    # Write to Log file for reference  
-    file = open("plane.log", "w")
-    [ file.write("\n" + line) for line in plane_list ]
-    file.close()
+def engine_settings(info):
+    pass
+
 
 # Generate Log of Plane list on exectuion
 generate_log(forum_scrape(html))
