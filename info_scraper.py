@@ -68,6 +68,10 @@ def forum_scrape(html):
 def engine_settings(info):
     pass
 
+def plane_meta(info):
+    # Contains; takeoff/glideslope/landing speeds, dive speed limit, service ceiling, climb rate sea/3k/6k
+    # 
+    pass
 
 # Generate Log of Plane list on exectuion
 generate_log(forum_scrape(html))
