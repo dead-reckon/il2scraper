@@ -10,7 +10,7 @@ html = BeautifulSoup(raw_html, 'html.parser')
 
 def generate_log(plane_list):
     # Write to Log file for reference  
-    file = open("plane.log", "w")
+    file = open("plane.md", "w")
     [ file.write("\n" + line) for line in plane_list ]
     file.close()
 
