@@ -7,6 +7,8 @@ Service ceiling: 10500 m
 Climb rate at sea level: 16.7 m/s
 Climb rate at 3000 m: 13.8 m/s
 Climb rate at 6000 m: 8.8 m/s
+Maximum performance turn at sea level: 19.0 s, at 230 km/h IAS.
+Maximum performance turn at 3000 m: 25.3 s, at 230 km/h IAS.
 Flight endurance at 3000 m: 0.9 h, at 350 km/h IAS.
 Takeoff speed: 145..175 km/h
 Glideslope speed: 185..195 km/h
@@ -21,6 +23,8 @@ Service ceiling: 11800 m
 Climb rate at sea level: 15.9 m/s
 Climb rate at 3000 m: 14.0 m/s
 Climb rate at 6000 m: 10.2 m/s
+Maximum performance turn at sea level: 22.4 s, at 270 km/h IAS.
+Maximum performance turn at 3000 m: 28.7 s, at 270 km/h IAS.
 Flight endurance at 3000 m: 2.5 h, at 350 km/h IAS.
 Takeoff speed: 180..200 km/h
 Glideslope speed: 195..205 km/h
@@ -35,6 +39,8 @@ Service ceiling: 7500 m
 Climb rate at sea level: 9.4 m/s
 Climb rate at 3000 m: 8.9 m/s
 Climb rate at 6000 m: 3.9 m/s
+Maximum performance turn at sea level: 23.1 s, at 250 km/h IAS.
+Maximum performance turn at 3000 m: 32.6 s, at 250 km/h IAS.
 Flight endurance at 3000 m: 1.7 h, at 300 km/h IAS.
 Takeoff speed: 150..190 km/h
 Glideslope speed: 185..195 km/h
@@ -49,6 +55,8 @@ Service ceiling: 9100 m
 Climb rate at sea level: 9.3 m/s
 Climb rate at 3000 m: 8.4 m/s
 Climb rate at 6000 m: 5.6 m/s
+Maximum performance turn at sea level: 30.5 s, at 270 km/h IAS.
+Maximum performance turn at 3000 m: 39.9 s, at 270 km/h IAS.
 Flight endurance at 3000 m: 3.7 h, at 300 km/h IAS.
 Takeoff speed: 160..200 km/h
 Glideslope speed: 220..240 km/h
@@ -63,6 +71,8 @@ Service ceiling: 10500 m
 Climb rate at sea level: 14 m/s
 Climb rate at 3000 m: 13.3 m/s
 Climb rate at 6000 m: 7 m/s
+Maximum performance turn at sea level: 20.5 s, at 270 km/h IAS.
+Maximum performance turn at 3000 m: 25.5 s, at 270 km/h IAS.
 Flight endurance at 3000 m: 2.2 h, at 350 km/h IAS.
 Takeoff speed: 140..170 km/h
 Glideslope speed: 180..190 km/h
@@ -77,6 +87,8 @@ Service ceiling: 11500 m
 Climb rate at sea level: 16.4 m/s
 Climb rate at 3000 m: 14.1 m/s
 Climb rate at 6000 m: 10 m/s
+Maximum performance turn at sea level: 23.6 s, at 270 km/h IAS.
+Maximum performance turn at 3000 m: 29.0 s, at 270 km/h IAS.
 Flight endurance at 3000 m: 2.4 h, at 350 km/h IAS.
 Takeoff speed: 145..175 km/h
 Glideslope speed: 185..195 km/h
@@ -91,6 +103,8 @@ Service ceiling: 9500 m
 Climb rate at sea level: 10.3 m/s
 Climb rate at 3000 m: 9.6 m/s
 Climb rate at 6000 m: 6.1 m/s
+Maximum performance turn at sea level: 27.4 s, at 270 km/h IAS.
+Maximum performance turn at 3000 m: 35.4 s, at 270 km/h IAS.
 Flight endurance at 3000 m: 3.5 h, at 300 km/h IAS.
 Takeoff speed: 180..220 km/h
 Glideslope speed: 200..220 km/h
@@ -105,6 +119,8 @@ Service ceiling: 7500 m
 Climb rate at sea level: 7.0 m/s
 Climb rate at 3000 m: 5.1 m/s
 Climb rate at 6000 m: 3.4 m/s
+Maximum performance turn at sea level: 33.0 s, at 250 km/h IAS.
+Maximum performance turn at 3000 m: 50.5 s, at 250 km/h IAS.
 Flight endurance at 3000 m: 3.8 h, at 300 km/h IAS.
 Takeoff speed: 170..210 km/h
 Glideslope speed: 210..220 km/h
@@ -119,6 +135,8 @@ Service ceiling: 10500 m
 Climb rate at sea level: 14.9 m/s
 Climb rate at 3000 m: 13.3 m/s
 Climb rate at 6000 m: 8 m/s
+Maximum performance turn at sea level: 22.2 s, at 280 km/h IAS.
+Maximum performance turn at 3000 m: 28.9 s, at 270 km/h IAS.
 Flight endurance at 3000 m: 2.2 h, at 350 km/h IAS.
 Takeoff speed: 165..200 km/h
 Glideslope speed: 200..210 km/h
@@ -133,6 +151,8 @@ Service ceiling: 10200 m
 Climb rate at sea level: 16.9 m/s
 Climb rate at 3000 m: 15.0 m/s
 Climb rate at 6000 m: 9.4 m/s
+Maximum performance turn at sea level: 19.2 s, at 270 km/h IAS.
+Maximum performance turn at 3000 m: 24.6 s, at 270 km/h IAS.
 Flight endurance at 3000 m: 1.9 h, at 350 km/h IAS.
 Takeoff speed: 160..190 km/h
 Glideslope speed: 195..205 km/h
@@ -147,6 +167,8 @@ Service ceiling: 6000 m
 Climb rate at sea level: 7.1 m/s
 Climb rate at 3000 m: 5.6 m/s
 Climb rate at 6000 m:m/s
+Maximum performance turn at sea level: 25.7 s, at 250 km/h IAS.
+Maximum performance turn at 3000 m: 37.3 s, at 250 km/h IAS.
 Flight endurance at 3000 m: 1.7 h, at 300 km/h IAS.
 Takeoff speed: 150..190 km/h
 Glideslope speed: 185..195 km/h
@@ -161,6 +183,8 @@ Service ceiling: 8000 m
 Climb rate at sea level: 10.4 m/s
 Climb rate at 3000 m: 7.8 m/s
 Climb rate at 6000 m: 3.0 m/s
+Maximum performance turn at sea level: 29.9 s, at 270 km/h IAS.
+Maximum performance turn at 3000 m: 40.3 s, at 270 km/h IAS.
 Flight endurance at 3000 m: 2.8 h, at 300 km/h IAS.
 Takeoff speed: 160..200 km/h
 Glideslope speed: 220..240 km/h
@@ -175,6 +199,8 @@ Service ceiling: 11600 m
 Climb rate at sea level: 19.5 m/s
 Climb rate at 3000 m: 18.8 m/s
 Climb rate at 6000 m: 14.9 m/s
+Maximum performance turn at sea level: 20.3 s, at 270 km/h IAS.
+Maximum performance turn at 3000 m: 26.1 s, at 270 km/h IAS.
 Flight endurance at 3000 m: 2.6 h, at 350 km/h IAS.
 Takeoff speed: 150..180 km/h
 Glideslope speed: 190..200 km/h
@@ -189,6 +215,8 @@ Service ceiling: 12100 m
 Climb rate at sea level: 21.0 m/s
 Climb rate at 3000 m: 19.5 m/s
 Climb rate at 6000 m: 16.5 m/s
+Maximum performance turn at sea level: 22.2 s, at 270 km/h IAS.
+Maximum performance turn at 3000 m: 28.3 s, at 270 km/h IAS.
 Flight endurance at 3000 m: 2.4 h, at 350 km/h IAS.
 Takeoff speed: 155..180 km/h
 Glideslope speed: 195..205 km/h
@@ -203,6 +231,8 @@ Service ceiling: 7000 m
 Climb rate at sea level: 8 m/s
 Climb rate at 3000 m: 7 m/s
 Climb rate at 6000 m: 2.5 m/s
+Maximum performance turn at sea level: 22.2 s, at 230 km/h IAS.
+Maximum performance turn at 3000 m: 31.3 s, at 230 km/h IAS.
 Flight endurance at 3000 m: 3.4 h, at 300 km/h IAS.
 Takeoff speed: 140..170 km/h
 Glideslope speed: 180..195 km/h
@@ -217,6 +247,8 @@ Service ceiling: 6300 m
 Climb rate at sea level: 4.5 m/s
 Climb rate at 3000 m: 3.6 m/s
 Climb rate at 6000 m: 1.8 m/s
+Maximum performance turn at sea level: 30.8 s, at 250 km/h IAS.
+Maximum performance turn at 3000 m: 45.2 s, at 250 km/h IAS.
 Flight endurance at 3000 m: 8.5 h, at 300 km/h IAS.
 Takeoff speed: 170..210 km/h
 Glideslope speed: 180..200 km/h
@@ -231,6 +263,8 @@ Service ceiling: 10660 m
 Climb rate at sea level: 16.9 m/s
 Climb rate at 3000 m: 14.3 m/s
 Climb rate at 6000 m: 8.6 m/s
+Maximum performance turn at sea level: 19..20 s, at 310 km/h IAS.
+Maximum performance turn at 3000 m: 24..25 s, at 310 km/h IAS.
 Flight endurance at 3000 m: 1.9 h, at 350 km/h IAS.
 Takeoff speed: 170..175 km/h
 Glideslope speed: 200 km/h
@@ -245,6 +279,8 @@ Service ceiling: 9300 m
 Climb rate at sea level: 16.7 m/s
 Climb rate at 3000 m: 13.5 m/s
 Climb rate at 6000 m: 7.2 m/s
+Maximum performance turn at sea level: 21.5 s, at 270 km/h IAS.
+Maximum performance turn at 3000 m: 30.3 s, at 270 km/h IAS.
 Flight endurance at 3000 m: 1.6 h, at 350 km/h IAS.
 Takeoff speed: 150..180 km/h
 Glideslope speed: 180..210 km/h
@@ -258,6 +294,8 @@ Dive speed limit: 570 km/h
 Service ceiling: 5600 m
 Climb rate at sea level: 7.5 m/s
 Climb rate at 3000 m: 4.2 m/s
+Maximum performance turn at sea level: 26.6 s, at 250 km/h IAS.
+Maximum performance turn at 3000 m: 39.3 s, at 250 km/h IAS.
 Flight endurance at 3000 m: 1.4 h, at 300 km/h IAS.
 Takeoff speed: 160..200 km/h
 Glideslope speed: 195..205 km/h
@@ -272,6 +310,8 @@ Service ceiling: 8700 m (28540 ft)
 Climb rate at sea level: 10.0 m/s (1969 ft/min)
 Climb rate at 3000 m: 8.2 m/s (1614 ft/min)
 Climb rate at 6000 m: 5.0 m/s (984 ft/min)
+Maximum performance turn at sea level: 24.5 s, at 270 km/h IAS.
+Maximum performance turn at 3000 m: 34.1 s, at 270 km/h IAS.
 Flight endurance at 3000 m: 3.4 h, at 350 km/h IAS. Engine mode - Cruise, 1st supercharger stage
 Takeoff speed: 170..195 km/h (105..120 mph)
 Glideslope speed: 185..225 km/h (115..140 mph)
@@ -286,6 +326,8 @@ Service ceiling: 11800 m
 Climb rate at sea level: 20.1 m/s
 Climb rate at 3000 m: 18.9 m/s
 Climb rate at 6000 m: 15.4 m/s
+Maximum performance turn at sea level: 21.2 s, at 270 km/h IAS.
+Maximum performance turn at 3000 m: 27.2 s, at 270 km/h IAS.
 Flight endurance at 3000 m: 2.4 h, at 350 km/h IAS.
 Takeoff speed: 155..180 km/h
 Glideslope speed: 195..205 km/h
@@ -300,6 +342,8 @@ Service ceiling: 10600 m
 Climb rate at sea level: 15.4 m/s
 Climb rate at 3000 m: 11.9 m/s
 Climb rate at 6000 m: 9.7 m/s
+Maximum performance turn at sea level: 23.5 s, at 280 km/h IAS.
+Maximum performance turn at 3000 m: 35.5 s, at 280 km/h IAS.
 Flight endurance at 3000 m: 3.0 h, at 350 km/h IAS.
 Takeoff speed: 170..210 km/h
 Glideslope speed: 205..215 km/h
@@ -314,6 +358,8 @@ Service ceiling: 10800 m
 Climb rate at sea level: 15.6 m/s
 Climb rate at 3000 m: 14.1 m/s
 Climb rate at 6000 m: 10.7 m/s
+Maximum performance turn at sea level: 23.5 s, at 270 km/h IAS.
+Maximum performance turn at 3000 m: 31.2 s, at 270 km/h IAS.
 Flight endurance at 3000 m: 4.0 h, at 300 km/h IAS.
 Takeoff speed: 190..230 km/h
 Glideslope speed: 210..230 km/h
@@ -328,6 +374,8 @@ Service ceiling: 6850 m
 Climb rate at sea level: 5.3 m/s
 Climb rate at 3000 m: 4.1 m/s
 Climb rate at 6000 m: 2.3 m/s
+Maximum performance turn at sea level: 30.8 s, at 250 km/h IAS.
+Maximum performance turn at 3000 m: 45.2 s, at 250 km/h IAS.
 Flight endurance at 3000 m: 6.7 h, at 300 km/h IAS.
 Takeoff speed: 170..210 km/h
 Glideslope speed: 180..200 km/h
@@ -342,10 +390,14 @@ Service ceiling: 12500 m
 Climb rate at sea level: 21.5 m/s
 Climb rate at 3000 m: 18.6 m/s
 Climb rate at 6000 m: 15.5 m/s
+Maximum performance turn at sea level: 17.7 s, at 270 km/h IAS.
+Maximum performance turn at 3000 m: 20.5 s, at 260 km/h IAS.
 Service ceiling: 13000 m
 Climb rate at sea level: 18.5 m/s
 Climb rate at 3000 m: 17.5 m/s
 Climb rate at 6000 m: 14.1 m/s
+Maximum performance turn at sea level: 17.8 s, at 270 km/h IAS.
+Maximum performance turn at 3000 m: 20.7 s, at 260 km/h IAS.
 Flight endurance at 3000 m: 1 h 40 m, at 350 km/h IAS.
 Takeoff speed: 185..195 km/h
 Glideslope speed: 165..185 km/h
@@ -363,6 +415,8 @@ Climb rate at 6000 m (19685 feet): 16.4 m/s (3226 feet/min)
 Climb rate at sea level: 12.1 m/s (2378 feet/min)
 Climb rate at 3000 m (9843 feet): 11.5 m/s (2256 feet/min)
 Climb rate at 6000 m (19685 feet): 10.3 m/s (2031 feet/min)
+Maximum performance turn at sea level: 27.5 s, at 322 km/h (200 mph) IAS.
+Maximum performance turn at 3000 m (9843 feet): 31.0 s, at 330 km/h (205 mph) IAS.
 Flight endurance at 3000 m (9843 feet): 2.4 h, at 350 km/h (217 mph) IAS.
 Takeoff speed: 185..200 km/h (115..125 mph)
 Glideslope speed: 185..210 km/h (115..130 mph)
@@ -377,6 +431,8 @@ Service ceiling: 11500 m
 Climb rate at sea level: 19.2 m/s
 Climb rate at 3000 m: 17.5 m/s
 Climb rate at 6000 m: 13.1 m/s
+Maximum performance turn at sea level: 23.0 s, at 270 km/h IAS.
+Maximum performance turn at 3000 m: 31.5 s, at 270 km/h IAS.
 Flight endurance at 3000 m: 2.15 h, at 350 km/h IAS.
 Takeoff speed: 155..180 km/h
 Glideslope speed: 195..205 km/h
@@ -391,10 +447,14 @@ Service ceiling: 12300 m
 Climb rate at sea level: 20.5 m/s
 Climb rate at 3000 m: 17.5 m/s
 Climb rate at 6000 m: 13.4 m/s
+Maximum performance turn at sea level: 24.0 s, at 270 km/h IAS.
+Maximum performance turn at 3000 m: 32.2 s, at 270 km/h IAS.
 Service ceiling: 12300 m
 Climb rate at sea level: 19.7 m/s
 Climb rate at 3000 m: 17.4 m/s
 Climb rate at 6000 m: 13.3 m/s
+Maximum performance turn at sea level: 24.2 s, at 270 km/h IAS.
+Maximum performance turn at 3000 m: 32.3 s, at 270 km/h IAS.
 Flight endurance at 3000 m: 2.15 h, at 350 km/h IAS.
 Takeoff speed: 160..190 km/h
 Glideslope speed: 200..215 km/h
@@ -409,6 +469,8 @@ Service ceiling: 10300 m
 Climb rate at sea level: 13.8 m/s
 Climb rate at 3000 m: 10.1 m/s
 Climb rate at 6000 m: 7.8 m/s
+Maximum performance turn at sea level: 24.2 s, at 280 km/h IAS.
+Maximum performance turn at 3000 m: 33.0 s, at 280 km/h IAS.
 Flight endurance at 3000 m: 3.8 h, at 350 km/h IAS.
 Takeoff speed: 180..220 km/h
 Glideslope speed: 215..225 km/h
@@ -427,6 +489,8 @@ Service ceiling: 9500 m
 Climb rate at sea level: 18 m/s
 Climb rate at 3000 m: 13.3 m/s
 Climb rate at 6000 m: 8.2 m/s
+Maximum performance turn at sea level: 23.4 s, at 270 km/h IAS.
+Maximum performance turn at 3000 m: 35.3 s, at 270 km/h IAS.
 Flight endurance at 3000 m: 1.9 h, at 350 km/h IAS.
 Takeoff speed: 170..200 km/h
 Glideslope speed: 200..210 km/h
@@ -441,6 +505,8 @@ Service ceiling: 10500 m
 Climb rate at sea level: 20 m/s
 Climb rate at 3000 m: 16.7 m/s
 Climb rate at 6000 m: 12.5 m/s
+Maximum performance turn at sea level: 21.0 s, at 320 km/h IAS.
+Maximum performance turn at 3000 m: 28.0 s, at 340 km/h IAS.
 Flight endurance at 3000 m: 2.0 h, at 350 km/h IAS.
 Takeoff speed: 175..195 km/h
 Glideslope speed: 200..210 km/h
@@ -455,6 +521,8 @@ Service ceiling: 10600 m
 Climb rate at sea level: 17.0 m/s
 Climb rate at 3000 m: 15.0 m/s
 Climb rate at 6000 m: 9.5 m/s
+Maximum performance turn at sea level: 19.0 s, at 270 km/h IAS.
+Maximum performance turn at 3000 m: 24.1 s, at 270 km/h IAS.
 Flight endurance at 3000 m: 2.0 h, at 350 km/h IAS.
 Takeoff speed: 160..190 km/h
 Glideslope speed: 195..205 km/h
@@ -469,6 +537,8 @@ Service ceiling: 9200 m
 Climb rate at sea level: 12.5 m/s
 Climb rate at 3000 m: 10 m/s
 Climb rate at 6000 m: 3.7 m/s
+Maximum performance turn at sea level: 24.3 s, at 270 km/h IAS.
+Maximum performance turn at 3000 m: 36.1 s, at 270 km/h IAS.
 Flight endurance at 3000 m: 2.8 h, at 350 km/h IAS.
 Takeoff speed: 160..190 km/h
 Glideslope speed: 210..220 km/h
@@ -483,10 +553,14 @@ Service ceiling: 12000 m
 Climb rate at sea level: 12.9 m/s
 Climb rate at 3000 m: 13.1 m/s
 Climb rate at 6000 m: 12.0 m/s
+Maximum performance turn at sea level: 25 s, at 270 km/h IAS.
+Maximum performance turn at 3000 m: 30 s, at 260 km/h IAS.
 Service ceiling: 11200 m
 Climb rate at sea level: 14.5 m/s
 Climb rate at 3000 m: 14.7 m/s
 Climb rate at 6000 m: 11.4 m/s
+Maximum performance turn at sea level: 22 s, at 270 km/h IAS.
+Maximum performance turn at 3000 m: 28.2 s, at 260 km/h IAS.
 Flight endurance at 3000 m: 1 h 45 m, at 350 km/h IAS.
 Takeoff speed: 160..170 km/h
 Glideslope speed: 145..160 km/h
@@ -501,6 +575,8 @@ Service ceiling: 11800 m
 Climb rate at sea level: 20.1 m/s
 Climb rate at 3000 m: 18.8 m/s
 Climb rate at 6000 m: 15.2 m/s
+Maximum performance turn at sea level: 21.5 s, at 270 km/h IAS.
+Maximum performance turn at 3000 m: 28.0 s, at 270 km/h IAS.
 Flight endurance at 3000 m: 2.2 h, at 350 km/h IAS.
 Takeoff speed: 155..180 km/h
 Glideslope speed: 195..205 km/h
@@ -515,6 +591,8 @@ Service ceiling: 10800 m
 Climb rate at sea level: 16.0 m/s
 Climb rate at 3000 m: 12.7 m/s
 Climb rate at 6000 m: 10.3 m/s
+Maximum performance turn at sea level: 23.0 s, at 280 km/h IAS.
+Maximum performance turn at 3000 m: 28.0 s, at 280 km/h IAS.
 Flight endurance at 3000 m: 3.2 h, at 350 km/h IAS.
 Takeoff speed: 170..210 km/h
 Glideslope speed: 205..215 km/h
@@ -529,6 +607,8 @@ Service ceiling: 11300 m
 Climb rate at sea level: 17.3 m/s
 Climb rate at 3000 m: 15.1 m/s
 Climb rate at 6000 m: 10.6 m/s
+Maximum performance turn at sea level: 22.6 s, at 270 km/h IAS.
+Maximum performance turn at 3000 m: 28.2 s, at 270 km/h IAS.
 Flight endurance at 3000 m: 2.2 h, at 350 km/h IAS.
 Takeoff speed: 160..190 km/h
 Glideslope speed: 190..200 km/h
@@ -543,6 +623,8 @@ Service ceiling: 7000 m
 Climb rate at sea level: 8.4 m/s
 Climb rate at 3000 m: 8.1 m/s
 Climb rate at 6000 m: 2.6 m/s
+Maximum performance turn at sea level: 30.0 s, at 255 km/h IAS.
+Maximum performance turn at 3000 m: 46.0 s, at 270 km/h IAS.
 Flight endurance at 3000 m: 2.1 h, at 300 km/h IAS.
 Takeoff speed: 145..155 km/h
 Glideslope speed: 180..200 km/h
@@ -557,6 +639,8 @@ Service ceiling: 6800 m
 Climb rate at sea level: 6.9 m/s
 Climb rate at 3000 m: 4.2 m/s
 Climb rate at 6000 m: 1.4 m/s
+Maximum performance turn at sea level: 24.0 s, at 165 km/h IAS.
+Maximum performance turn at 3000 m: 35.4 s, at 165 km/h IAS.
 Flight endurance at 3000 m: 5.3 h, at 205 km/h IAS.
 Takeoff speed: 100..120 km/h
 Glideslope speed: 140..155 km/h

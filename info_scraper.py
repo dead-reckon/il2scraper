@@ -78,9 +78,21 @@ list_meta = [ "Takeoff speed",
             "Flight endurance at 3000 m",
             "Fuel load",
             "Supercharger",
-            "Indicated stall speed"]
+            "Indicated stall speed",
+            "Maximum performance turn"]
 
 list_engine = [ "Nominal",
+                "Combat power",
+                "Emergency power",
+                "Boosted power",
+                "Take-off power",
+                "Max Cruising power",
+                "International power",
+                "Emergency Max All",
+                "Climb power",
+                "Model"]
+
+list_speed = [ "Nominal",
                 "Combat power",
                 "Emergency power",
                 "Boosted power",
@@ -113,6 +125,18 @@ def op_features(info):
         if re.search("## ",line):
             file.write("\n" + line)
         if re.match('-', line):
+            file.write("\n" + line)
+    file.close()
+
+def airspeed(info):
+    file = open("airspeed.md", "w")
+
+    plane_name = ""
+
+    for line in info:
+        if re.search("## ",line):
+            file.write("\n" + line)
+        if re.match('Maximum true air speed', line):
             file.write("\n" + line)
     file.close()
 
@@ -157,3 +181,5 @@ op_features(forum_scrape(html))
 oil_water_temp(forum_scrape(html))
 
 engine_settings(forum_scrape(html),list_engine)
+
+airspeed(forum_scrape(html))
