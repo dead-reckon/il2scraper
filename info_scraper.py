@@ -1,18 +1,14 @@
 from requests import get
-
+import csv
 from requests.exceptions import RequestException
 from contextlib import closing
 from bs4 import BeautifulSoup
+import re
 
 # Beautiful Soup Object
 raw_html = open('source.html',encoding="utf8").read()   
 html = BeautifulSoup(raw_html, 'html.parser')
-
-def generate_log(plane_list):
-    # Write to Log file for reference  
-    file = open("plane.md", "w")
-    [ file.write("\n" + line) for line in plane_list ]
-    file.close()
+    
 
 def forum_scrape(html):
     # This Function takes a Beuatifulsoup html object and returns a clean list
@@ -46,8 +42,9 @@ def forum_scrape(html):
     for line in range(len(raw)):
         if "Indicated stall speed in flight configuration:" in raw[line]:
             l_planes.append(raw[line-1])
-        elif "Engine" == raw[line]:
-            l_planes.append(raw[line-1])
+        #This else includes planes from Flying Circus
+        # elif "Engine" == raw[line]:
+        #     l_planes.append(raw[line-1])
 
     # Final List that adds markdown to Game and Plane title
     for line in range(len(raw)):
@@ -62,6 +59,11 @@ def forum_scrape(html):
         else:
         	l_final.append(value)
 
+    # Log out
+    file = open("plane.md", "w")
+    [ file.write("\n" + line) for line in l_final ]
+    file.close()
+
     # Return the Final list
     return l_final
 
@@ -70,8 +72,21 @@ def engine_settings(info):
 
 def plane_meta(info):
     # Contains; takeoff/glideslope/landing speeds, dive speed limit, service ceiling, climb rate sea/3k/6k
-    # 
-    pass
+    file = open("meta.md", "w")
+
+    plane_name = ""
+
+    for line in info:
+
+        if re.search("## ",line):
+            file.write(line)
+        if re.search("Takeoff speed", line):
+            file.write("\n" + line)
+        
+    file.close()
+
 
 # Generate Log of Plane list on exectuion
-generate_log(forum_scrape(html))
+# generate_log(forum_scrape(html))
+
+plane_meta(forum_scrape(html))

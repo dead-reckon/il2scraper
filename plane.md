@@ -3125,8 +3125,7 @@ Operation features:
 - The gunsight has a sliding sun-filter.
 
 # Airplanes of "Flying Circus":
-
-## SPAD 13.C1
+SPAD 13.C1
 Engine
 V8 Hispano—Suiza 8Ba 220 hp
 Dimensions
@@ -3186,8 +3185,7 @@ Story:
 The SPAD S.XIII was designed as an improved version of the SPAD S.VII. While appearing externally similar to its predecessor, it was in fact a completely new design. A second machine gun and more a powerful engine were fitted. In addition, an auxiliary fuel tank was placed in the central section of the upper wing. The main fuel tank had outlines of the lower fuselage section. To the left and behind the cockpit was an installation for a reconnaissance camera or a bomb load. The aircraft’s first flight was made on the 4th of April 1917. The plane was manufactured by Bleriot, Levasseur, Bernard, Kellner, Safca, Borel, and Nieuport. In all, 8472 planes of the type were built.
 The S.XIII first appeared at the front in late summer-early fall 1917, being initially supplied to French fighter squadrons. It was mainly used for engaging enemy planes, escorting bombers, aerial mapping, and recon; rarely was it used for the bombing of ground targets near the front lines.
 French pilots were eager to receive the S.XIII. The second machine gun provided increased firepower, and the new engine allowed it to fly and climb faster than its predecessors. Its controls remained effective even at high altitudes. The only remaining drawback, owing to its thin wing profile, was its decreased sensitivity of controls at low speeds, which often resulted in a stall. In a dive and level flight, the SPAD S.XIII was one of the fastest aircraft of its time. Pilots who flew it remarked, “It dives faster than the wind!” It participated in battles on all fronts during WWI. French, British, American and Italian units were all equipped with the type.
-
-## Sopwith Camel
+Sopwith Camel
 Engine
 Clerget 9B rotary 9 cyl., 130 h.p.
 Dimensions
@@ -3233,8 +3231,7 @@ Story:
 The Sopwith Camel's construction was based on that of its predecessor, the Sopwith Pup. Sopwith's chief designer Herbert Smith decided to somewhat alter the Pup’s design, since a newarger and heavier engine would have to be mounted. Some changes were made to theanding gear struts, the spacing of the wings and stabiliser were increased, and the fuselage acquired an extension to the cockpit's trailing edge, whichooked ratherike a camel’s hump. That 'hump' is what gave the plane its name - the Sopwith Camel.
 A remarkable detail of the plane’s construction was its compactness: the pilot’s seat, fuel tanks, machine guns and engine were all installed very close together. In parallel with the work of the main Sopwith factory, the plane was also assembled by a number of other companies such as Ruston Proctor Co, Portholme Aerodrome Ltd, Boulton & Paul Ltd, British Caudron Co. Ltd, Clayton & Shuttleworth Ltd, Hooper & Co. Ltd and others. In total, about 5490 Camels were built. The Camel’s first flight trials were performed by the British No. 60 squadron in March of 1917, which were followed by a series of minor improvements to the plane’s construction. Production aircraft were first delivered to fighter squadrons in May of 1917. It was primarily used for destroying enemy aircraft and balloons, while from time to time it was also engaged in ground attack operations. English journalists referred to this plane as a “small and agile beast.”
 Camel pilots mentioned the plane’s well-balanced flight controls, the good upward view, and the high cruising speed. Due to the aircraft's unique balance, the plane could almost instantly change its heading, which made the Camel a dangerous opponent. The typical combat scenario for the Camel pilot was a dogfight at low and medium altitudes, where the Camel had the advantage in steep turns. Veterans were known to say, “Once you become a Camel pilot, you will fly it forever.” In addition to equipping British units, this plane was also piloted by four American squadrons of the U.S. Air Service and by some Belgian pilots.
-
-## Fokker Dr.I
+Fokker Dr.I
 Engine
 Oberursel UR II  rotary 9 cyl. 110 hp
 Dimensions
@@ -3294,8 +3291,7 @@ The Fokker Dr.I triplane was a superb fighter, but it was rarely used to cover t
 Dr.I pilots reported an excellent rate of climb and manoeuvrability and a good view from the cockpit. Pilots reported, "You need only a light touch to swing this plane around!” Thanks to these features, the triplane pilot could decide whether to disengage from an attacking enemy or to attack an enemy plane. It could engage on even terms the king of the dogfight, the British Sopwith Camel, with a good chance of victory.
 RFC pilots were especially apprehensive of situations where the Fokker Dr.I and the Albatros D.Va were flying together in combat formation. The Fokkers would initiate the dogfight and the Albatros pilots would shoot down enemy planes attempting to disengage and leave the battle.
 By the spring of 1918, the plane was obsolete. Only the most outstanding German aces, masterfully piloting the plane and sharpshooting their enemies, continued to fly the triplane in combat.
-
-## Pfalz D.IIIa
+Pfalz D.IIIa
 Engine
 Inline 6 cyl. Mercedes D.IIIa, 180 hp
 Dimensions
