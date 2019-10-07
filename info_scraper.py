@@ -5,6 +5,8 @@ from contextlib import closing
 from bs4 import BeautifulSoup
 import re
 
+# This is old, was used to scrape a forum post
+
 # Beautiful Soup Object
 raw_html = open('source.html',encoding="utf8").read()   
 html = BeautifulSoup(raw_html, 'html.parser')
