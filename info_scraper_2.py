@@ -144,7 +144,9 @@ def master_yml():
                 if re.match(r'^$', row) is not None:
                     feat_mode_bool = False
                 else:
-                    feat_mode.append(row)
+                    final1 = re.sub(r'^-', "", row)
+                    final = re.sub(r'\'$', "", final1)
+                    feat_mode.append("<li>" + final + "</li>")
             if "Service ceiling:" in row:
                 climb_mode_bool = True
                 climb_mode.append(row)
@@ -274,7 +276,7 @@ def master_yml():
                     f_info.write("    <strong>" + result.strip() + "<br>\n")
             f_info.write("  features: |\n")
             for line in feat_mode:
-                f_info.write("    " + line.strip() + "<br>\n")
+                f_info.write("    " + line.strip() + "\n")
             f_info.write(end_mode)
             f_info.write(debut_mode)
             f_info.write(dive_mode)
