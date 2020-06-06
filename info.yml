@@ -103,6 +103,7 @@
     - There are white and red signal lamps in the tail: the white one is lit while bomb doors are open and the red one lights up for 5 seconds when bombs are released.<br>
     - The upper cockpit door can't be opened during flight, but there is an emergency jettison handle.<br>
     - Airplane is equipped with a bomb salvo controller that has four release modes: drop single, drop two in a salvo, drop four in a salvo or drop all bombs in salvo. There is also a controller for a drop delay between each bomb in the salvo.'<br>
+  circus:  0
   engine: |
     <strong>Cruise (unlimited time):</strong><br> 1705 RPM, 27,5 / 30,0 inch Hg, mixture "Auto Lean"<br>
     <strong>Nominal (unlimited time):</strong><br> 2300 RPM, 36,0 / 40,0 inch Hg, mixture "Auto Rich"<br>
@@ -169,7 +170,6 @@
   endurance: <strong>Flight endurance at 3000 m:</strong> 3.4 h, at 350 km/h IAS. Engine mode - Cruise, 1st supercharger stage<br>
   debut: <strong>Combat debut:</strong> spring 1942<br>
   dive: <strong>Dive speed limit:</strong> 665 km/h (412 mph)<br>
-  circus:  0
 - id: albatrosd5
   name: Albatros D.Va
   description: |
@@ -328,6 +328,7 @@
     - The nose gear orients by itself, doesn't have brakes and can't be controlled.<br>
     - There are white and red signal lamps in the tail: the white one is lit while bomb doors are open and the red one lights up for 5 seconds when bombs are released.<br>
     - Airplane is equipped with a bomb salvo controller. It allows to drop selected bombs in a salvo or drop all bombs in salvo. There is also a controller for a drop delay between each bomb in the salvo.'<br>
+  circus:  0
   engine: |
     <strong>Cruise (unlimited time):</strong><br> 2100 RPM, 31.5 / 32.5 inch Hg, mixture "Cruising Lean"<br>
     <strong>Nominal (unlimited time):</strong><br> 2400 RPM, 38.0 / 39.0 inch Hg, mixture "Full Rich"<br>
@@ -388,7 +389,6 @@
   endurance: <strong>Flight endurance at 3000 m:</strong> 4.6 h, at 330 km/h IAS. Engine mode - Cruise, 1st supercharger stage<br>
   debut: <strong>Combat debut:</strong> spring 1942<br>
   dive: <strong>Dive speed limit:</strong> 544 km/h (340 mph)<br>
-  circus:  0
 - id: bf109e7
   name: Bf 109 E-7
   description: |
@@ -481,6 +481,7 @@
     - The design of the cockpit canopy does not allow it to be opened during flight. The canopy should be closed before takeoff to prevent damage. The canopy has an emergency release system for bailouts.<br>
     - The control system for the bomb rack only allows to drop bombs one by one.<br>
     - The gunsight has a sliding sun-filter.'<br>
+  circus:  0
   engine: |
     <strong>Nominal (unlimited time):</strong><br> 2200 RPM, 1.15 ata<br>
     <strong>Combat power (up to 30 minutes):</strong><br> 2300 RPM, 1.23 ata<br>
@@ -541,7 +542,6 @@
   endurance: <strong>Flight endurance at 3000 m:</strong> 2.2 h, at 350 km/h IAS.<br>
   debut: <strong>Combat debut:</strong> August 1940<br>
   dive: <strong>Dive speed limit:</strong> 850 km/h<br>
-  circus:  0
 - id: bf109f2
   name: Bf 109 F-2
   description: |
@@ -633,6 +633,7 @@
     - The design of the cockpit canopy does not allow it to be opened during flight. The canopy should be closed before takeoff to prevent damage. The canopy has an emergency release system for bailouts.<br>
     - The control system for the bomb rack only allows to drop bombs one by one.<br>
     - The gunsight has a sliding sun-filter.'<br>
+  circus:  0
   engine: |
     <strong>Nominal (unlimited time):</strong><br> 2300 RPM, 1.15 ata<br>
     <strong>Combat power (up to 30 minutes):</strong><br> 2400 RPM, 1.25 ata<br>
@@ -691,7 +692,6 @@
   endurance: <strong>Flight endurance at 3000 m:</strong> 2.4 h, at 350 km/h IAS.<br>
   debut: <strong>Combat debut:</strong> March 1941<br>
   dive: <strong>Dive speed limit:</strong> 850 km/h<br>
-  circus:  0
 - id: bf109f4
   name: Bf 109 F-4
   description: |
@@ -782,6 +782,7 @@
     - The design of the cockpit canopy does not allow it to be opened during flight. The canopy should be closed before takeoff to prevent damage. The canopy has an emergency release system for bailouts.<br>
     - The control system for the bomb rack only allows to drop bombs one by one.<br>
     - The gunsight has a sliding sun-filter.'<br>
+  circus:  0
   engine: |
     <strong>Nominal (unlimited time):</strong><br> 2300 RPM, 1.15 ata<br>
     <strong>Combat power (up to 30 minutes):</strong><br> 2500 RPM, 1.3 ata<br>
@@ -839,7 +840,6 @@
   endurance: <strong>Flight endurance at 3000 m:</strong> 2.6 h, at 350 km/h IAS.<br>
   debut: <strong>Combat debut:</strong> June 1941<br>
   dive: <strong>Dive speed limit:</strong> 850 km/h<br>
-  circus:  0
 - id: bf109g14
   name: Bf 109 G-14
   description: |
@@ -936,6 +936,7 @@
     - The design of the cockpit canopy does not allow it to be opened during flight. The canopy should be closed before takeoff to prevent damage. The canopy has an emergency release system for bailouts.<br>
     - The control system for the bomb rack only allows to drop bombs one by one.<br>
     - The gunsight has a sliding sun-filter.'<br>
+  circus:  0
   engine: |
     <strong>Nominal (unlimited time):</strong><br> 2300 RPM, 1.15 ata<br>
     <strong>Combat power (up to 30 minutes):</strong><br> 2600 RPM, 1.3 ata<br>
@@ -996,7 +997,6 @@
   endurance: <strong>Flight endurance at 3000 m:</strong> 2.15 h, at 350 km/h IAS.<br>
   debut: <strong>Combat debut:</strong> July 1944<br>
   dive: <strong>Dive speed limit:</strong> 850 km/h<br>
-  circus:  0
 - id: bf109g2
   name: Bf 109 G-2
   description: |
@@ -1083,6 +1083,7 @@
     - The design of the cockpit canopy does not allow it to be opened during flight. The canopy should be closed before takeoff to prevent damage. The canopy has an emergency release system for bailouts.<br>
     - The control system for the bomb rack only allows to drop bombs one by one.<br>
     - The gunsight has a sliding sun-filter.'<br>
+  circus:  0
   engine: |
     <strong>Nominal (unlimited time):</strong><br> 2300 RPM, 1.15 ata<br>
     <strong>Combat power (up to 30 minutes):</strong><br> 2600 RPM, 1.3 ata<br>
@@ -1139,7 +1140,6 @@
   endurance: <strong>Flight endurance at 3000 m:</strong> 2.4 h, at 350 km/h IAS.<br>
   debut: <strong>Combat debut:</strong> May 1942<br>
   dive: <strong>Dive speed limit:</strong> 850 km/h<br>
-  circus:  0
 - id: bf109g4
   name: Bf 109 G-4
   description: |
@@ -1230,6 +1230,7 @@
     - The design of the cockpit canopy does not allow it to be opened during flight. The canopy should be closed before takeoff to prevent damage. The canopy has an emergency release system for bailouts.<br>
     - The control system for the bomb rack only allows to drop bombs one by one.<br>
     - The gunsight has a sliding sun-filter.'<br>
+  circus:  0
   engine: |
     <strong>Nominal (unlimited time):</strong><br> 2300 RPM, 1.15 ata<br>
     <strong>Combat power (up to 30 minutes):</strong><br> 2600 RPM, 1.3 ata<br>
@@ -1288,7 +1289,6 @@
   endurance: <strong>Flight endurance at 3000 m:</strong> 2.4 h, at 350 km/h IAS.<br>
   debut: <strong>Combat debut:</strong> November 1942<br>
   dive: <strong>Dive speed limit:</strong> 850 km/h<br>
-  circus:  0
 - id: bf109g6
   name: Bf 109 G-6
   description: |
@@ -1380,6 +1380,7 @@
     - The design of the cockpit canopy does not allow it to be opened during flight. The canopy should be closed before takeoff to prevent damage. The canopy has an emergency release system for bailouts.<br>
     - The control system for the bomb rack only allows to drop bombs one by one.<br>
     - The gunsight has a sliding sun-filter.'<br>
+  circus:  0
   engine: |
     <strong>Nominal (unlimited time):</strong><br> 2300 RPM, 1.15 ata<br>
     <strong>Combat power (up to 30 minutes):</strong><br> 2600 RPM, 1.3 ata<br>
@@ -1438,7 +1439,6 @@
   endurance: <strong>Flight endurance at 3000 m:</strong> 2.2 h, at 350 km/h IAS.<br>
   debut: <strong>Combat debut:</strong> february 1943<br>
   dive: <strong>Dive speed limit:</strong> 850 km/h<br>
-  circus:  0
 - id: bf109k4
   name: Bf 109 K-4
   description: |
@@ -1558,6 +1558,7 @@
     - Airplane has a fuel gauge which shows total fuel remaining. Also, it has an emergency fuel warning light (80 liters).<br>
     - The design of the cockpit canopy does not allow it to be opened during flight. The canopy should be closed before takeoff to prevent damage. The canopy has an emergency release system for bailouts.<br>
     - The gunsight has a sliding sun-filter.'<br>
+  circus:  0
   engine: |
     <strong>Nominal (unlimited time):</strong><br> 2400 RPM, 1.35 ata<br>
     <strong>Combat power (up to 30 minutes):</strong><br> 2600 RPM, 1.45 ata<br>
@@ -1629,7 +1630,6 @@
   endurance: <strong>Flight endurance at 3000 m:</strong> 2.15 h, at 350 km/h IAS.<br>
   debut: <strong>Combat debut:</strong> October 1944<br>
   dive: <strong>Dive speed limit:</strong> 850 km/h<br>
-  circus:  0
 - id: bf110e2
   name: Bf 110 E-2
   description: |
@@ -1729,6 +1729,7 @@
     - Airplane is equipped with an automatic bomb salvo controller, it allows you to choose which bomb-racks to be released (central belly, left and right wing) and to switch the bomb salvo (single release or release all bombs).<br>
     - Reloading of both MG-FF guns (forward and rearward) must be performed by the rear gunner. The forward firing MGFF must be reloaded at the pilot`s command.<br>
     - The gunsight has a sliding sun-filter.'<br>
+  circus:  0
   engine: |
     <strong>Nominal (unlimited time):</strong><br> 2200 RPM, 1.15 ata<br>
     <strong>Combat power (up to 30 minutes):</strong><br> 2300 RPM, 1.23 ata<br>
@@ -1791,7 +1792,6 @@
   endurance: <strong>Flight endurance at 3000 m:</strong> 3.5 h, at 300 km/h IAS.<br>
   debut: <strong>Combat debut:</strong> October 1940<br>
   dive: <strong>Dive speed limit:</strong> 740 km/h<br>
-  circus:  0
 - id: bf110g2
   name: Bf 110 G-2
   description: |
@@ -1890,6 +1890,7 @@
     - Airplane is equipped with an automatic bomb salvo controller, it allows you to choose which bomb-racks to be released (central belly, left and right wing) and to switch the bomb salvo (single release or release all bombs).<br>
     - Reloading of BK37 gun is performed by the rear gunner at the pilot`s command.<br>
     - The gunsight has a sliding sun-filter.'<br>
+  circus:  0
   engine: |
     <strong>Nominal (unlimited time):</strong><br> 2300 RPM, 1.15 ata<br>
     <strong>Combat power (up to 30 minutes):</strong><br> 2600 RPM, 1.3 ata<br>
@@ -1949,7 +1950,6 @@
   endurance: <strong>Flight endurance at 3000 m:</strong> 4.0 h, at 300 km/h IAS.<br>
   debut: <strong>Combat debut:</strong> Autumn 1942<br>
   dive: <strong>Dive speed limit:</strong> 740 km/h<br>
-  circus:  0
 - id: bristolf2bf2
   name: Bristol F2B (F.II)
   description: |
@@ -2419,6 +2419,7 @@
     - It is impossible to open or close the canopy at high speed due to strong airflow. The canopy has an emergency release system for bailouts.<br>
     - The control system for the bomb rack only allows for dropping bombs one by one.<br>
     - The gunsight has a sliding sun-filter.'<br>
+  circus:  0
   engine: |
     <strong>Nominal (unlimited time):</strong><br> 2300 RPM, 1.2 ata<br>
     <strong>Combat power (up to 30 minutes):</strong><br> 2400 RPM, 1.32 ata<br>
@@ -2481,7 +2482,6 @@
   endurance: <strong>Flight endurance at 3000 m:</strong> 3.2 h, at 350 km/h IAS.<br>
   debut: <strong>Combat debut:</strong> March 1942<br>
   dive: <strong>Dive speed limit:</strong> 850 km/h<br>
-  circus:  0
 - id: fw190a5
   name: Fw 190 A-5
   description: |
@@ -2579,6 +2579,7 @@
     - It is impossible to open or close the canopy at high speed due to strong airflow. The canopy has an emergency release system for bailouts.<br>
     - The control system for the bomb rack only allows for dropping bombs one by one.<br>
     - The gunsight has a sliding sun-filter.'<br>
+  circus:  0
   engine: |
     <strong>Nominal (unlimited time):</strong><br> 2300 RPM, 1.2 ata<br>
     <strong>Combat power (up to 30 minutes):</strong><br> 2400 RPM, 1.32 ata<br>
@@ -2643,7 +2644,6 @@
   endurance: <strong>Flight endurance at 3000 m:</strong> 3.0 h, at 350 km/h IAS.<br>
   debut: <strong>Combat debut:</strong> Spring 1943<br>
   dive: <strong>Dive speed limit:</strong> 850 km/h<br>
-  circus:  0
 - id: fw190a8
   name: Fw 190 A-8
   description: |
@@ -2746,6 +2746,7 @@
     - It is impossible to open or close the canopy at high speed due to strong airflow. The canopy has an emergency release system for bailouts.<br>
     - The standard bomb release controller (without modification) allows dropping the bombs only one by one. The strike modification (F-8) bomb release controller allows to choose the bomb release order for underbelly and underwing bombs and the delay between each bomb in the salvo.<br>
     - The gunsight has a sliding sun-filter.'<br>
+  circus:  0
   engine: |
     <strong>Nominal (unlimited time):</strong><br> 2300 RPM, 1.2 ata<br>
     <strong>Combat power (up to 30 minutes):</strong><br> 2400 RPM, 1.32 ata<br>
@@ -2810,7 +2811,6 @@
   endurance: <strong>Flight endurance at 3000 m:</strong> 3.8 h, at 350 km/h IAS.<br>
   debut: <strong>Combat debut:</strong> Spring 1944<br>
   dive: <strong>Dive speed limit:</strong> 850 km/h<br>
-  circus:  0
 - id: fw190d9
   name: Fw 190 D-9
   description: |
@@ -2909,6 +2909,7 @@
     - It is impossible to open or close the canopy at high speed due to strong airflow. The canopy has an emergency release system for bailouts.<br>
     - The standard bomb release controller allows dropping the bombs only one by one.<br>
     - The gunsight has a sliding sun-filter.'<br>
+  circus:  0
   engine: |
     <strong>Nominal (unlimited time):</strong><br> 3000 RPM, 1.42 ata<br>
     <strong>Combat power (up to 30 minutes):</strong><br> 3250 RPM, 1.51 ata<br>
@@ -2970,7 +2971,6 @@
   endurance: <strong>Flight endurance at 3000 m:</strong> 2.5 h, at 350 km/h IAS.<br>
   debut: <strong>Combat debut:</strong> end of September 1944<br>
   dive: <strong>Dive speed limit:</strong> 850 km/h<br>
-  circus:  0
 - id: halberstadtcl2
   name: Halberstadt CL.II
   description: |
@@ -3205,6 +3205,7 @@
     - Airplane has independent left and right hydraulic wheel brake controls. To apply either brake push the upper part of the rudder pedal.<br>
     - Airplane has dedicated fuel gauges for left and right fuel tank groups and there is a switch between the internal and external fuel tank group indicator. In game the fuel indicator switch changes by itself during horizontal flight every 10 seconds. Also, the airplane has low fuel warning lights (200 liters) for left and right fuel tank groups.<br>
     - Airplane is equipped with an automatic bomb salvo controller, it allows you to switch between the bomb racks to be released (internal or external) and to switch between different salvo quantities. There is also a controller for a drop delay between each bomb in the salvo.'<br>
+  circus:  0
   engine: |
     <strong>Nominal (unlimited time):</strong><br> 2250 RPM, 1.15 ata<br>
     <strong>Climb power (up to 30 minutes):</strong><br> 2400 RPM, 1.25 ata<br>
@@ -3260,7 +3261,6 @@
   endurance: <strong>Flight endurance at 3000 m:</strong> 6.7 h, at 300 km/h IAS.<br>
   debut: <strong>Combat debut:</strong> winter 1943<br>
   dive: <strong>Dive speed limit:</strong> 560 km/h<br>
-  circus:  0
 - id: he111h6
   name: He 111 H-6
   description: |
@@ -3357,6 +3357,7 @@
     - Airplane has independent left and right hydraulic wheel brake controls. To apply either brake push the upper part of the rudder pedal.<br>
     - Airplane has dedicated fuel gauges for left and right fuel tank groups and there is a switch between the internal and external fuel tank group indicator. In game the fuel indicator switch changes by itself during horizontal flight every 10 seconds. Also, there is dedicated fuel gauge for the fuselage fuel tank. Also, the airplane has low fuel warning lights (200 liters) for left and right fuel tank groups.<br>
     - Airplane is equipped with an automatic bomb salvo controller, it allows you to switch between the bomb racks to be released (internal or external) and to switch between different salvo quantities. There is also a controller for a drop delay between each bomb in the salvo.'<br>
+  circus:  0
   engine: |
     <strong>Nominal (unlimited time):</strong><br> 2250 RPM, 1.15 ata<br>
     <strong>Climb power (up to 30 minutes):</strong><br> 2400 RPM, 1.25 ata<br>
@@ -3412,7 +3413,6 @@
   endurance: <strong>Flight endurance at 3000 m:</strong> 8.5 h, at 300 km/h IAS.<br>
   debut: <strong>Combat debut:</strong> June 1941<br>
   dive: <strong>Dive speed limit:</strong> 560 km/h<br>
-  circus:  0
 - id: hs129b2
   name: Hs 129 B-2
   description: |
@@ -3503,6 +3503,7 @@
     - The aircraft is equipped with an electric bomb release controller that allows dropping the bombs only one by one.<br>
     - The gunsight has a sliding sun-filter.'<br>
     <br>
+  circus:  0
   engine: |
     <strong>Nominal (unlimited time):</strong><br> 2350 RPM, 1.1 ata<br>
     <strong>Combat power (up to 30 minutes):</strong><br> 2750 RPM, 1.25 ata<br>
@@ -3558,7 +3559,6 @@
   endurance: <strong>Flight endurance at 3000 m:</strong> 2.1 h, at 300 km/h IAS.<br>
   debut: <strong>Combat debut:</strong> May 1942<br>
   dive: <strong>Dive speed limit:</strong> 670 km/h<br>
-  circus:  0
 - id: i16t24
   name: I-16 type 24
   description: |
@@ -3651,6 +3651,7 @@
     - When bombs are installed there is a salvo controller, it has two release modes: single drop or drop two in a salvo.<br>
     - When rockets are installed there is a salvo controller, it has three launch modes: single fire, fire two in a salvo or fire four in a salvo.<br>
     - The gunsight has a sliding sun-filter. There is also a back-up folding mechanical sight which can be used if main sight is damaged.'<br>
+  circus:  0
   engine: |
     <strong>Nominal (unlimited time):</strong><br> 2200 RPM, 915 mm Hg<br>
     <strong>Boosted power (up to 5 minutes):</strong><br> 2300 RPM, 1065 mm Hg<br>
@@ -3708,7 +3709,6 @@
   endurance: <strong>Flight endurance at 3000 m:</strong> 0.9 h, at 350 km/h IAS.<br>
   debut: <strong>Combat debut:</strong> June 1941<br>
   dive: <strong>Dive speed limit:</strong> 620 km/h<br>
-  circus:  0
 - id: il2m41
   name: Il-2 mod.1941
   description: |
@@ -3805,6 +3805,7 @@
     - Cockpit canopy weight is 50 kg and it has no lock in the open position, for this reason the canopy may to spontaneously close in a deep dive. Also, it is impossible to open or close canopy at high speed due to strong airflow. The canopy has no emergency release, so bail out requires the speed drop before it.<br>
     - Airplane is equipped with a joint salvo controller both for bombs and rockets, it has three release/fire modes: single launch, launch two in a salvo or launch four in a salvo.<br>
     - The gunsight is installed on a sliding bar which allows the pilot to extend the gunsight towards the pilot allowing for an increase in the field of view through the gunsight.'<br>
+  circus:  0
   engine: |
     <strong>Nominal (unlimited time):</strong><br> 2050 RPM, 1180 mm Hg<br>
     <strong>Boosted power (up to 10 minutes):</strong><br> 2150 RPM, 1280 mm Hg<br>
@@ -3863,7 +3864,6 @@
   endurance: <strong>Flight endurance at 3000 m:</strong> 1.7 h, at 300 km/h IAS.<br>
   debut: <strong>Combat debut:</strong> June 1941<br>
   dive: <strong>Dive speed limit:</strong> 570 km/h<br>
-  circus:  0
 - id: il2m42
   name: Il-2 mod.1942
   description: |
@@ -3962,6 +3962,7 @@
     - Cockpit canopy weight is 50 kg and it has no lock in the open position, for this reason the canopy may to spontaneously close in a deep dive. Also, it is impossible to open or close canopy at high speed due to strong airflow. The canopy has no emergency release, so bail out requires the speed drop before it.<br>
     - Airplane is equipped with a joint salvo controller both for bombs and rockets, it has three release/fire modes: single launch, launch two in a salvo or launch four in a salvo.<br>
     - The gunsight is installed on a sliding bar which allows the pilot to extend the gunsight towards the pilot allowing for an increase in the field of view through the gunsight.'<br>
+  circus:  0
   engine: |
     <strong>Nominal (unlimited time):</strong><br> 2050 RPM, 1180 mm Hg<br>
     <strong>Boosted power (up to 10 minutes):</strong><br> 2150 RPM, 1280 mm Hg<br>
@@ -4019,7 +4020,6 @@
   endurance: <strong>Flight endurance at 3000 m:</strong> 1.7 h, at 300 km/h IAS.<br>
   debut: <strong>Combat debut:</strong> June 1942<br>
   dive: <strong>Dive speed limit:</strong> 570 km/h<br>
-  circus:  0
 - id: il2m43
   name: Il-2 mod.1943
   description: |
@@ -4119,6 +4119,7 @@
     - Cockpit canopy weight is 50 kg and it has no lock in the open position, for this reason the canopy may to spontaneously close in a deep dive. Also, it is impossible to open or close canopy at high speed due to strong airflow. The canopy has no emergency release, so bail out requires the speed drop before it.<br>
     - Airplane is equipped with a joint salvo controller both for bombs and rockets, it has three release/fire modes: single launch, launch two in a salvo or launch four in a salvo.<br>
     - The mechanical gun sight "Visier Vladimirova" allows aiming rockets and guns at ground and air targets and horizontal bombing at certain speeds and altitudes.'<br>
+  circus:  0
   engine: |
     <strong>Nominal (unlimited time):</strong><br> 2050 RPM, 1200 mm Hg<br>
     <strong>Boosted power (up to 5 minutes):</strong><br> 2350 RPM, 1360 mm Hg<br>
@@ -4176,7 +4177,6 @@
   endurance: <strong>Flight endurance at 3000 m:</strong> 1.4 h, at 300 km/h IAS.<br>
   debut: <strong>Combat debut:</strong> early 1943<br>
   dive: <strong>Dive speed limit:</strong> 570 km/h<br>
-  circus:  0
 - id: ju523mg4e
   name: Ju 52/3m g4e
   description: |
@@ -4262,6 +4262,7 @@
     - Airplane has three mechanical oil float level gauges on each of the three engine nacelles outside the cabin.<br>
     - Cargo unload doors can be opened on the ground only.<br>
     - The left passenger door must be removed before flight for dropping paratroopers or cargo containers. Use the bomb drop button ("B" by default) to drop them.'<br>
+  circus:  0
   engine: |
     <strong>Nominal (unlimited time):</strong><br> 1925 RPM<br>
     <strong>Climb power (up to 30 minutes):</strong><br> 1975 RPM<br>
@@ -4323,7 +4324,6 @@
   endurance: <strong>Flight endurance at 3000 m:</strong> 5.3 h, at 205 km/h IAS.<br>
   debut: <strong>Combat debut:</strong> 1936<br>
   dive: <strong>Dive speed limit:</strong> 330 km/h<br>
-  circus:  0
 - id: ju87d3
   name: Ju 87 D-3
   description: |
@@ -4424,6 +4424,7 @@
     - Airplane is equipped with a salvo controller, it allows the pilot to choose which bomb racks to use (central, left and right wing) and to switch the bomb salvo (single drop or all bombs on the rack).<br>
     - The gunsight has a sliding sun-filter.<br>
     - Aircraft is equipped with dive system. When the dive system is engaged, the plane enters a dive when the air brakes are extended and will recover from the dive either by pressing the bomb drop button or when the air brakes are retracted. The dive system controls are separate: the trimmer tab on the right elevator is controlled by the dive system while the pilot controls the trimmer tab on the left elevator. Therefore the pilot input and dive system input of the trimmers are independent, and when the dive system is in operation, there is no indication of a trimmer position change in the technochat.'<br>
+  circus:  0
   engine: |
     <strong>Nominal (unlimited time):</strong><br> 2250 RPM, 1.15 ata<br>
     <strong>Climb power (up to 30 minutes):</strong><br> 2400 RPM, 1.25 ata<br>
@@ -4485,7 +4486,6 @@
   endurance: <strong>Flight endurance at 3000 m:</strong> 3.4 h, at 300 km/h IAS.<br>
   debut: <strong>Combat debut:</strong> March 1942<br>
   dive: <strong>Dive speed limit:</strong> 650 km/h<br>
-  circus:  0
 - id: ju88a4
   name: Ju 88 A-4
   description: |
@@ -4581,6 +4581,7 @@
     - Airplane has dedicated fuel gauges for left and right fuel tank groups and there is a switch between the internal and external fuel tank group indicator. In game the fuel indicator switch changes by itself during horizontal flight every 10 seconds. Also, the airplane has low fuel warning lights (180 liters) for the internal tanks.<br>
     - Airplane is equipped with an automatic bomb salvo controller, it allows you to switch between the bomb racks to be released (internal or external) and to switch between different salvo quantities. There is also a controller for a drop delay between each bomb in the salvo.<br>
     - Aircraft is equipped with dive system. When the dive system is engaged, the plane enters a dive when the air brakes are extended or when the dive button (LCtrl + D by default) is pressed. The plane will recover from the dive either by pressing the bomb drop button or by pressing the dive button (LCtrl + D by default). The dive system will return to the neutral position of the elevator trim, while the full range of trimmer travel from the pilot’s input is preserved. Therefore the pilot input and dive system input of the trimmers are independent, and when the dive system is in operation, there is no indication of a trimmer position change in the technochat. Also, the elevator trim is automatically shifted when the stabilizer is moved to the landing position (when flaps are released to the landing position). This also shifts the trim back to the neutral position.'<br>
+  circus:  0
   engine: |
     <strong>Nominal (unlimited time):</strong><br> 2250 RPM, 1.15 ata<br>
     <strong>Climb power (up to 30 minutes):</strong><br> 2400 RPM, 1.25 ata<br>
@@ -4641,7 +4642,6 @@
   endurance: <strong>Flight endurance at 3000 m:</strong> 3.8 h, at 300 km/h IAS.<br>
   debut: <strong>Combat debut:</strong> June 1941<br>
   dive: <strong>Dive speed limit:</strong> 670 km/h<br>
-  circus:  0
 - id: la5fns2
   name: La-5FN ser.2
   description: |
@@ -4729,6 +4729,7 @@
     - Airplane has a fuel gauge which shows total remaining fuel.<br>
     - Also, it is impossible to open or close canopy at high speed due to strong airflow. The canopy has no emergency release, so bail out requires the speed drop before it.<br>
     - The control system for the bomb rack only allows to drop bombs one by one.'<br>
+  circus:  0
   engine: |
     <strong>Nominal (unlimited time):</strong><br> 2400 RPM, 1000 mm Hg<br>
     <strong>Boosted power (up to 10 minutes):</strong><br> 2500 RPM, 1180 mm Hg<br>
@@ -4786,7 +4787,6 @@
   endurance: <strong>Flight endurance at 3000 m:</strong> 2.0 h, at 350 km/h IAS.<br>
   debut: <strong>Combat debut:</strong> June 1943<br>
   dive: <strong>Dive speed limit:</strong> 720 km/h<br>
-  circus:  0
 - id: la5s8
   name: La-5 ser.8
   description: |
@@ -4875,6 +4875,7 @@
     - Airplane has a fuel gauge which shows total remaining fuel.<br>
     - Cockpit canopy has a weak lock when in the opened position, for this reason the canopy may spontaneously close in a deep dive. Also, it is impossible to open or close canopy at high speed due to strong airflow. The canopy has no emergency release, so bail out requires the speed drop before it.<br>
     - The control system for the bomb rack only allows to drop bombs one by one.'<br>
+  circus:  0
   engine: |
     <strong>Nominal (unlimited time):</strong><br> 2400 RPM, 950 mm Hg<br>
     <strong>Boosted power (up to 5 minutes):</strong><br> 2400 RPM, 1140 mm Hg<br>
@@ -4933,7 +4934,6 @@
   endurance: <strong>Flight endurance at 3000 m:</strong> 1.9 h, at 350 km/h IAS.<br>
   debut: <strong>Combat debut:</strong> September 1942<br>
   dive: <strong>Dive speed limit:</strong> 720 km/h<br>
-  circus:  0
 - id: lagg3s29
   name: LaGG-3 ser.29
   description: |
@@ -5023,6 +5023,7 @@
     - Cockpit canopy has a weak lock when in the opened position, for this reason the canopy may spontaneously close in a deep dive. It is impossible to open or close the canopy at high speed due to strong airflow. The canopy has no emergency release, so bail out requires the speed drop before it.<br>
     - The control system for the bomb rack only allows to drop bombs one by one.<br>
     - When rockets are installed there is a salvo controller, it has three launch modes: single fire, fire two in a salvo or fire four in a salvo.'<br>
+  circus:  0
   engine: |
     <strong>Nominal (unlimited time):</strong><br> 2700 RPM, 1050 mm Hg<br>
   speeds: |
@@ -5077,7 +5078,6 @@
   endurance: <strong>Flight endurance at 3000 m:</strong> 2.2 h, at 350 km/h IAS.<br>
   debut: <strong>Combat debut:</strong> May 1942<br>
   dive: <strong>Dive speed limit:</strong> 750 km/h<br>
-  circus:  0
 - id: mc202s8
   name: MC.202 ser.VIII
   description: |
@@ -5170,6 +5170,7 @@
     - The design of the cockpit canopy does not allow it to be opened during flight. The canopy should be closed before takeoff to prevent damage. The canopy has an emergency release system for bailouts.<br>
     - The control system for the bomb rack only allows to drop bombs one by one.<br>
     - The gunsight has a sliding sun-filter. There is also a back-up folding mechanical sight which can be used if main sight is damaged.'<br>
+  circus:  0
   engine: |
     <strong>Nominal (unlimited time):</strong><br> 2200 RPM, 1.23 ata<br>
     <strong>Combat power (up to 5 minutes):</strong><br> 2400 RPM, 1.35 ata<br>
@@ -5231,7 +5232,6 @@
   endurance: <strong>Flight endurance at 3000 m:</strong> 2.2 h, at 350 km/h IAS.<br>
   debut: <strong>Combat debut:</strong> June 1942<br>
   dive: <strong>Dive speed limit:</strong> 850 km/h<br>
-  circus:  0
 - id: me262a
   name: Me 262 A
   description: |
@@ -5323,6 +5323,7 @@
     - Landing flaps have a hydraulic actuator and they can be extended to any angle up to 55°. The hydraulic valve controlling the flaps can\'t be turned during the landing gear operation (lowering or retracting).<br>
     - Landing gear brakes are hydraulic as well and are engaged by pushing a corresponding pedal. The nose gear orients by itself (up to 50° in either direction), has a rotation dampener and dedicated brake handle. The aircraft tends to rotate during a breakaway unless the nose wheel is set forward.<br>
     - There are two main (900 l each) and two secondary fuel tanks (600 and 170 l). The fuel transfer from secondary to main tanks using the electric fuel pump is initiated by the pilot when the fuel level in main tanks drops lower than 600 l. The main tanks have fuel level indicators and emergency fuel lamps (they light up when there are less than 250 l left).'<br>
+  circus:  0
   engine: |
     <strong>Nominal (unlimited time):</strong><br> 8400 RPM<br>
     <strong>Maximal (15 minutes):</strong><br> 8700 RPM<br>
@@ -5374,7 +5375,6 @@
     <li> There are two main (900 l each) and two secondary fuel tanks (600 and 170 l). The fuel transfer from secondary to main tanks using the electric fuel pump is initiated by the pilot when the fuel level in main tanks drops lower than 600 l. The main tanks have fuel level indicators and emergency fuel lamps (they light up when there are less than 250 l left).</li>
   endurance: <strong>Flight endurance at 6000 m:</strong> 2 h 20 m, at 475 km/h IAS.<br>
   debut: <strong>Combat debut:</strong> Summer 1944<br>
-  circus:  0
 - id: mig3s24
   name: MiG-3 ser.24
   description: |
@@ -5470,6 +5470,7 @@
     - It is impossible to open or close the canopy at high speed due to strong airflow. The canopy has no emergency release, so bail out requires the speed drop before it.<br>
     - When bombs are installed there is a salvo controller, it has two release modes: single drop or drop two in a salvo.<br>
     - When rockets are installed there is a salvo controller, it has three launch modes: single fire, fire two in a salvo or fire four in a salvo.'<br>
+  circus:  0
   engine: |
     <strong>Nominal (unlimited time):</strong><br> 2050 RPM, 1040 mm Hg<br>
     <strong>Boosted power (up to 10 minutes):</strong><br> 2050 RPM, 1240 mm Hg<br>
@@ -5529,7 +5530,6 @@
   endurance: <strong>Flight endurance at 3000 m:</strong> 2.5 h, at 350 km/h IAS.<br>
   debut: <strong>Combat debut:</strong> July 1941<br>
   dive: <strong>Dive speed limit:</strong> 750 km/h<br>
-  circus:  0
 - id: p38j25
   name: P-38J-25
   description: |
@@ -5637,6 +5637,7 @@
     - The windows on the sides of the canopy can be lowered during flight, but this can cause the excessive shaking of the plane.<br>
     - The electric bomb controller allows dropping the bombs one by one from the left and right racks or by pairs.<br>
     - The unguided rockets are launched using the electric controller which allows single, pair, triple and salvo (all rockets at 0.1 seconds interval) launch. The rocket containers are jettisonable.'<br>
+  circus:  0
   engine: |
     <strong>Cruise (unlimited time):</strong><br> 2600 RPM, 44 inch Hg<br>
     <strong>Combat power (up to 15 minutes):</strong><br> 3000 RPM, 54 inch Hg<br>
@@ -5695,7 +5696,6 @@
   endurance: <strong>Flight endurance at 3000 m (9843 feet):</strong> 5.8 h, at 350 km/h (217 mph) IAS.<br>
   debut: <strong>Combat debut:</strong> 1944<br>
   dive: <strong>Dive speed limit:</strong> 725 km/h (450 mph)<br>
-  circus:  0
 - id: p39l1
   name: P-39L-1
   description: |
@@ -5789,6 +5789,7 @@
     - Airplane is equipped with mechanical releasing system for a single bomb.<br>
     - The gunsight has a sliding sun-filter. There is also a back-up mechanical sight which can be used if main sight is damaged.'<br>
     <br>
+  circus:  0
   engine: |
     <strong>Nominal (unlimited time):</strong><br> 2600 RPM, 37.2 inch Hg<br>
     <strong>Military power (up to 15 minutes):</strong><br> 3000 RPM, 42 inch Hg<br>
@@ -5848,7 +5849,6 @@
   endurance: <strong>Flight endurance at 3000 m:</strong> 1.6 h, at 350 km/h IAS.<br>
   debut: <strong>Combat debut:</strong> late 1942<br>
   dive: <strong>Dive speed limit:</strong> 841 km/h<br>
-  circus:  0
 - id: p40e1
   name: P-40E-1
   description: |
@@ -5944,6 +5944,7 @@
     - Airplane is equipped with mechanical releasing system for a single bomb.<br>
     - When rockets are installed there is a salvo controller, it has three launch modes: single fire, fire two in a salvo or fire four in a salvo.<br>
     - The gunsight has a sliding sun-filter. There is also a back-up mechanical sight which can be used if main sight is damaged.'<br>
+  circus:  0
   engine: |
     <strong>Nominal (unlimited time):</strong><br> 2600 RPM, 37.2 inch Hg<br>
     <strong>Combat power (up to 5 minutes):</strong><br> 3000 RPM, 42 inch Hg<br>
@@ -6004,7 +6005,6 @@
   endurance: <strong>Flight endurance at 3000 m:</strong> 2.8 h, at 350 km/h IAS.<br>
   debut: <strong>Combat debut:</strong> December 1941<br>
   dive: <strong>Dive speed limit:</strong> 860 km/h<br>
-  circus:  0
 - id: p47d28
   name: P-47D-28
   description: |
@@ -6126,6 +6126,7 @@
     - The unguided rockets are launched using the electric controller which allows single, pair, triple and salvo (all rockets at 0.1 seconds interval) launch.<br>
     - There is a backup mechanical sight which can be used if the main sight is damaged.<br>
     - The gyroscopic gunsight automatically calculates required angular deflection while firing at a target. It has 3 modes: fixed reticle, fixed and gyro reticle, gyro reticle. The angular deflection will be calculated correctly only if the target range is set properly. To set the range, adjust the target base first using separate controls and then set the range by adjusting the size of the range-finding reticle to be the same as the target size.'<br>
+  circus:  0
   engine: |
     <strong>Cruise (unlimited time):</strong><br> 2550 RPM, 42.0 inch Hg<br>
     <strong>Combat power (up to 15 minutes):</strong><br> 2700 RPM, 52 inch Hg<br>
@@ -6194,7 +6195,6 @@
   endurance: <strong>Flight endurance at 3000 m (9843 feet):</strong> 2.4 h, at 350 km/h (217 mph) IAS.<br>
   debut: <strong>Combat debut:</strong> 1944<br>
   dive: <strong>Dive speed limit:</strong> 805 km/h (500 mph)<br>
-  circus:  0
 - id: p51d15
   name: P-51D-15
   description: |
@@ -6306,6 +6306,7 @@
     - The aircraft is equipped with formation lights.<br>
     - The unguided rockets are launched using the electric controller which allows single, pair, triple and salvo (all rockets at 0.1 seconds interval) launch.<br>
     - The gyroscopic gunsight automatically calculates required angular deflection while firing at a target. It has 3 modes: fixed reticle, fixed and gyro reticle, gyro reticle. The angular deflection will be calculated correctly only if the target range is set properly. To set the range, adjust the target base first using separate controls and then set the range by adjusting the size of the range-finding reticle to be the same as the target size.'<br>
+  circus:  0
   engine: |
     <strong>Cruise (unlimited time):</strong><br> 2700 RPM, 46 inch Hg<br>
     <strong>Combat power (up to 15 minutes):</strong><br> 3000 RPM, 61 inch Hg<br>
@@ -6372,7 +6373,6 @@
   endurance: <strong>Flight endurance at 3000 m (9843 feet):</strong> 4.3 h, at 350 km/h (217 mph) IAS.<br>
   debut: <strong>Combat debut:</strong> 1944<br>
   dive: <strong>Dive speed limit:</strong> 812 km/h (505 mph)<br>
-  circus:  0
 - id: pe2s35
   name: Pe-2 ser.35
   description: |
@@ -6469,6 +6469,7 @@
     - The canopy has an emergency release system for bailouts.<br>
     - Airplane is equipped with a bomb salvo controller, it has four release modes: drop single, drop two in a salvo, drop four in a salvo or drop all bombs in salvo. There is also a controller for a drop delay between each bomb in the salvo.<br>
     - When rockets are installed there is a salvo controller, it has three launch modes: single fire, fire two in a salvo or fire four in a salvo. Aircraft has a fire control system that is designed for eight rockets. However, for added punch, ten rockets were typically loaded. In that case, the ninth rocket will fire with the seventh and the tenth will fire with the eighth.'<br>
+  circus:  0
   engine: |
     <strong>Nominal (unlimited time):</strong><br> 2700 RPM, 910 mm Hg<br>
   speeds: |
@@ -6525,7 +6526,6 @@
   endurance: <strong>Flight endurance at 3000 m:</strong> 3.7 h, at 300 km/h IAS.<br>
   debut: <strong>Combat debut:</strong> July 1941<br>
   dive: <strong>Dive speed limit:</strong> 790 km/h<br>
-  circus:  0
 - id: pe2s87
   name: Pe-2 ser.87
   description: |
@@ -6622,6 +6622,7 @@
     - The canopy has an emergency release system for bailouts.<br>
     - Airplane is equipped with a bomb salvo controller, it has four release modes: drop single, drop two in a salvo, drop four in a salvo or drop all bombs in salvo. There is also a controller for a drop delay between each bomb in the salvo.<br>
     - When rockets are installed there is a salvo controller, it has three launch modes: single fire, fire two in a salvo or fire four in a salvo. Aircraft has a fire control system that is designed for eight rockets. However, for added punch, ten rockets were typically loaded. In that case, the ninth rocket will fire with the seventh and the tenth will fire with the eighth.'<br>
+  circus:  0
   engine: |
     <strong>Nominal (unlimited time):</strong><br> 2700 RPM, 1050 mm Hg<br>
   speeds: |
@@ -6678,7 +6679,6 @@
   endurance: <strong>Flight endurance at 3000 m:</strong> 2.8 h, at 300 km/h IAS.<br>
   debut: <strong>Combat debut:</strong> May 1942<br>
   dive: <strong>Dive speed limit:</strong> 790 km/h<br>
-  circus:  0
 - id: pfalzd3a
   name: Pfalz D.IIIa
   description: |
@@ -6851,17 +6851,7 @@
     5) Flying the Camel in 1918. FLIGHT International, 2 May 1968.<br>
     6) A History of No.10 Sq. RNAS in WWI. Mike Westrop, Schiffer Military History.<br>
     7) Sopwith Camel Specification.'<br>
-  engine: |
-  speeds: |
-  climb: |
-  weight: |
-  temp: |
-  max_air: |
-  turn: |
-  dimensions: |
-  stall: |
-  features: |
-  circus:  0
+  circus:  1
 - id: sopdolphin
   name: Sopwith Dolphin
   description: |
@@ -7102,6 +7092,7 @@
     - The gyroscopic gunsight automaticly calculates required angular deflection while firing at a target. It has 4 modes: fixed reticle, fixed and gyro reticle, gyro reticle, gyro reticle with the target range fixed at 150 yards (night mode). The angular deflection will be calculated correctly only if the target range is set properly. To set the range, adjust the target base first using separate controls and then set the range by adjusting the size of the rangefiding reticle to be the same as the target size.<br>
     - Both gunsights have sliding sun-filters.'<br>
     <br>
+  circus:  0
   engine: |
     <strong>Max Cruising power (unlimited time):</strong><br> 2650 RPM, boost +7<br>
     <strong>International power (up to 1 hour):</strong><br> 2850 RPM, boost +12<br>
@@ -7171,7 +7162,6 @@
   endurance: <strong>Flight endurance at 3000 m:</strong> 1 h 40 m, at 350 km/h IAS.<br>
   debut: <strong>Combat debut:</strong> June 1942<br>
   dive: <strong>Dive speed limit:</strong> 725 km/h<br>
-  circus:  0
 - id: spitfiremkvb
   name: Spitfire Mk.VB
   description: |
@@ -7284,6 +7274,7 @@
     - Airplane is equipped with upper and bottom formation lights which can be turned on simultaneously or independently.<br>
     - The gunsight is adjustable: both the target distance and target base can be set.<br>
     - The gunsight has a sliding sun-filter.'<br>
+  circus:  0
   engine: |
     <strong>Max Cruising power (unlimited time):</strong><br> 2650 RPM, boost +7<br>
     <strong>International power (up to 30 minutes):</strong><br> 2850 RPM, boost +9<br>
@@ -7354,7 +7345,6 @@
   endurance: <strong>Flight endurance at 3000 m:</strong> 1 h 45 m, at 350 km/h IAS.<br>
   debut: <strong>Combat debut:</strong> Winter 1941<br>
   dive: <strong>Dive speed limit:</strong> 725 km/h<br>
-  circus:  0
 - id: tempestmkvs2
   name: Tempest Mk.V ser.2
   description: |
@@ -7440,6 +7430,7 @@
     - It is impossible to open the canopy at high speeds because of the ram air, but there is an emergency jettison handle for bailing out.<br>
     - The aircraft is equipped with bottom formation lights.<br>
     - The range-finding gunsight reticle can be adjusted for a given target base and range.'<br>
+  circus:  0
   engine: |
     <strong>Max Cruising power (unlimited time):</strong><br> 3150 RPM, boost +4.5<br>
     <strong>Climb power (up to 1 hour):</strong><br> 3700 RPM, boost +7<br>
@@ -7496,7 +7487,6 @@
   endurance: <strong>Flight endurance at 3000 m:</strong> 3 h 18 m, at 350 km/h IAS.<br>
   debut: <strong>Combat debut:</strong> May 1944<br>
   dive: <strong>Dive speed limit:</strong> 870 km/h<br>
-  circus:  0
 - id: u2vs
   name: U-2VS
   description: |
@@ -7598,6 +7588,7 @@
     - There are no wheel brakes.<br>
     - There is no electric generator in the default aircraft configuration, so electric lights and Pitot tube warmer (which consumes up to 226W) are fed from 24V battery (10 Ah capacity at 1 A current in standard conditions). To power the RSI-4 radio station, GS-10-350 electric generator is installed along with it.<br>
     - Please note that with all possible modifications and full fuel the total aircraft weight is 1390 kg, more than its maximum takeoff weight.'<br>
+  circus:  0
   engine: |
     <strong>Takeoff/Emergency (5 min) :</strong><br> 1750/1840 RPM<br>
     <strong>Continuous/Nominal (unlimited):</strong><br> 1640/1700 RPM<br>
@@ -7608,14 +7599,6 @@
     <strong>Landing angle:</strong><br> 12°<br>
   climb: |
     <strong>Service ceiling:</strong> 3700 m<br>
-    <strong>Climb rate:</strong><br>
-    <strong>500 m —  3 min. 5 sec.<br>
-    <strong>1000 m — 6 min. 35 sec.<br>
-    <strong>1500 m — 10 min. 40 sec.<br>
-    <strong>2000 m — 15 min. 24 sec.<br>
-    <strong>2500 m — 21 min. 15 sec.<br>
-    <strong>3000 m — 28 min. 35 sec.<br>
-    <strong>3500 m — 38 min. 20 sec.<br>
   weight: |
     <strong>Empty weight:</strong> 748 kg<br>
     <strong>Minimum weight (no ammo, 10% fuel):</strong> 927 kg<br>
@@ -7640,9 +7623,15 @@
   stall: |
     <strong>Indicated stall speed in flight configuration:</strong><br> 63..70 km/h<br>
   features: |
+    <li> There is no engine supercharger.</li>
+    <li> The fuel mixture control is manual: the mixture should be leaned as the altitude increases for optimal engine functioning and to reduce the fuel consumption while flying level.</li>
+    <li> The fixed pitch propeller requires controlling the engine RPM manually.</li>
+    <li> The tail skid is linked to the rudder (8° maximum tilt).</li>
+    <li> There are no wheel brakes.</li>
+    <li> There is no electric generator in the default aircraft configuration, so electric lights and Pitot tube warmer (which consumes up to 226W) are fed from 24V battery (10 Ah capacity at 1 A current in standard conditions). To power the RSI-4 radio station, GS-10-350 electric generator is installed along with it.</li>
+    <li> Please note that with all possible modifications and full fuel the total aircraft weight is 1390 kg, more than its maximum takeoff weight.</li>
   endurance: <strong>Flight endurance at 500 m:</strong> 5 h, at 90 km/h IAS, 1300 RPM.<br>
   dive: <strong>Dive speed limit:</strong> 240 km/h<br>
-  circus:  0
 - id: yak1s127
   name: Yak-1b ser.127
   description: |
@@ -7727,6 +7716,7 @@
     - Fuel gauges are installed on left and right wing fuel tanks, outside of the cockpit. They show remaining fuel level only when there is less than 80 liters of fuel left in the tank.<br>
     - The canopy has no emergency release. In order to bail out, you must slow below 550 kph to open the canopy.<br>
     - The control system for the wing-mounted bomb racks only allows releasing of both bombs together.'<br>
+  circus:  0
   engine: |
     <strong>Nominal (unlimited time):</strong><br> 2550/2700 RPM, 1050 mm Hg<br>
   speeds: |
@@ -7780,7 +7770,6 @@
   endurance: <strong>Flight endurance at 3000 m:</strong> 2.0 h, at 350 km/h IAS.<br>
   debut: <strong>Combat debut:</strong> April 1943<br>
   dive: <strong>Dive speed limit:</strong> 720 km/h<br>
-  circus:  0
 - id: yak1s69
   name: Yak-1 ser.69
   description: |
@@ -7869,6 +7858,7 @@
     - It is impossible to open or close the canopy at high speed due to strong airflow. The canopy has no emergency release, so bail out requires the speed drop before it.<br>
     - The control system for the wing-mounted bomb racks only allows releasing of both bombs together.<br>
     - When rockets are installed there is a salvo controller, it has three launch modes: single fire, fire two in a salvo or fire four in a salvo.'<br>
+  circus:  0
   engine: |
     <strong>Nominal (unlimited time):</strong><br> 2550/2700 RPM, 1050 mm Hg<br>
   speeds: |
@@ -7923,7 +7913,6 @@
   endurance: <strong>Flight endurance at 3000 m:</strong> 1.9 h, at 350 km/h IAS.<br>
   debut: <strong>Combat debut:</strong> May 1942<br>
   dive: <strong>Dive speed limit:</strong> 720 km/h<br>
-  circus:  0
 - id: yak7bs36
   name: Yak-7B series 36
   description: |
@@ -8007,6 +7996,7 @@
     - Fuel gauges are installed on left and right wing fuel tanks, outside of the cockpit. They show remaining fuel level only when there is less than 130 liters of fuel left in the tank.<br>
     - It is impossible to open or close the canopy at high speed due to strong airflow. The canopy has no emergency release, so bail out requires the speed drop before it.<br>
     - The control system for the wing-mounted bomb racks only allows releasing of both bombs together.'<br>
+  circus:  0
   engine: |
     <strong>Nominal (unlimited time):</strong><br> 2600/2700 RPM, 1050 mm Hg<br>
   speeds: |
@@ -8060,7 +8050,6 @@
   endurance: <strong>Flight endurance at 3000 m:</strong> 1.9 h, at 350 km/h IAS.<br>
   debut: <strong>Combat debut:</strong> early 1943<br>
   dive: <strong>Dive speed limit:</strong> 740 km/h<br>
-  circus:  0
 - id: yak9s1
   name: Yak-9 ser.1
   description: |
@@ -8141,6 +8130,7 @@
     - Airplane has differential pneumatic wheel brakes with shared control lever. This means that if the brake lever is held and the rudder pedal the opposite wheel brake is gradually released causing the plane to swing to one side or the other.<br>
     - Fuel gauges are installed on left and right wing fuel tanks, outside of the cockpit. Less than 25l of fuel remaining in the wing tanks or the central feeder tank (10 litres capacity) are not measured.<br>
     - The canopy has no emergency release. In order to bail out, you must slow below 550 kph to open the canopy.'<br>
+  circus:  0
   engine: |
     <strong>Nominal (unlimited time):</strong><br> 2550/2700 RPM, 1050 mm Hg<br>
   speeds: |
@@ -8194,7 +8184,6 @@
   endurance: <strong>Flight endurance at 3000 m:</strong> 2.1 h, at 350 km/h IAS.<br>
   debut: <strong>Combat debut:</strong> November 1942<br>
   dive: <strong>Dive speed limit:</strong> 750 km/h<br>
-  circus:  0
 - id: yak9ts1
   name: Yak-9T ser.1
   description: |
@@ -8275,6 +8264,7 @@
     - Airplane has differential pneumatic wheel brakes with shared control lever. This means that if the brake lever is held and the rudder pedal the opposite wheel brake is gradually released causing the plane to swing to one side or the other.<br>
     - Fuel gauges are installed on left and right wing fuel tanks, outside of the cockpit.<br>
     - The canopy has no emergency release. In order to bail out, you must slow below 550 kph to open the canopy.'<br>
+  circus:  0
   engine: |
     <strong>Nominal (unlimited time):</strong><br> 2550/2700 RPM, 1050 mm Hg<br>
   speeds: |
@@ -8328,4 +8318,3 @@
   endurance: <strong>Flight endurance at 3000 m:</strong> 2.1 h, at 350 km/h IAS.<br>
   debut: <strong>Combat debut:</strong> Summer 1943<br>
   dive: <strong>Dive speed limit:</strong> 750 km/h<br>
-  circus:  0

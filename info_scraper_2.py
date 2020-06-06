@@ -8,13 +8,13 @@ def file_to_array():
 
 def extract_data():
     path = os.getcwd()
-    planes_path = path + "\\(null)\\swf\\il2\\worldobjects\\planes"
+    planes_path = path + "/(null)/swf/il2/worldobjects/planes"
     plane_data = os.listdir(planes_path)
-    plane_path = path + "\\Planes"
-    info_path = path + "\\Info"
+    plane_path = path + "/Planes"
+    info_path = path + "/Info"
 
-    info_small = info_path + "\\Small"
-    info_large = info_path + "\\Large"
+    info_img = info_path + "/img"
+
 
     if os.path.isdir(plane_path):
         shutil.rmtree(plane_path)
@@ -23,9 +23,8 @@ def extract_data():
 
     os.mkdir(plane_path)
     os.mkdir(info_path)
-    os.mkdir(info_large)
-    os.mkdir(info_small)
-    os.mkdir(info_path + "\\Text")
+    os.mkdir(info_img)
+    os.mkdir(info_path + "/Text")
 
     plane_list = []
     for line in plane_data:
@@ -33,47 +32,47 @@ def extract_data():
             plane_list.append(line)
 
     for line in plane_list:
-        tgt_dir = plane_path + "\\" + line 
-        tgt_info = tgt_dir + "\\" + line + ".txt"
-        tgt_info_all = info_path + "\\Text\\" + line + ".txt"
-        tgt_info_small = info_small + "\\" + line + ".txt"
-        tgt_info_large = info_large + "\\" + line + ".txt"
-        tgt_preview2 = info_large + "\\" + line + ".png"
-        tgt_preview = info_small + "\\" + line + ".png"
+        tgt_dir = plane_path + "/" + line
+        tgt_info = tgt_dir + "/" + line + ".txt"
+        tgt_info_all = info_path + "/Text/" + line + ".txt"
+        # tgt_info_img = info_img + "/" + line + ".txt"
+        tgt_preview2 = info_img + "/l_" + line + ".png"
+        tgt_preview = info_img + "/s_" + line + ".png"
 
-        src_info = planes_path + "\\" + line + "\\info.locale=eng.txt"
-        src_mod = planes_path + "\\" + line + "\\modifications"
+        src_info = planes_path + "/" + line + "/info.locale=eng.txt"
+        src_mod = planes_path + "/" + line + "/modifications"
 
-        src_preview = planes_path + "\\" + line + "\\preview.png"
-        src_preview2 = planes_path + "\\" + line + "\\preview2.png"
+        src_preview = planes_path + "/" + line + "/preview.png"
+        src_preview2 = planes_path + "/" + line + "/preview2.png"
 
         os.mkdir(tgt_dir)
         
         shutil.copy2(src_info, tgt_info)
         shutil.copy2(src_info, tgt_info_all)
-        shutil.copy2(src_info, tgt_info_small)
-        shutil.copy2(src_info, tgt_info_large)
+        # shutil.copy2(src_info, tgt_info_small)
+        # shutil.copy2(src_info, tgt_info_large)
 
         shutil.copy2(src_preview, tgt_dir)
-
         shutil.copy2(src_preview2, tgt_dir)
+
         shutil.copy2(src_preview2, tgt_preview2)
         shutil.copy2(src_preview, tgt_preview)
+
         # if os.path.isdir(src_mod):
-        #     shutil.copytree(src_mod, tgt_dir + "\\mod")
+        #     shutil.copytree(src_mod, tgt_dir + "/mod")
     # Test
     # [print(line) for line in plane_list]
 
 def master_yml():
     path = os.getcwd()
-    plane_path = path + "\\Planes"
-    info_path = path + "\\Info\\Text"
+    plane_path = path + "/Planes"
+    info_path = path + "/Info/Text"
     plane_texts = os.listdir(info_path)
 
     f_info = open("info.yml", "w", encoding="utf8")
     data = []
     for line in plane_texts:
-        path_to_file = info_path + "\\" + line
+        path_to_file = info_path + "/" + line
         # print("Reading File: " + path_to_file)
         raw = open(path_to_file, "r", encoding="utf8")
         data = raw.read().split("\n")
@@ -119,7 +118,7 @@ def master_yml():
                     f_info.write("  description: |\n    " + final + "<br>\n")
                 else:
                     f_info.write("    " + row + "<br>\n")
-            if re.match(r'^References$', row):
+            if re.match(r'^References$', row) or re.match(r'^References:$', row):
                 circus = "  circus:  1\n"
                 # f_info.write("  circus:  1\n")
 
@@ -138,7 +137,7 @@ def master_yml():
                     spd_mode_bool = False
                 else:
                     spd_mode.append(row)
-            if "Operation features:" in row:
+            if "Operation features:" in row or "Operational features:" in row:
                 feat_mode_bool = True
             elif feat_mode_bool:
                 if re.match(r'^$', row) is not None:
@@ -210,6 +209,7 @@ def master_yml():
         if circus:
             f_info.write(circus)
         else:
+            f_info.write("  circus:  0\n")
             f_info.write("  engine: |\n")
             for line in eng_mode:
                 if re.match(r'^\(', line):
@@ -229,8 +229,9 @@ def master_yml():
                 if re.match(r'^\(', line):
                     pass
                 else:
-                    result = re.sub(":", ":</strong>", line)
-                    f_info.write("    <strong>" + result.strip() + "<br>\n")
+                    if re.match(r'Climb rate at.*:', line) or re.match(r'Service ceiling:', line):
+                        result = re.sub(":", ":</strong>", line)
+                        f_info.write("    <strong>" + result.strip() + "<br>\n")
             f_info.write("  weight: |\n")
             for line in weight_mode:
                 if re.match(r'^\(', line):
@@ -280,7 +281,7 @@ def master_yml():
             f_info.write(end_mode)
             f_info.write(debut_mode)
             f_info.write(dive_mode)
-            f_info.write("  circus:  0\n")
+            
 
     f_info.close()
 
@@ -288,7 +289,7 @@ def master_yml():
 
 
 # Extract Data from unzipped swf GTP file
-# extract_data()
+extract_data()
 master_yml()
 
 # Old Code
