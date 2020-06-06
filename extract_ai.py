@@ -2,13 +2,71 @@ import csv
 import re
 import os
 import shutil
+import codecs
 
-def file_to_array():
-    pass
+
+def extract_src():
+    path = os.getcwd()
+    src_ai = path + "/(null)/luascripts/ai"
+    src_dir = os.listdir(src_ai)
+    # print(src_dir)
+
+    ai_path = path + "/Ai"
+    if os.path.isdir(ai_path):
+        shutil.rmtree(ai_path)
+    else:
+        os.mkdir(ai_path)
+
+    for line in src_dir:
+        if "caeroplane.txt" in line or "cplaneai.txt" in line:
+            pass
+        else:
+            src_name = src_ai + "/" + line
+            final_name = re.sub(r'caeroplane_','', line)
+            tgt_name = ai_path + "/" + final_name
+
+            shutil.copy2(src_name,tgt_name)
+
+def parse_ai():
+    path = os.getcwd()
+    ai_path = path + "/Ai"
+    ai_dir = os.listdir(ai_path)
+    yml_path = path + "ai.yml"
+    
+    list_plane = []
+
+    yml = open(yml_path, "w", encoding="utf8")
+
+
+
+    for line in ai_dir:
+        filename = ai_path + "/" + line
+        print(filename)
+
+        # filename.read().decode('UTF8', 'replace')
+
+        # raw = open(filename, "r", encoding="utf8")
+        # data = raw.read().split("\n")
+        # raw.close()
+
+        # with codecs.open(filename, 'r', encoding='utf-8',errors='ignore') as fdata:
+        # #     print(fdata[3])
+
+        # with open(filename, encoding="latin-1") as datafile:
+        #     print(datafile[3])
+
+        with open(filename, "r").read().decode('UTF8', 'replace') as lst:
+            pass
+
+    yml.close()
+
+
+# extract_src()
+parse_ai()
 
 def extract_data():
     path = os.getcwd()
-    planes_path = path + "/(null)/swf/il2/worldobjects/planes"
+    ai_path = path + "/(null)/luascripts/ai"
     plane_data = os.listdir(planes_path)
     plane_path = path + "/Planes"
     info_path = path + "/Info"
@@ -289,8 +347,8 @@ def master_yml():
 
 
 # Extract Data from unzipped swf GTP file
-extract_data()
-master_yml()
+# extract_data()
+# master_yml()
 
 # Old Code
 list_meta = [ "Takeoff speed", 
