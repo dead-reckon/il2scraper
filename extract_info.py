@@ -70,7 +70,13 @@ def master_yml():
     plane_texts = os.listdir(info_path)
 
     f_info = open("info.yml", "w", encoding="utf8")
+    s_info = open("stats.yml", "w", encoding="utf8")
     data = []
+
+    p_name_circus = ""
+    p_id_circus = ""
+    l_circus = []
+    # l_circus.append(["Name","ID"])
     for line in plane_texts:
         path_to_file = info_path + "/" + line
         # print("Reading File: " + path_to_file)
@@ -100,6 +106,7 @@ def master_yml():
         stall_mode = []
         end_mode = ""
         debut_mode = ""
+        d_mode = ""
         dive_mode = ""
 
         circus_bool = False
@@ -109,6 +116,8 @@ def master_yml():
             if "&name" in row:
                 plane_id = re.sub(r'\.txt', '', line)
                 final = re.sub(r'^.*&name=', '', row)
+                p_id_circus = plane_id
+                p_name_circus = final
                 f_info.write("- id: " + plane_id + "\n")
                 f_info.write("  name: " + final + "\n")
             else:
@@ -202,12 +211,16 @@ def master_yml():
             if "Combat debut" in row:
                 result = re.sub(":", ":</strong>", row)
                 debut_mode = "  debut: <strong>" + result.strip() + "<br>\n"
+                winfo = row.split(":")
+                d_mode = "  " + re.sub(r'^.*\ ','',winfo[0].strip()) + ": " + re.sub(r'\D+','',winfo[1].strip()) + "\n"
             if "Dive speed limit" in row:
                 result = re.sub(":", ":</strong>", row)
                 dive_mode = "  dive: <strong>" + result.strip() + "<br>\n"
 
         if circus:
             f_info.write(circus)
+            short = re.sub(r'\ .*$','', p_name_circus)
+            l_circus.append(short.lower())
         else:
             f_info.write("  circus:  0\n")
             f_info.write("  engine: |\n")
@@ -233,12 +246,16 @@ def master_yml():
                         result = re.sub(":", ":</strong>", line)
                         f_info.write("    <strong>" + result.strip() + "<br>\n")
             f_info.write("  weight: |\n")
+            s_info.write("- name: "+ p_name_circus +"\n")
             for line in weight_mode:
                 if re.match(r'^\(', line):
                     pass
                 else:
                     result = re.sub(":", ":</strong>", line)
                     f_info.write("    <strong>" + result.strip() + "<br>\n")
+                    winfo = line.split(":")
+                    print(winfo)
+                    s_info.write("  " + re.sub(r'\ .*$','',winfo[0].strip()) + ": " + winfo[1].strip() + "\n")
             f_info.write("  temp: |\n")
             for line in temp_mode:
                 if re.match(r'^\(', line):
@@ -261,12 +278,16 @@ def master_yml():
                     result = re.sub(":", ":</strong><br>", line)
                     f_info.write("    <strong>" + result.strip() + "<br>\n")
             f_info.write("  dimensions: |\n")
+
             for line in dim_mode:
                 if re.match(r'^\(', line):
                     pass
                 else:
                     result = re.sub(":", ":</strong>", line)
                     f_info.write("    <strong>" + result.strip() + "<br>\n")
+                    winfo = line.split(":")
+                    print(winfo)
+                    s_info.write("  " + re.sub(r'\ .*$','',winfo[0].strip()) + ": " + winfo[1].strip() + "\n")
             f_info.write("  stall: |\n")
             for line in stall_mode:
                 if re.match(r'^\(', line):
@@ -280,16 +301,22 @@ def master_yml():
                 f_info.write("    " + line.strip() + "\n")
             f_info.write(end_mode)
             f_info.write(debut_mode)
+            s_info.write(d_mode)
             f_info.write(dive_mode)
             
-
+    s_info.close()
     f_info.close()
+
+    with open("circus.csv", "w", encoding="utf8") as circus:
+        for line in l_circus:
+            circus.write('"' + line + '"' + ",\n")
+        # circus.write(line[0] + "," + line[1] +  "," + line[2] + "\n")
 
     # print(plane_texts) Empty weight:
 
 
 # Extract Data from unzipped swf GTP file
-extract_data()
+# extract_data()
 master_yml()
 
 # Old Code

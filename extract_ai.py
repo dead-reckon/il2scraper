@@ -27,27 +27,49 @@ def extract_src():
 
             shutil.copy2(src_name,tgt_name)
 
-def alt_parse(irow):
+def alt_parse(pname,irow):
     clean = re.sub(r'^.*=\ ','', irow)
     d_set = clean.split(",")
+    short = re.sub(r'\ .*$','', pname).lower()
 
     alt = d_set[0].strip()
     val = d_set[1].strip()
+    cir_name = ["fokker",
+                "halberstadt",
+                "sopwith",
+                "pfalz",
+                "sopwith",
+                "halberstadt",
+                "s.e.5a",
+                "fokker",
+                "bristol",
+                "albatros",
+                "bristol",
+                "spad",
+                "fokker"
+                ]
 
-    if re.match("0",alt):
-        return str(val)
-    elif re.match(r'^1000$',alt):
-        return val
-    elif re.match(r'2000',alt):
-        return val 
-    elif re.match(r'3000',alt):
-        return val 
-    elif re.match(r'4000',alt):
-        return val 
-    elif re.match(r'5000',alt):
-        return val 
-    else:
-        return "skip"
+    for line in cir_name:
+        c_name = line
+        p_name = pname.lower()
+        if line in short:
+            print(c_name)
+            print(p_name)
+        else:
+            if re.match("0",alt):
+                return str(val)
+            elif re.match(r'^1000$',alt):
+                return val
+            elif re.match(r'2000',alt):
+                return val 
+            elif re.match(r'3000',alt):
+                return val 
+            elif re.match(r'4000',alt):
+                return val 
+            elif re.match(r'5000',alt):
+                return val 
+            else:
+                return "skip"
 
 
 def parse_ai():
@@ -97,7 +119,7 @@ def parse_ai():
 
                 if "//" not in row:
                     if "ClimbTime" in row:
-                        result = alt_parse(row)
+                        result = alt_parse(dict_ai['name'],row)
                         if "skip" in result:
                             pass
                         else:
@@ -153,9 +175,9 @@ def parse_ai():
                     pass
 
             lst_ai.append(dict_ai)
-            print(lst_climb_time)
+            # print(lst_climb_time)
 
-    datafile = path + "/ai.csv"
+    datafile = path + "/ai.yml"
     dfile = open(datafile, "w", encoding="utf8")
     for line in lst_ai:
         dfile.write("- name: " + line['name'] + "\n")
