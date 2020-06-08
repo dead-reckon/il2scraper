@@ -27,49 +27,40 @@ def extract_src():
 
             shutil.copy2(src_name,tgt_name)
 
-def alt_parse(pname,irow):
-    clean = re.sub(r'^.*=\ ','', irow)
-    d_set = clean.split(",")
-    short = re.sub(r'\ .*$','', pname).lower()
+def alt_parse(planes):
+    result = []
+    # print(planes)
 
-    alt = d_set[0].strip()
-    val = d_set[1].strip()
-    cir_name = ["fokker",
-                "halberstadt",
-                "sopwith",
-                "pfalz",
-                "sopwith",
-                "halberstadt",
-                "s.e.5a",
-                "fokker",
-                "bristol",
-                "albatros",
-                "bristol",
-                "spad",
-                "fokker"
-                ]
-
-    for line in cir_name:
-        c_name = line
-        p_name = pname.lower()
-        if line in short:
-            print(c_name)
-            print(p_name)
-        else:
-            if re.match("0",alt):
-                return str(val)
-            elif re.match(r'^1000$',alt):
-                return val
-            elif re.match(r'2000',alt):
-                return val 
-            elif re.match(r'3000',alt):
-                return val 
-            elif re.match(r'4000',alt):
-                return val 
-            elif re.match(r'5000',alt):
-                return val 
-            else:
-                return "skip"
+    with open("ct.yml", "w", encoding="utf8") as ct:
+        # ct.write("- id: {0} \n".format(planes['id']))
+        # ct.write("  name: {0} \n".format(planes['name']))
+        for line in planes:
+            # for row in line:
+            #     print(row)
+            # print(line)
+            if "xx" in line[0]:
+                ct.write("- id: {0} \n".format(line[1]))
+                ct.write("  name: {0} \n".format(line[2]))
+            # print(data[0])
+            # if re.match(r'^0$',plane):
+            #     return val
+            # elif re.match(r'^1000$',plane):
+            #     return val
+            # elif re.match(r'^2000$',plane):
+            #     return val 
+            # elif re.match(r'^3000$',plane):
+            #     return val 
+            # elif re.match(r'^4000$',plane):
+            #     return val 
+            # elif re.match(r'^5000$',plane):
+            #     return val
+            # elif re.match(r'^6000$',plane):
+            #     return val
+            # elif re.match(r'^7000$',plane):
+            #     return val 
+            # else:
+            #     return Null
+            pass
 
 
 def parse_ai():
@@ -82,7 +73,8 @@ def parse_ai():
     lst_ai = []
     
     list_speed = []
-    list_climb_time = []
+    
+    list_ct = []
     list_max_alt = []
     list_turn = []
     list_turn_optimal = []
@@ -99,37 +91,51 @@ def parse_ai():
                 ]
     for line in ai_dir:
         filename = ai_path + "/" + line
-
+        plid = re.sub(r'\.txt.*$','',line)
         with open(filename, "r",encoding="ascii", errors="backslashreplace") as lst:
             data = lst.read().split("\n")
             plane_name = data[2]
 
             dict_ai = []
-            if 'xf3-2' in plane_name:
-                dict_ai = {'name': 'PO 2 VS'}
-            else:
-                dict_ai = {'name': re.sub(r'^.*//\ ','',plane_name).strip()}
 
             lst_climb_time = []
             lst_max_alt = []
             lst_turn = []
             lst_turn_optimal = []
+            list_climb_time = []
+            if 'xf3-2' in plane_name:
+                dict_ai = {'name': 'PO 2 VS'}
+                # list_climb_time = {'id' : plid}
+                # list_climb_time['name'] = dict_ai['name']
+                # lst_climb_time.append("xx"+plid+","+dict_ai['name'])
+                lst_climb_time.append(["xx",plid,dict_ai['name']])
+            else:
+                dict_ai = {'name': re.sub(r'^.*//\ ','',plane_name).strip()}
+                # list_climb_time = {'id' : plid}
+                # list_climb_time['name'] = dict_ai['name']
+                # lst_climb_time.append("xx,"+plid+","+dict_ai['name'])
+                lst_climb_time.append(["xx",plid,dict_ai['name']])
 
             for row in data:
 
                 if "//" not in row:
                     if "ClimbTime" in row:
-                        result = alt_parse(dict_ai['name'],row)
-                        if "skip" in result:
-                            pass
-                        else:
-                            lst_climb_time.append(result)
+                        clean = re.sub(r'^.*=\ ','', row)
+                        d_set = clean.split(",")
+                        lst_climb_time.append([d_set[0].strip(),d_set[1].strip()])
+                        # lst_climb_time.append([d_set[0].strip() +","+d_set[1].strip()])
                     elif "MaxAltTAS" in row:
-                        pass
+                        clean = re.sub(r'^.*=\ ','', row)
+                        d_set = clean.split(",")
+                        lst_max_alt.append([dict_ai['name'],d_set[0].strip(),d_set[1].strip()])
                     elif "TurnTimeAlt" in row:
-                        pass
+                        clean = re.sub(r'^.*=\ ','', row)
+                        d_set = clean.split(",")
+                        lst_turn.append([dict_ai['name'],d_set[0].strip(),d_set[1].strip()])
                     elif "TurnOptimal_CAS_Alt" in row:
-                        pass
+                        clean = re.sub(r'^.*=\ ','', row)
+                        d_set = clean.split(",")
+                        lst_turn_optimal.append([dict_ai['name'],d_set[0].strip(),d_set[1].strip()])
 
                 if "MaxSpeed" in row:
                     clean1 = row.strip()
@@ -174,8 +180,13 @@ def parse_ai():
                 else:
                     pass
 
+            # list_climb_time['data'] = lst_climb_time
+            list_climb_time.append(lst_climb_time)
+
             lst_ai.append(dict_ai)
-            # print(lst_climb_time)
+
+        alt_parse(list_climb_time)
+        # print(lst_climb_time)
 
     datafile = path + "/ai.yml"
     dfile = open(datafile, "w", encoding="utf8")
