@@ -1,527 +1,527 @@
-- name: P-47D-28
-  Empty: 4755 kg (10483 lb)
-  Minimum: 5163.9 kg (11385 lb)
-  Standard: 6503 kg (14337 lb)
-  Maximum: 8163.1 kg (17996 lb)
-  Fuel: 1006 kg (3095 lb) / 1404 l (370 gal)
-  Useful: 3408.1 kg (7514 lb)
-  Length: 11.00 m (36.09 feet)
-  Wingspan: 12.43 m (40.78 feet)
-  Wing: 27.87 m² (300 feet²)
-  debut: 1944
-- name: Me 262 A
-  Empty: 4146 kg
-  Minimum: 4737 kg
-  Standard: 6400 kg
-  Weight: 6900 kg
-  Maximum: 7100 kg
-  Fuel: 2161 kg / 2570 l
-  Useful: 700 kg
-  Length: 10.6 m
-  Wingspan: 12.6 m
-  Wing: 20.4 m²
-  debut: 1944
-- name: Yak-7B series 36
-  Empty: 2302 kg
-  Minimum: 2630 kg
-  Standard: 3002 kg
-  Maximum: 3229 kg
-  Fuel: 305 kg / 420 l
-  Useful: 927 kg
-  Length: 8.5 m
-  Wingspan: 10 m
-  Wing: 17.15 m²
-  debut: 1943
-- name: U-2VS
-  Empty: 748 kg
-  Minimum: 927 kg
-  Standard: 1007 kg
-  Maximum: 1350 kg
-  Fuel: 90 kg / 126 l
-  Useful: 350 kg
-  Length: 8.17 m
-  Wingspan: 11.4 m
-  Wingspan: 10.65 m
-  Wing: 33.15 m²
-- name: Ju 52/3m g4e
-  Empty: 6305 kg
-  Minimum: 7017 kg
-  Standard: 10003 kg
-  Maximum: 11333 kg
-  Fuel: 1824 kg / 2400 l
-  Useful: 5028 kg
-  Length: 18.9 m
-  Wingspan: 29.25 m
-  Wing: 111.5 m²
-  debut: 1936
-- name: La-5 ser.8
-  Empty: 2648 kg
-  Minimum: 2928 kg
-  Standard: 3353 kg
-  Maximum: 3593 kg
-  Fuel: 370 kg / 521 l
-  Useful: 945 kg
-  Length: 8.672 m
-  Wingspan: 9.8 m
-  Wing: 17.51 m²
-  debut: 1942
-- name: P-38J-25
-  Empty: 6356 kg (14013 lb)
-  Minimum: 6662 kg (14687 lb)
-  Standard: 7890 kg (17395 lb)
-  Maximum: 10113 kg (22295 lb)
-  Fuel: 1132 kg (2496 lb) / 1575 l (416 gal)
-  Useful: 3757 kg (8282 lb)
-  Length: 10.89 m (35.73 feet)
-  Wingspan: 15.85 m (52 feet)
-  Wing: 30.4 m² (327 feet²)
-  debut: 1944
-- name: Yak-9T ser.1
-  Empty: 2470 kg
-  Minimum: 2631 kg
-  Standard: 3015 kg
-  Maximum: 3033 kg
-  Fuel: 316 kg / 430 l
-  Useful: 563 kg
-  Length: 8.5 m
-  Wingspan: 10 m
-  Wing: 17.15 m²
-  debut: 1943
-- name: Fw 190 A-8
-  Empty: 3504 kg
-  Minimum: 3697 kg
-  Standard: 4391 kg
-  Maximum: 5239 kg
-  Fuel: 498 kg / 639 l
-  Useful: 1735 kg
-  Length: 8.85 m
-  Wingspan: 10.51 m
-  Wing: 18.3 m²
-  debut: 1944
-- name: I-16 type 24
-  Empty: 1501 kg
-  Minimum: 1633 kg
-  Standard: 1878 kg
-  Maximum: 2146 kg
-  Fuel: 191 kg / 260 l
-  Useful: 645 kg
-  Length: 6.04 m
-  Wingspan: 9 m
-  Wing: 14.54 m²
-  debut: 1941
-- name: Bf 110 E-2
-  Empty: 5175 kg
-  Minimum: 5597 kg
-  Standart: 6706 kg
-  Maximum: 8398 kg
-  Fuel: 965 kg / 1270 l
-  Useful: 3223 kg
-  Length: 12.1 m
-  Wingspan: 16.3 m
-  Wing: 38.4 m²
-  debut: 1940
-- name: Hs 129 B-2
-  Empty: 3992 kg
-  Minimum: 4200 kg
-  Standart: 4756 kg
-  Maximum: 5170 kg
-  Fuel: 451 kg / 610 l
-  Useful: 1178 kg
-  Length: 9.7 m
-  Wingspan: 14.2 m
-  Wing: 28.9 m²
-  debut: 1942
-- name: Yak-9 ser.1
-  Empty: 2254 kg
-  Minimum: 2549 kg
-  Standard: 2841 kg
-  Maximum: 2858 kg
-  Fuel: 324 kg / 440 l
-  Useful: 604 kg
-  Length: 8.5 m
-  Wingspan: 10 m
-  Wing: 17.15 m²
-  debut: 1942
-- name: Yak-1b ser.127
-  Empty: 2322 kg
-  Minimum: 2543 kg
-  Standard: 2887 kg
-  Maximum: 3117 kg
-  Fuel: 304 kg / 408 l
-  Useful: 795 kg
-  Length: 8.5 m
-  Wingspan: 10 m
-  Wing: 17.15 m²
-  debut: 1943
-- name: Spitfire Mk.IXe
-  Empty: 2530 kg
-  Minimum: 2977 kg
-  Standard: 3359 kg
-  Fuel: 274 kg / 386 l / 85 gallons
-  Maximum: 1302 kg
-  Length: 9.65 m
-  Wingspan: 11.21 m
-  Wing: 22.48 m²
-  debut: 1942
-- name: P-39L-1
-  Empty: 2929 kg
-  Minimum: 3331 kg
-  Standart: 3508 kg
-  Maximum: 3868 kg
-  Fuel: 326,9 kg / 454 l
-  Useful: 939 kg
-  Length: 9.2 m
-  Wingspan: 10.4 m
-  Wing: 19.82 m²
-  debut: 1942
-- name: P-51D-15
-  Empty: 3433 kg (7568 lb)
-  Minimum: 3629.5 kg (8002 lb)
-  Standard: 4578.6 kg (10093 lb)
-  Maximum: 5667 kg (12493 lb)
-  Fuel: 732 kg (1614 lb) / 1020 l (269 gal)
-  Useful: 2234 kg (4925 lb)
-  Length: 9.84 m (32 3-5/16 feet)
-  Wingspan: 11.29 m (37 5/16 feet)
-  Wing: 22.30 m² (240 feet²)
-  debut: 1944
-- name: Spitfire Mk.VB
-  Empty: 2415 kg
-  Minimum: 2732 kg
-  Standard: 2979 kg
-  Fuel: 274 kg / 386 l / 85 gallons
-  Useful: 564 kg
-  Length: 9.2 m
-  Wingspan: 11.21 m
-  Wing: 22.48 m²
-  debut: 1941
-- name: La-5FN ser.2
-  Empty: 2655 kg
-  Minimum: 2929 kg
-  Standard: 3305 kg
-  Maximum: 3544 kg
-  Fuel: 334 kg / 464 l
-  Useful: 896 kg
-  Length: 8.672 m
-  Wingspan: 9.8 m
-  Wing: 17.51 m²
-  debut: 1943
-- name: Bf 109 E-7
-  Empty: 2049 kg
-  Minimum: 2340 kg
-  Standard: 2614 kg
-  Maximum: 2893 kg
-  Fuel: 304 kg / 400 l
-  Useful: 844 kg
-  Length: 8.8 m
-  Wingspan: 9.9 m
-  Wing: 16.4 m²
-  debut: 1940
-- name: Bf 109 G-2
-  Empty: 2486 kg
-  Minimum: 2649 kg
-  Standard: 2994 kg
-  Maximum: 3283 kg
-  Fuel: 304 kg / 400 l
-  Useful: 797 kg
-  Length: 8.94 m
-  Wingspan: 9.97 m
-  Wing: 16.1 m²
-  debut: 1942
-- name: Il-2 mod.1941
-  Empty: 4242 kg
-  Minimum: 4464 kg
-  Standard: 5049 kg
-  Maximum: 5888 kg
-  Fuel: 470 kg / 641 l
-  Useful: 1646 kg
-  Length: 11.5 m
-  Wingspan: 14.6 m
-  Wing: 38.5 m²
-  debut: 1941
-- name: Bf 109 G-14
-  Empty: 2680 kg
-  Minimum: 2899 kg
-  Standard: 3266 kg
-  Maximum: 3565 kg
-  Fuel: 304 kg / 400 l
-  Useful: 885 kg
-  Length: 8.94 m
-  Wingspan: 9.97 m
-  Wing: 16.1 m²
-  debut: 1944
-- name: Bf 110 G-2
-  Empty: 5905 kg
-  Minimum: 6335 kg
-  Standart: 7514 kg
-  Maximum: 8928 kg
-  Fuel: 1003 kg / 1270 l
-  Useful: 3023 kg
-  Length: 12.1 m
-  Wingspan: 16.3 m
-  Wing: 38.4 m²
-  debut: 1942
-- name: Ju 87 D-3
-  Empty: 3930 kg
-  Minimum: 4250 kg
-  Standard: 4835 kg
-  Maximum: 6684 kg
-  Fuel: 626 kg / 840 l
-  Useful: 2754 kg
-  Length: 11 m
-  Wingspan: 13.8 m
-  Wing: 31.9 m²
-  debut: 1942
-- name: Fw 190 D-9
-  Empty: 3443 kg
-  Minimum: 3759 kg
-  Standard: 4289 kg
-  Maximum: 4832 kg
-  Fuel: 388 kg / 524 l
-  Useful: 1389 kg
-  Length: 10.2 m
-  Wingspan: 10.51 m
-  Wing: 18.3 m²
-  debut: 1944
-- name: Il-2 mod.1942
-  Empty: 4462 kg
-  Minimum: 4651 kg
-  Standard: 5294 kg
-  Maximum: 6127 kg
-  Fuel: 535 kg / 730 l
-  Useful: 1665 kg
-  Length: 11.5 m
-  Wingspan: 14.6 m
-  Wing: 38.5 m²
-  debut: 1942
-- name: Pe-2 ser.87
-  Empty: 6089 kg
-  Minimum: 6643 kg
-  Standard: 7685 kg
-  Maximum: 8701 kg
-  Fuel: 1113 kg / 1484 l
-  Useful: 2612 kg
-  Length: 12.69 m
-  Wingspan: 17.12 m
-  Wing: 40.8 m²
-  debut: 1942
-- name: Yak-1 ser.69
-  Empty: 2365 kg
-  Minimum: 2583 kg
-  Standard: 2932 kg
-  Maximum: 3170 kg
-  Fuel: 304 kg / 408 l
-  Useful: 805 kg
-  Length: 8.5 m
-  Wingspan: 10 m
-  Wing: 17.15 m²
-  debut: 1942
-- name: Il-2 mod.1943
-  Empty: 4715 kg
-  Minimum: 5014 kg
-  Standard: 5681 kg
-  Maximum: 6375 kg
-  Fuel: 535 kg / 730 l
-  Useful: 1660 kg
-  Length: 11.5 m
-  Wingspan: 14.6 m
-  Wing: 38.5 m²
-  debut: 1943
-- name: Bf 109 F-4
-  Empty: 2382 kg
-  Minimum: 2545 kg
-  Standard: 2890 kg
-  Maximum: 3189 kg
-  Fuel: 304 kg / 400 l
-  Useful: 807 kg
-  Length: 8.94 m
-  Wingspan: 9.97 m
-  Wing: 16.1 m²
-  debut: 1941
-- name: Bf 109 G-4
-  Empty: 2506 kg
-  Minimum: 2669 kg
-  Standard: 3014 kg
-  Maximum: 3303 kg
-  Fuel: 304 kg / 400 l
-  Useful: 797 kg
-  Length: 8.94 m
-  Wingspan: 9.97 m
-  Wing: 16.1 m²
-  debut: 1942
-- name: Bf 109 K-4
-  Empty: 2754 kg
-  Minimum: 3006 kg
-  Standard: 3361 kg
-  Maximum: 3891 kg
-  Fuel: 304 kg / 400 l
-  Useful: 1137 kg
-  Length: 8.94 m
-  Wingspan: 9.97 m
-  Wing: 16.1 m²
-  debut: 1944
-- name: Ju 88 A-4
-  Empty: 8619 kg
-  Minimum: 9458 kg
-  Standard: 12110 kg
-  Maximum: 13655 kg
-  Fuel: 1277 kg / 1680 l
-  Useful: 5036 kg
-  Length: 14.3 m
-  Wingspan: 20.02 m
-  Wing: 52.7 m²
-  debut: 1941
-- name: P-40E-1
-  Empty: 3073 kg
-  Minimum: 3264.2 kg
-  Standart: 3819.1 kg
-  Maximum: 4414 kg
-  Fuel: 404 kg / 561 l
-  Useful: 1341 kg
-  Length: 9.05 m
-  Wingspan: 11.4 m
-  Wing: 21.92 m²
-  debut: 1941
-- name: Bf 109 G-6
-  Empty: 2583 kg
-  Minimum: 2734 kg
-  Standard: 3100 kg
-  Maximum: 3400 kg
-  Fuel: 304 kg / 400 l
-  Useful: 817 kg
-  Length: 8.94 m
-  Wingspan: 9.97 m
-  Wing: 16.1 m²
-  debut: 1943
 - name: A-20B
-  Empty: 6781 kg
-  Minimum: 7359 kg
-  Standard: 8366 kg
-  Maximum: 10466 kg
-  Fuel: 1057 kg / 1468 l / 388 gal
-  Useful: 3665 kg
-  Length: 14.54 m
-  Wingspan: 18.69 m
-  Wing: 43.18 m²
-  debut: 1942
-- name: Bf 109 F-2
-  Empty: 2171 kg
-  Minimum: 2445 kg
-  Standard: 2789 kg
-  Maximum: 3092 kg
-  Fuel: 304 kg / 400 l
-  Useful: 921 kg
-  Length: 8.94 m
-  Wingspan: 9.97 m
-  Wing: 16.1 m²
-  debut: 1941
-- name: Fw 190 A-5
-  Empty: 3219 kg
-  Minimum: 3401 kg
-  Standard: 3926 kg
-  Maximum: 4648 kg
-  Fuel: 409 kg / 524 l
-  Useful: 1429 kg
-  Length: 8.85 m
-  Wingspan: 10.51 m
-  Wing: 18.3 m²
-  debut: 1943
-- name: MiG-3 ser.24
-  Empty: 2650 kg
-  Minimum: 2831 kg
-  Standard: 3244 kg
-  Maximum: 3476 kg
-  Fuel: 352 kg / 480 l
-  Useful: 826 kg
-  Length: 8.255 m
-  Wingspan: 10.2 m
-  Wing: 17.44 m²
-  debut: 1941
-- name: He 111 H-6
-  Empty: 8963 kg
-  Minimum: 9946 kg
-  Standard: 13727 kg
-  Maximum: 15239 kg
-  Fuel: 3214 kg / 4285 l
-  Useful: 6276 kg
-  Length: 16.38 m
-  Wingspan: 22.5 m
-  Wing: 79.5 m²
-  debut: 1941
-- name: He 111 H-16
-  Empty: 8698 kg
-  Minimum: 9831 kg
-  Standard: 13017 kg
-  Maximum: 15689 kg
-  Fuel: 2553 kg / 3450 l
-  Useful: 6991 kg
-  Length: 16.38 m
-  Wingspan: 22.5 m
-  Wing: 79.5 m²
-  debut: 1943
-- name: LaGG-3 ser.29
-  Empty: 2620 kg
-  Minimum: 2773 kg
-  Standard: 3157 kg
-  Maximum: 3701 kg
-  Fuel: 348 kg / 467 l
-  Useful: 1081 kg
-  Length: 8.84 m
-  Wingspan: 9.8 m
-  Wing: 17.51 m²
-  debut: 1942
-- name: Fw 190 A-3
-  Empty: 3148 kg
-  Minimum: 3330 kg
-  Standard: 3855 kg
-  Maximum: 4385 kg
-  Fuel: 409 kg / 524 l
-  Useful: 1237 kg
-  Length: 8.85 m
-  Wingspan: 10.51 m
-  Wing: 18.3 m²
-  debut: 1942
-- name: Tempest Mk.V ser.2
-  Empty: 4354 kg
-  Minimum: 4585 kg
-  Standard: 5221 kg
-  Maximum: 6190 kg
-  Fuel: 516 kg / 718 l / 158 gallons
-  Maximum: 1836 kg
-  Length: 10.26 m
-  Wingspan: 12.50 m
-  Wing: 27.81 m²
-  debut: 1944
-- name: Pe-2 ser.35
-  Empty: 6078 kg
-  Minimum: 6640 kg
-  Standard: 7697 kg
-  Maximum: 8712 kg
-  Fuel: 1129 kg / 1505 l
-  Useful: 2634 kg
-  Length: 12.69 m
-  Wingspan: 17.12 m
-  Wing: 40.8 m²
-  debut: 1941
-- name: MC.202 ser.VIII
-  Empty: 2448 kg
-  Minimum: 2622 kg
-  Standard: 2967 kg
-  Maximum: 3197 kg
-  Fuel: 307 kg / 430 l
-  Useful: 749 kg
-  Length: 8.85 m
-  Wingspan: 10.58 m
-  Wing: 16.8 m²
+  Empty: 6781
+  Minimum: 7359
+  Standard: 8366
+  Maximum: 10466
+  Fuel: 1468
+  Useful: 3665
+  Length: 14.54
+  Wingspan: 18.69
+  Wing: 43.18
   debut: 1942
 - name: B-25D
-  Empty: 8379 kg
-  Minimum: 8829 kg
-  Standard: 11544 kg
-  Maximum: 15422 kg
-  Fuel: 2618 kg / 3688 l / 974 gal
-  Useful: 7043 kg
-  Length: 16.1 m
-  Wingspan: 20.5 m
-  Wing: 57.0 m²
+  Empty: 8379
+  Minimum: 8829
+  Standard: 11544
+  Maximum: 15422
+  Fuel: 3688
+  Useful: 7043
+  Length: 16.1
+  Wingspan: 20.5
+  Wing: 57.0
   debut: 1942
+- name: Bf 109 E-7
+  Empty: 2049
+  Minimum: 2340
+  Standard: 2614
+  Maximum: 2893
+  Fuel: 400
+  Useful: 844
+  Length: 8.8
+  Wingspan: 9.9
+  Wing: 16.4
+  debut: 1940
+- name: Bf 109 F-2
+  Empty: 2171
+  Minimum: 2445
+  Standard: 2789
+  Maximum: 3092
+  Fuel: 400
+  Useful: 921
+  Length: 8.94
+  Wingspan: 9.97
+  Wing: 16.1
+  debut: 1941
+- name: Bf 109 F-4
+  Empty: 2382
+  Minimum: 2545
+  Standard: 2890
+  Maximum: 3189
+  Fuel: 400
+  Useful: 807
+  Length: 8.94
+  Wingspan: 9.97
+  Wing: 16.1
+  debut: 1941
+- name: Bf 109 G-14
+  Empty: 2680
+  Minimum: 2899
+  Standard: 3266
+  Maximum: 3565
+  Fuel: 400
+  Useful: 885
+  Length: 8.94
+  Wingspan: 9.97
+  Wing: 16.1
+  debut: 1944
+- name: Bf 109 G-2
+  Empty: 2486
+  Minimum: 2649
+  Standard: 2994
+  Maximum: 3283
+  Fuel: 400
+  Useful: 797
+  Length: 8.94
+  Wingspan: 9.97
+  Wing: 16.1
+  debut: 1942
+- name: Bf 109 G-4
+  Empty: 2506
+  Minimum: 2669
+  Standard: 3014
+  Maximum: 3303
+  Fuel: 400
+  Useful: 797
+  Length: 8.94
+  Wingspan: 9.97
+  Wing: 16.1
+  debut: 1942
+- name: Bf 109 G-6
+  Empty: 2583
+  Minimum: 2734
+  Standard: 3100
+  Maximum: 3400
+  Fuel: 400
+  Useful: 817
+  Length: 8.94
+  Wingspan: 9.97
+  Wing: 16.1
+  debut: 1943
+- name: Bf 109 K-4
+  Empty: 2754
+  Minimum: 3006
+  Standard: 3361
+  Maximum: 3891
+  Fuel: 400
+  Useful: 1137
+  Length: 8.94
+  Wingspan: 9.97
+  Wing: 16.1
+  debut: 1944
+- name: Bf 110 E-2
+  Empty: 5175
+  Minimum: 5597
+  Standart: 6706
+  Maximum: 8398
+  Fuel: 1270
+  Useful: 3223
+  Length: 12.1
+  Wingspan: 16.3
+  Wing: 38.4
+  debut: 1940
+- name: Bf 110 G-2
+  Empty: 5905
+  Minimum: 6335
+  Standart: 7514
+  Maximum: 8928
+  Fuel: 1270
+  Useful: 3023
+  Length: 12.1
+  Wingspan: 16.3
+  Wing: 38.4
+  debut: 1942
+- name: Fw 190 A-3
+  Empty: 3148
+  Minimum: 3330
+  Standard: 3855
+  Maximum: 4385
+  Fuel: 524
+  Useful: 1237
+  Length: 8.85
+  Wingspan: 10.51
+  Wing: 18.3
+  debut: 1942
+- name: Fw 190 A-5
+  Empty: 3219
+  Minimum: 3401
+  Standard: 3926
+  Maximum: 4648
+  Fuel: 524
+  Useful: 1429
+  Length: 8.85
+  Wingspan: 10.51
+  Wing: 18.3
+  debut: 1943
+- name: Fw 190 A-8
+  Empty: 3504
+  Minimum: 3697
+  Standard: 4391
+  Maximum: 5239
+  Fuel: 639
+  Useful: 1735
+  Length: 8.85
+  Wingspan: 10.51
+  Wing: 18.3
+  debut: 1944
+- name: Fw 190 D-9
+  Empty: 3443
+  Minimum: 3759
+  Standard: 4289
+  Maximum: 4832
+  Fuel: 524
+  Useful: 1389
+  Length: 10.2
+  Wingspan: 10.51
+  Wing: 18.3
+  debut: 1944
+- name: He 111 H-16
+  Empty: 8698
+  Minimum: 9831
+  Standard: 13017
+  Maximum: 15689
+  Fuel: 3450
+  Useful: 6991
+  Length: 16.38
+  Wingspan: 22.5
+  Wing: 79.5
+  debut: 1943
+- name: He 111 H-6
+  Empty: 8963
+  Minimum: 9946
+  Standard: 13727
+  Maximum: 15239
+  Fuel: 4285
+  Useful: 6276
+  Length: 16.38
+  Wingspan: 22.5
+  Wing: 79.5
+  debut: 1941
+- name: Hs 129 B-2
+  Empty: 3992
+  Minimum: 4200
+  Standart: 4756
+  Maximum: 5170
+  Fuel: 610
+  Useful: 1178
+  Length: 9.7
+  Wingspan: 14.2
+  Wing: 28.9
+  debut: 1942
+- name: I-16 type 24
+  Empty: 1501
+  Minimum: 1633
+  Standard: 1878
+  Maximum: 2146
+  Fuel: 260
+  Useful: 645
+  Length: 6.04
+  Wingspan: 9
+  Wing: 14.54
+  debut: 1941
+- name: Il-2 mod.1941
+  Empty: 4242
+  Minimum: 4464
+  Standard: 5049
+  Maximum: 5888
+  Fuel: 641
+  Useful: 1646
+  Length: 11.5
+  Wingspan: 14.6
+  Wing: 38.5
+  debut: 1941
+- name: Il-2 mod.1942
+  Empty: 4462
+  Minimum: 4651
+  Standard: 5294
+  Maximum: 6127
+  Fuel: 730
+  Useful: 1665
+  Length: 11.5
+  Wingspan: 14.6
+  Wing: 38.5
+  debut: 1942
+- name: Il-2 mod.1943
+  Empty: 4715
+  Minimum: 5014
+  Standard: 5681
+  Maximum: 6375
+  Fuel: 730
+  Useful: 1660
+  Length: 11.5
+  Wingspan: 14.6
+  Wing: 38.5
+  debut: 1943
+- name: Ju 52/3m g4e
+  Empty: 6305
+  Minimum: 7017
+  Standard: 10003
+  Maximum: 11333
+  Fuel: 2400
+  Useful: 5028
+  Length: 18.9
+  Wingspan: 29.25
+  Wing: 111.5
+  debut: 1936
+- name: Ju 87 D-3
+  Empty: 3930
+  Minimum: 4250
+  Standard: 4835
+  Maximum: 6684
+  Fuel: 840
+  Useful: 2754
+  Length: 11
+  Wingspan: 13.8
+  Wing: 31.9
+  debut: 1942
+- name: Ju 88 A-4
+  Empty: 8619
+  Minimum: 9458
+  Standard: 12110
+  Maximum: 13655
+  Fuel: 1680
+  Useful: 5036
+  Length: 14.3
+  Wingspan: 20.02
+  Wing: 52.7
+  debut: 1941
+- name: La-5FN ser.2
+  Empty: 2655
+  Minimum: 2929
+  Standard: 3305
+  Maximum: 3544
+  Fuel: 464
+  Useful: 896
+  Length: 8.672
+  Wingspan: 9.8
+  Wing: 17.51
+  debut: 1943
+- name: La-5 ser.8
+  Empty: 2648
+  Minimum: 2928
+  Standard: 3353
+  Maximum: 3593
+  Fuel: 521
+  Useful: 945
+  Length: 8.672
+  Wingspan: 9.8
+  Wing: 17.51
+  debut: 1942
+- name: LaGG-3 ser.29
+  Empty: 2620
+  Minimum: 2773
+  Standard: 3157
+  Maximum: 3701
+  Fuel: 467
+  Useful: 1081
+  Length: 8.84
+  Wingspan: 9.8
+  Wing: 17.51
+  debut: 1942
+- name: MC.202 ser.VIII
+  Empty: 2448
+  Minimum: 2622
+  Standard: 2967
+  Maximum: 3197
+  Fuel: 430
+  Useful: 749
+  Length: 8.85
+  Wingspan: 10.58
+  Wing: 16.8
+  debut: 1942
+- name: Me 262 A
+  Empty: 4146
+  Minimum: 4737
+  Standard: 6400
+  Weight: 6900
+  Maximum: 7100
+  Fuel: 2570
+  Useful: 700
+  Length: 10.6
+  Wingspan: 12.6
+  Wing: 20.4
+  debut: 1944
+- name: MiG-3 ser.24
+  Empty: 2650
+  Minimum: 2831
+  Standard: 3244
+  Maximum: 3476
+  Fuel: 480
+  Useful: 826
+  Length: 8.255
+  Wingspan: 10.2
+  Wing: 17.44
+  debut: 1941
+- name: P-38J-25
+  Empty: 6356
+  Minimum: 6662
+  Standard: 7890
+  Maximum: 10113
+  Fuel: 1575
+  Useful: 3757
+  Length: 10.89
+  Wingspan: 15.85
+  Wing: 30.4
+  debut: 1944
+- name: P-39L-1
+  Empty: 2929
+  Minimum: 3331
+  Standart: 3508
+  Maximum: 3868
+  Fuel: 454
+  Useful: 939
+  Length: 9.2
+  Wingspan: 10.4
+  Wing: 19.82
+  debut: 1942
+- name: P-40E-1
+  Empty: 3073
+  Minimum: 3264.2
+  Standart: 3819.1
+  Maximum: 4414
+  Fuel: 561
+  Useful: 1341
+  Length: 9.05
+  Wingspan: 11.4
+  Wing: 21.92
+  debut: 1941
+- name: P-47D-28
+  Empty: 4755
+  Minimum: 5163.9
+  Standard: 6503
+  Maximum: 8163.1
+  Fuel: 1404
+  Useful: 3408.1
+  Length: 11.00
+  Wingspan: 12.43
+  Wing: 27.87
+  debut: 1944
+- name: P-51D-15
+  Empty: 3433
+  Minimum: 3629.5
+  Standard: 4578.6
+  Maximum: 5667
+  Fuel: 1020
+  Useful: 2234
+  Length: 9.84
+  Wingspan: 11.29
+  Wing: 22.30
+  debut: 1944
+- name: Pe-2 ser.35
+  Empty: 6078
+  Minimum: 6640
+  Standard: 7697
+  Maximum: 8712
+  Fuel: 1505
+  Useful: 2634
+  Length: 12.69
+  Wingspan: 17.12
+  Wing: 40.8
+  debut: 1941
+- name: Pe-2 ser.87
+  Empty: 6089
+  Minimum: 6643
+  Standard: 7685
+  Maximum: 8701
+  Fuel: 1484
+  Useful: 2612
+  Length: 12.69
+  Wingspan: 17.12
+  Wing: 40.8
+  debut: 1942
+- name: Spitfire Mk.IXe
+  Empty: 2530
+  Minimum: 2977
+  Standard: 3359
+  Fuel: 386
+  Maximum: 1302
+  Length: 9.65
+  Wingspan: 11.21
+  Wing: 22.48
+  debut: 1942
+- name: Spitfire Mk.VB
+  Empty: 2415
+  Minimum: 2732
+  Standard: 2979
+  Fuel: 386
+  Useful: 564
+  Length: 9.2
+  Wingspan: 11.21
+  Wing: 22.48
+  debut: 1941
+- name: Tempest Mk.V ser.2
+  Empty: 4354
+  Minimum: 4585
+  Standard: 5221
+  Maximum: 6190
+  Fuel: 718
+  Maximum: 1836
+  Length: 10.26
+  Wingspan: 12.50
+  Wing: 27.81
+  debut: 1944
+- name: U-2VS
+  Empty: 748
+  Minimum: 927
+  Standard: 1007
+  Maximum: 1350
+  Fuel: 126
+  Useful: 350
+  Length: 8.17
+  Wingspan: 11.4
+  Wingspan: 10.65
+  Wing: 33.15
+- name: Yak-1b ser.127
+  Empty: 2322
+  Minimum: 2543
+  Standard: 2887
+  Maximum: 3117
+  Fuel: 408
+  Useful: 795
+  Length: 8.5
+  Wingspan: 10
+  Wing: 17.15
+  debut: 1943
+- name: Yak-1 ser.69
+  Empty: 2365
+  Minimum: 2583
+  Standard: 2932
+  Maximum: 3170
+  Fuel: 408
+  Useful: 805
+  Length: 8.5
+  Wingspan: 10
+  Wing: 17.15
+  debut: 1942
+- name: Yak-7B series 36
+  Empty: 2302
+  Minimum: 2630
+  Standard: 3002
+  Maximum: 3229
+  Fuel: 420
+  Useful: 927
+  Length: 8.5
+  Wingspan: 10
+  Wing: 17.15
+  debut: 1943
+- name: Yak-9 ser.1
+  Empty: 2254
+  Minimum: 2549
+  Standard: 2841
+  Maximum: 2858
+  Fuel: 440
+  Useful: 604
+  Length: 8.5
+  Wingspan: 10
+  Wing: 17.15
+  debut: 1942
+- name: Yak-9T ser.1
+  Empty: 2470
+  Minimum: 2631
+  Standard: 3015
+  Maximum: 3033
+  Fuel: 430
+  Useful: 563
+  Length: 8.5
+  Wingspan: 10
+  Wing: 17.15
+  debut: 1943

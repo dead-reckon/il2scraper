@@ -254,8 +254,16 @@ def master_yml():
                     result = re.sub(":", ":</strong>", line)
                     f_info.write("    <strong>" + result.strip() + "<br>\n")
                     winfo = line.split(":")
-                    print(winfo)
-                    s_info.write("  " + re.sub(r'\ .*$','',winfo[0].strip()) + ": " + winfo[1].strip() + "\n")
+                    if "Fuel load" in winfo[0]:
+                        splitit = winfo[1].split("/")
+                        # print(winfo)
+                        print(splitit)
+                        clean = re.sub(r'l.*$','',splitit[1])
+                        s_info.write("  " + re.sub(r'\ .*$','',winfo[0].strip()) + ": " + clean.strip() + "\n")
+                    else:
+                        clean = re.sub(r'm.*$','',winfo[1])
+                        clean2 = re.sub(r'kg.*$','',clean)
+                        s_info.write("  " + re.sub(r'\ .*$','',winfo[0].strip()) + ": " + clean2.strip() + "\n")
             f_info.write("  temp: |\n")
             for line in temp_mode:
                 if re.match(r'^\(', line):
@@ -286,8 +294,10 @@ def master_yml():
                     result = re.sub(":", ":</strong>", line)
                     f_info.write("    <strong>" + result.strip() + "<br>\n")
                     winfo = line.split(":")
-                    print(winfo)
-                    s_info.write("  " + re.sub(r'\ .*$','',winfo[0].strip()) + ": " + winfo[1].strip() + "\n")
+                    # print(winfo)
+                    clean = re.sub(r'm.*$','',winfo[1])
+                    clean2 = re.sub(r'kg.*$','',clean)
+                    s_info.write("  " + re.sub(r'\ .*$','',winfo[0].strip()) + ": " + clean2.strip() + "\n")
             f_info.write("  stall: |\n")
             for line in stall_mode:
                 if re.match(r'^\(', line):
