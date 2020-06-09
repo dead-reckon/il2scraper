@@ -182,7 +182,125 @@ def parse_ai():
 
 def listToString(s):  
     str1 = ", " 
-    return (str1.join(s))  
+    return (str1.join(s))
+
+
+def get_colors(n):  
+    color_pairs = [
+                    ["CadetBlue","BurlyWood"],
+                    ["Chartreuse","CadetBlue"],
+                    ["Chocolate","Chartreuse"],
+                    ["Coral","Chocolate"],
+                    ["CornflowerBlue","Coral"],
+                    ["Crimson","CornflowerBlue"],
+                    ["Cyan","Crimson"],
+                    ["DarkBlue","Cyan"],
+                    ["DarkCyan","DarkBlue"],
+                    ["DarkGoldenRod","DarkCyan"],
+                    ["DarkGray","DarkGoldenRod"],
+                    ["DarkGreen","DarkGray"],
+                    ["DarkKhaki","DarkGreen"],
+                    ["DarkMagenta","DarkKhaki"],
+                    ["DarkOliveGreen","DarkMagenta"],
+                    ["DarkOrange","DarkOliveGreen"],
+                    ["DarkOrchid","DarkOrange"],
+                    ["DarkRed","DarkOrchid"],
+                    ["DarkSalmon","DarkRed"],
+                    ["DarkSeaGreen","DarkSalmon"],
+                    ["DarkSlateBlue","DarkSeaGreen"],
+                    ["DarkSlateGrey","DarkSlateBlue"],
+                    ["DarkTurquoise","DarkSlateGrey"],
+                    ["DarkViolet","DarkTurquoise"],
+                    ["DeepPink","DarkViolet"],
+                    ["DeepSkyBlue","DeepPink"],
+                    ["DimGray","DeepSkyBlue"],
+                    ["DodgerBlue","DimGray"],
+                    ["FireBrick","DodgerBlue"],
+                    ["ForestGreen","FireBrick"],
+                    ["Fuchsia","ForestGreen"],
+                    ["Gainsboro","Fuchsia"],
+                    ["Gold","Gainsboro"],
+                    ["GoldenRod","Gold"],
+                    ["Gray","GoldenRod"],
+                    ["Green","Gray"],
+                    ["GreenYellow","Green"],
+                    ["HotPink","GreenYellow"],
+                    ["Brown","BlueViolet"],
+                    ["BurlyWood","Brown"],
+                    ["CadetBlue","BurlyWood"],
+                    ["Chartreuse","CadetBlue"],
+                    ["Chocolate","Chartreuse"],
+                    ["Coral","Chocolate"],
+                    ["CornflowerBlue","Coral"],
+                    ["Crimson","CornflowerBlue"],
+                    ["Cyan","Crimson"],
+                    ["DarkBlue","Cyan"],
+                    ["DarkCyan","DarkBlue"],
+                    ["DarkGoldenRod","DarkCyan"],
+                    ["DarkGray","DarkGoldenRod"],
+                    ["DarkGreen","DarkGray"],
+                    ["DarkKhaki","DarkGreen"],
+                    ["DarkMagenta","DarkKhaki"],
+                    ["DarkOliveGreen","DarkMagenta"],
+                    ["DarkOrange","DarkOliveGreen"],
+                    ["DarkOrchid","DarkOrange"],
+                    ["DarkRed","DarkOrchid"],
+                    ["DarkSalmon","DarkRed"],
+                    ["DarkSeaGreen","DarkSalmon"],
+                    ["DarkSlateBlue","DarkSeaGreen"],
+                    ["DarkSlateGrey","DarkSlateBlue"],
+                    ["DarkTurquoise","DarkSlateGrey"],
+                    ["DarkViolet","DarkTurquoise"],
+                    ["DeepPink","DarkViolet"],
+                    ["DeepSkyBlue","DeepPink"],
+                    ["DimGray","DeepSkyBlue"],
+                    ["DodgerBlue","DimGray"],
+                    ["FireBrick","DodgerBlue"],
+                    ["ForestGreen","FireBrick"],
+                    ["Fuchsia","ForestGreen"],
+                    ["Gainsboro","Fuchsia"],
+                    ["Gold","Gainsboro"],
+                    ["GoldenRod","Gold"],
+                    ["Gray","GoldenRod"],
+                    ["Green","Gray"],
+                    ["Blue","Black"],
+                    ["BlueViolet","Blue"],
+                    ["Brown","BlueViolet"],
+                    ["BurlyWood","Brown"],
+                    ["CadetBlue","BurlyWood"],
+                    ["Chartreuse","CadetBlue"],
+                    ["Chocolate","Chartreuse"],
+                    ["Coral","Chocolate"],
+                    ["CornflowerBlue","Coral"],
+                    ["Crimson","CornflowerBlue"],
+                    ["Cyan","Crimson"],
+                    ["DarkBlue","Cyan"],
+                    ["DarkCyan","DarkBlue"],
+                    ["DarkGoldenRod","DarkCyan"],
+                    ["DarkGray","DarkGoldenRod"],
+                    ["DarkGreen","DarkGray"],
+                    ["DarkKhaki","DarkGreen"],
+                    ["DarkMagenta","DarkKhaki"],
+                    ["DarkOliveGreen","DarkMagenta"],
+                    ["DarkOrange","DarkOliveGreen"],
+                    ["DarkOrchid","DarkOrange"],
+                    ["DarkRed","DarkOrchid"],
+                    ["DarkSalmon","DarkRed"],
+                    ["DarkSeaGreen","DarkSalmon"],
+                    ["DarkSlateBlue","DarkSeaGreen"],
+                    ["DarkSlateGrey","DarkSlateBlue"],
+                    ["DarkTurquoise","DarkSlateGrey"],
+                    ["DarkViolet","DarkTurquoise"],
+                    ["DeepPink","DarkViolet"],
+                    ["DeepSkyBlue","DeepPink"],
+                    ["DimGray","DeepSkyBlue"],
+                    ["DodgerBlue","DimGray"],
+                    ["FireBrick","DodgerBlue"],
+                    ["ForestGreen","FireBrick"],
+                    ["Fuchsia","ForestGreen"]
+                ]
+
+    return color_pairs[n]
 
 def alt_parse():
     path = os.getcwd()
@@ -264,7 +382,9 @@ def alt_parse():
     # print(lst_plane)
 
     with open("ct.yml", "w", encoding="utf8") as ct:
+        num = 0
         for line in lst_ct:
+            colors = get_colors(num)
             alt = []
             spd = []
             circus = []
@@ -281,10 +401,15 @@ def alt_parse():
 
             ct.write("  alt: " + listToString(alt) + "\n")
             ct.write("  spd: " + listToString(spd) + "\n")
+            ct.write("  bgc: " + colors[0] + "\n")
+            ct.write("  bc: " + colors[1] + "\n")
             ct.write("  circus: " + circus + "\n")
+            num = num+1
 
     with open("cas.yml", "w", encoding="utf8") as ct:
+        num = 0
         for line in lst_cas:
+            colors = get_colors(num)
             alt = []
             spd = []
             circus = []
@@ -301,10 +426,14 @@ def alt_parse():
 
             ct.write("  alt: " + listToString(alt) + "\n")
             ct.write("  spd: " + listToString(spd) + "\n")
+            ct.write("  bgc: " + colors[0] + "\n")
+            ct.write("  bc: " + colors[1] + "\n")
             ct.write("  circus: " + circus + "\n")
 
     with open("tas.yml", "w", encoding="utf8") as ct:
+        num = 0
         for line in lst_tas:
+            colors = get_colors(num)
             alt = []
             spd = []
             circus = []
@@ -321,10 +450,14 @@ def alt_parse():
 
             ct.write("  alt: " + listToString(alt) + "\n")
             ct.write("  spd: " + listToString(spd) + "\n")
+            ct.write("  bgc: " + colors[0] + "\n")
+            ct.write("  bc: " + colors[1] + "\n")
             ct.write("  circus: " + circus + "\n")
 
     with open("tta.yml", "w", encoding="utf8") as ct:
+        num = 0
         for line in lst_tta:
+            colors = get_colors(num)
             alt = []
             spd = []
             circus = []
@@ -341,6 +474,8 @@ def alt_parse():
 
             ct.write("  alt: " + listToString(alt) + "\n")
             ct.write("  spd: " + listToString(spd) + "\n")
+            ct.write("  bgc: " + colors[0] + "\n")
+            ct.write("  bc: " + colors[1] + "\n")
             ct.write("  circus: " + circus + "\n")
 
 
