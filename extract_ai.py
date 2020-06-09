@@ -27,40 +27,7 @@ def extract_src():
 
             shutil.copy2(src_name,tgt_name)
 
-def alt_parse(planes):
-    result = []
-    # print(planes)
 
-    with open("ct.yml", "w", encoding="utf8") as ct:
-        # ct.write("- id: {0} \n".format(planes['id']))
-        # ct.write("  name: {0} \n".format(planes['name']))
-        for line in planes:
-            # for row in line:
-            #     print(row)
-            # print(line)
-            if "xx" in line[0]:
-                ct.write("- id: {0} \n".format(line[1]))
-                ct.write("  name: {0} \n".format(line[2]))
-            # print(data[0])
-            # if re.match(r'^0$',plane):
-            #     return val
-            # elif re.match(r'^1000$',plane):
-            #     return val
-            # elif re.match(r'^2000$',plane):
-            #     return val 
-            # elif re.match(r'^3000$',plane):
-            #     return val 
-            # elif re.match(r'^4000$',plane):
-            #     return val 
-            # elif re.match(r'^5000$',plane):
-            #     return val
-            # elif re.match(r'^6000$',plane):
-            #     return val
-            # elif re.match(r'^7000$',plane):
-            #     return val 
-            # else:
-            #     return Null
-            pass
 
 
 def parse_ai():
@@ -74,7 +41,6 @@ def parse_ai():
     
     list_speed = []
     
-    list_ct = []
     list_max_alt = []
     list_turn = []
     list_turn_optimal = []
@@ -103,6 +69,10 @@ def parse_ai():
             lst_turn = []
             lst_turn_optimal = []
             list_climb_time = []
+
+            list_ctn_var1 = []
+            list_ctn_var2 =[]
+
             if 'xf3-2' in plane_name:
                 dict_ai = {'name': 'PO 2 VS'}
                 # list_climb_time = {'id' : plid}
@@ -122,7 +92,9 @@ def parse_ai():
                     if "ClimbTime" in row:
                         clean = re.sub(r'^.*=\ ','', row)
                         d_set = clean.split(",")
-                        lst_climb_time.append([d_set[0].strip(),d_set[1].strip()])
+                        list_ctn_var1.append(d_set[0].strip())
+                        list_ctn_var2.append(d_set[1].strip())
+                        # lst_climb_time.append([d_set[0].strip(),d_set[1].strip()])
                         # lst_climb_time.append([d_set[0].strip() +","+d_set[1].strip()])
                     elif "MaxAltTAS" in row:
                         clean = re.sub(r'^.*=\ ','', row)
@@ -185,7 +157,7 @@ def parse_ai():
 
             lst_ai.append(dict_ai)
 
-        alt_parse(list_climb_time)
+        # alt_parse(list_climb_time)
         # print(lst_climb_time)
 
     datafile = path + "/ai.yml"
@@ -208,5 +180,158 @@ def parse_ai():
     # print (lst_ai[0])
 
 
+def listToString(s):  
+    str1 = ", " 
+    return (str1.join(s))  
+
+def alt_parse():
+    path = os.getcwd()
+    ai_path = path + "/Ai"
+    ai_dir = os.listdir(ai_path)
+
+    lst_ct = []
+    lst_cas = []
+    lst_tas = []
+    lst_tta = []
+
+    for line in ai_dir:
+        filename = ai_path + "/" + line
+        plid = re.sub(r'\.txt.*$','',line)
+        # print(filename)
+        with open(filename, "r",encoding="ascii", errors="backslashreplace") as lst:
+            data = lst.read().split("\n")
+            plane_name = data[2]
+            d_plane_ct = {}
+            l_stats_ct =[]
+            d_plane_cas = {}
+            l_stats_cas =[]
+            d_plane_tas = {}
+            l_stats_tas =[]
+            d_plane_tta = {}
+            l_stats_tta =[]
+
+            if 'xf3-2' in plane_name:
+                d_plane_ct = {'name': 'PO 2 VS'}
+                d_plane_cas = {'name': 'PO 2 VS'}
+                d_plane_tas = {'name': 'PO 2 VS'}
+                d_plane_tta = {'name': 'PO 2 VS'}
+            else:
+                d_plane_ct = {'name': re.sub(r'^.*//\ ','',plane_name).strip()}
+                d_plane_cas = {'name': re.sub(r'^.*//\ ','',plane_name).strip()}
+                d_plane_tas = {'name': re.sub(r'^.*//\ ','',plane_name).strip()}
+                d_plane_tta = {'name': re.sub(r'^.*//\ ','',plane_name).strip()}
+
+            for row in data:
+
+                if "//" not in row:
+                    if "ClimbTime" in row:
+                        clean = re.sub(r'^.*=\ ','', row)
+                        d_set = clean.split(",")
+                        l_stats_ct.append(d_set)
+                        
+                    elif "MaxAltTAS" in row:
+                        clean = re.sub(r'^.*=\ ','', row)
+                        d_set = clean.split(",")
+                        l_stats_cas.append(d_set)
+                        
+                    elif "TurnTimeAlt" in row:
+                        clean = re.sub(r'^.*=\ ','', row)
+                        d_set = clean.split(",")
+                        l_stats_tas.append(d_set)
+                        
+                    elif "TurnOptimal_CAS_Alt" in row:
+                        clean = re.sub(r'^.*=\ ','', row)
+                        d_set = clean.split(",")
+                        l_stats_tta.append(d_set)
+
+        d_plane_ct['info'] = l_stats_ct
+        lst_ct.append(d_plane_ct)
+        d_plane_cas['info'] = l_stats_cas
+        lst_cas.append(d_plane_cas)
+        d_plane_tas['info'] = l_stats_tas
+        lst_tas.append(d_plane_tas)
+        d_plane_tta['info'] = l_stats_tta
+        lst_tta.append(d_plane_tta)
+         
+    # print(lst_plane)
+
+    with open("ct.yml", "w", encoding="utf8") as ct:
+        for line in lst_ct:
+            alt = []
+            spd = []
+            circus = []
+            ct.write("- name: " + line['name'] + "\n")
+            for d in line['info']:
+                alt.append(d[0].strip())
+                spd.append(d[1].strip())
+
+                if "1500" in str(alt) or "2500" in str(alt):
+                    circus = "1"
+                else:
+                    circus = "0"
+
+            ct.write("  alt: " + listToString(alt) + "\n")
+            ct.write("  spd: " + listToString(spd) + "\n")
+            ct.write("  circus: " + circus + "\n")
+
+    with open("cas.yml", "w", encoding="utf8") as ct:
+        for line in lst_cas:
+            alt = []
+            spd = []
+            circus = []
+            ct.write("- name: " + line['name'] + "\n")
+            for d in line['info']:
+                alt.append(d[0].strip())
+                spd.append(d[1].strip())
+
+                if "1500" in str(alt) or "2500" in str(alt):
+                    circus = "1"
+                else:
+                    circus = "0"
+
+            ct.write("  alt: " + listToString(alt) + "\n")
+            ct.write("  spd: " + listToString(spd) + "\n")
+            ct.write("  circus: " + circus + "\n")
+
+    with open("tas.yml", "w", encoding="utf8") as ct:
+        for line in lst_tas:
+            alt = []
+            spd = []
+            circus = []
+            ct.write("- name: " + line['name'] + "\n")
+            for d in line['info']:
+                alt.append(d[0].strip())
+                spd.append(d[1].strip())
+
+                if "1500" in str(alt) or "2500" in str(alt):
+                    circus = "1"
+                else:
+                    circus = "0"
+
+            ct.write("  alt: " + listToString(alt) + "\n")
+            ct.write("  spd: " + listToString(spd) + "\n")
+            ct.write("  circus: " + circus + "\n")
+
+    with open("tta.yml", "w", encoding="utf8") as ct:
+        for line in lst_tta:
+            alt = []
+            spd = []
+            circus = []
+            ct.write("- name: " + line['name'] + "\n")
+            for d in line['info']:
+                alt.append(d[0].strip())
+                spd.append(d[1].strip())
+
+                if "1500" in str(alt) or "2500" in str(alt):
+                    circus = "1"
+                else:
+                    circus = "0"
+
+            ct.write("  alt: " + listToString(alt) + "\n")
+            ct.write("  spd: " + listToString(spd) + "\n")
+            ct.write("  circus: " + circus + "\n")
+
+
 # extract_src()
-parse_ai()
+# parse_ai()
+alt_parse()
