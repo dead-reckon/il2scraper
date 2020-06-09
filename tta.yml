@@ -1,244 +1,305 @@
 - name: Yak7Bs36
+  id: yak_7b_ser_36
   alt: 0, 1000, 2000, 3000, 4000, 5000, 6000, 7000
   spd: 300, 300, 285, 285, 275, 265, 260, 255
   circus: 0
 - name: P-38J-25
+  id: p_38j_25
   alt: 0, 2000, 3000, 6000, 9000
   spd: 310, 317, 320, 330, 338
   circus: 0
 - name: Yak9s1
+  id: yak_9_ser_1
   alt: 0, 1000, 2000, 3000, 4000, 5000, 6000, 7000
   spd: 270, 275, 280, 285, 290, 295, 300, 305
   circus: 0
 - name: Bf 109 E-7
+  id: bf_109_e7
   alt: 0, 1000, 2000, 3000, 4000, 5000, 6000, 7000
   spd: 250, 260, 260, 260, 270, 270, 260, 260
   circus: 0
 - name: MC202s8
+  id: mc_202_s8
   alt: 0, 1000, 2000, 3000, 4000, 5000, 6000, 7000
   spd: 260, 260, 260, 250, 245, 235, 225, 215
   circus: 0
 - name: P-47D-28
+  id: p_47d_28
   alt: 0, 1000, 2000, 3000, 4000, 5000, 6000, 7000, 8000, 9000, 10000
   spd: 318, 322, 326, 330, 334, 338, 342, 346, 350, 354, 358
   circus: 0
 - name: A-20B
+  id: a_20_b
   alt: 0, 1000, 2000, 3000, 4000, 5000, 6000
   spd: 250, 260, 270, 275, 280, 285, 290
   circus: 0
 - name: Ju 52 mg4e
+  id: ju523mg4e
   alt: 0, 1000, 2000, 3000, 4000, 5000
   spd: 170, 170, 170, 160, 155, 150
   circus: 0
 - name: Albatros D.Va
+  id: albatros_d_va
   alt: 0, 10000
   spd: 125, 125
   circus: 0
 - name: Bristol F.2B Falcon II
+  id: bristol_f_2b_falcon_ii
   alt: 0, 10000
   spd: 105, 105
   circus: 0
 - name: Bf-110 G2
+  id: bf_110_g2
   alt: 0, 1000, 2000, 3000, 4000, 5000, 6000, 7000, 8000
   spd: 230, 235, 240, 240, 245, 250, 250, 255, 260
   circus: 0
 - name: Tempest Mk.V ser.2
+  id: tempest_mk_v_ser_2
   alt: 0, 1000, 2000, 3000, 4000, 5000, 6000, 7000
   spd: 270, 270, 270, 270, 265, 260, 255, 250
   circus: 0
 - name: I16t24
+  id: i_16_t_24
   alt: 0, 1000, 2000, 3000, 4000, 5000, 6000, 7000
   spd: 230, 230, 235, 235, 240, 250, 265, 265
   circus: 0
 - name: S.E.5a
+  id: s_e_5a
   alt: 0, 10000
   spd: 125, 125
   circus: 0
 - name: Yak1s69
+  id: yak_1_ser_69
   alt: 0, 1000, 2000, 3000, 4000, 5000, 6000, 7000
   spd: 300, 300, 285, 285, 275, 265, 260, 255
   circus: 0
 - name: FW190A8
+  id: fw_190_a8
   alt: 500, 1000, 2000, 3000, 4000, 5000, 6000, 7000
   spd: 310, 300, 290, 290, 290, 290, 280, 280
   circus: 0
 - name: La5FNs2
+  id: la_5_fn_ser_2
   alt: 0, 1000, 2000, 3000, 4000, 5000, 6000, 7000
   spd: 300, 290, 280, 270, 260, 255, 250, 245
   circus: 0
 - name: Me 262 A
+  id: me_262_a
   alt: 0, 6000, 12000
   spd: 450, 340, 280
   circus: 0
 - name: PO 2 VS
+  id: po_2_vs
   alt: 10000
   spd: 110
   circus: 0
 - name: MiG3s24
+  id: mig_3_ser_24
   alt: 0, 1000, 2000, 3000, 4000, 5000, 6000, 7000, 8000
   spd: 350, 330, 320, 320, 310, 310, 310, 310, 310
   circus: 0
 - name: P-39L-1
+  id: p_39l_1
   alt: 0, 1000, 2000, 3000, 4000, 5000, 6000, 7000
   spd: 230, 230, 235, 235, 240, 245, 250, 255
   circus: 0
 - name: Bristol F.2B Falcon III
+  id: bristol_f_2b_falcon_iii
   alt: 0, 10000
   spd: 105, 105
   circus: 0
 - name: Spitfire Mk.IXe Merlin 66
+  id: spitfire_mk_ixe
   alt: 0, 1000, 2000, 3000, 4000, 5000, 6000, 7000
   spd: 275, 270, 265, 260, 255, 250, 245, 240
   circus: 0
 - name: LaGG3s29
+  id: lagg_3_ser_29
   alt: 0, 1000, 2000, 3000, 4000, 5000, 6000, 7000
   spd: 300, 300, 285, 285, 275, 265, 260, 255
   circus: 0
 - name: He 111 H-6
+  id: he_111_h16
   alt: 0, 1000, 2000, 3000, 4000, 5000, 6000
   spd: 260, 260, 260, 240, 230, 230, 220
   circus: 0
 - name: Il-2m42
+  id: il_2_m_42
   alt: 0, 1000, 2000, 3000, 4000, 5000
   spd: 185, 185, 185, 180, 180, 180
   circus: 0
 - name: Il-2m43
+  id: il_2_m_43
   alt: 0, 1000, 2000, 3000, 4000, 5000
   spd: 185, 185, 185, 180, 180, 180
   circus: 0
 - name: Fokker D.VII
+  id: fokker_d_vii
   alt: 0, 10000
   spd: 130, 130
   circus: 0
 - name: Pe-2 ser.35
+  id: pe_2_ser_35
   alt: 0, 1000, 2000, 3000, 4000, 5000
   spd: 310, 310, 300, 290, 280, 270
   circus: 0
 - name: FW190A3
+  id: fw_190_a3
   alt: 500, 1000, 2000, 3000, 4000, 5000, 6000, 7000
   spd: 310, 300, 290, 290, 290, 290, 280, 280
   circus: 0
 - name: Yak1s127
+  id: yak_1_ser_127
   alt: 0, 1000, 2000, 3000, 4000, 5000, 6000, 7000
   spd: 300, 300, 285, 285, 275, 265, 260, 255
   circus: 0
 - name: Il-2m41
+  id: il_2_m_41
   alt: 0, 1000, 2000, 3000, 4000, 5000
   spd: 185, 185, 185, 180, 180, 180
   circus: 0
 - name: P-40E-1
+  id: p_40e_1
   alt: 0, 1000, 2000, 3000, 4000, 5000, 6000, 7000
   spd: 230, 230, 235, 235, 240, 245, 250, 255
   circus: 0
 - name: Hs 129 B-2
+  id: hs_129_b2
   alt: 0, 1000, 2000, 3000, 4000, 5000, 6000
   spd: 260, 260, 255, 250, 245, 240, 235
   circus: 0
 - name: Sopwith Camel
+  id: sopwith_camel
   alt: 0, 10000
   spd: 140, 140
   circus: 0
 - name: Spitfire Mk.VB Merlin 46
+  id: spitfire_mk_vb
   alt: 0, 1000, 2000, 3000, 4000, 5000, 6000, 7000
   spd: 275, 270, 265, 260, 255, 250, 245, 240
   circus: 0
 - name: Fokker D.VIIF
+  id: fokker_d_viif
   alt: 0, 10000
   spd: 120, 120
   circus: 0
 - name: Halberstadt CL.II D.IIIau
+  id: halberstadt_cl_ii_d_iiiau
   alt: 0, 10000
   spd: 105, 105
   circus: 0
 - name: Yak9s1
+  id: yak_9t_ser_1
   alt: 0, 1000, 2000, 3000, 4000, 5000, 6000, 7000
   spd: 300, 300, 285, 285, 275, 265, 260, 255
   circus: 0
 - name: FW190A5
+  id: fw_190_a5
   alt: 500, 1000, 2000, 3000, 4000, 5000, 6000, 7000
   spd: 310, 300, 290, 290, 290, 290, 280, 280
   circus: 0
 - name: P-51D-15
+  id: p_51d_15
   alt: 0, 1500, 3000, 4500, 6000, 9000
   spd: 288, 290, 295, 300, 305, 330
   circus: 1
 - name: Fokker Dr.I
+  id: fokker_dr_i
   alt: 0, 10000
   spd: 100, 100
   circus: 0
 - name: Ju 88 A-4
+  id: ju_88_a4
   alt: 0, 1000, 2000, 3000, 4000, 5000
   spd: 250, 260, 270, 275, 280, 290
   circus: 0
 - name: La5s8
+  id: la_5_ser_8
   alt: 0, 1000, 2000, 3000, 4000, 5000, 6000, 7000
   spd: 300, 290, 280, 270, 260, 255, 250, 245
   circus: 0
 - name: Bf109K4
+  id: bf_109_k4
   alt: 0, 1000, 2000, 3000, 4000, 5000, 6000, 7000
   spd: 275, 275, 265, 265, 265, 265, 260, 260
   circus: 0
 - name: Bf109F2
+  id: bf_109_f2
   alt: 0, 1000, 2000, 3000, 4000, 5000, 6000, 7000
   spd: 260, 265, 270, 275, 280, 285, 290, 295
   circus: 0
 - name: Bf109G6
+  id: bf_109_g6
   alt: 0, 1000, 2000, 3000, 4000, 5000, 6000, 7000
   spd: 275, 275, 265, 265, 265, 265, 260, 260
   circus: 0
 - name: Pfalz D.IIIa
+  id: pfalz_d_iiia
   alt: 0, 10000
   spd: 140, 140
   circus: 0
 - name: Ju-87 D3
+  id: ju_87_d_3
   alt: 0, 1000, 2000, 3000, 4000, 5000
   spd: 275, 265, 255, 245, 245, 235
   circus: 0
 - name: SPAD XIII C1
+  id: spad_xiii_c1
   alt: 0, 10000
   spd: 130, 130
   circus: 0
 - name: Bf109G4
+  id: bf_109_g4
   alt: 0, 1000, 2000, 3000, 4000, 5000, 6000, 7000
   spd: 275, 275, 265, 265, 265, 265, 260, 260
   circus: 0
 - name: Halberstadt CL.II D.IIIa
+  id: halberstadt_cl_ii_d_iiia
   alt: 0, 10000
   spd: 105, 105
   circus: 0
 - name: FW190D9
+  id: fw_190_d9
   alt: 100, 3000, 6000
   spd: 300, 320, 340
   circus: 0
 - name: B-25D
+  id: b_25_d
   alt: 0, 1000, 2000, 3000, 4000, 5000, 6000
   spd: 250, 260, 270, 280, 290, 295, 300
   circus: 0
 - name: Bf109F4
+  id: bf_109_f4
   alt: 0, 1000, 2000, 3000, 4000, 5000, 6000, 7000
   spd: 250, 260, 260, 260, 270, 270, 260, 260
   circus: 0
 - name: Pe-2 ser.87
+  id: pe_2_ser_87
   alt: 0, 1000, 2000, 3000, 4000, 5000
   spd: 310, 310, 300, 290, 280, 270
   circus: 0
 - name: He 111 H-6
+  id: he_111_h6
   alt: 0, 1000, 2000, 3000, 4000, 5000, 6000
   spd: 260, 260, 260, 240, 230, 230, 220
   circus: 0
 - name: Bf109G14
+  id: bf_109_g14
   alt: 0, 1000, 2000, 3000, 4000, 5000, 6000, 7000
   spd: 275, 275, 265, 265, 265, 265, 260, 260
   circus: 0
 - name: Bf109G2
+  id: bf_109_g2
   alt: 0, 1000, 2000, 3000, 4000, 5000, 6000, 7000
   spd: 275, 275, 265, 265, 265, 265, 260, 260
   circus: 0
 - name: Bf-110 E2
+  id: bf_110_e2
   alt: 0, 1000, 2000, 3000, 4000, 5000, 6000, 7000, 8000
   spd: 230, 235, 240, 240, 245, 250, 250, 255, 260
   circus: 0
 - name: Sopwith Dolphin
+  id: sopwith_dolphin
   alt: 0, 10000
   spd: 145, 145
   circus: 0

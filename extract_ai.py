@@ -215,11 +215,19 @@ def alt_parse():
                 d_plane_cas = {'name': 'PO 2 VS'}
                 d_plane_tas = {'name': 'PO 2 VS'}
                 d_plane_tta = {'name': 'PO 2 VS'}
+                d_plane_ct['id'] = plid
+                d_plane_cas['id'] = plid
+                d_plane_tas['id'] = plid
+                d_plane_tta['id'] = plid
             else:
                 d_plane_ct = {'name': re.sub(r'^.*//\ ','',plane_name).strip()}
                 d_plane_cas = {'name': re.sub(r'^.*//\ ','',plane_name).strip()}
                 d_plane_tas = {'name': re.sub(r'^.*//\ ','',plane_name).strip()}
                 d_plane_tta = {'name': re.sub(r'^.*//\ ','',plane_name).strip()}
+                d_plane_ct['id'] = plid
+                d_plane_cas['id'] = plid
+                d_plane_tas['id'] = plid
+                d_plane_tta['id'] = plid
 
             for row in data:
 
@@ -261,6 +269,7 @@ def alt_parse():
             spd = []
             circus = []
             ct.write("- name: " + line['name'] + "\n")
+            ct.write("  id: " + line['id'] + "\n")
             for d in line['info']:
                 alt.append(d[0].strip())
                 spd.append(d[1].strip())
@@ -280,6 +289,7 @@ def alt_parse():
             spd = []
             circus = []
             ct.write("- name: " + line['name'] + "\n")
+            ct.write("  id: " + line['id'] + "\n")
             for d in line['info']:
                 alt.append(d[0].strip())
                 spd.append(d[1].strip())
@@ -299,6 +309,7 @@ def alt_parse():
             spd = []
             circus = []
             ct.write("- name: " + line['name'] + "\n")
+            ct.write("  id: " + line['id'] + "\n")
             for d in line['info']:
                 alt.append(d[0].strip())
                 spd.append(d[1].strip())
@@ -318,6 +329,7 @@ def alt_parse():
             spd = []
             circus = []
             ct.write("- name: " + line['name'] + "\n")
+            ct.write("  id: " + line['id'] + "\n")
             for d in line['info']:
                 alt.append(d[0].strip())
                 spd.append(d[1].strip())
