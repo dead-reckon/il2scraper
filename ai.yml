@@ -238,7 +238,7 @@
   CruiseCAS: 150.0
   ClimbCAS: 120.0
   PriorityType: Fighter
-- name: He 111 H-6
+- name: He 111 H-16
   MaxSpeed: 367.0
   MaxClimbRate: 5.5
   ServiceCeiling: 6300.0
@@ -588,7 +588,7 @@
   CruiseCAS: 400.0
   ClimbCAS: 280.0
   PriorityType: Fighter
-- name: Yak9s1
+- name: Yak9ts1
   MaxSpeed: 592.0 
   MaxClimbRate: 16.2
   ServiceCeiling: 10250.0

@@ -27,8 +27,14 @@ def extract_src():
 
             shutil.copy2(src_name,tgt_name)
 
-
-
+# def fix_dups():
+#     path = os.getcwd()
+#     ai_path = path + "/Ai"
+#     ai_dir = os.listdir(ai_path)
+#     for line in ai_dir:
+#         filename = ai_path + "/" + line
+#         with open(filename, "r",encoding="ascii", errors="backslashreplace") as lst:
+#             pass
 
 def parse_ai():
     path = os.getcwd()
@@ -84,6 +90,9 @@ def parse_ai():
                 # lst_climb_time.append("xx,"+plid+","+dict_ai['name'])
                 lst_climb_time.append(["xx",plid,dict_ai['name']])
 
+            # print(dict_ai['name'])
+            # print(line)
+
             for row in data:
 
                 if "//" not in row:
@@ -110,7 +119,7 @@ def parse_ai():
                 if "MaxSpeed" in row:
                     clean1 = row.strip()
                     final = re.sub(r'\\.*$','',re.sub(r'//.*$','',re.sub(r'^.*=\ ','', row)))
-                    dict_ai['MaxSpeed'] = final # 
+                    dict_ai['MaxSpeed'] = final 
                 elif "MaxClimbRate" in row:
                     clean1 = row.strip()
                     final = re.sub(r'\\.*$','',re.sub(r'//.*$','',re.sub(r'^.*=\ ','', row)))
@@ -482,7 +491,34 @@ def alt_parse():
             ct.write("  circus: " + circus + "\n")
             num = num+1
 
+def fix_bad_names():
+    path = os.getcwd()
+    ai_path = path + "/Ai"
+    ai_dir = os.listdir(ai_path)
+    
+
+    for line in ai_dir:
+        if "he_111_h16.txt" in line:
+            filename = ai_path + "/" + line
+            fin = open(filename, "rt", errors="backslashreplace")
+            data = fin.read()
+            data = data.replace("He 111 H-6", "He 111 H-16")
+            fin.close()
+            fin = open(filename, "wt", errors="backslashreplace")
+            fin.write(data)
+            fin.close()
+        elif "yak_9t_ser_1.txt" in line:
+            filename = ai_path + "/" + line
+            fin = open(filename, "rt", errors="backslashreplace")
+            data = fin.read()
+            data = data.replace('Yak9s1', 'Yak9ts1')
+            fin.close()
+            fin = open(filename, "wt", errors="backslashreplace")
+            fin.write(data)
+            fin.close()
+
 
 extract_src()
+fix_bad_names()
 parse_ai()
 alt_parse()

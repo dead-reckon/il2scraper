@@ -166,7 +166,7 @@
   bgc: DarkViolet
   bc: DarkTurquoise
   circus: 0
-- name: He 111 H-6
+- name: He 111 H-16
   id: he_111_h16
   alt: 0, 1000, 2000, 3000, 4000, 5000, 6000
   spd: 260, 260, 260, 240, 230, 230, 220
@@ -418,7 +418,7 @@
   bgc: DarkSeaGreen
   bc: DarkSalmon
   circus: 0
-- name: Yak9s1
+- name: Yak9ts1
   id: yak_9t_ser_1
   alt: 0, 1000, 2000, 3000, 4000, 5000, 6000, 7000
   spd: 300, 300, 285, 285, 275, 265, 260, 255
