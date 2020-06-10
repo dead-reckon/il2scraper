@@ -1,21 +1,21 @@
-- name: Yak7Bs36
-  id: yak_7b_ser_36
-  alt: 0, 1000, 2000, 3000, 4000, 5000, 6000, 7000, 8000, 9000
-  spd: 0, 58, 124, 191, 266, 354, 459, 589, 760, 1003
+- name: A-20B
+  id: a_20_b
+  alt: 0, 1000, 2000, 3000, 4000, 5000, 6000, 7000, 8000
+  spd: 0, 95, 192, 305, 422, 563, 730, 1010, 1519
   bgc: CadetBlue
   bc: BurlyWood
   circus: 0
-- name: P-38J-25
-  id: p_38j_25
-  alt: 0, 1000, 2000, 3000, 4000, 5000, 6000, 7000, 8000, 9000, 10000, 11000, 11000
-  spd: 0, 57, 107, 158, 211, 270, 333, 403, 483, 579, 704, 883, 1217
+- name: Albatros D.Va
+  id: albatros_d_va
+  alt: 0, 500, 1000, 1500, 2000, 2500, 3000, 3500, 4000, 4500, 5000, 5406
+  spd: 0, 119, 238, 369, 513, 675, 862, 1083, 1349, 1696, 2201, 2835
   bgc: Chartreuse
   bc: CadetBlue
-  circus: 0
-- name: Yak9s1
-  id: yak_9_ser_1
-  alt: 0, 1000, 2000, 3000, 4000, 5000, 6000, 7000, 8000, 9000, 10000
-  spd: 0, 50, 109, 171, 239, 319, 419, 545, 712, 953, 1384
+  circus: 1
+- name: B-25D
+  id: b_25_d
+  alt: 0, 1000, 2000, 3000, 4000, 5000, 6000, 7000, 7400
+  spd: 0, 119, 245, 394, 570, 768, 1057, 1625, 2160
   bgc: Chocolate
   bc: Chartreuse
   circus: 0
@@ -26,146 +26,146 @@
   bgc: Coral
   bc: Chocolate
   circus: 0
-- name: MC202s8
-  id: mc_202_s8
+- name: Bf109F2
+  id: bf_109_f2
   alt: 0, 1000, 2000, 3000, 4000, 5000, 6000, 7000, 8000, 9000, 10000
-  spd: 0, 51, 107, 169, 233, 301, 382, 480, 603, 769, 1004
+  spd: 0, 61, 127, 196, 269, 346, 431, 535, 666, 855, 1156
   bgc: CornflowerBlue
   bc: Coral
   circus: 0
-- name: P-47D-28
-  id: p_47d_28
+- name: Bf109F4
+  id: bf_109_f4
   alt: 0, 1000, 2000, 3000, 4000, 5000, 6000, 7000, 8000, 9000, 10000, 11000
-  spd: 0, 63, 119, 178, 233, 292, 351, 414, 485, 577, 755, 969
+  spd: 0, 54, 107, 162, 222, 285, 358, 450, 575, 687, 854, 1160
   bgc: Crimson
   bc: CornflowerBlue
   circus: 0
-- name: A-20B
-  id: a_20_b
-  alt: 0, 1000, 2000, 3000, 4000, 5000, 6000, 7000, 8000
-  spd: 0, 95, 192, 305, 422, 563, 730, 1010, 1519
+- name: Bf109G14
+  id: bf_109_g14
+  alt: 0, 1000, 2000, 3000, 4000, 5000, 6000, 7000, 8000, 9000, 10000, 11000
+  spd: 0, 47, 87, 131, 178, 229, 285, 349, 421, 509, 625, 797
   bgc: Cyan
   bc: Crimson
   circus: 0
-- name: Ju 52 mg4e
-  id: ju523mg4e
-  alt: 0, 1000, 2000, 3000, 4000, 5000, 6000
-  spd: 0, 180, 390, 570, 900, 1296, 1854
+- name: Bf109G2
+  id: bf_109_g2
+  alt: 0, 1000, 2000, 3000, 4000, 5000, 6000, 7000, 8000, 9000, 10000, 11000
+  spd: 0, 48, 97, 149, 201, 258, 317, 389, 471, 574, 702, 892
   bgc: DarkBlue
   bc: Cyan
   circus: 0
-- name: Albatros D.Va
-  id: albatros_d_va
-  alt: 0, 500, 1000, 1500, 2000, 2500, 3000, 3500, 4000, 4500, 5000, 5406
-  spd: 0, 119, 238, 369, 513, 675, 862, 1083, 1349, 1696, 2201, 2835
+- name: Bf109G4
+  id: bf_109_g4
+  alt: 0, 1000, 2000, 3000, 4000, 5000, 6000, 7000, 8000, 9000, 10000, 11000
+  spd: 0, 50, 100, 154, 208, 266, 328, 404, 490, 597, 739, 952
   bgc: DarkCyan
   bc: DarkBlue
-  circus: 1
-- name: Bristol F.2B Falcon II
-  id: bristol_f_2b_falcon_ii
-  alt: 0, 500, 1000, 1500, 2000, 2500, 3000, 3500, 4000, 4500, 5000, 5205
-  spd: 0, 98, 198, 311, 440, 588, 762, 974, 1241, 1602, 2154, 2497
+  circus: 0
+- name: Bf109G6
+  id: bf_109_g6
+  alt: 0, 1000, 2000, 3000, 4000, 5000, 6000, 7000, 8000, 9000, 10000, 11000
+  spd: 0, 51, 103, 156, 211, 269, 331, 406, 495, 605, 754, 992
   bgc: DarkGoldenRod
   bc: DarkCyan
-  circus: 1
+  circus: 0
+- name: Bf109K4
+  id: bf_109_k4
+  alt: 0, 1000, 2000, 3000, 4000, 5000, 6000, 7000, 8000, 9000, 10000, 11000
+  spd: 0, 47, 87, 131, 178, 229, 285, 349, 421, 509, 625, 797
+  bgc: DarkGray
+  bc: DarkGoldenRod
+  circus: 0
+- name: Bf-110 E2
+  id: bf_110_e2
+  alt: 0, 1000, 2000, 3000, 4000, 5000, 6000, 7000
+  spd: 0, 95, 193, 294, 404, 524, 668, 864
+  bgc: DarkGreen
+  bc: DarkGray
+  circus: 0
 - name: Bf-110 G2
   id: bf_110_g2
   alt: 0, 1000, 2000, 3000, 4000, 5000, 6000, 7000
   spd: 0, 68, 136, 204, 278, 358, 445, 549
-  bgc: DarkGray
-  bc: DarkGoldenRod
-  circus: 0
-- name: Tempest Mk.V ser.2
-  id: tempest_mk_v_ser_2
-  alt: 0, 1000, 2000, 3000, 4000, 5000, 6000, 7000, 8000, 9000, 10000
-  spd: 0, 50, 104, 167, 233, 301, 378, 470, 587, 754, 1049
-  bgc: DarkGreen
-  bc: DarkGray
-  circus: 0
-- name: I16t24
-  id: i_16_t_24
-  alt: 0, 1000, 2000, 3000, 4000, 5000, 6000, 7000, 8000, 9000
-  spd: 0, 58, 124, 196, 275, 358, 457, 581, 745, 990
   bgc: DarkKhaki
   bc: DarkGreen
   circus: 0
-- name: S.E.5a
-  id: s_e_5a
-  alt: 0, 500, 1000, 1500, 2000, 2500, 3000, 3500, 4000, 4500, 5000, 5500, 5546
-  spd: 0, 87, 172, 268, 375, 498, 641, 812, 1023, 1296, 1681, 2327, 2415
+- name: Bristol F.2B Falcon II
+  id: bristol_f_2b_falcon_ii
+  alt: 0, 500, 1000, 1500, 2000, 2500, 3000, 3500, 4000, 4500, 5000, 5205
+  spd: 0, 98, 198, 311, 440, 588, 762, 974, 1241, 1602, 2154, 2497
   bgc: DarkMagenta
   bc: DarkKhaki
   circus: 1
-- name: Yak1s69
-  id: yak_1_ser_69
-  alt: 0, 1000, 2000, 3000, 4000, 5000, 6000, 7000, 8000, 9000
-  spd: 0, 53, 116, 183, 253, 334, 429, 549, 706, 927
+- name: Bristol F.2B Falcon III
+  id: bristol_f_2b_falcon_iii
+  alt: 0, 500, 1000, 1500, 2000, 2500, 3000, 3500, 4000, 4500, 5000, 5500, 5920
+  spd: 0, 88, 177, 275, 384, 508, 649, 814, 1010, 1253, 1570, 2023, 2641
   bgc: DarkOliveGreen
   bc: DarkMagenta
+  circus: 1
+- name: Fokker D.VII
+  id: fokker_d_vii
+  alt: 0, 500, 1000, 1500, 2000, 2500, 3000, 3500, 4000, 4500, 5000, 5500
+  spd: 0, 92, 182, 281, 391, 514, 654, 816, 1010, 1253, 1581, 2079
+  bgc: DarkOrange
+  bc: DarkOliveGreen
+  circus: 1
+- name: Fokker D.VIIF
+  id: fokker_d_viif
+  alt: 0, 500, 1000, 1500, 2000, 2500, 3000, 3500, 4000, 4500, 5000, 5500, 6000, 6500, 7000, 7500, 8000, 8500
+  spd: 0, 71, 138, 207, 280, 355, 431, 508, 587, 670, 762, 866, 983, 1118, 1279, 1478, 1739, 2113
+  bgc: DarkOrchid
+  bc: DarkOrange
+  circus: 1
+- name: Fokker Dr.I
+  id: fokker_dr_i
+  alt: 0, 500, 1000, 1500, 2000, 3000, 4000, 5000, 6000, 7000, 8000, 8400
+  spd: 0, 103, 195, 292, 398, 635, 920, 1277, 1749, 2455, 3873, 5315
+  bgc: DarkRed
+  bc: DarkOrchid
+  circus: 1
+- name: FW190A3
+  id: fw_190_a3
+  alt: 0, 1000, 2000, 3000, 4000, 5000, 6000, 7000, 8000, 9000, 10000
+  spd: 0, 61, 129, 205, 286, 371, 462, 569, 703, 942, 1133
+  bgc: DarkSalmon
+  bc: DarkRed
+  circus: 0
+- name: FW190A5
+  id: fw_190_a5
+  alt: 0, 1000, 2000, 3000, 4000, 5000, 6000, 7000, 8000, 9000, 10000
+  spd: 0, 61, 129, 205, 286, 371, 462, 569, 703, 942, 1133
+  bgc: DarkSeaGreen
+  bc: DarkSalmon
   circus: 0
 - name: FW190A8
   id: fw_190_a8
   alt: 0, 1000, 2000, 3000, 4000, 5000, 6000, 7000, 8000, 9000, 10000
   spd: 0, 61, 129, 205, 286, 371, 462, 569, 703, 942, 1133
-  bgc: DarkOrange
-  bc: DarkOliveGreen
-  circus: 0
-- name: La5FNs2
-  id: la_5_fn_ser_2
-  alt: 0, 1000, 2000, 3000, 4000, 5000, 6000, 7000, 8000, 9000, 10000
-  spd: 0, 42, 88, 142, 204, 269, 342, 431, 545, 705, 971
-  bgc: DarkOrchid
-  bc: DarkOrange
-  circus: 0
-- name: Me 262 A
-  id: me_262_a
-  alt: 0, 1000, 2000, 3000, 4000, 5000, 6000, 7000, 8000, 9000, 10000, 11000, 12000
-  spd: 0, 54, 115, 184, 260, 345, 442, 554, 686, 848, 1055, 1362, 1986
-  bgc: DarkRed
-  bc: DarkOrchid
-  circus: 0
-- name: PO 2 VS
-  id: po_2_vs
-  alt: 0, 500, 1000, 1500, 2000, 3000, 3500
-  spd: 0, 185, 398, 643, 932, 1729, 2381
-  bgc: DarkSalmon
-  bc: DarkRed
-  circus: 1
-- name: MiG3s24
-  id: mig_3_ser_24
-  alt: 0, 1000, 2000, 3000, 4000, 5000, 6000, 7000, 8000, 9000, 10000
-  spd: 0, 72, 148, 227, 308, 395, 488, 589, 710, 862, 1066
-  bgc: DarkSeaGreen
-  bc: DarkSalmon
-  circus: 0
-- name: P-39L-1
-  id: p_39l_1
-  alt: 0, 1000, 2000, 3000, 4000, 5000, 6000, 7000, 8400, 8600
-  spd: 0, 84, 167, 250, 347, 482, 661, 931, 2143, 3350
   bgc: DarkSlateBlue
   bc: DarkSeaGreen
   circus: 0
-- name: Bristol F.2B Falcon III
-  id: bristol_f_2b_falcon_iii
-  alt: 0, 500, 1000, 1500, 2000, 2500, 3000, 3500, 4000, 4500, 5000, 5500, 5920
-  spd: 0, 88, 177, 275, 384, 508, 649, 814, 1010, 1253, 1570, 2023, 2641
+- name: FW190D9
+  id: fw_190_d9
+  alt: 0, 1000, 2000, 3000, 4000, 5000, 6000, 7000, 8000, 9000, 10000, 11000
+  spd: 0, 51, 105, 161, 220, 282, 347, 422, 510, 620, 773, 1030
   bgc: DarkSlateGrey
   bc: DarkSlateBlue
-  circus: 1
-- name: Spitfire Mk.IXe Merlin 66
-  id: spitfire_mk_ixe
-  alt: 0, 1000, 2000, 3000, 4000, 5000, 6000, 7000, 8000, 9000, 10000, 11000, 12000
-  spd: 0, 52, 105, 159, 215, 277, 341, 407, 486, 577, 690, 840, 1095
+  circus: 0
+- name: Halberstadt CL.II D.IIIa
+  id: halberstadt_cl_ii_d_iiia
+  alt: 0, 500, 1000, 1500, 2000, 2500, 3000, 3500, 4000, 4075
+  spd: 0, 160, 333, 532, 764, 1043, 1394, 1862, 2560, 2701
   bgc: DarkTurquoise
   bc: DarkSlateGrey
-  circus: 0
-- name: LaGG3s29
-  id: lagg_3_ser_29
-  alt: 0, 1000, 2000, 3000, 4000, 5000, 6000, 7000, 8000, 9000
-  spd: 0, 66, 135, 210, 287, 377, 490, 636, 840, 1167
+  circus: 1
+- name: Halberstadt CL.II D.IIIau
+  id: halberstadt_cl_ii_d_iiiau
+  alt: 0, 500, 1000, 1500, 2000, 2500, 3000, 3500, 4000, 4500, 4929
+  spd: 0, 127, 260, 409, 578, 773, 1004, 1286, 1647, 2146, 2802
   bgc: DarkViolet
   bc: DarkTurquoise
-  circus: 0
+  circus: 1
 - name: He 111 H-6
   id: he_111_h16
   alt: 0, 1000, 2000, 3000, 4000, 5000, 6000
@@ -173,157 +173,157 @@
   bgc: DeepPink
   bc: DarkViolet
   circus: 0
-- name: Il-2m42
-  id: il_2_m_42
-  alt: 0, 1000, 2000, 3000, 4000, 5000
-  spd: 0, 147, 294, 452, 661, 963
+- name: He 111 H-6
+  id: he_111_h6
+  alt: 0, 1000, 2000, 3000, 4000, 5000, 6000
+  spd: 0, 180, 390, 570, 900, 1296, 1854
   bgc: DeepSkyBlue
   bc: DeepPink
-  circus: 0
-- name: Il-2m43
-  id: il_2_m_43
-  alt: 0, 1000, 2000, 3000, 4000, 5000
-  spd: 0, 147, 294, 452, 661, 963
-  bgc: DimGray
-  bc: DeepSkyBlue
-  circus: 0
-- name: Fokker D.VII
-  id: fokker_d_vii
-  alt: 0, 500, 1000, 1500, 2000, 2500, 3000, 3500, 4000, 4500, 5000, 5500
-  spd: 0, 92, 182, 281, 391, 514, 654, 816, 1010, 1253, 1581, 2079
-  bgc: DodgerBlue
-  bc: DimGray
-  circus: 1
-- name: Pe-2 ser.35
-  id: pe_2_ser_35
-  alt: 0, 1000, 2000, 3000, 4000, 5000
-  spd: 0, 96, 198, 314, 441, 612
-  bgc: FireBrick
-  bc: DodgerBlue
-  circus: 0
-- name: FW190A3
-  id: fw_190_a3
-  alt: 0, 1000, 2000, 3000, 4000, 5000, 6000, 7000, 8000, 9000, 10000
-  spd: 0, 61, 129, 205, 286, 371, 462, 569, 703, 942, 1133
-  bgc: ForestGreen
-  bc: FireBrick
-  circus: 0
-- name: Yak1s127
-  id: yak_1_ser_127
-  alt: 0, 1000, 2000, 3000, 4000, 5000, 6000, 7000, 8000, 9000
-  spd: 0, 62, 125, 190, 260, 340, 436, 553, 700, 907
-  bgc: Fuchsia
-  bc: ForestGreen
-  circus: 0
-- name: Il-2m41
-  id: il_2_m_41
-  alt: 0, 1000, 2000, 3000, 4000, 5000
-  spd: 0, 147, 294, 452, 661, 963
-  bgc: Gainsboro
-  bc: Fuchsia
-  circus: 0
-- name: P-40E-1
-  id: p_40e_1
-  alt: 0, 1000, 2000, 3000, 4000, 5000, 6000, 7000, 8400, 8600
-  spd: 0, 84, 167, 250, 347, 482, 661, 931, 2143, 3350
-  bgc: Gold
-  bc: Gainsboro
   circus: 0
 - name: Hs 129 B-2
   id: hs_129_b2
   alt: 0, 1000, 2000, 3000, 4000, 5000, 6000, 7000
   spd: 0, 117, 236, 357, 499, 692, 989, 1653
-  bgc: GoldenRod
-  bc: Gold
+  bgc: DimGray
+  bc: DeepSkyBlue
   circus: 0
-- name: Sopwith Camel
-  id: sopwith_camel
-  alt: 0, 500, 1000, 1500, 2000, 3000, 4000, 5000, 6000, 7000
-  spd: 0, 76, 157, 247, 346, 580, 885, 1301, 1937, 3251
-  bgc: Gray
-  bc: GoldenRod
-  circus: 1
-- name: Spitfire Mk.VB Merlin 46
-  id: spitfire_mk_vb
-  alt: 0, 1000, 2000, 3000, 4000, 5000, 6000, 7000, 8000, 9000, 10000, 11000, 12000
-  spd: 0, 80, 157, 233, 311, 388, 469, 561, 652, 764, 904, 1099, 1477
-  bgc: Green
-  bc: Gray
+- name: I16t24
+  id: i_16_t_24
+  alt: 0, 1000, 2000, 3000, 4000, 5000, 6000, 7000, 8000, 9000
+  spd: 0, 58, 124, 196, 275, 358, 457, 581, 745, 990
+  bgc: DodgerBlue
+  bc: DimGray
   circus: 0
-- name: Fokker D.VIIF
-  id: fokker_d_viif
-  alt: 0, 500, 1000, 1500, 2000, 2500, 3000, 3500, 4000, 4500, 5000, 5500, 6000, 6500, 7000, 7500, 8000, 8500
-  spd: 0, 71, 138, 207, 280, 355, 431, 508, 587, 670, 762, 866, 983, 1118, 1279, 1478, 1739, 2113
-  bgc: GreenYellow
-  bc: Green
-  circus: 1
-- name: Halberstadt CL.II D.IIIau
-  id: halberstadt_cl_ii_d_iiiau
-  alt: 0, 500, 1000, 1500, 2000, 2500, 3000, 3500, 4000, 4500, 4929
-  spd: 0, 127, 260, 409, 578, 773, 1004, 1286, 1647, 2146, 2802
-  bgc: HotPink
-  bc: GreenYellow
-  circus: 1
-- name: Yak9s1
-  id: yak_9t_ser_1
-  alt: 0, 1000, 2000, 3000, 4000, 5000, 6000, 7000, 8000, 9000, 10000
-  spd: 0, 59, 126, 198, 277, 372, 490, 641, 846, 1143, 1726
-  bgc: Brown
-  bc: BlueViolet
+- name: Il-2m41
+  id: il_2_m_41
+  alt: 0, 1000, 2000, 3000, 4000, 5000
+  spd: 0, 147, 294, 452, 661, 963
+  bgc: FireBrick
+  bc: DodgerBlue
   circus: 0
-- name: FW190A5
-  id: fw_190_a5
-  alt: 0, 1000, 2000, 3000, 4000, 5000, 6000, 7000, 8000, 9000, 10000
-  spd: 0, 61, 129, 205, 286, 371, 462, 569, 703, 942, 1133
-  bgc: BurlyWood
-  bc: Brown
+- name: Il-2m42
+  id: il_2_m_42
+  alt: 0, 1000, 2000, 3000, 4000, 5000
+  spd: 0, 147, 294, 452, 661, 963
+  bgc: ForestGreen
+  bc: FireBrick
   circus: 0
-- name: P-51D-15
-  id: p_51d_15
-  alt: 0, 1000, 2000, 3000, 4000, 5000, 6000, 7000, 8000, 9000, 10000, 11000
-  spd: 0, 64, 122, 182, 250, 327, 405, 488, 586, 703, 855, 1060
-  bgc: CadetBlue
-  bc: BurlyWood
+- name: Il-2m43
+  id: il_2_m_43
+  alt: 0, 1000, 2000, 3000, 4000, 5000
+  spd: 0, 147, 294, 452, 661, 963
+  bgc: Fuchsia
+  bc: ForestGreen
   circus: 0
-- name: Fokker Dr.I
-  id: fokker_dr_i
-  alt: 0, 500, 1000, 1500, 2000, 3000, 4000, 5000, 6000, 7000, 8000, 8400
-  spd: 0, 103, 195, 292, 398, 635, 920, 1277, 1749, 2455, 3873, 5315
-  bgc: Chartreuse
-  bc: CadetBlue
-  circus: 1
+- name: Ju 52 mg4e
+  id: ju523mg4e
+  alt: 0, 1000, 2000, 3000, 4000, 5000, 6000
+  spd: 0, 180, 390, 570, 900, 1296, 1854
+  bgc: Gainsboro
+  bc: Fuchsia
+  circus: 0
+- name: Ju-87 D3
+  id: ju_87_d_3
+  alt: 0, 1000, 2000, 3000, 4000, 5000
+  spd: 0, 128, 257, 392, 544, 689
+  bgc: Gold
+  bc: Gainsboro
+  circus: 0
 - name: Ju 88 A-4
   id: ju_88_a4
   alt: 0, 1000, 2000, 3000, 4000, 5000, 6000, 7000
   spd: 0, 162, 309, 486, 697, 909, 1160, 1588
-  bgc: Chocolate
-  bc: Chartreuse
+  bgc: GoldenRod
+  bc: Gold
+  circus: 0
+- name: La5FNs2
+  id: la_5_fn_ser_2
+  alt: 0, 1000, 2000, 3000, 4000, 5000, 6000, 7000, 8000, 9000, 10000
+  spd: 0, 42, 88, 142, 204, 269, 342, 431, 545, 705, 971
+  bgc: Gray
+  bc: GoldenRod
   circus: 0
 - name: La5s8
   id: la_5_ser_8
   alt: 0, 1000, 2000, 3000, 4000, 5000, 6000, 7000, 8000
   spd: 0, 60, 116, 187, 270, 369, 481, 626, 829
+  bgc: Green
+  bc: Gray
+  circus: 0
+- name: LaGG3s29
+  id: lagg_3_ser_29
+  alt: 0, 1000, 2000, 3000, 4000, 5000, 6000, 7000, 8000, 9000
+  spd: 0, 66, 135, 210, 287, 377, 490, 636, 840, 1167
+  bgc: GreenYellow
+  bc: Green
+  circus: 0
+- name: MC202s8
+  id: mc_202_s8
+  alt: 0, 1000, 2000, 3000, 4000, 5000, 6000, 7000, 8000, 9000, 10000
+  spd: 0, 51, 107, 169, 233, 301, 382, 480, 603, 769, 1004
+  bgc: HotPink
+  bc: GreenYellow
+  circus: 0
+- name: Me 262 A
+  id: me_262_a
+  alt: 0, 1000, 2000, 3000, 4000, 5000, 6000, 7000, 8000, 9000, 10000, 11000, 12000
+  spd: 0, 54, 115, 184, 260, 345, 442, 554, 686, 848, 1055, 1362, 1986
+  bgc: Brown
+  bc: BlueViolet
+  circus: 0
+- name: MiG3s24
+  id: mig_3_ser_24
+  alt: 0, 1000, 2000, 3000, 4000, 5000, 6000, 7000, 8000, 9000, 10000
+  spd: 0, 72, 148, 227, 308, 395, 488, 589, 710, 862, 1066
+  bgc: BurlyWood
+  bc: Brown
+  circus: 0
+- name: P-38J-25
+  id: p_38j_25
+  alt: 0, 1000, 2000, 3000, 4000, 5000, 6000, 7000, 8000, 9000, 10000, 11000, 11000
+  spd: 0, 57, 107, 158, 211, 270, 333, 403, 483, 579, 704, 883, 1217
+  bgc: CadetBlue
+  bc: BurlyWood
+  circus: 0
+- name: P-39L-1
+  id: p_39l_1
+  alt: 0, 1000, 2000, 3000, 4000, 5000, 6000, 7000, 8400, 8600
+  spd: 0, 84, 167, 250, 347, 482, 661, 931, 2143, 3350
+  bgc: Chartreuse
+  bc: CadetBlue
+  circus: 0
+- name: P-40E-1
+  id: p_40e_1
+  alt: 0, 1000, 2000, 3000, 4000, 5000, 6000, 7000, 8400, 8600
+  spd: 0, 84, 167, 250, 347, 482, 661, 931, 2143, 3350
+  bgc: Chocolate
+  bc: Chartreuse
+  circus: 0
+- name: P-47D-28
+  id: p_47d_28
+  alt: 0, 1000, 2000, 3000, 4000, 5000, 6000, 7000, 8000, 9000, 10000, 11000
+  spd: 0, 63, 119, 178, 233, 292, 351, 414, 485, 577, 755, 969
   bgc: Coral
   bc: Chocolate
   circus: 0
-- name: Bf109K4
-  id: bf_109_k4
+- name: P-51D-15
+  id: p_51d_15
   alt: 0, 1000, 2000, 3000, 4000, 5000, 6000, 7000, 8000, 9000, 10000, 11000
-  spd: 0, 47, 87, 131, 178, 229, 285, 349, 421, 509, 625, 797
+  spd: 0, 64, 122, 182, 250, 327, 405, 488, 586, 703, 855, 1060
   bgc: CornflowerBlue
   bc: Coral
   circus: 0
-- name: Bf109F2
-  id: bf_109_f2
-  alt: 0, 1000, 2000, 3000, 4000, 5000, 6000, 7000, 8000, 9000, 10000
-  spd: 0, 61, 127, 196, 269, 346, 431, 535, 666, 855, 1156
+- name: Pe-2 ser.35
+  id: pe_2_ser_35
+  alt: 0, 1000, 2000, 3000, 4000, 5000
+  spd: 0, 96, 198, 314, 441, 612
   bgc: Crimson
   bc: CornflowerBlue
   circus: 0
-- name: Bf109G6
-  id: bf_109_g6
-  alt: 0, 1000, 2000, 3000, 4000, 5000, 6000, 7000, 8000, 9000, 10000, 11000
-  spd: 0, 51, 103, 156, 211, 269, 331, 406, 495, 605, 754, 992
+- name: Pe-2 ser.87
+  id: pe_2_ser_87
+  alt: 0, 1000, 2000, 3000, 4000, 5000
+  spd: 0, 96, 198, 314, 441, 612
   bgc: Cyan
   bc: Crimson
   circus: 0
@@ -334,94 +334,94 @@
   bgc: DarkBlue
   bc: Cyan
   circus: 1
-- name: Ju-87 D3
-  id: ju_87_d_3
-  alt: 0, 1000, 2000, 3000, 4000, 5000
-  spd: 0, 128, 257, 392, 544, 689
+- name: PO 2 VS
+  id: po_2_vs
+  alt: 0, 500, 1000, 1500, 2000, 3000, 3500
+  spd: 0, 185, 398, 643, 932, 1729, 2381
   bgc: DarkCyan
   bc: DarkBlue
-  circus: 0
-- name: SPAD XIII C1
-  id: spad_xiii_c1
-  alt: 0, 500, 1000, 1500, 2000, 3000, 4000, 5000, 6000, 7000
-  spd: 0, 82, 152, 227, 310, 504, 750, 1081, 1584, 2664
+  circus: 1
+- name: S.E.5a
+  id: s_e_5a
+  alt: 0, 500, 1000, 1500, 2000, 2500, 3000, 3500, 4000, 4500, 5000, 5500, 5546
+  spd: 0, 87, 172, 268, 375, 498, 641, 812, 1023, 1296, 1681, 2327, 2415
   bgc: DarkGoldenRod
   bc: DarkCyan
   circus: 1
-- name: Bf109G4
-  id: bf_109_g4
-  alt: 0, 1000, 2000, 3000, 4000, 5000, 6000, 7000, 8000, 9000, 10000, 11000
-  spd: 0, 50, 100, 154, 208, 266, 328, 404, 490, 597, 739, 952
+- name: Sopwith Camel
+  id: sopwith_camel
+  alt: 0, 500, 1000, 1500, 2000, 3000, 4000, 5000, 6000, 7000
+  spd: 0, 76, 157, 247, 346, 580, 885, 1301, 1937, 3251
   bgc: DarkGray
   bc: DarkGoldenRod
-  circus: 0
-- name: Halberstadt CL.II D.IIIa
-  id: halberstadt_cl_ii_d_iiia
-  alt: 0, 500, 1000, 1500, 2000, 2500, 3000, 3500, 4000, 4075
-  spd: 0, 160, 333, 532, 764, 1043, 1394, 1862, 2560, 2701
-  bgc: DarkGreen
-  bc: DarkGray
   circus: 1
-- name: FW190D9
-  id: fw_190_d9
-  alt: 0, 1000, 2000, 3000, 4000, 5000, 6000, 7000, 8000, 9000, 10000, 11000
-  spd: 0, 51, 105, 161, 220, 282, 347, 422, 510, 620, 773, 1030
-  bgc: DarkKhaki
-  bc: DarkGreen
-  circus: 0
-- name: B-25D
-  id: b_25_d
-  alt: 0, 1000, 2000, 3000, 4000, 5000, 6000, 7000, 7400
-  spd: 0, 119, 245, 394, 570, 768, 1057, 1625, 2160
-  bgc: DarkMagenta
-  bc: DarkKhaki
-  circus: 0
-- name: Bf109F4
-  id: bf_109_f4
-  alt: 0, 1000, 2000, 3000, 4000, 5000, 6000, 7000, 8000, 9000, 10000, 11000
-  spd: 0, 54, 107, 162, 222, 285, 358, 450, 575, 687, 854, 1160
-  bgc: DarkOliveGreen
-  bc: DarkMagenta
-  circus: 0
-- name: Pe-2 ser.87
-  id: pe_2_ser_87
-  alt: 0, 1000, 2000, 3000, 4000, 5000
-  spd: 0, 96, 198, 314, 441, 612
-  bgc: DarkOrange
-  bc: DarkOliveGreen
-  circus: 0
-- name: He 111 H-6
-  id: he_111_h6
-  alt: 0, 1000, 2000, 3000, 4000, 5000, 6000
-  spd: 0, 180, 390, 570, 900, 1296, 1854
-  bgc: DarkOrchid
-  bc: DarkOrange
-  circus: 0
-- name: Bf109G14
-  id: bf_109_g14
-  alt: 0, 1000, 2000, 3000, 4000, 5000, 6000, 7000, 8000, 9000, 10000, 11000
-  spd: 0, 47, 87, 131, 178, 229, 285, 349, 421, 509, 625, 797
-  bgc: DarkRed
-  bc: DarkOrchid
-  circus: 0
-- name: Bf109G2
-  id: bf_109_g2
-  alt: 0, 1000, 2000, 3000, 4000, 5000, 6000, 7000, 8000, 9000, 10000, 11000
-  spd: 0, 48, 97, 149, 201, 258, 317, 389, 471, 574, 702, 892
-  bgc: DarkSalmon
-  bc: DarkRed
-  circus: 0
-- name: Bf-110 E2
-  id: bf_110_e2
-  alt: 0, 1000, 2000, 3000, 4000, 5000, 6000, 7000
-  spd: 0, 95, 193, 294, 404, 524, 668, 864
-  bgc: DarkSeaGreen
-  bc: DarkSalmon
-  circus: 0
 - name: Sopwith Dolphin
   id: sopwith_dolphin
   alt: 0, 500, 1000, 1500, 2000, 2500, 3000, 3500, 4000, 4500, 5000, 5500, 6000, 6500, 7000
   spd: 0, 83, 164, 252, 348, 454, 572, 704, 854, 1027, 1230, 1475, 1782, 2193, 2824
+  bgc: DarkGreen
+  bc: DarkGray
+  circus: 1
+- name: SPAD XIII C1
+  id: spad_xiii_c1
+  alt: 0, 500, 1000, 1500, 2000, 3000, 4000, 5000, 6000, 7000
+  spd: 0, 82, 152, 227, 310, 504, 750, 1081, 1584, 2664
+  bgc: DarkKhaki
+  bc: DarkGreen
+  circus: 1
+- name: Spitfire Mk.IXe Merlin 66
+  id: spitfire_mk_ixe
+  alt: 0, 1000, 2000, 3000, 4000, 5000, 6000, 7000, 8000, 9000, 10000, 11000, 12000
+  spd: 0, 52, 105, 159, 215, 277, 341, 407, 486, 577, 690, 840, 1095
+  bgc: DarkMagenta
+  bc: DarkKhaki
+  circus: 0
+- name: Spitfire Mk.VB Merlin 46
+  id: spitfire_mk_vb
+  alt: 0, 1000, 2000, 3000, 4000, 5000, 6000, 7000, 8000, 9000, 10000, 11000, 12000
+  spd: 0, 80, 157, 233, 311, 388, 469, 561, 652, 764, 904, 1099, 1477
+  bgc: DarkOliveGreen
+  bc: DarkMagenta
+  circus: 0
+- name: Tempest Mk.V ser.2
+  id: tempest_mk_v_ser_2
+  alt: 0, 1000, 2000, 3000, 4000, 5000, 6000, 7000, 8000, 9000, 10000
+  spd: 0, 50, 104, 167, 233, 301, 378, 470, 587, 754, 1049
+  bgc: DarkOrange
+  bc: DarkOliveGreen
+  circus: 0
+- name: Yak1s127
+  id: yak_1_ser_127
+  alt: 0, 1000, 2000, 3000, 4000, 5000, 6000, 7000, 8000, 9000
+  spd: 0, 62, 125, 190, 260, 340, 436, 553, 700, 907
+  bgc: DarkOrchid
+  bc: DarkOrange
+  circus: 0
+- name: Yak1s69
+  id: yak_1_ser_69
+  alt: 0, 1000, 2000, 3000, 4000, 5000, 6000, 7000, 8000, 9000
+  spd: 0, 53, 116, 183, 253, 334, 429, 549, 706, 927
+  bgc: DarkRed
+  bc: DarkOrchid
+  circus: 0
+- name: Yak7Bs36
+  id: yak_7b_ser_36
+  alt: 0, 1000, 2000, 3000, 4000, 5000, 6000, 7000, 8000, 9000
+  spd: 0, 58, 124, 191, 266, 354, 459, 589, 760, 1003
+  bgc: DarkSalmon
+  bc: DarkRed
+  circus: 0
+- name: Yak9s1
+  id: yak_9_ser_1
+  alt: 0, 1000, 2000, 3000, 4000, 5000, 6000, 7000, 8000, 9000, 10000
+  spd: 0, 50, 109, 171, 239, 319, 419, 545, 712, 953, 1384
+  bgc: DarkSeaGreen
+  bc: DarkSalmon
+  circus: 0
+- name: Yak9s1
+  id: yak_9t_ser_1
+  alt: 0, 1000, 2000, 3000, 4000, 5000, 6000, 7000, 8000, 9000, 10000
+  spd: 0, 59, 126, 198, 277, 372, 490, 641, 846, 1143, 1726
   bgc: DarkSlateBlue
   bc: DarkSeaGreen
-  circus: 1
+  circus: 0

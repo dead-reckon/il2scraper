@@ -35,12 +35,10 @@ def parse_ai():
     ai_path = path + "/Ai"
     ai_dir = os.listdir(ai_path)
 
-    list_plane = []
-
     lst_ai = []
     
+    list_plane = []
     list_speed = []
-    
     list_max_alt = []
     list_turn = []
     list_turn_optimal = []
@@ -312,6 +310,9 @@ def alt_parse():
     lst_tas = []
     lst_tta = []
 
+    sorted_filename = ai_dir.sort()
+    # print(ai_dir)
+
     for line in ai_dir:
         filename = ai_path + "/" + line
         plid = re.sub(r'\.txt.*$','',line)
@@ -482,6 +483,6 @@ def alt_parse():
             num = num+1
 
 
-# extract_src()
-# parse_ai()
+extract_src()
+parse_ai()
 alt_parse()
