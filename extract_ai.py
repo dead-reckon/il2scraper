@@ -429,6 +429,7 @@ def alt_parse():
             ct.write("  bgc: " + colors[0] + "\n")
             ct.write("  bc: " + colors[1] + "\n")
             ct.write("  circus: " + circus + "\n")
+            num = num+1
 
     with open("tas.yml", "w", encoding="utf8") as ct:
         num = 0
@@ -453,6 +454,7 @@ def alt_parse():
             ct.write("  bgc: " + colors[0] + "\n")
             ct.write("  bc: " + colors[1] + "\n")
             ct.write("  circus: " + circus + "\n")
+            num = num+1
 
     with open("tta.yml", "w", encoding="utf8") as ct:
         num = 0
@@ -477,6 +479,7 @@ def alt_parse():
             ct.write("  bgc: " + colors[0] + "\n")
             ct.write("  bc: " + colors[1] + "\n")
             ct.write("  circus: " + circus + "\n")
+            num = num+1
 
 
 # extract_src()
