@@ -1,308 +1,7 @@
-- name: Albatros D.Va
-  id: albatros_d_va
-  alt: 0, 10000
-  spd: 10.0, 10.0
-  bgc: CadetBlue
-  bc: BurlyWood
-  circus: 0
-- name: A-20B
-  id: a_20_b
-  alt: 0, 1000, 2000, 3000, 4000, 5000, 6000
-  spd: 24.4, 26.5, 31.3, 34.7, 42.7, 61.2, 122.2
-  bgc: CadetBlue
-  bc: BurlyWood
-  circus: 0
-- name: Bf 109 E-7
-  id: bf_109_e7
+- name: Yak7Bs36
+  id: yak_7b_ser_36
   alt: 0, 1000, 2000, 3000, 4000, 5000, 6000, 7000
-  spd: 20.0, 21.0, 22.0, 24.0, 28.0, 30.0, 36.0, 42.0
-  bgc: CadetBlue
-  bc: BurlyWood
-  circus: 0
-- name: Bf109F2
-  id: bf_109_f2
-  alt: 0, 1000, 2000, 3000, 4000, 5000, 6000, 7000
-  spd: 22.0, 23.2, 25.6, 28.8, 31.7, 35.9, 40.8, 49.4
-  bgc: CadetBlue
-  bc: BurlyWood
-  circus: 0
-- name: Bf109F4
-  id: bf_109_f4
-  alt: 0, 1000, 2000, 3000, 4000, 5000, 6000, 7000
-  spd: 23.7, 25.0, 27.6, 30.7, 33.7, 37.3, 42.4, 49.1
-  bgc: CadetBlue
-  bc: BurlyWood
-  circus: 0
-- name: Bf109G14
-  id: bf_109_g14
-  alt: 0, 1000, 2000, 3000, 4000, 5000, 6000, 7000
-  spd: 20.0, 22.4, 24.4, 27.2, 29.5, 32.6, 36.7, 45.0
-  bgc: CadetBlue
-  bc: BurlyWood
-  circus: 0
-- name: Bf109G2
-  id: bf_109_g2
-  alt: 0, 1000, 2000, 3000, 4000, 5000, 6000, 7000
-  spd: 21.2, 22.4, 24.4, 27.2, 29.5, 32.6, 36.7, 45.0
-  bgc: CadetBlue
-  bc: BurlyWood
-  circus: 0
-- name: Bf109G4
-  id: bf_109_g4
-  alt: 0, 1000, 2000, 3000, 4000, 5000, 6000, 7000
-  spd: 21.2, 22.4, 24.4, 27.2, 29.5, 32.6, 36.7, 45.0
-  bgc: CadetBlue
-  bc: BurlyWood
-  circus: 0
-- name: Bf109G6
-  id: bf_109_g6
-  alt: 0, 1000, 2000, 3000, 4000, 5000, 6000, 7000
-  spd: 21.2, 22.4, 24.4, 27.2, 29.5, 32.6, 36.7, 45.0
-  bgc: CadetBlue
-  bc: BurlyWood
-  circus: 0
-- name: Bf109K4
-  id: bf_109_k4
-  alt: 0, 1000, 2000, 3000, 4000, 5000, 6000, 7000
-  spd: 20.0, 22.4, 24.4, 27.2, 29.5, 32.6, 36.7, 45.0
-  bgc: CadetBlue
-  bc: BurlyWood
-  circus: 0
-- name: Bf-110 E2
-  id: bf_110_e2
-  alt: 500, 1000, 2000, 3000, 4000, 5000, 6000, 7000, 8000
-  spd: 26.7, 27.8, 30.0, 33.1, 37.7, 45.4, 56.1, 72.2, 95.0
-  bgc: CadetBlue
-  bc: BurlyWood
-  circus: 0
-- name: Bf-110 G2
-  id: bf_110_g2
-  alt: 500, 1000, 2000, 3000, 4000, 5000, 6000, 7000, 8000
-  spd: 26.7, 27.8, 30.0, 33.1, 37.7, 45.4, 56.1, 72.2, 95.0
-  bgc: CadetBlue
-  bc: BurlyWood
-  circus: 0
-- name: Bristol F.2B Falcon II
-  id: bristol_f_2b_falcon_ii
-  alt: 0, 10000
-  spd: 11.5, 11.5
-  bgc: CadetBlue
-  bc: BurlyWood
-  circus: 0
-- name: Bristol F.2B Falcon III
-  id: bristol_f_2b_falcon_iii
-  alt: 0, 10000
-  spd: 11.0, 11.0
-  bgc: CadetBlue
-  bc: BurlyWood
-  circus: 0
-- name: B-25D
-  id: b_25_d
-  alt: 0, 1000, 2000, 3000, 4000, 5000, 6000
-  spd: 28.8, 30.2, 35.6, 47.0, 65.7, 89.4, 154.0
-  bgc: CadetBlue
-  bc: BurlyWood
-  circus: 0
-- name: Fokker Dr.I
-  id: fokker_dr_i
-  alt: 0, 10000
-  spd: 10, 10
-  bgc: CadetBlue
-  bc: BurlyWood
-  circus: 0
-- name: Fokker D.VII
-  id: fokker_d_vii
-  alt: 0, 10000
-  spd: 11.3, 11.3
-  bgc: CadetBlue
-  bc: BurlyWood
-  circus: 0
-- name: Fokker D.VIIF
-  id: fokker_d_viif
-  alt: 0, 10000
-  spd: 10.0, 10.0
-  bgc: CadetBlue
-  bc: BurlyWood
-  circus: 0
-- name: FW190A3
-  id: fw_190_a3
-  alt: 500, 1000, 2000, 3000, 4000, 5000, 6000, 7000
-  spd: 23.0, 24.0, 27.4, 28.0, 32.0, 35.0, 43.1, 49.7
-  bgc: CadetBlue
-  bc: BurlyWood
-  circus: 0
-- name: FW190A5
-  id: fw_190_a5
-  alt: 500, 1000, 2000, 3000, 4000, 5000, 6000, 7000
-  spd: 23.0, 24.0, 27.4, 28.0, 32.0, 35.0, 43.1, 49.7
-  bgc: CadetBlue
-  bc: BurlyWood
-  circus: 0
-- name: FW190A8
-  id: fw_190_a8
-  alt: 500, 1000, 2000, 3000, 4000, 5000, 6000, 7000
-  spd: 23.0, 24.0, 27.4, 28.0, 32.0, 35.0, 43.1, 49.7
-  bgc: CadetBlue
-  bc: BurlyWood
-  circus: 0
-- name: FW190D9
-  id: fw_190_d9
-  alt: 100, 1000, 2000, 3000, 4000, 5000, 6000, 7000
-  spd: 20.0, 23.0, 26.0, 29.0, 32.8, 34.5, 37.0, 40.0
-  bgc: CadetBlue
-  bc: BurlyWood
-  circus: 0
-- name: Halberstadt CL.II D.IIIa
-  id: halberstadt_cl_ii_d_iiia
-  alt: 0, 10000
-  spd: 13.0, 13.0
-  bgc: CadetBlue
-  bc: BurlyWood
-  circus: 0
-- name: Halberstadt CL.II D.IIIau
-  id: halberstadt_cl_ii_d_iiiau
-  alt: 0, 10000
-  spd: 12.5, 12.5
-  bgc: CadetBlue
-  bc: BurlyWood
-  circus: 0
-- name: He 111 H-6
-  id: he_111_h16
-  alt: 0, 1000, 2000, 3000, 4000, 5000, 6000
-  spd: 38.0, 40.4, 44.2, 52.6, 59.6, 72.8, 91.0
-  bgc: CadetBlue
-  bc: BurlyWood
-  circus: 0
-- name: He 111 H-6
-  id: he_111_h6
-  alt: 0, 1000, 2000, 3000, 4000, 5000, 6000
-  spd: 38.0, 40.4, 44.2, 52.6, 59.6, 72.8, 91.0
-  bgc: CadetBlue
-  bc: BurlyWood
-  circus: 0
-- name: Hs 129 B-2
-  id: hs_129_b2
-  alt: 500, 1000, 2000, 3000, 4000, 5000, 6000
-  spd: 31.0, 32.4, 33.9, 36.3, 45.5, 61.0, 80.1
-  bgc: CadetBlue
-  bc: BurlyWood
-  circus: 0
-- name: Il-2m41
-  id: il_2_m_41
-  alt: 0, 1000, 2000, 3000, 4000, 5000
-  spd: 24.2, 25.2, 28.1, 33.2, 40.6, 51.4
-  bgc: CadetBlue
-  bc: BurlyWood
-  circus: 0
-- name: Il-2m42
-  id: il_2_m_42
-  alt: 0, 1000, 2000, 3000, 4000, 5000
-  spd: 24.2, 25.2, 28.1, 33.2, 40.6, 51.4
-  bgc: CadetBlue
-  bc: BurlyWood
-  circus: 0
-- name: Il-2m43
-  id: il_2_m_43
-  alt: 0, 1000, 2000, 3000, 4000, 5000
-  spd: 24.2, 25.2, 28.1, 33.2, 40.6, 51.4
-  bgc: CadetBlue
-  bc: BurlyWood
-  circus: 0
-- name: I16t24
-  id: i_16_t_24
-  alt: 0, 1000, 2000, 3000, 4000, 5000, 6000, 7000
-  spd: 17.0, 18.1, 20.1, 24.2, 27.4, 32.5, 47.7, 58.3
-  bgc: CadetBlue
-  bc: BurlyWood
-  circus: 0
-- name: Ju 52 mg4e
-  id: ju523mg4e
-  alt: 0, 1000, 2000, 3000, 4000, 5000
-  spd: 30.0, 30.4, 34.2, 42.6, 59.6, 82.8
-  bgc: CadetBlue
-  bc: BurlyWood
-  circus: 0
-- name: Ju-87 D3
-  id: ju_87_d_3
-  alt: 0, 1000, 2000, 3000, 4000, 5000
-  spd: 24.4, 24.8, 25.3, 29.7, 35.2, 43.6
-  bgc: CadetBlue
-  bc: BurlyWood
-  circus: 0
-- name: Ju 88 A-4
-  id: ju_88_a4
-  alt: 0, 1000, 2000, 3000, 4000, 5000
-  spd: 32.0, 42.0, 43.0, 45.0, 50.0, 70.0
-  bgc: CadetBlue
-  bc: BurlyWood
-  circus: 0
-- name: LaGG3s29
-  id: lagg_3_ser_29
-  alt: 0, 1000, 2000, 3000, 4000, 5000, 6000, 7000
-  spd: 22.5, 23.6, 26.4, 28.2, 31.6, 37.1, 43.5, 52.4
-  bgc: CadetBlue
-  bc: BurlyWood
-  circus: 0
-- name: La5FNs2
-  id: la_5_fn_ser_2
-  alt: 0, 1000, 2000, 3000, 4000, 5000, 6000, 7000
-  spd: 21.0, 21.8, 23.0, 27.0, 29.5, 34.1, 40.8, 47.1
-  bgc: CadetBlue
-  bc: BurlyWood
-  circus: 0
-- name: La5s8
-  id: la_5_ser_8
-  alt: 0, 1000, 2000, 3000, 4000, 5000, 6000, 7000
-  spd: 24.9, 26.0, 27.4, 33.0, 35.1, 40.6, 48.6, 56.0
-  bgc: CadetBlue
-  bc: BurlyWood
-  circus: 0
-- name: MC202s8
-  id: mc_202_s8
-  alt: 0, 1000, 2000, 3000, 4000, 5000, 6000, 7000
-  spd: 20.5, 21.2, 22.7, 24.7, 26.8, 30.8, 35.9, 42.5
-  bgc: CadetBlue
-  bc: BurlyWood
-  circus: 0
-- name: Me 262 A
-  id: me_262_a
-  alt: 0, 6000, 12000
-  spd: 32.0, 43.0, 52.0
-  bgc: CadetBlue
-  bc: BurlyWood
-  circus: 0
-- name: MiG3s24
-  id: mig_3_ser_24
-  alt: 250, 1000, 2000, 3000, 4000, 5000, 6000, 7000, 8000
-  spd: 21.8, 22.3, 24.4, 26.2, 29.1, 32.9, 38.4, 46.9, 58.3
-  bgc: CadetBlue
-  bc: BurlyWood
-  circus: 0
-- name: Pe-2 ser.35
-  id: pe_2_ser_35
-  alt: 0, 1000, 2000, 3000, 4000, 5000
-  spd: 30.0, 31.8, 34.5, 37.7, 42.1, 49.6
-  bgc: CadetBlue
-  bc: BurlyWood
-  circus: 0
-- name: Pe-2 ser.87
-  id: pe_2_ser_87
-  alt: 0, 1000, 2000, 3000, 4000, 5000
-  spd: 30.0, 31.8, 34.5, 37.7, 42.1, 49.6
-  bgc: CadetBlue
-  bc: BurlyWood
-  circus: 0
-- name: Pfalz D.IIIa
-  id: pfalz_d_iiia
-  alt: 0, 10000
-  spd: 9.5, 9.5
-  bgc: CadetBlue
-  bc: BurlyWood
-  circus: 0
-- name: PO 2 VS
-  id: po_2_vs
-  alt: 10000
-  spd: 22.2
+  spd: 19.0, 19.3, 21.5, 22.9, 25.9, 29.7, 34.7, 41.5
   bgc: CadetBlue
   bc: BurlyWood
   circus: 0
@@ -310,29 +9,274 @@
   id: p_38j_25
   alt: 0, 2000, 3000, 6000, 9000
   spd: 20.0, 23.9, 28.3, 41.0, 83.0
-  bgc: CadetBlue
-  bc: BurlyWood
+  bgc: Chartreuse
+  bc: CadetBlue
   circus: 0
-- name: P-39L-1
-  id: p_39l_1
+- name: Yak9s1
+  id: yak_9_ser_1
   alt: 0, 1000, 2000, 3000, 4000, 5000, 6000, 7000
-  spd: 25.5, 27.0, 29.7, 32.2, 35.5, 42.5, 53.0, 69.6
-  bgc: CadetBlue
-  bc: BurlyWood
+  spd: 16.9, 17.9, 18.5, 22.3, 25.0, 32.0, 40.0, 45.0
+  bgc: Chocolate
+  bc: Chartreuse
   circus: 0
-- name: P-40E-1
-  id: p_40e_1
+- name: Bf 109 E-7
+  id: bf_109_e7
   alt: 0, 1000, 2000, 3000, 4000, 5000, 6000, 7000
-  spd: 25.5, 27.0, 29.7, 32.2, 35.5, 42.5, 53.0, 69.6
-  bgc: CadetBlue
-  bc: BurlyWood
+  spd: 20.0, 21.0, 22.0, 24.0, 28.0, 30.0, 36.0, 42.0
+  bgc: Coral
+  bc: Chocolate
+  circus: 0
+- name: MC202s8
+  id: mc_202_s8
+  alt: 0, 1000, 2000, 3000, 4000, 5000, 6000, 7000
+  spd: 20.5, 21.2, 22.7, 24.7, 26.8, 30.8, 35.9, 42.5
+  bgc: CornflowerBlue
+  bc: Coral
   circus: 0
 - name: P-47D-28
   id: p_47d_28
   alt: 0, 1000, 2000, 3000, 4000, 5000, 6000, 7000, 8000, 9000, 10000
   spd: 27.0, 27.5, 29.0, 31.0, 37.5, 44.0, 55.0, 74.0, 94.0, 115.0, 155.0
-  bgc: CadetBlue
-  bc: BurlyWood
+  bgc: Crimson
+  bc: CornflowerBlue
+  circus: 0
+- name: A-20B
+  id: a_20_b
+  alt: 0, 1000, 2000, 3000, 4000, 5000, 6000
+  spd: 24.4, 26.5, 31.3, 34.7, 42.7, 61.2, 122.2
+  bgc: Cyan
+  bc: Crimson
+  circus: 0
+- name: Ju 52 mg4e
+  id: ju523mg4e
+  alt: 0, 1000, 2000, 3000, 4000, 5000
+  spd: 30.0, 30.4, 34.2, 42.6, 59.6, 82.8
+  bgc: DarkBlue
+  bc: Cyan
+  circus: 0
+- name: Albatros D.Va
+  id: albatros_d_va
+  alt: 0, 10000
+  spd: 10.0, 10.0
+  bgc: DarkCyan
+  bc: DarkBlue
+  circus: 0
+- name: Bristol F.2B Falcon II
+  id: bristol_f_2b_falcon_ii
+  alt: 0, 10000
+  spd: 11.5, 11.5
+  bgc: DarkGoldenRod
+  bc: DarkCyan
+  circus: 0
+- name: Bf-110 G2
+  id: bf_110_g2
+  alt: 500, 1000, 2000, 3000, 4000, 5000, 6000, 7000, 8000
+  spd: 26.7, 27.8, 30.0, 33.1, 37.7, 45.4, 56.1, 72.2, 95.0
+  bgc: DarkGray
+  bc: DarkGoldenRod
+  circus: 0
+- name: Tempest Mk.V ser.2
+  id: tempest_mk_v_ser_2
+  alt: 0, 1000, 2000, 3000, 4000, 5000, 6000, 7000
+  spd: 18.0, 19.3, 21.2, 24.0, 26.9, 30.4, 35.5, 42.8
+  bgc: DarkGreen
+  bc: DarkGray
+  circus: 0
+- name: I16t24
+  id: i_16_t_24
+  alt: 0, 1000, 2000, 3000, 4000, 5000, 6000, 7000
+  spd: 17.0, 18.1, 20.1, 24.2, 27.4, 32.5, 47.7, 58.3
+  bgc: DarkKhaki
+  bc: DarkGreen
+  circus: 0
+- name: S.E.5a
+  id: s_e_5a
+  alt: 0, 10000
+  spd: 10.5, 10.5
+  bgc: DarkMagenta
+  bc: DarkKhaki
+  circus: 0
+- name: Yak1s69
+  id: yak_1_ser_69
+  alt: 0, 1000, 2000, 3000, 4000, 5000, 6000, 7000
+  spd: 19.0, 20.7, 22.8, 24.6, 27.8, 32.2, 37.7, 45.2
+  bgc: DarkOliveGreen
+  bc: DarkMagenta
+  circus: 0
+- name: FW190A8
+  id: fw_190_a8
+  alt: 500, 1000, 2000, 3000, 4000, 5000, 6000, 7000
+  spd: 23.0, 24.0, 27.4, 28.0, 32.0, 35.0, 43.1, 49.7
+  bgc: DarkOrange
+  bc: DarkOliveGreen
+  circus: 0
+- name: La5FNs2
+  id: la_5_fn_ser_2
+  alt: 0, 1000, 2000, 3000, 4000, 5000, 6000, 7000
+  spd: 21.0, 21.8, 23.0, 27.0, 29.5, 34.1, 40.8, 47.1
+  bgc: DarkOrchid
+  bc: DarkOrange
+  circus: 0
+- name: Me 262 A
+  id: me_262_a
+  alt: 0, 6000, 12000
+  spd: 32.0, 43.0, 52.0
+  bgc: DarkRed
+  bc: DarkOrchid
+  circus: 0
+- name: PO 2 VS
+  id: po_2_vs
+  alt: 10000
+  spd: 22.2
+  bgc: DarkSalmon
+  bc: DarkRed
+  circus: 0
+- name: MiG3s24
+  id: mig_3_ser_24
+  alt: 250, 1000, 2000, 3000, 4000, 5000, 6000, 7000, 8000
+  spd: 21.8, 22.3, 24.4, 26.2, 29.1, 32.9, 38.4, 46.9, 58.3
+  bgc: DarkSeaGreen
+  bc: DarkSalmon
+  circus: 0
+- name: P-39L-1
+  id: p_39l_1
+  alt: 0, 1000, 2000, 3000, 4000, 5000, 6000, 7000
+  spd: 25.5, 27.0, 29.7, 32.2, 35.5, 42.5, 53.0, 69.6
+  bgc: DarkSlateBlue
+  bc: DarkSeaGreen
+  circus: 0
+- name: Bristol F.2B Falcon III
+  id: bristol_f_2b_falcon_iii
+  alt: 0, 10000
+  spd: 11.0, 11.0
+  bgc: DarkSlateGrey
+  bc: DarkSlateBlue
+  circus: 0
+- name: Spitfire Mk.IXe Merlin 66
+  id: spitfire_mk_ixe
+  alt: 0, 1000, 2000, 3000, 4000, 5000, 6000, 7000
+  spd: 17.8, 18.3, 19.2, 21.2, 22.1, 24.1, 27.7, 31.9
+  bgc: DarkTurquoise
+  bc: DarkSlateGrey
+  circus: 0
+- name: LaGG3s29
+  id: lagg_3_ser_29
+  alt: 0, 1000, 2000, 3000, 4000, 5000, 6000, 7000
+  spd: 22.5, 23.6, 26.4, 28.2, 31.6, 37.1, 43.5, 52.4
+  bgc: DarkViolet
+  bc: DarkTurquoise
+  circus: 0
+- name: He 111 H-6
+  id: he_111_h16
+  alt: 0, 1000, 2000, 3000, 4000, 5000, 6000
+  spd: 38.0, 40.4, 44.2, 52.6, 59.6, 72.8, 91.0
+  bgc: DeepPink
+  bc: DarkViolet
+  circus: 0
+- name: Il-2m42
+  id: il_2_m_42
+  alt: 0, 1000, 2000, 3000, 4000, 5000
+  spd: 24.2, 25.2, 28.1, 33.2, 40.6, 51.4
+  bgc: DeepSkyBlue
+  bc: DeepPink
+  circus: 0
+- name: Il-2m43
+  id: il_2_m_43
+  alt: 0, 1000, 2000, 3000, 4000, 5000
+  spd: 24.2, 25.2, 28.1, 33.2, 40.6, 51.4
+  bgc: DimGray
+  bc: DeepSkyBlue
+  circus: 0
+- name: Fokker D.VII
+  id: fokker_d_vii
+  alt: 0, 10000
+  spd: 11.3, 11.3
+  bgc: DodgerBlue
+  bc: DimGray
+  circus: 0
+- name: Pe-2 ser.35
+  id: pe_2_ser_35
+  alt: 0, 1000, 2000, 3000, 4000, 5000
+  spd: 30.0, 31.8, 34.5, 37.7, 42.1, 49.6
+  bgc: FireBrick
+  bc: DodgerBlue
+  circus: 0
+- name: FW190A3
+  id: fw_190_a3
+  alt: 500, 1000, 2000, 3000, 4000, 5000, 6000, 7000
+  spd: 23.0, 24.0, 27.4, 28.0, 32.0, 35.0, 43.1, 49.7
+  bgc: ForestGreen
+  bc: FireBrick
+  circus: 0
+- name: Yak1s127
+  id: yak_1_ser_127
+  alt: 0, 1000, 2000, 3000, 4000, 5000, 6000, 7000
+  spd: 19.0, 20.3, 22.6, 24.1, 27.2, 31.2, 36.5, 43.7
+  bgc: Fuchsia
+  bc: ForestGreen
+  circus: 0
+- name: Il-2m41
+  id: il_2_m_41
+  alt: 0, 1000, 2000, 3000, 4000, 5000
+  spd: 24.2, 25.2, 28.1, 33.2, 40.6, 51.4
+  bgc: Gainsboro
+  bc: Fuchsia
+  circus: 0
+- name: P-40E-1
+  id: p_40e_1
+  alt: 0, 1000, 2000, 3000, 4000, 5000, 6000, 7000
+  spd: 25.5, 27.0, 29.7, 32.2, 35.5, 42.5, 53.0, 69.6
+  bgc: Gold
+  bc: Gainsboro
+  circus: 0
+- name: Hs 129 B-2
+  id: hs_129_b2
+  alt: 500, 1000, 2000, 3000, 4000, 5000, 6000
+  spd: 31.0, 32.4, 33.9, 36.3, 45.5, 61.0, 80.1
+  bgc: GoldenRod
+  bc: Gold
+  circus: 0
+- name: Sopwith Camel
+  id: sopwith_camel
+  alt: 0, 10000
+  spd: 8.3, 8.3
+  bgc: Gray
+  bc: GoldenRod
+  circus: 0
+- name: Spitfire Mk.VB Merlin 46
+  id: spitfire_mk_vb
+  alt: 0, 1000, 2000, 3000, 4000, 5000, 6000, 7000
+  spd: 25.0, 26.5, 29.0, 30.0, 32.5, 40.0, 50.0, 60.0
+  bgc: Green
+  bc: Gray
+  circus: 0
+- name: Fokker D.VIIF
+  id: fokker_d_viif
+  alt: 0, 10000
+  spd: 10.0, 10.0
+  bgc: GreenYellow
+  bc: Green
+  circus: 0
+- name: Halberstadt CL.II D.IIIau
+  id: halberstadt_cl_ii_d_iiiau
+  alt: 0, 10000
+  spd: 12.5, 12.5
+  bgc: HotPink
+  bc: GreenYellow
+  circus: 0
+- name: Yak9s1
+  id: yak_9t_ser_1
+  alt: 0, 1000, 2000, 3000, 4000, 5000, 6000, 7000
+  spd: 18.2, 19.5, 23.0, 25.2, 30.0, 35.0, 45.0, 50.0
+  bgc: Brown
+  bc: BlueViolet
+  circus: 0
+- name: FW190A5
+  id: fw_190_a5
+  alt: 500, 1000, 2000, 3000, 4000, 5000, 6000, 7000
+  spd: 23.0, 24.0, 27.4, 28.0, 32.0, 35.0, 43.1, 49.7
+  bgc: BurlyWood
+  bc: Brown
   circus: 0
 - name: P-51D-15
   id: p_51d_15
@@ -341,87 +285,143 @@
   bgc: CadetBlue
   bc: BurlyWood
   circus: 1
-- name: Sopwith Camel
-  id: sopwith_camel
+- name: Fokker Dr.I
+  id: fokker_dr_i
   alt: 0, 10000
-  spd: 8.3, 8.3
-  bgc: CadetBlue
-  bc: BurlyWood
+  spd: 10, 10
+  bgc: Chartreuse
+  bc: CadetBlue
   circus: 0
-- name: Sopwith Dolphin
-  id: sopwith_dolphin
+- name: Ju 88 A-4
+  id: ju_88_a4
+  alt: 0, 1000, 2000, 3000, 4000, 5000
+  spd: 32.0, 42.0, 43.0, 45.0, 50.0, 70.0
+  bgc: Chocolate
+  bc: Chartreuse
+  circus: 0
+- name: La5s8
+  id: la_5_ser_8
+  alt: 0, 1000, 2000, 3000, 4000, 5000, 6000, 7000
+  spd: 24.9, 26.0, 27.4, 33.0, 35.1, 40.6, 48.6, 56.0
+  bgc: Coral
+  bc: Chocolate
+  circus: 0
+- name: Bf109K4
+  id: bf_109_k4
+  alt: 0, 1000, 2000, 3000, 4000, 5000, 6000, 7000
+  spd: 20.0, 22.4, 24.4, 27.2, 29.5, 32.6, 36.7, 45.0
+  bgc: CornflowerBlue
+  bc: Coral
+  circus: 0
+- name: Bf109F2
+  id: bf_109_f2
+  alt: 0, 1000, 2000, 3000, 4000, 5000, 6000, 7000
+  spd: 22.0, 23.2, 25.6, 28.8, 31.7, 35.9, 40.8, 49.4
+  bgc: Crimson
+  bc: CornflowerBlue
+  circus: 0
+- name: Bf109G6
+  id: bf_109_g6
+  alt: 0, 1000, 2000, 3000, 4000, 5000, 6000, 7000
+  spd: 21.2, 22.4, 24.4, 27.2, 29.5, 32.6, 36.7, 45.0
+  bgc: Cyan
+  bc: Crimson
+  circus: 0
+- name: Pfalz D.IIIa
+  id: pfalz_d_iiia
   alt: 0, 10000
-  spd: 9.8, 9.8
-  bgc: CadetBlue
-  bc: BurlyWood
+  spd: 9.5, 9.5
+  bgc: DarkBlue
+  bc: Cyan
+  circus: 0
+- name: Ju-87 D3
+  id: ju_87_d_3
+  alt: 0, 1000, 2000, 3000, 4000, 5000
+  spd: 24.4, 24.8, 25.3, 29.7, 35.2, 43.6
+  bgc: DarkCyan
+  bc: DarkBlue
   circus: 0
 - name: SPAD XIII C1
   id: spad_xiii_c1
   alt: 0, 10000
   spd: 11.5, 11.5
-  bgc: CadetBlue
-  bc: BurlyWood
+  bgc: DarkGoldenRod
+  bc: DarkCyan
   circus: 0
-- name: Spitfire Mk.IXe Merlin 66
-  id: spitfire_mk_ixe
+- name: Bf109G4
+  id: bf_109_g4
   alt: 0, 1000, 2000, 3000, 4000, 5000, 6000, 7000
-  spd: 17.8, 18.3, 19.2, 21.2, 22.1, 24.1, 27.7, 31.9
-  bgc: CadetBlue
-  bc: BurlyWood
+  spd: 21.2, 22.4, 24.4, 27.2, 29.5, 32.6, 36.7, 45.0
+  bgc: DarkGray
+  bc: DarkGoldenRod
   circus: 0
-- name: Spitfire Mk.VB Merlin 46
-  id: spitfire_mk_vb
-  alt: 0, 1000, 2000, 3000, 4000, 5000, 6000, 7000
-  spd: 25.0, 26.5, 29.0, 30.0, 32.5, 40.0, 50.0, 60.0
-  bgc: CadetBlue
-  bc: BurlyWood
-  circus: 0
-- name: S.E.5a
-  id: s_e_5a
+- name: Halberstadt CL.II D.IIIa
+  id: halberstadt_cl_ii_d_iiia
   alt: 0, 10000
-  spd: 10.5, 10.5
-  bgc: CadetBlue
-  bc: BurlyWood
+  spd: 13.0, 13.0
+  bgc: DarkGreen
+  bc: DarkGray
   circus: 0
-- name: Tempest Mk.V ser.2
-  id: tempest_mk_v_ser_2
-  alt: 0, 1000, 2000, 3000, 4000, 5000, 6000, 7000
-  spd: 18.0, 19.3, 21.2, 24.0, 26.9, 30.4, 35.5, 42.8
-  bgc: CadetBlue
-  bc: BurlyWood
+- name: FW190D9
+  id: fw_190_d9
+  alt: 100, 1000, 2000, 3000, 4000, 5000, 6000, 7000
+  spd: 20.0, 23.0, 26.0, 29.0, 32.8, 34.5, 37.0, 40.0
+  bgc: DarkKhaki
+  bc: DarkGreen
   circus: 0
-- name: Yak1s127
-  id: yak_1_ser_127
-  alt: 0, 1000, 2000, 3000, 4000, 5000, 6000, 7000
-  spd: 19.0, 20.3, 22.6, 24.1, 27.2, 31.2, 36.5, 43.7
-  bgc: CadetBlue
-  bc: BurlyWood
+- name: B-25D
+  id: b_25_d
+  alt: 0, 1000, 2000, 3000, 4000, 5000, 6000
+  spd: 28.8, 30.2, 35.6, 47.0, 65.7, 89.4, 154.0
+  bgc: DarkMagenta
+  bc: DarkKhaki
   circus: 0
-- name: Yak1s69
-  id: yak_1_ser_69
+- name: Bf109F4
+  id: bf_109_f4
   alt: 0, 1000, 2000, 3000, 4000, 5000, 6000, 7000
-  spd: 19.0, 20.7, 22.8, 24.6, 27.8, 32.2, 37.7, 45.2
-  bgc: CadetBlue
-  bc: BurlyWood
+  spd: 23.7, 25.0, 27.6, 30.7, 33.7, 37.3, 42.4, 49.1
+  bgc: DarkOliveGreen
+  bc: DarkMagenta
   circus: 0
-- name: Yak7Bs36
-  id: yak_7b_ser_36
-  alt: 0, 1000, 2000, 3000, 4000, 5000, 6000, 7000
-  spd: 19.0, 19.3, 21.5, 22.9, 25.9, 29.7, 34.7, 41.5
-  bgc: CadetBlue
-  bc: BurlyWood
+- name: Pe-2 ser.87
+  id: pe_2_ser_87
+  alt: 0, 1000, 2000, 3000, 4000, 5000
+  spd: 30.0, 31.8, 34.5, 37.7, 42.1, 49.6
+  bgc: DarkOrange
+  bc: DarkOliveGreen
   circus: 0
-- name: Yak9s1
-  id: yak_9t_ser_1
-  alt: 0, 1000, 2000, 3000, 4000, 5000, 6000, 7000
-  spd: 18.2, 19.5, 23.0, 25.2, 30.0, 35.0, 45.0, 50.0
-  bgc: CadetBlue
-  bc: BurlyWood
+- name: He 111 H-6
+  id: he_111_h6
+  alt: 0, 1000, 2000, 3000, 4000, 5000, 6000
+  spd: 38.0, 40.4, 44.2, 52.6, 59.6, 72.8, 91.0
+  bgc: DarkOrchid
+  bc: DarkOrange
   circus: 0
-- name: Yak9s1
-  id: yak_9_ser_1
+- name: Bf109G14
+  id: bf_109_g14
   alt: 0, 1000, 2000, 3000, 4000, 5000, 6000, 7000
-  spd: 16.9, 17.9, 18.5, 22.3, 25.0, 32.0, 40.0, 45.0
-  bgc: CadetBlue
-  bc: BurlyWood
+  spd: 20.0, 22.4, 24.4, 27.2, 29.5, 32.6, 36.7, 45.0
+  bgc: DarkRed
+  bc: DarkOrchid
+  circus: 0
+- name: Bf109G2
+  id: bf_109_g2
+  alt: 0, 1000, 2000, 3000, 4000, 5000, 6000, 7000
+  spd: 21.2, 22.4, 24.4, 27.2, 29.5, 32.6, 36.7, 45.0
+  bgc: DarkSalmon
+  bc: DarkRed
+  circus: 0
+- name: Bf-110 E2
+  id: bf_110_e2
+  alt: 500, 1000, 2000, 3000, 4000, 5000, 6000, 7000, 8000
+  spd: 26.7, 27.8, 30.0, 33.1, 37.7, 45.4, 56.1, 72.2, 95.0
+  bgc: DarkSeaGreen
+  bc: DarkSalmon
+  circus: 0
+- name: Sopwith Dolphin
+  id: sopwith_dolphin
+  alt: 0, 10000
+  spd: 9.8, 9.8
+  bgc: DarkSlateBlue
+  bc: DarkSeaGreen
   circus: 0
