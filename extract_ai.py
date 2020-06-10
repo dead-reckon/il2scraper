@@ -358,17 +358,17 @@ def alt_parse():
                     elif "MaxAltTAS" in row:
                         clean = re.sub(r'^.*=\ ','', row)
                         d_set = clean.split(",")
-                        l_stats_cas.append(d_set)
+                        l_stats_tas.append(d_set)
                         
                     elif "TurnTimeAlt" in row:
                         clean = re.sub(r'^.*=\ ','', row)
                         d_set = clean.split(",")
-                        l_stats_tas.append(d_set)
+                        l_stats_tta.append(d_set)
                         
                     elif "TurnOptimal_CAS_Alt" in row:
                         clean = re.sub(r'^.*=\ ','', row)
                         d_set = clean.split(",")
-                        l_stats_tta.append(d_set)
+                        l_stats_cas.append(d_set)
 
         d_plane_ct['info'] = l_stats_ct
         lst_ct.append(d_plane_ct)
