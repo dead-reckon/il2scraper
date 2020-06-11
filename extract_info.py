@@ -112,6 +112,12 @@ def master_yml():
         circus_bool = False
         circus = ""
 
+        fuel_hr = ""
+        fuel_km = ""
+        fuel_cap = ""
+        fuel_max_range = ""
+        fuel_per_hour = ""
+
         for row in data:
             if "&name" in row:
                 plane_id = re.sub(r'\.txt', '', line)
@@ -208,6 +214,18 @@ def master_yml():
             if "Flight endurance at" in row:
                 result = re.sub(":", ":</strong>", row)
                 end_mode = "  endurance: <strong>" + result.strip() + "<br>\n"
+                if "m," in row:
+                    fuel_hr = re.sub(r'm,.*$', '', re.sub(r'^.*:','',row)).strip()
+                    num = fuel_hr.split("h")
+                    num_m = num[1]
+                    num_h = num[0]
+                    num_f = int(num_h) + (int(num_m)/60)
+                    fuel_hr = str(round(num_f, 1))
+                else:
+                    fuel_hr = re.sub(r'h,.*$', '', re.sub(r'^.*:','',row)).strip()
+                fuel_km = re.sub(r'km/h.*$', '', re.sub(r'^.*at\ ','',row)).strip()
+                fuel_max_range = int(float(fuel_km)*float(fuel_hr))
+
             if "Combat debut" in row:
                 result = re.sub(":", ":</strong>", row)
                 debut_mode = "  debut: <strong>" + result.strip() + "<br>\n"
@@ -256,10 +274,12 @@ def master_yml():
                     winfo = line.split(":")
                     if "Fuel load" in winfo[0]:
                         splitit = winfo[1].split("/")
-                        # print(winfo)
-                        print(splitit)
+                        # print(winfo))
                         clean = re.sub(r'l.*$','',splitit[1])
+                        fuel_cap = clean.strip()
                         s_info.write("  " + re.sub(r'\ .*$','',winfo[0].strip()) + ": " + clean.strip() + "\n")
+                        print(plane_id)
+                        fuel_per_hour = int(round(int(fuel_cap)/float(fuel_hr), 1))
                     else:
                         clean = re.sub(r'm.*$','',winfo[1])
                         clean2 = re.sub(r'kg.*$','',clean)
@@ -312,6 +332,10 @@ def master_yml():
             f_info.write(end_mode)
             f_info.write(debut_mode)
             s_info.write(d_mode)
+            s_info.write("  fuel_lph: " + str(fuel_per_hour).strip() + "\n")
+            s_info.write("  fuel_h: " + str(fuel_hr).strip() + "\n")
+            s_info.write("  fuel_kmph: " + str(fuel_km).strip() + "\n")
+            s_info.write("  fuel_maxrange: " + str(fuel_max_range).strip() + "\n")
             f_info.write(dive_mode)
             
     s_info.close()
