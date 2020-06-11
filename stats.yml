@@ -8,11 +8,11 @@
   Length: 14.54
   Wingspan: 18.69
   Wing: 43.18
-  debut: 1942
   fuel_lph: 431
   fuel_h: 3.4
   fuel_kmph: 350
   fuel_maxrange: 1190
+  debut: 1942
 - name: B-25D
   Empty: 8379
   Minimum: 8829
@@ -23,11 +23,11 @@
   Length: 16.1
   Wingspan: 20.5
   Wing: 57.0
-  debut: 1942
   fuel_lph: 801
   fuel_h: 4.6
   fuel_kmph: 330
   fuel_maxrange: 1517
+  debut: 1942
 - name: Bf 109 E-7
   Empty: 2049
   Minimum: 2340
@@ -38,11 +38,11 @@
   Length: 8.8
   Wingspan: 9.9
   Wing: 16.4
-  debut: 1940
   fuel_lph: 181
   fuel_h: 2.2
   fuel_kmph: 350
   fuel_maxrange: 770
+  debut: 1940
 - name: Bf 109 F-2
   Empty: 2171
   Minimum: 2445
@@ -53,11 +53,11 @@
   Length: 8.94
   Wingspan: 9.97
   Wing: 16.1
-  debut: 1941
   fuel_lph: 166
   fuel_h: 2.4
   fuel_kmph: 350
   fuel_maxrange: 840
+  debut: 1941
 - name: Bf 109 F-4
   Empty: 2382
   Minimum: 2545
@@ -68,11 +68,11 @@
   Length: 8.94
   Wingspan: 9.97
   Wing: 16.1
-  debut: 1941
   fuel_lph: 153
   fuel_h: 2.6
   fuel_kmph: 350
   fuel_maxrange: 910
+  debut: 1941
 - name: Bf 109 G-14
   Empty: 2680
   Minimum: 2899
@@ -83,11 +83,11 @@
   Length: 8.94
   Wingspan: 9.97
   Wing: 16.1
-  debut: 1944
   fuel_lph: 186
   fuel_h: 2.15
   fuel_kmph: 350
   fuel_maxrange: 752
+  debut: 1944
 - name: Bf 109 G-2
   Empty: 2486
   Minimum: 2649
@@ -98,11 +98,11 @@
   Length: 8.94
   Wingspan: 9.97
   Wing: 16.1
-  debut: 1942
   fuel_lph: 166
   fuel_h: 2.4
   fuel_kmph: 350
   fuel_maxrange: 840
+  debut: 1942
 - name: Bf 109 G-4
   Empty: 2506
   Minimum: 2669
@@ -113,11 +113,11 @@
   Length: 8.94
   Wingspan: 9.97
   Wing: 16.1
-  debut: 1942
   fuel_lph: 166
   fuel_h: 2.4
   fuel_kmph: 350
   fuel_maxrange: 840
+  debut: 1942
 - name: Bf 109 G-6
   Empty: 2583
   Minimum: 2734
@@ -128,11 +128,11 @@
   Length: 8.94
   Wingspan: 9.97
   Wing: 16.1
-  debut: 1943
   fuel_lph: 181
   fuel_h: 2.2
   fuel_kmph: 350
   fuel_maxrange: 770
+  debut: 1943
 - name: Bf 109 K-4
   Empty: 2754
   Minimum: 3006
@@ -143,11 +143,11 @@
   Length: 8.94
   Wingspan: 9.97
   Wing: 16.1
-  debut: 1944
   fuel_lph: 186
   fuel_h: 2.15
   fuel_kmph: 350
   fuel_maxrange: 752
+  debut: 1944
 - name: Bf 110 E-2
   Empty: 5175
   Minimum: 5597
@@ -158,11 +158,11 @@
   Length: 12.1
   Wingspan: 16.3
   Wing: 38.4
-  debut: 1940
   fuel_lph: 362
   fuel_h: 3.5
   fuel_kmph: 300
   fuel_maxrange: 1050
+  debut: 1940
 - name: Bf 110 G-2
   Empty: 5905
   Minimum: 6335
@@ -173,11 +173,11 @@
   Length: 12.1
   Wingspan: 16.3
   Wing: 38.4
-  debut: 1942
   fuel_lph: 317
   fuel_h: 4.0
   fuel_kmph: 300
   fuel_maxrange: 1200
+  debut: 1942
 - name: Fw 190 A-3
   Empty: 3148
   Minimum: 3330
@@ -188,11 +188,11 @@
   Length: 8.85
   Wingspan: 10.51
   Wing: 18.3
-  debut: 1942
   fuel_lph: 163
   fuel_h: 3.2
   fuel_kmph: 350
   fuel_maxrange: 1120
+  debut: 1942
 - name: Fw 190 A-5
   Empty: 3219
   Minimum: 3401
@@ -203,11 +203,11 @@
   Length: 8.85
   Wingspan: 10.51
   Wing: 18.3
-  debut: 1943
   fuel_lph: 174
   fuel_h: 3.0
   fuel_kmph: 350
   fuel_maxrange: 1050
+  debut: 1943
 - name: Fw 190 A-8
   Empty: 3504
   Minimum: 3697
@@ -218,11 +218,11 @@
   Length: 8.85
   Wingspan: 10.51
   Wing: 18.3
-  debut: 1944
   fuel_lph: 168
   fuel_h: 3.8
   fuel_kmph: 350
   fuel_maxrange: 1330
+  debut: 1944
 - name: Fw 190 D-9
   Empty: 3443
   Minimum: 3759
@@ -233,11 +233,11 @@
   Length: 10.2
   Wingspan: 10.51
   Wing: 18.3
-  debut: 1944
   fuel_lph: 209
   fuel_h: 2.5
   fuel_kmph: 350
   fuel_maxrange: 875
+  debut: 1944
 - name: He 111 H-16
   Empty: 8698
   Minimum: 9831
@@ -248,11 +248,11 @@
   Length: 16.38
   Wingspan: 22.5
   Wing: 79.5
-  debut: 1943
   fuel_lph: 514
   fuel_h: 6.7
   fuel_kmph: 300
   fuel_maxrange: 2010
+  debut: 1943
 - name: He 111 H-6
   Empty: 8963
   Minimum: 9946
@@ -263,11 +263,11 @@
   Length: 16.38
   Wingspan: 22.5
   Wing: 79.5
-  debut: 1941
   fuel_lph: 504
   fuel_h: 8.5
   fuel_kmph: 300
   fuel_maxrange: 2550
+  debut: 1941
 - name: Hs 129 B-2
   Empty: 3992
   Minimum: 4200
@@ -278,11 +278,11 @@
   Length: 9.7
   Wingspan: 14.2
   Wing: 28.9
-  debut: 1942
   fuel_lph: 290
   fuel_h: 2.1
   fuel_kmph: 300
   fuel_maxrange: 630
+  debut: 1942
 - name: I-16 type 24
   Empty: 1501
   Minimum: 1633
@@ -293,11 +293,11 @@
   Length: 6.04
   Wingspan: 9
   Wing: 14.54
-  debut: 1941
   fuel_lph: 288
   fuel_h: 0.9
   fuel_kmph: 350
   fuel_maxrange: 315
+  debut: 1941
 - name: Il-2 mod.1941
   Empty: 4242
   Minimum: 4464
@@ -308,11 +308,11 @@
   Length: 11.5
   Wingspan: 14.6
   Wing: 38.5
-  debut: 1941
   fuel_lph: 377
   fuel_h: 1.7
   fuel_kmph: 300
   fuel_maxrange: 510
+  debut: 1941
 - name: Il-2 mod.1942
   Empty: 4462
   Minimum: 4651
@@ -323,11 +323,11 @@
   Length: 11.5
   Wingspan: 14.6
   Wing: 38.5
-  debut: 1942
   fuel_lph: 429
   fuel_h: 1.7
   fuel_kmph: 300
   fuel_maxrange: 510
+  debut: 1942
 - name: Il-2 mod.1943
   Empty: 4715
   Minimum: 5014
@@ -338,11 +338,11 @@
   Length: 11.5
   Wingspan: 14.6
   Wing: 38.5
-  debut: 1943
   fuel_lph: 521
   fuel_h: 1.4
   fuel_kmph: 300
   fuel_maxrange: 420
+  debut: 1943
 - name: Ju 52/3m g4e
   Empty: 6305
   Minimum: 7017
@@ -353,11 +353,11 @@
   Length: 18.9
   Wingspan: 29.25
   Wing: 111.5
-  debut: 1936
   fuel_lph: 452
   fuel_h: 5.3
   fuel_kmph: 205
   fuel_maxrange: 1086
+  debut: 1936
 - name: Ju 87 D-3
   Empty: 3930
   Minimum: 4250
@@ -368,11 +368,11 @@
   Length: 11
   Wingspan: 13.8
   Wing: 31.9
-  debut: 1942
   fuel_lph: 247
   fuel_h: 3.4
   fuel_kmph: 300
   fuel_maxrange: 1020
+  debut: 1942
 - name: Ju 88 A-4
   Empty: 8619
   Minimum: 9458
@@ -383,11 +383,11 @@
   Length: 14.3
   Wingspan: 20.02
   Wing: 52.7
-  debut: 1941
   fuel_lph: 442
   fuel_h: 3.8
   fuel_kmph: 300
   fuel_maxrange: 1140
+  debut: 1941
 - name: La-5FN ser.2
   Empty: 2655
   Minimum: 2929
@@ -398,11 +398,11 @@
   Length: 8.672
   Wingspan: 9.8
   Wing: 17.51
-  debut: 1943
   fuel_lph: 232
   fuel_h: 2.0
   fuel_kmph: 350
   fuel_maxrange: 700
+  debut: 1943
 - name: La-5 ser.8
   Empty: 2648
   Minimum: 2928
@@ -413,11 +413,11 @@
   Length: 8.672
   Wingspan: 9.8
   Wing: 17.51
-  debut: 1942
   fuel_lph: 274
   fuel_h: 1.9
   fuel_kmph: 350
   fuel_maxrange: 665
+  debut: 1942
 - name: LaGG-3 ser.29
   Empty: 2620
   Minimum: 2773
@@ -428,11 +428,11 @@
   Length: 8.84
   Wingspan: 9.8
   Wing: 17.51
-  debut: 1942
   fuel_lph: 212
   fuel_h: 2.2
   fuel_kmph: 350
   fuel_maxrange: 770
+  debut: 1942
 - name: MC.202 ser.VIII
   Empty: 2448
   Minimum: 2622
@@ -443,11 +443,11 @@
   Length: 8.85
   Wingspan: 10.58
   Wing: 16.8
-  debut: 1942
   fuel_lph: 195
   fuel_h: 2.2
   fuel_kmph: 350
   fuel_maxrange: 770
+  debut: 1942
 - name: Me 262 A
   Empty: 4146
   Minimum: 4737
@@ -459,11 +459,11 @@
   Length: 10.6
   Wingspan: 12.6
   Wing: 20.4
-  debut: 1944
   fuel_lph: 1117
   fuel_h: 2.3
   fuel_kmph: 475
   fuel_maxrange: 1092
+  debut: 1944
 - name: MiG-3 ser.24
   Empty: 2650
   Minimum: 2831
@@ -474,11 +474,11 @@
   Length: 8.255
   Wingspan: 10.2
   Wing: 17.44
-  debut: 1941
   fuel_lph: 192
   fuel_h: 2.5
   fuel_kmph: 350
   fuel_maxrange: 875
+  debut: 1941
 - name: P-38J-25
   Empty: 6356
   Minimum: 6662
@@ -489,11 +489,11 @@
   Length: 10.89
   Wingspan: 15.85
   Wing: 30.4
-  debut: 1944
   fuel_lph: 271
   fuel_h: 5.8
   fuel_kmph: 350
   fuel_maxrange: 2030
+  debut: 1944
 - name: P-39L-1
   Empty: 2929
   Minimum: 3331
@@ -504,11 +504,11 @@
   Length: 9.2
   Wingspan: 10.4
   Wing: 19.82
-  debut: 1942
   fuel_lph: 283
   fuel_h: 1.6
   fuel_kmph: 350
   fuel_maxrange: 560
+  debut: 1942
 - name: P-40E-1
   Empty: 3073
   Minimum: 3264.2
@@ -519,11 +519,11 @@
   Length: 9.05
   Wingspan: 11.4
   Wing: 21.92
-  debut: 1941
   fuel_lph: 200
   fuel_h: 2.8
   fuel_kmph: 350
   fuel_maxrange: 979
+  debut: 1941
 - name: P-47D-28
   Empty: 4755
   Minimum: 5163.9
@@ -534,11 +534,11 @@
   Length: 11.00
   Wingspan: 12.43
   Wing: 27.87
-  debut: 1944
   fuel_lph: 585
   fuel_h: 2.4
   fuel_kmph: 350
   fuel_maxrange: 840
+  debut: 1944
 - name: P-51D-15
   Empty: 3433
   Minimum: 3629.5
@@ -549,11 +549,11 @@
   Length: 9.84
   Wingspan: 11.29
   Wing: 22.30
-  debut: 1944
   fuel_lph: 237
   fuel_h: 4.3
   fuel_kmph: 350
   fuel_maxrange: 1505
+  debut: 1944
 - name: Pe-2 ser.35
   Empty: 6078
   Minimum: 6640
@@ -564,11 +564,11 @@
   Length: 12.69
   Wingspan: 17.12
   Wing: 40.8
-  debut: 1941
   fuel_lph: 406
   fuel_h: 3.7
   fuel_kmph: 300
   fuel_maxrange: 1110
+  debut: 1941
 - name: Pe-2 ser.87
   Empty: 6089
   Minimum: 6643
@@ -579,11 +579,11 @@
   Length: 12.69
   Wingspan: 17.12
   Wing: 40.8
-  debut: 1942
   fuel_lph: 530
   fuel_h: 2.8
   fuel_kmph: 300
   fuel_maxrange: 840
+  debut: 1942
 - name: Spitfire Mk.IXe
   Empty: 2530
   Minimum: 2977
@@ -593,11 +593,11 @@
   Length: 9.65
   Wingspan: 11.21
   Wing: 22.48
-  debut: 1942
   fuel_lph: 227
   fuel_h: 1.7
   fuel_kmph: 350
   fuel_maxrange: 595
+  debut: 1942
 - name: Spitfire Mk.VB
   Empty: 2415
   Minimum: 2732
@@ -607,11 +607,11 @@
   Length: 9.2
   Wingspan: 11.21
   Wing: 22.48
-  debut: 1941
   fuel_lph: 214
   fuel_h: 1.8
   fuel_kmph: 350
   fuel_maxrange: 630
+  debut: 1941
 - name: Tempest Mk.V ser.2
   Empty: 4354
   Minimum: 4585
@@ -622,11 +622,11 @@
   Length: 10.26
   Wingspan: 12.50
   Wing: 27.81
-  debut: 1944
   fuel_lph: 217
   fuel_h: 3.3
   fuel_kmph: 350
   fuel_maxrange: 1155
+  debut: 1944
 - name: U-2VS
   Empty: 748
   Minimum: 927
@@ -652,11 +652,11 @@
   Length: 8.5
   Wingspan: 10
   Wing: 17.15
-  debut: 1943
   fuel_lph: 204
   fuel_h: 2.0
   fuel_kmph: 350
   fuel_maxrange: 700
+  debut: 1943
 - name: Yak-1 ser.69
   Empty: 2365
   Minimum: 2583
@@ -667,11 +667,11 @@
   Length: 8.5
   Wingspan: 10
   Wing: 17.15
-  debut: 1942
   fuel_lph: 214
   fuel_h: 1.9
   fuel_kmph: 350
   fuel_maxrange: 665
+  debut: 1942
 - name: Yak-7B series 36
   Empty: 2302
   Minimum: 2630
@@ -682,11 +682,11 @@
   Length: 8.5
   Wingspan: 10
   Wing: 17.15
-  debut: 1943
   fuel_lph: 221
   fuel_h: 1.9
   fuel_kmph: 350
   fuel_maxrange: 665
+  debut: 1943
 - name: Yak-9 ser.1
   Empty: 2254
   Minimum: 2549
@@ -697,11 +697,11 @@
   Length: 8.5
   Wingspan: 10
   Wing: 17.15
-  debut: 1942
   fuel_lph: 209
   fuel_h: 2.1
   fuel_kmph: 350
   fuel_maxrange: 735
+  debut: 1942
 - name: Yak-9T ser.1
   Empty: 2470
   Minimum: 2631
@@ -712,8 +712,8 @@
   Length: 8.5
   Wingspan: 10
   Wing: 17.15
-  debut: 1943
   fuel_lph: 204
   fuel_h: 2.1
   fuel_kmph: 350
   fuel_maxrange: 735
+  debut: 1943

@@ -330,12 +330,18 @@ def master_yml():
             for line in feat_mode:
                 f_info.write("    " + line.strip() + "\n")
             f_info.write(end_mode)
-            f_info.write(debut_mode)
-            s_info.write(d_mode)
             s_info.write("  fuel_lph: " + str(fuel_per_hour).strip() + "\n")
             s_info.write("  fuel_h: " + str(fuel_hr).strip() + "\n")
             s_info.write("  fuel_kmph: " + str(fuel_km).strip() + "\n")
             s_info.write("  fuel_maxrange: " + str(fuel_max_range).strip() + "\n")
+            f_info.write("  fuel_lph: " + "<strong>Fuel Consumption per Hour:</strong> <br>" + str(fuel_per_hour).strip() + " L/hr<br>\n")
+            f_info.write("  fuel_h: " + "<strong>Flight Time on Full Tank:</strong> <br>" + str(fuel_hr).strip() + " hr<br>\n")
+            f_info.write("  fuel_kmph: " + "<strong>Assumed Cruise Speed :</strong> <br>" + str(fuel_km).strip() + " km/hr<br>\n")
+            f_info.write("  fuel_maxrange: " + "<strong>Max Range on Full Tank:</strong> <br>" + str(fuel_max_range).strip() + " km<br>\n")
+            f_info.write("  fuel_cap: " + "<strong>Max Fuel Capacity:</strong> <br>" + str(fuel_cap).strip() + " L<br>\n")
+            f_info.write(debut_mode)
+            s_info.write(d_mode)
+
             f_info.write(dive_mode)
             
     s_info.close()
