@@ -75,6 +75,7 @@ def master_yml():
 
     p_name_circus = ""
     p_id_circus = ""
+    
     l_circus = []
     # l_circus.append(["Name","ID"])
     for line in plane_texts:
@@ -109,7 +110,7 @@ def master_yml():
         d_mode = ""
         dive_mode = ""
 
-        circus_bool = False
+        circus_bool = True
         circus = ""
 
         fuel_hr = ""
@@ -126,6 +127,8 @@ def master_yml():
                 p_name_circus = final
                 f_info.write("- id: " + plane_id + "\n")
                 f_info.write("  name: " + final + "\n")
+                s_info.write("- id: " + plane_id + "\n")
+                s_info.write("  name: " + final + "\n")
             else:
                 final = ""
                 if "&description=" in row:
@@ -225,6 +228,10 @@ def master_yml():
                     fuel_hr = re.sub(r'h,.*$', '', re.sub(r'^.*:','',row)).strip()
                 fuel_km = re.sub(r'km/h.*$', '', re.sub(r'^.*at\ ','',row)).strip()
                 fuel_max_range = int(float(fuel_km)*float(fuel_hr))
+                circus_bool = False
+            else:
+                circus_bool = True
+                # print(line)
 
             if "Combat debut" in row:
                 result = re.sub(":", ":</strong>", row)
@@ -235,11 +242,12 @@ def master_yml():
                 result = re.sub(":", ":</strong>", row)
                 dive_mode = "  dive: <strong>" + result.strip() + "<br>\n"
 
-        if circus:
-            f_info.write(circus)
-            short = re.sub(r'\ .*$','', p_name_circus)
-            l_circus.append(short.lower())
+        if fuel_km:
+            s_info.write("  circus: 0\n")
         else:
+            s_info.write("  circus: 1\n")
+
+        if fuel_km:
             f_info.write("  circus:  0\n")
             f_info.write("  engine: |\n")
             for line in eng_mode:
@@ -264,7 +272,6 @@ def master_yml():
                         result = re.sub(":", ":</strong>", line)
                         f_info.write("    <strong>" + result.strip() + "<br>\n")
             f_info.write("  weight: |\n")
-            s_info.write("- name: "+ p_name_circus +"\n")
             for line in weight_mode:
                 if re.match(r'^\(', line):
                     pass
@@ -278,7 +285,7 @@ def master_yml():
                         clean = re.sub(r'l.*$','',splitit[1])
                         fuel_cap = clean.strip()
                         s_info.write("  " + re.sub(r'\ .*$','',winfo[0].strip()) + ": " + clean.strip() + "\n")
-                        print(plane_id)
+                        # print(plane_id)
                         fuel_per_hour = int(round(int(fuel_cap)/float(fuel_hr), 1))
                     else:
                         clean = re.sub(r'm.*$','',winfo[1])
@@ -343,7 +350,10 @@ def master_yml():
             s_info.write(d_mode)
 
             f_info.write(dive_mode)
-            
+        else:
+            f_info.write(circus)
+            short = re.sub(r'\ .*$','', p_name_circus)
+            l_circus.append(short.lower()) 
     s_info.close()
     f_info.close()
 

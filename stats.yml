@@ -1,4 +1,6 @@
-- name: A-20B
+- id: a20b
+  name: A-20B
+  circus: 0
   Empty: 6781
   Minimum: 7359
   Standard: 8366
@@ -13,7 +15,12 @@
   fuel_kmph: 350
   fuel_maxrange: 1190
   debut: 1942
-- name: B-25D
+- id: albatrosd5
+  name: Albatros D.Va
+  circus: 1
+- id: b25draf
+  name: B-25D
+  circus: 0
   Empty: 8379
   Minimum: 8829
   Standard: 11544
@@ -28,7 +35,9 @@
   fuel_kmph: 330
   fuel_maxrange: 1517
   debut: 1942
-- name: Bf 109 E-7
+- id: bf109e7
+  name: Bf 109 E-7
+  circus: 0
   Empty: 2049
   Minimum: 2340
   Standard: 2614
@@ -43,7 +52,9 @@
   fuel_kmph: 350
   fuel_maxrange: 770
   debut: 1940
-- name: Bf 109 F-2
+- id: bf109f2
+  name: Bf 109 F-2
+  circus: 0
   Empty: 2171
   Minimum: 2445
   Standard: 2789
@@ -58,7 +69,9 @@
   fuel_kmph: 350
   fuel_maxrange: 840
   debut: 1941
-- name: Bf 109 F-4
+- id: bf109f4
+  name: Bf 109 F-4
+  circus: 0
   Empty: 2382
   Minimum: 2545
   Standard: 2890
@@ -73,7 +86,9 @@
   fuel_kmph: 350
   fuel_maxrange: 910
   debut: 1941
-- name: Bf 109 G-14
+- id: bf109g14
+  name: Bf 109 G-14
+  circus: 0
   Empty: 2680
   Minimum: 2899
   Standard: 3266
@@ -88,7 +103,9 @@
   fuel_kmph: 350
   fuel_maxrange: 752
   debut: 1944
-- name: Bf 109 G-2
+- id: bf109g2
+  name: Bf 109 G-2
+  circus: 0
   Empty: 2486
   Minimum: 2649
   Standard: 2994
@@ -103,7 +120,9 @@
   fuel_kmph: 350
   fuel_maxrange: 840
   debut: 1942
-- name: Bf 109 G-4
+- id: bf109g4
+  name: Bf 109 G-4
+  circus: 0
   Empty: 2506
   Minimum: 2669
   Standard: 3014
@@ -118,7 +137,9 @@
   fuel_kmph: 350
   fuel_maxrange: 840
   debut: 1942
-- name: Bf 109 G-6
+- id: bf109g6
+  name: Bf 109 G-6
+  circus: 0
   Empty: 2583
   Minimum: 2734
   Standard: 3100
@@ -133,7 +154,9 @@
   fuel_kmph: 350
   fuel_maxrange: 770
   debut: 1943
-- name: Bf 109 K-4
+- id: bf109k4
+  name: Bf 109 K-4
+  circus: 0
   Empty: 2754
   Minimum: 3006
   Standard: 3361
@@ -148,7 +171,9 @@
   fuel_kmph: 350
   fuel_maxrange: 752
   debut: 1944
-- name: Bf 110 E-2
+- id: bf110e2
+  name: Bf 110 E-2
+  circus: 0
   Empty: 5175
   Minimum: 5597
   Standart: 6706
@@ -163,7 +188,9 @@
   fuel_kmph: 300
   fuel_maxrange: 1050
   debut: 1940
-- name: Bf 110 G-2
+- id: bf110g2
+  name: Bf 110 G-2
+  circus: 0
   Empty: 5905
   Minimum: 6335
   Standart: 7514
@@ -178,7 +205,24 @@
   fuel_kmph: 300
   fuel_maxrange: 1200
   debut: 1942
-- name: Fw 190 A-3
+- id: bristolf2bf2
+  name: Bristol F2B (F.II)
+  circus: 1
+- id: bristolf2bf3
+  name: Bristol F2B (F.III)
+  circus: 1
+- id: fokkerd7
+  name: Fokker D.VII
+  circus: 1
+- id: fokkerd7f
+  name: Fokker D.VIIF
+  circus: 1
+- id: fokkerdr1
+  name: Fokker Dr.I
+  circus: 1
+- id: fw190a3
+  name: Fw 190 A-3
+  circus: 0
   Empty: 3148
   Minimum: 3330
   Standard: 3855
@@ -193,7 +237,9 @@
   fuel_kmph: 350
   fuel_maxrange: 1120
   debut: 1942
-- name: Fw 190 A-5
+- id: fw190a5
+  name: Fw 190 A-5
+  circus: 0
   Empty: 3219
   Minimum: 3401
   Standard: 3926
@@ -208,7 +254,9 @@
   fuel_kmph: 350
   fuel_maxrange: 1050
   debut: 1943
-- name: Fw 190 A-8
+- id: fw190a8
+  name: Fw 190 A-8
+  circus: 0
   Empty: 3504
   Minimum: 3697
   Standard: 4391
@@ -223,7 +271,9 @@
   fuel_kmph: 350
   fuel_maxrange: 1330
   debut: 1944
-- name: Fw 190 D-9
+- id: fw190d9
+  name: Fw 190 D-9
+  circus: 0
   Empty: 3443
   Minimum: 3759
   Standard: 4289
@@ -238,7 +288,15 @@
   fuel_kmph: 350
   fuel_maxrange: 875
   debut: 1944
-- name: He 111 H-16
+- id: halberstadtcl2
+  name: Halberstadt CL.II
+  circus: 1
+- id: halberstadtcl2au
+  name: Halberstadt CL.II 200hp
+  circus: 1
+- id: he111h16
+  name: He 111 H-16
+  circus: 0
   Empty: 8698
   Minimum: 9831
   Standard: 13017
@@ -253,7 +311,9 @@
   fuel_kmph: 300
   fuel_maxrange: 2010
   debut: 1943
-- name: He 111 H-6
+- id: he111h6
+  name: He 111 H-6
+  circus: 0
   Empty: 8963
   Minimum: 9946
   Standard: 13727
@@ -268,7 +328,9 @@
   fuel_kmph: 300
   fuel_maxrange: 2550
   debut: 1941
-- name: Hs 129 B-2
+- id: hs129b2
+  name: Hs 129 B-2
+  circus: 0
   Empty: 3992
   Minimum: 4200
   Standart: 4756
@@ -283,7 +345,9 @@
   fuel_kmph: 300
   fuel_maxrange: 630
   debut: 1942
-- name: I-16 type 24
+- id: i16t24
+  name: I-16 type 24
+  circus: 0
   Empty: 1501
   Minimum: 1633
   Standard: 1878
@@ -298,7 +362,9 @@
   fuel_kmph: 350
   fuel_maxrange: 315
   debut: 1941
-- name: Il-2 mod.1941
+- id: il2m41
+  name: Il-2 mod.1941
+  circus: 0
   Empty: 4242
   Minimum: 4464
   Standard: 5049
@@ -313,7 +379,9 @@
   fuel_kmph: 300
   fuel_maxrange: 510
   debut: 1941
-- name: Il-2 mod.1942
+- id: il2m42
+  name: Il-2 mod.1942
+  circus: 0
   Empty: 4462
   Minimum: 4651
   Standard: 5294
@@ -328,7 +396,9 @@
   fuel_kmph: 300
   fuel_maxrange: 510
   debut: 1942
-- name: Il-2 mod.1943
+- id: il2m43
+  name: Il-2 mod.1943
+  circus: 0
   Empty: 4715
   Minimum: 5014
   Standard: 5681
@@ -343,7 +413,9 @@
   fuel_kmph: 300
   fuel_maxrange: 420
   debut: 1943
-- name: Ju 52/3m g4e
+- id: ju523mg4e
+  name: Ju 52/3m g4e
+  circus: 0
   Empty: 6305
   Minimum: 7017
   Standard: 10003
@@ -358,7 +430,9 @@
   fuel_kmph: 205
   fuel_maxrange: 1086
   debut: 1936
-- name: Ju 87 D-3
+- id: ju87d3
+  name: Ju 87 D-3
+  circus: 0
   Empty: 3930
   Minimum: 4250
   Standard: 4835
@@ -373,7 +447,9 @@
   fuel_kmph: 300
   fuel_maxrange: 1020
   debut: 1942
-- name: Ju 88 A-4
+- id: ju88a4
+  name: Ju 88 A-4
+  circus: 0
   Empty: 8619
   Minimum: 9458
   Standard: 12110
@@ -388,7 +464,9 @@
   fuel_kmph: 300
   fuel_maxrange: 1140
   debut: 1941
-- name: La-5FN ser.2
+- id: la5fns2
+  name: La-5FN ser.2
+  circus: 0
   Empty: 2655
   Minimum: 2929
   Standard: 3305
@@ -403,7 +481,9 @@
   fuel_kmph: 350
   fuel_maxrange: 700
   debut: 1943
-- name: La-5 ser.8
+- id: la5s8
+  name: La-5 ser.8
+  circus: 0
   Empty: 2648
   Minimum: 2928
   Standard: 3353
@@ -418,7 +498,9 @@
   fuel_kmph: 350
   fuel_maxrange: 665
   debut: 1942
-- name: LaGG-3 ser.29
+- id: lagg3s29
+  name: LaGG-3 ser.29
+  circus: 0
   Empty: 2620
   Minimum: 2773
   Standard: 3157
@@ -433,7 +515,9 @@
   fuel_kmph: 350
   fuel_maxrange: 770
   debut: 1942
-- name: MC.202 ser.VIII
+- id: mc202s8
+  name: MC.202 ser.VIII
+  circus: 0
   Empty: 2448
   Minimum: 2622
   Standard: 2967
@@ -448,7 +532,9 @@
   fuel_kmph: 350
   fuel_maxrange: 770
   debut: 1942
-- name: Me 262 A
+- id: me262a
+  name: Me 262 A
+  circus: 0
   Empty: 4146
   Minimum: 4737
   Standard: 6400
@@ -464,7 +550,9 @@
   fuel_kmph: 475
   fuel_maxrange: 1092
   debut: 1944
-- name: MiG-3 ser.24
+- id: mig3s24
+  name: MiG-3 ser.24
+  circus: 0
   Empty: 2650
   Minimum: 2831
   Standard: 3244
@@ -479,7 +567,9 @@
   fuel_kmph: 350
   fuel_maxrange: 875
   debut: 1941
-- name: P-38J-25
+- id: p38j25
+  name: P-38J-25
+  circus: 0
   Empty: 6356
   Minimum: 6662
   Standard: 7890
@@ -494,7 +584,9 @@
   fuel_kmph: 350
   fuel_maxrange: 2030
   debut: 1944
-- name: P-39L-1
+- id: p39l1
+  name: P-39L-1
+  circus: 0
   Empty: 2929
   Minimum: 3331
   Standart: 3508
@@ -509,7 +601,9 @@
   fuel_kmph: 350
   fuel_maxrange: 560
   debut: 1942
-- name: P-40E-1
+- id: p40e1
+  name: P-40E-1
+  circus: 0
   Empty: 3073
   Minimum: 3264.2
   Standart: 3819.1
@@ -524,7 +618,9 @@
   fuel_kmph: 350
   fuel_maxrange: 979
   debut: 1941
-- name: P-47D-28
+- id: p47d28
+  name: P-47D-28
+  circus: 0
   Empty: 4755
   Minimum: 5163.9
   Standard: 6503
@@ -539,7 +635,9 @@
   fuel_kmph: 350
   fuel_maxrange: 840
   debut: 1944
-- name: P-51D-15
+- id: p51d15
+  name: P-51D-15
+  circus: 0
   Empty: 3433
   Minimum: 3629.5
   Standard: 4578.6
@@ -554,7 +652,9 @@
   fuel_kmph: 350
   fuel_maxrange: 1505
   debut: 1944
-- name: Pe-2 ser.35
+- id: pe2s35
+  name: Pe-2 ser.35
+  circus: 0
   Empty: 6078
   Minimum: 6640
   Standard: 7697
@@ -569,7 +669,9 @@
   fuel_kmph: 300
   fuel_maxrange: 1110
   debut: 1941
-- name: Pe-2 ser.87
+- id: pe2s87
+  name: Pe-2 ser.87
+  circus: 0
   Empty: 6089
   Minimum: 6643
   Standard: 7685
@@ -584,7 +686,24 @@
   fuel_kmph: 300
   fuel_maxrange: 840
   debut: 1942
-- name: Spitfire Mk.IXe
+- id: pfalzd3a
+  name: Pfalz D.IIIa
+  circus: 1
+- id: se5a
+  name: S.E.5a
+  circus: 1
+- id: sopcamel
+  name: Sopwith Camel
+  circus: 1
+- id: sopdolphin
+  name: Sopwith Dolphin
+  circus: 1
+- id: spad13
+  name: SPAD 13.C1
+  circus: 1
+- id: spitfiremkixe
+  name: Spitfire Mk.IXe
+  circus: 0
   Empty: 2530
   Minimum: 2977
   Standard: 3359
@@ -598,7 +717,9 @@
   fuel_kmph: 350
   fuel_maxrange: 595
   debut: 1942
-- name: Spitfire Mk.VB
+- id: spitfiremkvb
+  name: Spitfire Mk.VB
+  circus: 0
   Empty: 2415
   Minimum: 2732
   Standard: 2979
@@ -612,7 +733,9 @@
   fuel_kmph: 350
   fuel_maxrange: 630
   debut: 1941
-- name: Tempest Mk.V ser.2
+- id: tempestmkvs2
+  name: Tempest Mk.V ser.2
+  circus: 0
   Empty: 4354
   Minimum: 4585
   Standard: 5221
@@ -627,7 +750,9 @@
   fuel_kmph: 350
   fuel_maxrange: 1155
   debut: 1944
-- name: U-2VS
+- id: u2vs
+  name: U-2VS
+  circus: 0
   Empty: 748
   Minimum: 927
   Standard: 1007
@@ -642,7 +767,9 @@
   fuel_h: 5
   fuel_kmph: 90
   fuel_maxrange: 450
-- name: Yak-1b ser.127
+- id: yak1s127
+  name: Yak-1b ser.127
+  circus: 0
   Empty: 2322
   Minimum: 2543
   Standard: 2887
@@ -657,7 +784,9 @@
   fuel_kmph: 350
   fuel_maxrange: 700
   debut: 1943
-- name: Yak-1 ser.69
+- id: yak1s69
+  name: Yak-1 ser.69
+  circus: 0
   Empty: 2365
   Minimum: 2583
   Standard: 2932
@@ -672,7 +801,9 @@
   fuel_kmph: 350
   fuel_maxrange: 665
   debut: 1942
-- name: Yak-7B series 36
+- id: yak7bs36
+  name: Yak-7B series 36
+  circus: 0
   Empty: 2302
   Minimum: 2630
   Standard: 3002
@@ -687,7 +818,9 @@
   fuel_kmph: 350
   fuel_maxrange: 665
   debut: 1943
-- name: Yak-9 ser.1
+- id: yak9s1
+  name: Yak-9 ser.1
+  circus: 0
   Empty: 2254
   Minimum: 2549
   Standard: 2841
@@ -702,7 +835,9 @@
   fuel_kmph: 350
   fuel_maxrange: 735
   debut: 1942
-- name: Yak-9T ser.1
+- id: yak9ts1
+  name: Yak-9T ser.1
+  circus: 0
   Empty: 2470
   Minimum: 2631
   Standard: 3015
