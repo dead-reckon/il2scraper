@@ -16,7 +16,11 @@ def custom_photo():
 
         # print(src_photo)
         if os.path.exists(src_photo):
-            move(src_photo, src_backup)
+            if os.path.exists(src_backup):
+                print("There is already a backup file, make sure you want to overwrite these.")
+                exit()
+            else:
+                move(src_photo, src_backup)
             
         copyfile(tgt_photo, src_photo)
 
