@@ -221,14 +221,14 @@ def master_yml():
                     weight_mode.append(row)
             if "rated temperature" in row or "maximum temperature" in row:
                 temp_mode_bool = True
-                clean = re.sub(r'in\ engine\ ','',row)
+                clean = re.sub(r'in\ engine\ ','',re.sub(r'temperature','temp',row))
                 temp_mode.append(clean)
                 photo_temp.append(clean.split(':'))
             elif temp_mode_bool:
                 if re.match(r'^$', row) is not None:
                     temp_mode_bool = False
                 else:
-                    clean = re.sub(r'in\ engine\ ','',row)
+                    clean = re.sub(r'in\ engine\ ','',re.sub(r'temperature','temp',row))
                     temp_mode.append(clean)
                     photo_temp.append(clean.split(':'))
             if "Length:" in row:

@@ -36,19 +36,19 @@
         ],
         "temp": [
             [
-                "Oil rated temperature output",
+                "Oil rated temp output",
                 " 80..95 \u00b0C"
             ],
             [
-                "Oil maximum temperature output",
+                "Oil maximum temp output",
                 " 105 \u00b0C"
             ],
             [
-                "Cylinder head rated temperature",
+                "Cylinder head rated temp",
                 " 140..240 \u00b0C"
             ],
             [
-                "Cylinder head maximum temperature",
+                "Cylinder head maximum temp",
                 " 260 \u00b0C"
             ]
         ]
@@ -101,19 +101,19 @@
         ],
         "temp": [
             [
-                "Oil rated temperature output",
+                "Oil rated temp output",
                 " 80..95 \u00b0C"
             ],
             [
-                "Oil maximum temperature output",
+                "Oil maximum temp output",
                 " 105 \u00b0C"
             ],
             [
-                "Cylinder head rated temperature",
+                "Cylinder head rated temp",
                 " 140..235 \u00b0C"
             ],
             [
-                "Cylinder head maximum temperature",
+                "Cylinder head maximum temp",
                 " 260 \u00b0C"
             ]
         ]
@@ -159,27 +159,27 @@
         ],
         "temp": [
             [
-                "Water rated temperature output",
+                "Water rated temp output",
                 " 94 \u00b0C"
             ],
             [
-                "Water maximum temperature output",
+                "Water maximum temp output",
                 " 100 \u00b0C"
             ],
             [
-                "Oil rated temperature intake",
+                "Oil rated temp intake",
                 " 30..75 \u00b0C"
             ],
             [
-                "Oil maximum temperature intake",
+                "Oil maximum temp intake",
                 " 80 \u00b0C"
             ],
             [
-                "Oil rated temperature output",
+                "Oil rated temp output",
                 " 95 \u00b0C"
             ],
             [
-                "Oil maximum temperature output",
+                "Oil maximum temp output",
                 " 105 \u00b0C"
             ]
         ]
@@ -225,19 +225,19 @@
         ],
         "temp": [
             [
-                "Water rated temperature output",
+                "Water rated temp output",
                 " 100..102 \u00b0C"
             ],
             [
-                "Water maximum temperature output",
+                "Water maximum temp output",
                 " 110 \u00b0C"
             ],
             [
-                "Oil rated temperature intake",
+                "Oil rated temp intake",
                 " 70..80 \u00b0C"
             ],
             [
-                "Oil maximum temperature intake",
+                "Oil maximum temp intake",
                 " 85 \u00b0C"
             ]
         ]
@@ -279,19 +279,19 @@
         ],
         "temp": [
             [
-                "Water rated temperature output",
+                "Water rated temp output",
                 " 100..102 \u00b0C"
             ],
             [
-                "Water maximum temperature output",
+                "Water maximum temp output",
                 " 115 \u00b0C"
             ],
             [
-                "Oil rated temperature intake",
+                "Oil rated temp intake",
                 " 70..80 \u00b0C"
             ],
             [
-                "Oil maximum temperature intake",
+                "Oil maximum temp intake",
                 " 85 \u00b0C"
             ]
         ]
@@ -333,19 +333,19 @@
         ],
         "temp": [
             [
-                "Water rated temperature output",
+                "Water rated temp output",
                 " 100..102 \u00b0C"
             ],
             [
-                "Water maximum temperature output",
+                "Water maximum temp output",
                 " 115 \u00b0C"
             ],
             [
-                "Oil rated temperature intake",
+                "Oil rated temp intake",
                 " 70..80 \u00b0C"
             ],
             [
-                "Oil maximum temperature intake",
+                "Oil maximum temp intake",
                 " 85 \u00b0C"
             ]
         ]
@@ -383,19 +383,19 @@
         ],
         "temp": [
             [
-                "Water rated temperature output",
+                "Water rated temp output",
                 " 100..102 \u00b0C"
             ],
             [
-                "Water maximum temperature output",
+                "Water maximum temp output",
                 " 115 \u00b0C"
             ],
             [
-                "Oil rated temperature intake",
+                "Oil rated temp intake",
                 " 70..80 \u00b0C"
             ],
             [
-                "Oil maximum temperature intake",
+                "Oil maximum temp intake",
                 " 85 \u00b0C"
             ]
         ]
@@ -437,19 +437,19 @@
         ],
         "temp": [
             [
-                "Water rated temperature output",
+                "Water rated temp output",
                 " 100..102 \u00b0C"
             ],
             [
-                "Water maximum temperature output",
+                "Water maximum temp output",
                 " 115 \u00b0C"
             ],
             [
-                "Oil rated temperature intake",
+                "Oil rated temp intake",
                 " 70..80 \u00b0C"
             ],
             [
-                "Oil maximum temperature intake",
+                "Oil maximum temp intake",
                 " 85 \u00b0C"
             ]
         ]
@@ -491,19 +491,19 @@
         ],
         "temp": [
             [
-                "Water rated temperature output",
+                "Water rated temp output",
                 " 100..102 \u00b0C"
             ],
             [
-                "Water maximum temperature output",
+                "Water maximum temp output",
                 " 115 \u00b0C"
             ],
             [
-                "Oil rated temperature intake",
+                "Oil rated temp intake",
                 " 70..80 \u00b0C"
             ],
             [
-                "Oil maximum temperature intake",
+                "Oil maximum temp intake",
                 " 85 \u00b0C"
             ]
         ]
@@ -557,19 +557,19 @@
         ],
         "temp": [
             [
-                "Water rated temperature output",
+                "Water rated temp output",
                 " 100..102 \u00b0C"
             ],
             [
-                "Water maximum temperature output",
+                "Water maximum temp output",
                 " 115 \u00b0C"
             ],
             [
-                "Oil rated temperature intake",
+                "Oil rated temp intake",
                 " 70..80 \u00b0C"
             ],
             [
-                "Oil maximum temperature intake",
+                "Oil maximum temp intake",
                 " 95 \u00b0C"
             ]
         ]
@@ -615,27 +615,27 @@
         ],
         "temp": [
             [
-                "Water rated temperature output",
+                "Water rated temp output",
                 " 94 \u00b0C"
             ],
             [
-                "Water maximum temperature output",
+                "Water maximum temp output",
                 " 100 \u00b0C"
             ],
             [
-                "Oil rated temperature intake",
+                "Oil rated temp intake",
                 " 30..75 \u00b0C"
             ],
             [
-                "Oil maximum temperature intake",
+                "Oil maximum temp intake",
                 " 80 \u00b0C"
             ],
             [
-                "Oil rated temperature output",
+                "Oil rated temp output",
                 " 95 \u00b0C"
             ],
             [
-                "Oil maximum temperature output",
+                "Oil maximum temp output",
                 " 105 \u00b0C"
             ]
         ]
@@ -677,19 +677,19 @@
         ],
         "temp": [
             [
-                "Water rated temperature output",
+                "Water rated temp output",
                 " 100..102 \u00b0C"
             ],
             [
-                "Water maximum temperature output",
+                "Water maximum temp output",
                 " 115 \u00b0C"
             ],
             [
-                "Oil rated temperature intake",
+                "Oil rated temp intake",
                 " 70..80 \u00b0C"
             ],
             [
-                "Oil maximum temperature intake",
+                "Oil maximum temp intake",
                 " 85 \u00b0C"
             ]
         ]
@@ -766,27 +766,27 @@
         ],
         "temp": [
             [
-                "Oil rated temperature intake",
+                "Oil rated temp intake",
                 " 60..70 \u00b0C"
             ],
             [
-                "Oil maximum temperature intake",
+                "Oil maximum temp intake",
                 " 85 \u00b0C"
             ],
             [
-                "Oil rated temperature output",
+                "Oil rated temp output",
                 " 105 \u00b0C"
             ],
             [
-                "Oil maximum temperature output",
+                "Oil maximum temp output",
                 " 120 \u00b0C"
             ],
             [
-                "Cylinder head rated temperature",
+                "Cylinder head rated temp",
                 " 180 \u00b0C"
             ],
             [
-                "Cylinder head maximum temperature",
+                "Cylinder head maximum temp",
                 " 220 \u00b0C"
             ],
             [
@@ -832,27 +832,27 @@
         ],
         "temp": [
             [
-                "Oil rated temperature intake",
+                "Oil rated temp intake",
                 " 60..70 \u00b0C"
             ],
             [
-                "Oil maximum temperature intake",
+                "Oil maximum temp intake",
                 " 85 \u00b0C"
             ],
             [
-                "Oil rated temperature output",
+                "Oil rated temp output",
                 " 105 \u00b0C"
             ],
             [
-                "Oil maximum temperature output",
+                "Oil maximum temp output",
                 " 120 \u00b0C"
             ],
             [
-                "Cylinder head rated temperature",
+                "Cylinder head rated temp",
                 " 180 \u00b0C"
             ],
             [
-                "Cylinder head maximum temperature",
+                "Cylinder head maximum temp",
                 " 220 \u00b0C"
             ],
             [
@@ -898,27 +898,27 @@
         ],
         "temp": [
             [
-                "Oil rated temperature intake",
+                "Oil rated temp intake",
                 " 60..70 \u00b0C"
             ],
             [
-                "Oil maximum temperature intake",
+                "Oil maximum temp intake",
                 " 85 \u00b0C"
             ],
             [
-                "Oil rated temperature output",
+                "Oil rated temp output",
                 " 105 \u00b0C"
             ],
             [
-                "Oil maximum temperature output",
+                "Oil maximum temp output",
                 " 120 \u00b0C"
             ],
             [
-                "Cylinder head rated temperature",
+                "Cylinder head rated temp",
                 " 180 \u00b0C"
             ],
             [
-                "Cylinder head maximum temperature",
+                "Cylinder head maximum temp",
                 " 220 \u00b0C"
             ],
             [
@@ -968,19 +968,19 @@
         ],
         "temp": [
             [
-                "Water rated temperature output",
+                "Water rated temp output",
                 " 55..100 \u00b0C"
             ],
             [
-                "Water maximum temperature output",
+                "Water maximum temp output",
                 " 110 \u00b0C"
             ],
             [
-                "Oil rated temperature output",
+                "Oil rated temp output",
                 " 40..110 \u00b0C"
             ],
             [
-                "Oil maximum temperature output",
+                "Oil maximum temp output",
                 " 120 \u00b0C"
             ]
         ]
@@ -1036,19 +1036,19 @@
         ],
         "temp": [
             [
-                "Water rated temperature output",
+                "Water rated temp output",
                 " 80 \u00b0C"
             ],
             [
-                "Water maximum temperature output",
+                "Water maximum temp output",
                 " 110 \u00b0C"
             ],
             [
-                "Oil rated temperature output",
+                "Oil rated temp output",
                 " 90 \u00b0C"
             ],
             [
-                "Oil maximum temperature output",
+                "Oil maximum temp output",
                 " 105 \u00b0C"
             ]
         ]
@@ -1090,19 +1090,19 @@
         ],
         "temp": [
             [
-                "Water rated temperature output",
+                "Water rated temp output",
                 " 80 \u00b0C"
             ],
             [
-                "Water maximum temperature output",
+                "Water maximum temp output",
                 " 110 \u00b0C"
             ],
             [
-                "Oil rated temperature output",
+                "Oil rated temp output",
                 " 90 \u00b0C"
             ],
             [
-                "Oil maximum temperature output",
+                "Oil maximum temp output",
                 " 105 \u00b0C"
             ]
         ]
@@ -1144,11 +1144,11 @@
         ],
         "temp": [
             [
-                "Oil rated temperature intake",
+                "Oil rated temp intake",
                 " 60..75 \u00b0C"
             ],
             [
-                "Oil maximum temperature intake",
+                "Oil maximum temp intake",
                 " 125 \u00b0C"
             ]
         ]
@@ -1186,19 +1186,19 @@
         ],
         "temp": [
             [
-                "Oil rated temperature output",
+                "Oil rated temp output",
                 " 55..90 \u00b0C"
             ],
             [
-                "Oil maximum temperature output",
+                "Oil maximum temp output",
                 " 125 \u00b0C"
             ],
             [
-                "Cylinder head rated temperature",
+                "Cylinder head rated temp",
                 " 120..200 \u00b0C"
             ],
             [
-                "Cylinder head maximum temperature",
+                "Cylinder head maximum temp",
                 " 205 \u00b0C"
             ]
         ]
@@ -1236,27 +1236,27 @@
         ],
         "temp": [
             [
-                "Water rated temperature output",
+                "Water rated temp output",
                 " 80..110 \u00b0C"
             ],
             [
-                "Water maximum temperature output",
+                "Water maximum temp output",
                 " 120 \u00b0C"
             ],
             [
-                "Oil rated temperature intake",
+                "Oil rated temp intake",
                 " 40..80 \u00b0C"
             ],
             [
-                "Oil maximum temperature intake",
+                "Oil maximum temp intake",
                 " 85 \u00b0C"
             ],
             [
-                "Oil rated temperature output",
+                "Oil rated temp output",
                 " 115 \u00b0C"
             ],
             [
-                "Oil maximum temperature output",
+                "Oil maximum temp output",
                 " 120 \u00b0C"
             ]
         ]
@@ -1294,27 +1294,27 @@
         ],
         "temp": [
             [
-                "Water rated temperature output",
+                "Water rated temp output",
                 " 80..110 \u00b0C"
             ],
             [
-                "Water maximum temperature output",
+                "Water maximum temp output",
                 " 120 \u00b0C"
             ],
             [
-                "Oil rated temperature intake",
+                "Oil rated temp intake",
                 " 40..80 \u00b0C"
             ],
             [
-                "Oil maximum temperature intake",
+                "Oil maximum temp intake",
                 " 85 \u00b0C"
             ],
             [
-                "Oil rated temperature output",
+                "Oil rated temp output",
                 " 115 \u00b0C"
             ],
             [
-                "Oil maximum temperature output",
+                "Oil maximum temp output",
                 " 120 \u00b0C"
             ]
         ]
@@ -1352,27 +1352,27 @@
         ],
         "temp": [
             [
-                "Water rated temperature output",
+                "Water rated temp output",
                 " 80..110 \u00b0C"
             ],
             [
-                "Water maximum temperature output",
+                "Water maximum temp output",
                 " 120 \u00b0C"
             ],
             [
-                "Oil rated temperature intake",
+                "Oil rated temp intake",
                 " 40..80 \u00b0C"
             ],
             [
-                "Oil maximum temperature intake",
+                "Oil maximum temp intake",
                 " 85 \u00b0C"
             ],
             [
-                "Oil rated temperature output",
+                "Oil rated temp output",
                 " 115 \u00b0C"
             ],
             [
-                "Oil maximum temperature output",
+                "Oil maximum temp output",
                 " 120 \u00b0C"
             ]
         ]
@@ -1414,19 +1414,19 @@
         ],
         "temp": [
             [
-                "Oil rated temperature intake",
+                "Oil rated temp intake",
                 " 60 \u00b0C"
             ],
             [
-                "Oil maximum temperature intake",
+                "Oil maximum temp intake",
                 " 80 \u00b0C"
             ],
             [
-                "Oil rated temperature output",
+                "Oil rated temp output",
                 " 80 \u00b0C"
             ],
             [
-                "Oil maximum temperature output",
+                "Oil maximum temp output",
                 " 100 \u00b0C"
             ]
         ]
@@ -1468,19 +1468,19 @@
         ],
         "temp": [
             [
-                "Water rated temperature output",
+                "Water rated temp output",
                 " 80 \u00b0C"
             ],
             [
-                "Water maximum temperature output",
+                "Water maximum temp output",
                 " 110 \u00b0C"
             ],
             [
-                "Oil rated temperature output",
+                "Oil rated temp output",
                 " 90 \u00b0C"
             ],
             [
-                "Oil maximum temperature output",
+                "Oil maximum temp output",
                 " 105 \u00b0C"
             ]
         ]
@@ -1522,19 +1522,19 @@
         ],
         "temp": [
             [
-                "Water rated temperature output",
+                "Water rated temp output",
                 " 80 \u00b0C"
             ],
             [
-                "Water maximum temperature output",
+                "Water maximum temp output",
                 " 110 \u00b0C"
             ],
             [
-                "Oil rated temperature output",
+                "Oil rated temp output",
                 " 100 \u00b0C"
             ],
             [
-                "Oil maximum temperature output",
+                "Oil maximum temp output",
                 " 130 \u00b0C"
             ]
         ]
@@ -1572,19 +1572,19 @@
         ],
         "temp": [
             [
-                "Oil rated temperature intake",
+                "Oil rated temp intake",
                 " 65..75 \u00b0C"
             ],
             [
-                "Oil maximum temperature intake",
+                "Oil maximum temp intake",
                 " 85 \u00b0C"
             ],
             [
-                "Cylinder head rated temperature",
+                "Cylinder head rated temp",
                 " 180..215 \u00b0C"
             ],
             [
-                "Cylinder head maximum temperature",
+                "Cylinder head maximum temp",
                 " 250 \u00b0C"
             ]
         ]
@@ -1622,19 +1622,19 @@
         ],
         "temp": [
             [
-                "Oil rated temperature output",
+                "Oil rated temp output",
                 " 55..90 \u00b0C"
             ],
             [
-                "Oil maximum temperature output",
+                "Oil maximum temp output",
                 " 125 \u00b0C"
             ],
             [
-                "Cylinder head rated temperature",
+                "Cylinder head rated temp",
                 " 140..210 \u00b0C"
             ],
             [
-                "Cylinder head maximum temperature",
+                "Cylinder head maximum temp",
                 " 215 \u00b0C"
             ]
         ]
@@ -1668,19 +1668,19 @@
         ],
         "temp": [
             [
-                "Water rated temperature output",
+                "Water rated temp output",
                 " 90..100 \u00b0C"
             ],
             [
-                "Water maximum temperature output",
+                "Water maximum temp output",
                 " 110 \u00b0C"
             ],
             [
-                "Oil rated temperature output",
+                "Oil rated temp output",
                 " 90..100 \u00b0C"
             ],
             [
-                "Oil maximum temperature output",
+                "Oil maximum temp output",
                 " 115 \u00b0C"
             ]
         ]
@@ -1722,31 +1722,31 @@
         ],
         "temp": [
             [
-                "Water rated temperature intake",
+                "Water rated temp intake",
                 " 70..80 \u00b0C"
             ],
             [
-                "Water rated temperature output",
+                "Water rated temp output",
                 " 94 \u00b0C"
             ],
             [
-                "Water maximum temperature output",
+                "Water maximum temp output",
                 " 100 \u00b0C"
             ],
             [
-                "Oil rated temperature intake",
+                "Oil rated temp intake",
                 " 60..75 \u00b0C"
             ],
             [
-                "Oil maximum temperature intake",
+                "Oil maximum temp intake",
                 " 85 \u00b0C"
             ],
             [
-                "Oil rated temperature output",
+                "Oil rated temp output",
                 " 90..100 \u00b0C"
             ],
             [
-                "Oil maximum temperature output",
+                "Oil maximum temp output",
                 " 110 \u00b0C"
             ]
         ]
@@ -1817,27 +1817,27 @@
         ],
         "temp": [
             [
-                "Water rated temperature output",
+                "Water rated temp output",
                 " 80..110 \u00b0C"
             ],
             [
-                "Water maximum temperature output",
+                "Water maximum temp output",
                 " 120 \u00b0C"
             ],
             [
-                "Oil rated temperature intake",
+                "Oil rated temp intake",
                 " 40..80 \u00b0C"
             ],
             [
-                "Oil maximum temperature intake",
+                "Oil maximum temp intake",
                 " 85 \u00b0C"
             ],
             [
-                "Oil rated temperature output",
+                "Oil rated temp output",
                 " 115 \u00b0C"
             ],
             [
-                "Oil maximum temperature output",
+                "Oil maximum temp output",
                 " 120 \u00b0C"
             ]
         ]
@@ -1879,19 +1879,19 @@
         ],
         "temp": [
             [
-                "Water rated temperature output",
+                "Water rated temp output",
                 " 85 \u00b0C"
             ],
             [
-                "Water maximum temperature output",
+                "Water maximum temp output",
                 " 105 \u00b0C"
             ],
             [
-                "Oil rated temperature output",
+                "Oil rated temp output",
                 " 105 \u00b0C"
             ],
             [
-                "Oil maximum temperature output",
+                "Oil maximum temp output",
                 " 115 \u00b0C"
             ]
         ]
@@ -1937,19 +1937,19 @@
         ],
         "temp": [
             [
-                "Water rated temperature output",
+                "Water rated temp output",
                 " 105..115 \u00b0C"
             ],
             [
-                "Water maximum temperature output",
+                "Water maximum temp output",
                 " 125 \u00b0C"
             ],
             [
-                "Oil rated temperature intake",
+                "Oil rated temp intake",
                 " 60..80 \u00b0C"
             ],
             [
-                "Oil maximum temperature intake",
+                "Oil maximum temp intake",
                 " 95 \u00b0C"
             ]
         ]
@@ -1995,19 +1995,19 @@
         ],
         "temp": [
             [
-                "Water rated temperature output",
+                "Water rated temp output",
                 " 105..115 \u00b0C"
             ],
             [
-                "Water maximum temperature output",
+                "Water maximum temp output",
                 " 125 \u00b0C"
             ],
             [
-                "Oil rated temperature intake",
+                "Oil rated temp intake",
                 " 70..85 \u00b0C"
             ],
             [
-                "Oil maximum temperature intake",
+                "Oil maximum temp intake",
                 " 90 \u00b0C"
             ]
         ]
@@ -2049,11 +2049,11 @@
         ],
         "temp": [
             [
-                "Oil rated temperature intake",
+                "Oil rated temp intake",
                 " 60..95 \u00b0C"
             ],
             [
-                "Oil maximum temperature intake",
+                "Oil maximum temp intake",
                 " 100 \u00b0C"
             ]
         ]
@@ -2099,19 +2099,19 @@
         ],
         "temp": [
             [
-                "Water rated temperature output",
+                "Water rated temp output",
                 " 100..110 \u00b0C"
             ],
             [
-                "Water maximum temperature output",
+                "Water maximum temp output",
                 " 121 \u00b0C"
             ],
             [
-                "Oil rated temperature intake",
+                "Oil rated temp intake",
                 " 80 \u00b0C"
             ],
             [
-                "Oil maximum temperature intake",
+                "Oil maximum temp intake",
                 " 90 \u00b0C"
             ]
         ]
@@ -2145,19 +2145,19 @@
         ],
         "temp": [
             [
-                "Water rated temperature output",
+                "Water rated temp output",
                 " 70..85 \u00b0C"
             ],
             [
-                "Water maximum temperature output",
+                "Water maximum temp output",
                 " 100 \u00b0C"
             ],
             [
-                "Oil rated temperature output",
+                "Oil rated temp output",
                 " 90..100 \u00b0C"
             ],
             [
-                "Oil maximum temperature output",
+                "Oil maximum temp output",
                 " 110 \u00b0C"
             ]
         ]
@@ -2191,19 +2191,19 @@
         ],
         "temp": [
             [
-                "Water rated temperature output",
+                "Water rated temp output",
                 " 70..85 \u00b0C"
             ],
             [
-                "Water maximum temperature output",
+                "Water maximum temp output",
                 " 100 \u00b0C"
             ],
             [
-                "Oil rated temperature output",
+                "Oil rated temp output",
                 " 90..100 \u00b0C"
             ],
             [
-                "Oil maximum temperature output",
+                "Oil maximum temp output",
                 " 115 \u00b0C"
             ]
         ]
@@ -2280,19 +2280,19 @@
         ],
         "temp": [
             [
-                "Water rated temperature output",
+                "Water rated temp output",
                 " 105..115 \u00b0C"
             ],
             [
-                "Water maximum temperature output",
+                "Water maximum temp output",
                 " 135 \u00b0C"
             ],
             [
-                "Oil rated temperature intake",
+                "Oil rated temp intake",
                 " 90 \u00b0C"
             ],
             [
-                "Oil maximum temperature intake",
+                "Oil maximum temp intake",
                 " 105 \u00b0C"
             ]
         ]
@@ -2334,19 +2334,19 @@
         ],
         "temp": [
             [
-                "Water rated temperature output",
+                "Water rated temp output",
                 " 105..115 \u00b0C"
             ],
             [
-                "Water maximum temperature output",
+                "Water maximum temp output",
                 " 125 \u00b0C"
             ],
             [
-                "Oil rated temperature intake",
+                "Oil rated temp intake",
                 " 70..85 \u00b0C"
             ],
             [
-                "Oil maximum temperature intake",
+                "Oil maximum temp intake",
                 " 105 \u00b0C"
             ]
         ]
@@ -2388,19 +2388,19 @@
         ],
         "temp": [
             [
-                "Water rated temperature output",
+                "Water rated temp output",
                 " 65..125 \u00b0C"
             ],
             [
-                "Water maximum temperature output",
+                "Water maximum temp output",
                 " 130 \u00b0C"
             ],
             [
-                "Oil rated temperature intake",
+                "Oil rated temp intake",
                 " 60..90 \u00b0C"
             ],
             [
-                "Oil maximum temperature intake",
+                "Oil maximum temp intake",
                 " 95 \u00b0C"
             ]
         ]
@@ -2438,11 +2438,11 @@
         ],
         "temp": [
             [
-                "Oil rated temperature output",
+                "Oil rated temp output",
                 " 70..80 \u00b0C"
             ],
             [
-                "Oil maximum temperature output",
+                "Oil maximum temp output",
                 " 115 \u00b0C"
             ]
         ]
@@ -2476,19 +2476,19 @@
         ],
         "temp": [
             [
-                "Water rated temperature output",
+                "Water rated temp output",
                 " 70..85 \u00b0C"
             ],
             [
-                "Water maximum temperature output",
+                "Water maximum temp output",
                 " 100 \u00b0C"
             ],
             [
-                "Oil rated temperature output",
+                "Oil rated temp output",
                 " 90..100 \u00b0C"
             ],
             [
-                "Oil maximum temperature output",
+                "Oil maximum temp output",
                 " 115 \u00b0C"
             ]
         ]
@@ -2522,19 +2522,19 @@
         ],
         "temp": [
             [
-                "Water rated temperature output",
+                "Water rated temp output",
                 " 70..85 \u00b0C"
             ],
             [
-                "Water maximum temperature output",
+                "Water maximum temp output",
                 " 100 \u00b0C"
             ],
             [
-                "Oil rated temperature output",
+                "Oil rated temp output",
                 " 90..100 \u00b0C"
             ],
             [
-                "Oil maximum temperature output",
+                "Oil maximum temp output",
                 " 115 \u00b0C"
             ]
         ]
@@ -2568,19 +2568,19 @@
         ],
         "temp": [
             [
-                "Water rated temperature output",
+                "Water rated temp output",
                 " 70..85 \u00b0C"
             ],
             [
-                "Water maximum temperature output",
+                "Water maximum temp output",
                 " 100 \u00b0C"
             ],
             [
-                "Oil rated temperature output",
+                "Oil rated temp output",
                 " 90..100 \u00b0C"
             ],
             [
-                "Oil maximum temperature output",
+                "Oil maximum temp output",
                 " 115 \u00b0C"
             ]
         ]
@@ -2614,19 +2614,19 @@
         ],
         "temp": [
             [
-                "Water rated temperature output",
+                "Water rated temp output",
                 " 70..85 \u00b0C"
             ],
             [
-                "Water maximum temperature output",
+                "Water maximum temp output",
                 " 100 \u00b0C"
             ],
             [
-                "Oil rated temperature output",
+                "Oil rated temp output",
                 " 90..100 \u00b0C"
             ],
             [
-                "Oil maximum temperature output",
+                "Oil maximum temp output",
                 " 115 \u00b0C"
             ]
         ]
@@ -2660,19 +2660,19 @@
         ],
         "temp": [
             [
-                "Water rated temperature output",
+                "Water rated temp output",
                 " 70..85 \u00b0C"
             ],
             [
-                "Water maximum temperature output",
+                "Water maximum temp output",
                 " 100 \u00b0C"
             ],
             [
-                "Oil rated temperature output",
+                "Oil rated temp output",
                 " 90..100 \u00b0C"
             ],
             [
-                "Oil maximum temperature output",
+                "Oil maximum temp output",
                 " 115 \u00b0C"
             ]
         ]
