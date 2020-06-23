@@ -296,6 +296,9 @@ def master_yml():
                 if re.match(r'^\(', line):
                     pass
                 else:
+                    # if re.match(r'^.*intake.*$',line):
+                    #     pass
+                    # else:
                     result = re.sub(":", ":</strong><br>", line)
                     f_info.write("    <strong>" + result.strip() + "<br>\n")
             f_info.write("  max_air: |\n")
@@ -368,114 +371,3 @@ def master_yml():
 # Extract Data from unzipped swf GTP file
 # extract_data()
 master_yml()
-
-# Old Code
-list_meta = [ "Takeoff speed", 
-            "Glideslope speed", 
-            "Landing speed" , 
-            "Service ceiling", 
-            "Dive speed limit",
-            "Climb rate at sea level",
-            "Climb rate at 3000 m",
-            "Climb rate at 6000 m",
-            "Flight endurance at 3000 m",
-            "Fuel load",
-            "Supercharger",
-            "Indicated stall speed",
-            "Maximum performance turn"]
-
-list_engine = [ "Nominal",
-                "Combat power",
-                "Emergency power",
-                "Boosted power",
-                "Take-off power",
-                "Max Cruising power",
-                "International power",
-                "Emergency Max All",
-                "Climb power",
-                "Model"]
-
-list_speed = [ "Nominal",
-                "Combat power",
-                "Emergency power",
-                "Boosted power",
-                "Take-off power",
-                "Max Cruising power",
-                "International power",
-                "Emergency Max All",
-                "Climb power",
-                "Model"]
-
-def engine_settings(info, search_list):
-    file = open("engine.md", "w")
-
-    plane_name = ""
-
-    for line in info:
-        if re.search("## ",line):
-            file.write(line)
-        for row in search_list:
-            if re.match(row, line):
-                file.write("\n" + line)
-    file.close()
-
-def op_features(info):
-    file = open("op.md", "w")
-
-    plane_name = ""
-
-    for line in info:
-        if re.search("## ",line):
-            file.write("\n" + line)
-        if re.match('-', line):
-            file.write("\n" + line)
-    file.close()
-
-def airspeed(info):
-    file = open("airspeed.md", "w")
-
-    plane_name = ""
-
-    for line in info:
-        if re.search("## ",line):
-            file.write("\n" + line)
-        if re.match('Maximum true air speed', line):
-            file.write("\n" + line)
-    file.close()
-
-def oil_water_temp(info):
-    file = open("oil_water.md", "w")
-
-    plane_name = ""
-
-    for line in info:
-        if re.search("## ",line):
-            file.write("\n" + line)
-        elif re.match('Oil cap', line):
-            pass
-        elif re.match('Oil', line) or re.match('Water', line):
-            file.write("\n" + line)
-    file.close()
-
-def plane_meta(info,search_list):
-    # Contains; takeoff/glideslope/landing speeds, dive speed limit, service ceiling, climb rate sea/3k/6k
-    file = open("meta.md", "w")
-
-    plane_name = ""
-
-    for line in info:
-        if re.search("## ",line):
-            file.write(line)
-        for row in search_list:
-            if re.match(row, line):
-                file.write("\n" + line)
-    file.close()
-
-# Generate Log of Plane list on exectuion
-# generate_log(forum_scrape(html))
-
-#plane_meta(forum_scrape(html),list_meta)
-#op_features(forum_scrape(html))
-#oil_water_temp(forum_scrape(html))
-#engine_settings(forum_scrape(html),list_engine)
-#airspeed(forum_scrape(html))
