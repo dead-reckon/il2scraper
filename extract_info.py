@@ -2,8 +2,10 @@ import csv
 import re
 import os
 import shutil
+import json
+from pprint import pprint
 
-def file_to_array():
+def clean_eng(eng):
     pass
 
 def extract_data():
@@ -78,12 +80,24 @@ def master_yml():
     
     l_circus = []
     # l_circus.append(["Name","ID"])
+
+    photo_lst = []
+    dds_dict = {}
+
     for line in plane_texts:
         path_to_file = info_path + "/" + line
         # print("Reading File: " + path_to_file)
         raw = open(path_to_file, "r", encoding="utf8")
         data = raw.read().split("\n")
         raw.close()
+
+        plane_id = re.sub(r'\.txt', '', line)
+
+        photo_dict = {}
+
+        photo_temp = []
+        photo_spd = []
+        photo_eng = []
 
         eng_mode_bool = False
         eng_mode = []
@@ -121,7 +135,7 @@ def master_yml():
 
         for row in data:
             if "&name" in row:
-                plane_id = re.sub(r'\.txt', '', line)
+                
                 final = re.sub(r'^.*&name=', '', row)
                 p_id_circus = plane_id
                 p_name_circus = final
@@ -129,6 +143,8 @@ def master_yml():
                 f_info.write("  name: " + final + "\n")
                 s_info.write("- id: " + plane_id + "\n")
                 s_info.write("  name: " + final + "\n")
+                photo_dict['name'] = plane_id
+
             else:
                 final = ""
                 if "&description=" in row:
@@ -146,15 +162,22 @@ def master_yml():
                 if re.match(r'^$', row) is not None:
                     eng_mode_bool = False
                 else:
+                    if re.match(r'^\(', row):
+                        pass
+                    else:
+                        photo_eng.append(row.split(':'))
                     eng_mode.append(row) 
+                    
             if "Takeoff speed:" in row:
                 spd_mode_bool = True
                 spd_mode.append(row)
+                photo_spd.append(row.split(':'))
             elif spd_mode_bool:
                 if re.match(r'^$', row) is not None:
                     spd_mode_bool = False
                 else:
                     spd_mode.append(row)
+                    photo_spd.append(row.split(':'))
             if "Operation features:" in row or "Operational features:" in row:
                 feat_mode_bool = True
             elif feat_mode_bool:
@@ -198,12 +221,16 @@ def master_yml():
                     weight_mode.append(row)
             if "rated temperature" in row or "maximum temperature" in row:
                 temp_mode_bool = True
-                temp_mode.append(row)
+                clean = re.sub(r'in\ engine\ ','',row)
+                temp_mode.append(clean)
+                photo_temp.append(clean.split(':'))
             elif temp_mode_bool:
                 if re.match(r'^$', row) is not None:
                     temp_mode_bool = False
                 else:
-                    temp_mode.append(row)
+                    clean = re.sub(r'in\ engine\ ','',row)
+                    temp_mode.append(clean)
+                    photo_temp.append(clean.split(':'))
             if "Length:" in row:
                 dim_mode_bool = True
                 dim_mode.append(row)
@@ -244,8 +271,16 @@ def master_yml():
 
         if fuel_km:
             s_info.write("  circus: 0\n")
+            photo_dict['circus'] = False
         else:
             s_info.write("  circus: 1\n")
+            photo_dict['circus'] = True
+
+        photo_dict['engine'] = photo_eng
+        photo_dict['temp'] = photo_temp
+        photo_dict['stall'] = photo_spd
+        photo_lst.append(photo_dict)
+        dds_dict[plane_id] = photo_dict
 
         if fuel_km:
             f_info.write("  circus:  0\n")
@@ -359,6 +394,8 @@ def master_yml():
             l_circus.append(short.lower()) 
     s_info.close()
     f_info.close()
+    with open('photo.json', 'w') as f:
+        json.dump(photo_lst, f, indent=4, sort_keys=True)
 
     with open("circus.csv", "w", encoding="utf8") as circus:
         for line in l_circus:

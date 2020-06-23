@@ -126,8 +126,8 @@
     <strong>Fuel load:</strong> 1057 kg / 1468 l / 388 gal<br>
     <strong>Useful load:</strong> 3665 kg<br>
   temp: |
-    <strong>Oil rated temperature in engine output:</strong><br> 80..95 °C<br>
-    <strong>Oil maximum temperature in engine output:</strong><br> 105 °C<br>
+    <strong>Oil rated temperature output:</strong><br> 80..95 °C<br>
+    <strong>Oil maximum temperature output:</strong><br> 105 °C<br>
     <strong>Cylinder head rated temperature:</strong><br> 140..240 °C<br>
     <strong>Cylinder head maximum temperature:</strong><br> 260 °C<br>
   max_air: |
@@ -357,8 +357,8 @@
     <strong>Fuel load:</strong> 2618 kg / 3688 l / 974 gal<br>
     <strong>Useful load:</strong> 7043 kg<br>
   temp: |
-    <strong>Oil rated temperature in engine output:</strong><br> 80..95 °C<br>
-    <strong>Oil maximum temperature in engine output:</strong><br> 105 °C<br>
+    <strong>Oil rated temperature output:</strong><br> 80..95 °C<br>
+    <strong>Oil maximum temperature output:</strong><br> 105 °C<br>
     <strong>Cylinder head rated temperature:</strong><br> 140..235 °C<br>
     <strong>Cylinder head maximum temperature:</strong><br> 260 °C<br>
   max_air: |
@@ -515,12 +515,12 @@
     <strong>Fuel load:</strong> 304 kg / 400 l<br>
     <strong>Useful load:</strong> 844 kg<br>
   temp: |
-    <strong>Water rated temperature in engine output:</strong><br> 94 °C<br>
-    <strong>Water maximum temperature in engine output:</strong><br> 100 °C<br>
-    <strong>Oil rated temperature in engine intake:</strong><br> 30..75 °C<br>
-    <strong>Oil maximum temperature in engine intake:</strong><br> 80 °C<br>
-    <strong>Oil rated temperature in engine output:</strong><br> 95 °C<br>
-    <strong>Oil maximum temperature in engine output:</strong><br> 105 °C<br>
+    <strong>Water rated temperature output:</strong><br> 94 °C<br>
+    <strong>Water maximum temperature output:</strong><br> 100 °C<br>
+    <strong>Oil rated temperature intake:</strong><br> 30..75 °C<br>
+    <strong>Oil maximum temperature intake:</strong><br> 80 °C<br>
+    <strong>Oil rated temperature output:</strong><br> 95 °C<br>
+    <strong>Oil maximum temperature output:</strong><br> 105 °C<br>
   max_air: |
     <strong>Maximum true air speed at sea level, engine mode - Emergency:</strong><br> 477 km/h<br>
     <strong>Maximum true air speed at 2000 m, engine mode - Emergency:</strong><br> 520 km/h<br>
@@ -672,10 +672,10 @@
     <strong>Fuel load:</strong> 304 kg / 400 l<br>
     <strong>Useful load:</strong> 921 kg<br>
   temp: |
-    <strong>Water rated temperature in engine output:</strong><br> 100..102 °C<br>
-    <strong>Water maximum temperature in engine output:</strong><br> 110 °C<br>
-    <strong>Oil rated temperature in engine intake:</strong><br> 70..80 °C<br>
-    <strong>Oil maximum temperature in engine intake:</strong><br> 85 °C<br>
+    <strong>Water rated temperature output:</strong><br> 100..102 °C<br>
+    <strong>Water maximum temperature output:</strong><br> 110 °C<br>
+    <strong>Oil rated temperature intake:</strong><br> 70..80 °C<br>
+    <strong>Oil maximum temperature intake:</strong><br> 85 °C<br>
   max_air: |
     <strong>Maximum true air speed at sea level, engine mode - Emergency:</strong><br> 528 km/h<br>
     <strong>Maximum true air speed at 2000 m, engine mode - Emergency:</strong><br> 563 km/h<br>
@@ -825,10 +825,10 @@
     <strong>Fuel load:</strong> 304 kg / 400 l<br>
     <strong>Useful load:</strong> 807 kg<br>
   temp: |
-    <strong>Water rated temperature in engine output:</strong><br> 100..102 °C<br>
-    <strong>Water maximum temperature in engine output:</strong><br> 115 °C<br>
-    <strong>Oil rated temperature in engine intake:</strong><br> 70..80 °C<br>
-    <strong>Oil maximum temperature in engine intake:</strong><br> 85 °C<br>
+    <strong>Water rated temperature output:</strong><br> 100..102 °C<br>
+    <strong>Water maximum temperature output:</strong><br> 115 °C<br>
+    <strong>Oil rated temperature intake:</strong><br> 70..80 °C<br>
+    <strong>Oil maximum temperature intake:</strong><br> 85 °C<br>
   max_air: |
     <strong>Maximum true air speed at sea level, engine mode - Combat:</strong><br> 522 km/h<br>
     <strong>Maximum true air speed at 2000 m, engine mode - Combat:</strong><br> 570 km/h<br>
@@ -984,10 +984,10 @@
     <strong>Fuel load:</strong> 304 kg / 400 l<br>
     <strong>Useful load:</strong> 885 kg<br>
   temp: |
-    <strong>Water rated temperature in engine output:</strong><br> 100..102 °C<br>
-    <strong>Water maximum temperature in engine output:</strong><br> 115 °C<br>
-    <strong>Oil rated temperature in engine intake:</strong><br> 70..80 °C<br>
-    <strong>Oil maximum temperature in engine intake:</strong><br> 85 °C<br>
+    <strong>Water rated temperature output:</strong><br> 100..102 °C<br>
+    <strong>Water maximum temperature output:</strong><br> 115 °C<br>
+    <strong>Oil rated temperature intake:</strong><br> 70..80 °C<br>
+    <strong>Oil maximum temperature intake:</strong><br> 85 °C<br>
   max_air: |
     <strong>Maximum true air speed at sea level, engine mode - Emergency:</strong><br> 576 km/h<br>
     <strong>Maximum true air speed at 5500 m,, engine mode - Emergency:</strong><br> 668 km/h<br>
@@ -1135,10 +1135,10 @@
     <strong>Fuel load:</strong> 304 kg / 400 l<br>
     <strong>Useful load:</strong> 797 kg<br>
   temp: |
-    <strong>Water rated temperature in engine output:</strong><br> 100..102 °C<br>
-    <strong>Water maximum temperature in engine output:</strong><br> 115 °C<br>
-    <strong>Oil rated temperature in engine intake:</strong><br> 70..80 °C<br>
-    <strong>Oil maximum temperature in engine intake:</strong><br> 85 °C<br>
+    <strong>Water rated temperature output:</strong><br> 100..102 °C<br>
+    <strong>Water maximum temperature output:</strong><br> 115 °C<br>
+    <strong>Oil rated temperature intake:</strong><br> 70..80 °C<br>
+    <strong>Oil maximum temperature intake:</strong><br> 85 °C<br>
   max_air: |
     <strong>Maximum true air speed at sea level, engine mode - Combat:</strong><br> 530 km/h<br>
     <strong>Maximum true air speed at 2000 m, engine mode - Combat:</strong><br> 577 km/h<br>
@@ -1288,10 +1288,10 @@
     <strong>Fuel load:</strong> 304 kg / 400 l<br>
     <strong>Useful load:</strong> 797 kg<br>
   temp: |
-    <strong>Water rated temperature in engine output:</strong><br> 100..102 °C<br>
-    <strong>Water maximum temperature in engine output:</strong><br> 115 °C<br>
-    <strong>Oil rated temperature in engine intake:</strong><br> 70..80 °C<br>
-    <strong>Oil maximum temperature in engine intake:</strong><br> 85 °C<br>
+    <strong>Water rated temperature output:</strong><br> 100..102 °C<br>
+    <strong>Water maximum temperature output:</strong><br> 115 °C<br>
+    <strong>Oil rated temperature intake:</strong><br> 70..80 °C<br>
+    <strong>Oil maximum temperature intake:</strong><br> 85 °C<br>
   max_air: |
     <strong>Maximum true air speed at sea level, engine mode - Emergency:</strong><br> 540 km/h<br>
     <strong>Maximum true air speed at sea level, engine mode - Combat:</strong><br> 517 km/h<br>
@@ -1443,10 +1443,10 @@
     <strong>Fuel load:</strong> 304 kg / 400 l<br>
     <strong>Useful load:</strong> 817 kg<br>
   temp: |
-    <strong>Water rated temperature in engine output:</strong><br> 100..102 °C<br>
-    <strong>Water maximum temperature in engine output:</strong><br> 115 °C<br>
-    <strong>Oil rated temperature in engine intake:</strong><br> 70..80 °C<br>
-    <strong>Oil maximum temperature in engine intake:</strong><br> 85 °C<br>
+    <strong>Water rated temperature output:</strong><br> 100..102 °C<br>
+    <strong>Water maximum temperature output:</strong><br> 115 °C<br>
+    <strong>Oil rated temperature intake:</strong><br> 70..80 °C<br>
+    <strong>Oil maximum temperature intake:</strong><br> 85 °C<br>
   max_air: |
     <strong>Maximum true air speed at sea level, engine mode - Emergency:</strong><br> 529 km/h<br>
     <strong>Maximum true air speed at sea level, engine mode - Combat:</strong><br> 505 km/h<br>
@@ -1633,10 +1633,10 @@
     <strong>Fuel load:</strong> 304 kg / 400 l<br>
     <strong>Useful load:</strong> 1137 kg<br>
   temp: |
-    <strong>Water rated temperature in engine output:</strong><br> 100..102 °C<br>
-    <strong>Water maximum temperature in engine output:</strong><br> 115 °C<br>
-    <strong>Oil rated temperature in engine intake:</strong><br> 70..80 °C<br>
-    <strong>Oil maximum temperature in engine intake:</strong><br> 95 °C<br>
+    <strong>Water rated temperature output:</strong><br> 100..102 °C<br>
+    <strong>Water maximum temperature output:</strong><br> 115 °C<br>
+    <strong>Oil rated temperature intake:</strong><br> 70..80 °C<br>
+    <strong>Oil maximum temperature intake:</strong><br> 95 °C<br>
   max_air: |
     <strong>Maximum true air speed at sea level, engine mode - Emergency:</strong><br> 599 km/h<br>
     <strong>Maximum true air speed at 7500 m, engine mode - Emergency:</strong><br> 702 km/h<br>
@@ -1803,12 +1803,12 @@
     <strong>Fuel load:</strong> 965 kg / 1270 l<br>
     <strong>Useful load:</strong> 3223 kg<br>
   temp: |
-    <strong>Water rated temperature in engine output:</strong><br> 94 °C<br>
-    <strong>Water maximum temperature in engine output:</strong><br> 100 °C<br>
-    <strong>Oil rated temperature in engine intake:</strong><br> 30..75 °C<br>
-    <strong>Oil maximum temperature in engine intake:</strong><br> 80 °C<br>
-    <strong>Oil rated temperature in engine output:</strong><br> 95 °C<br>
-    <strong>Oil maximum temperature in engine output:</strong><br> 105 °C<br>
+    <strong>Water rated temperature output:</strong><br> 94 °C<br>
+    <strong>Water maximum temperature output:</strong><br> 100 °C<br>
+    <strong>Oil rated temperature intake:</strong><br> 30..75 °C<br>
+    <strong>Oil maximum temperature intake:</strong><br> 80 °C<br>
+    <strong>Oil rated temperature output:</strong><br> 95 °C<br>
+    <strong>Oil maximum temperature output:</strong><br> 105 °C<br>
   max_air: |
     <strong>Maximum true air speed at sea level, engine mode - Emergency:</strong><br> 456 km/h<br>
     <strong>Maximum true air speed at 2000 m, engine mode - Emergency:</strong><br> 494 km/h<br>
@@ -1968,10 +1968,10 @@
     <strong>Fuel load:</strong> 1003 kg / 1270 l<br>
     <strong>Useful load:</strong> 3023 kg<br>
   temp: |
-    <strong>Water rated temperature in engine output:</strong><br> 100..102 °C<br>
-    <strong>Water maximum temperature in engine output:</strong><br> 115 °C<br>
-    <strong>Oil rated temperature in engine intake:</strong><br> 70..80 °C<br>
-    <strong>Oil maximum temperature in engine intake:</strong><br> 85 °C<br>
+    <strong>Water rated temperature output:</strong><br> 100..102 °C<br>
+    <strong>Water maximum temperature output:</strong><br> 115 °C<br>
+    <strong>Oil rated temperature intake:</strong><br> 70..80 °C<br>
+    <strong>Oil maximum temperature intake:</strong><br> 85 °C<br>
   max_air: |
     <strong>Maximum true air speed at sea level, engine mode - Combat:</strong><br> 489 km/h<br>
     <strong>Maximum true air speed at 2000 m, engine mode - Combat:</strong><br> 533 km/h<br>
@@ -2502,10 +2502,10 @@
     <strong>Fuel load:</strong> 409 kg / 524 l<br>
     <strong>Useful load:</strong> 1237 kg<br>
   temp: |
-    <strong>Oil rated temperature in engine intake:</strong><br> 60..70 °C<br>
-    <strong>Oil maximum temperature in engine intake:</strong><br> 85 °C<br>
-    <strong>Oil rated temperature in engine output:</strong><br> 105 °C<br>
-    <strong>Oil maximum temperature in engine output:</strong><br> 120 °C<br>
+    <strong>Oil rated temperature intake:</strong><br> 60..70 °C<br>
+    <strong>Oil maximum temperature intake:</strong><br> 85 °C<br>
+    <strong>Oil rated temperature output:</strong><br> 105 °C<br>
+    <strong>Oil maximum temperature output:</strong><br> 120 °C<br>
     <strong>Cylinder head rated temperature:</strong><br> 180 °C<br>
     <strong>Cylinder head maximum temperature:</strong><br> 220 °C<br>
     <strong>Supercharger gear shift altitude:</strong><br> automatic<br>
@@ -2667,10 +2667,10 @@
     <strong>Fuel load:</strong> 409 kg / 524 l<br>
     <strong>Useful load:</strong> 1429 kg<br>
   temp: |
-    <strong>Oil rated temperature in engine intake:</strong><br> 60..70 °C<br>
-    <strong>Oil maximum temperature in engine intake:</strong><br> 85 °C<br>
-    <strong>Oil rated temperature in engine output:</strong><br> 105 °C<br>
-    <strong>Oil maximum temperature in engine output:</strong><br> 120 °C<br>
+    <strong>Oil rated temperature intake:</strong><br> 60..70 °C<br>
+    <strong>Oil maximum temperature intake:</strong><br> 85 °C<br>
+    <strong>Oil rated temperature output:</strong><br> 105 °C<br>
+    <strong>Oil maximum temperature output:</strong><br> 120 °C<br>
     <strong>Cylinder head rated temperature:</strong><br> 180 °C<br>
     <strong>Cylinder head maximum temperature:</strong><br> 220 °C<br>
     <strong>Supercharger gear shift altitude:</strong><br> automatic<br>
@@ -2839,10 +2839,10 @@
     <strong>Fuel load:</strong> 498 kg / 639 l<br>
     <strong>Useful load:</strong> 1735 kg<br>
   temp: |
-    <strong>Oil rated temperature in engine intake:</strong><br> 60..70 °C<br>
-    <strong>Oil maximum temperature in engine intake:</strong><br> 85 °C<br>
-    <strong>Oil rated temperature in engine output:</strong><br> 105 °C<br>
-    <strong>Oil maximum temperature in engine output:</strong><br> 120 °C<br>
+    <strong>Oil rated temperature intake:</strong><br> 60..70 °C<br>
+    <strong>Oil maximum temperature intake:</strong><br> 85 °C<br>
+    <strong>Oil rated temperature output:</strong><br> 105 °C<br>
+    <strong>Oil maximum temperature output:</strong><br> 120 °C<br>
     <strong>Cylinder head rated temperature:</strong><br> 180 °C<br>
     <strong>Cylinder head maximum temperature:</strong><br> 220 °C<br>
     <strong>Supercharger gear shift altitude:</strong><br> automatic<br>
@@ -3008,10 +3008,10 @@
     <strong>Fuel load:</strong> 388 kg / 524 l<br>
     <strong>Useful load:</strong> 1389 kg<br>
   temp: |
-    <strong>Water rated temperature in engine output:</strong><br> 55..100 °C<br>
-    <strong>Water maximum temperature in engine output:</strong><br> 110 °C<br>
-    <strong>Oil rated temperature in engine output:</strong><br> 40..110 °C<br>
-    <strong>Oil maximum temperature in engine output:</strong><br> 120 °C<br>
+    <strong>Water rated temperature output:</strong><br> 55..100 °C<br>
+    <strong>Water maximum temperature output:</strong><br> 110 °C<br>
+    <strong>Oil rated temperature output:</strong><br> 40..110 °C<br>
+    <strong>Oil maximum temperature output:</strong><br> 120 °C<br>
   max_air: |
     <strong>Maximum true air speed at sea level, engine mode - Emergency:</strong><br> 607 km/h<br>
     <strong>Maximum true air speed at 2000 m, engine mode - Emergency:</strong><br> 641 km/h<br>
@@ -3308,10 +3308,10 @@
     <strong>Fuel load:</strong> 2553 kg / 3450 l<br>
     <strong>Useful load:</strong> 6991 kg<br>
   temp: |
-    <strong>Water rated temperature in engine output:</strong><br> 80 °C<br>
-    <strong>Water maximum temperature in engine output:</strong><br> 110 °C<br>
-    <strong>Oil rated temperature in engine output:</strong><br> 90 °C<br>
-    <strong>Oil maximum temperature in engine output:</strong><br> 105 °C<br>
+    <strong>Water rated temperature output:</strong><br> 80 °C<br>
+    <strong>Water maximum temperature output:</strong><br> 110 °C<br>
+    <strong>Oil rated temperature output:</strong><br> 90 °C<br>
+    <strong>Oil maximum temperature output:</strong><br> 105 °C<br>
   max_air: |
     <strong>Maximum true air speed at sea level, engine mode - Climb:</strong><br> 370 km/h<br>
     <strong>Maximum true air speed at 2000 m, engine mode - Climb:</strong><br> 399 km/h<br>
@@ -3465,10 +3465,10 @@
     <strong>Fuel load:</strong> 3214 kg / 4285 l<br>
     <strong>Useful load:</strong> 6276 kg<br>
   temp: |
-    <strong>Water rated temperature in engine output:</strong><br> 80 °C<br>
-    <strong>Water maximum temperature in engine output:</strong><br> 110 °C<br>
-    <strong>Oil rated temperature in engine output:</strong><br> 90 °C<br>
-    <strong>Oil maximum temperature in engine output:</strong><br> 105 °C<br>
+    <strong>Water rated temperature output:</strong><br> 80 °C<br>
+    <strong>Water maximum temperature output:</strong><br> 110 °C<br>
+    <strong>Oil rated temperature output:</strong><br> 90 °C<br>
+    <strong>Oil maximum temperature output:</strong><br> 105 °C<br>
   max_air: |
     <strong>Maximum true air speed at sea level, engine mode - Climb:</strong><br> 369 km/h<br>
     <strong>Maximum true air speed at 2000 m, engine mode - Climb:</strong><br> 398 km/h<br>
@@ -3616,8 +3616,8 @@
     <strong>Fuel load:</strong> 451 kg / 610 l<br>
     <strong>Useful load:</strong> 1178 kg<br>
   temp: |
-    <strong>Oil rated temperature in engine intake:</strong><br> 60..75 °C<br>
-    <strong>Oil maximum temperature in engine intake:</strong><br> 125 °C<br>
+    <strong>Oil rated temperature intake:</strong><br> 60..75 °C<br>
+    <strong>Oil maximum temperature intake:</strong><br> 125 °C<br>
   max_air: |
     <strong>Maximum true air speed at sea level, engine mode - Combat:</strong><br> 349 km/h<br>
     <strong>Maximum true air speed at 3000 m, engine mode - Combat:</strong><br> 396 km/h<br>
@@ -3768,8 +3768,8 @@
     <strong>Fuel load:</strong> 191 kg / 260 l<br>
     <strong>Useful load:</strong> 645 kg<br>
   temp: |
-    <strong>Oil rated temperature in engine output:</strong><br> 55..90 °C<br>
-    <strong>Oil maximum temperature in engine output:</strong><br> 125 °C<br>
+    <strong>Oil rated temperature output:</strong><br> 55..90 °C<br>
+    <strong>Oil maximum temperature output:</strong><br> 125 °C<br>
     <strong>Cylinder head rated temperature:</strong><br> 120..200 °C<br>
     <strong>Cylinder head maximum temperature:</strong><br> 205 °C<br>
   max_air: |
@@ -3927,12 +3927,12 @@
     <strong>Fuel load:</strong> 470 kg / 641 l<br>
     <strong>Useful load:</strong> 1646 kg<br>
   temp: |
-    <strong>Water rated temperature in engine output:</strong><br> 80..110 °C<br>
-    <strong>Water maximum temperature in engine output:</strong><br> 120 °C<br>
-    <strong>Oil rated temperature in engine intake:</strong><br> 40..80 °C<br>
-    <strong>Oil maximum temperature in engine intake:</strong><br> 85 °C<br>
-    <strong>Oil rated temperature in engine output:</strong><br> 115 °C<br>
-    <strong>Oil maximum temperature in engine output:</strong><br> 120 °C<br>
+    <strong>Water rated temperature output:</strong><br> 80..110 °C<br>
+    <strong>Water maximum temperature output:</strong><br> 120 °C<br>
+    <strong>Oil rated temperature intake:</strong><br> 40..80 °C<br>
+    <strong>Oil maximum temperature intake:</strong><br> 85 °C<br>
+    <strong>Oil rated temperature output:</strong><br> 115 °C<br>
+    <strong>Oil maximum temperature output:</strong><br> 120 °C<br>
   max_air: |
     <strong>Maximum true air speed at sea level, engine mode - Boosted:</strong><br> 430 km/h<br>
     <strong>Maximum true air speed at sea level, engine mode - Nominal (at 2150 RPM):</strong><br> 421 km/h<br>
@@ -4088,12 +4088,12 @@
     <strong>Fuel load:</strong> 535 kg / 730 l<br>
     <strong>Useful load:</strong> 1665 kg<br>
   temp: |
-    <strong>Water rated temperature in engine output:</strong><br> 80..110 °C<br>
-    <strong>Water maximum temperature in engine output:</strong><br> 120 °C<br>
-    <strong>Oil rated temperature in engine intake:</strong><br> 40..80 °C<br>
-    <strong>Oil maximum temperature in engine intake:</strong><br> 85 °C<br>
-    <strong>Oil rated temperature in engine output:</strong><br> 115 °C<br>
-    <strong>Oil maximum temperature in engine output:</strong><br> 120 °C<br>
+    <strong>Water rated temperature output:</strong><br> 80..110 °C<br>
+    <strong>Water maximum temperature output:</strong><br> 120 °C<br>
+    <strong>Oil rated temperature intake:</strong><br> 40..80 °C<br>
+    <strong>Oil maximum temperature intake:</strong><br> 85 °C<br>
+    <strong>Oil rated temperature output:</strong><br> 115 °C<br>
+    <strong>Oil maximum temperature output:</strong><br> 120 °C<br>
   max_air: |
     <strong>Maximum true air speed at sea level, engine mode - Boosted:</strong><br> 400 km/h<br>
     <strong>Maximum true air speed at sea level, engine mode - Nominal:</strong><br> 380 km/h<br>
@@ -4250,12 +4250,12 @@
     <strong>Fuel load:</strong> 535 kg / 730 l<br>
     <strong>Useful load:</strong> 1660 kg<br>
   temp: |
-    <strong>Water rated temperature in engine output:</strong><br> 80..110 °C<br>
-    <strong>Water maximum temperature in engine output:</strong><br> 120 °C<br>
-    <strong>Oil rated temperature in engine intake:</strong><br> 40..80 °C<br>
-    <strong>Oil maximum temperature in engine intake:</strong><br> 85 °C<br>
-    <strong>Oil rated temperature in engine output:</strong><br> 115 °C<br>
-    <strong>Oil maximum temperature in engine output:</strong><br> 120 °C<br>
+    <strong>Water rated temperature output:</strong><br> 80..110 °C<br>
+    <strong>Water maximum temperature output:</strong><br> 120 °C<br>
+    <strong>Oil rated temperature intake:</strong><br> 40..80 °C<br>
+    <strong>Oil maximum temperature intake:</strong><br> 85 °C<br>
+    <strong>Oil rated temperature output:</strong><br> 115 °C<br>
+    <strong>Oil maximum temperature output:</strong><br> 120 °C<br>
   max_air: |
     <strong>Maximum true air speed at sea level, engine mode - Boosted:</strong><br> 407 km/h<br>
     <strong>Maximum true air speed at sea level, engine mode - Nominal:</strong><br> 389 km/h<br>
@@ -4400,10 +4400,10 @@
     <strong>Fuel load:</strong> 1824 kg / 2400 l<br>
     <strong>Useful load:</strong> 5028 kg<br>
   temp: |
-    <strong>Oil rated temperature in engine intake:</strong><br> 60 °C<br>
-    <strong>Oil maximum temperature in engine intake:</strong><br> 80 °C<br>
-    <strong>Oil rated temperature in engine output:</strong><br> 80 °C<br>
-    <strong>Oil maximum temperature in engine output:</strong><br> 100 °C<br>
+    <strong>Oil rated temperature intake:</strong><br> 60 °C<br>
+    <strong>Oil maximum temperature intake:</strong><br> 80 °C<br>
+    <strong>Oil rated temperature output:</strong><br> 80 °C<br>
+    <strong>Oil maximum temperature output:</strong><br> 100 °C<br>
   max_air: |
     <strong>Maximum true air speed at sea level, engine mode - Climb:</strong><br> 260 km/h<br>
     <strong>Maximum true air speed at 3000 m, engine mode - Climb:</strong><br> 258 km/h<br>
@@ -4567,10 +4567,10 @@
     <strong>Fuel load:</strong> 626 kg / 840 l<br>
     <strong>Useful load:</strong> 2754 kg<br>
   temp: |
-    <strong>Water rated temperature in engine output:</strong><br> 80 °C<br>
-    <strong>Water maximum temperature in engine output:</strong><br> 110 °C<br>
-    <strong>Oil rated temperature in engine output:</strong><br> 90 °C<br>
-    <strong>Oil maximum temperature in engine output:</strong><br> 105 °C<br>
+    <strong>Water rated temperature output:</strong><br> 80 °C<br>
+    <strong>Water maximum temperature output:</strong><br> 110 °C<br>
+    <strong>Oil rated temperature output:</strong><br> 90 °C<br>
+    <strong>Oil maximum temperature output:</strong><br> 105 °C<br>
   max_air: |
     <strong>Maximum true air speed at sea level, engine mode - Climb:</strong><br> 367 km/h<br>
     <strong>Maximum true air speed at 2000 m, engine mode - Climb:</strong><br> 389 km/h<br>
@@ -4729,10 +4729,10 @@
     <strong>Fuel load:</strong> 1277 kg / 1680 l<br>
     <strong>Useful load:</strong> 5036 kg<br>
   temp: |
-    <strong>Water rated temperature in engine output:</strong><br> 80 °C<br>
-    <strong>Water maximum temperature in engine output:</strong><br> 110 °C<br>
-    <strong>Oil rated temperature in engine output:</strong><br> 100 °C<br>
-    <strong>Oil maximum temperature in engine output:</strong><br> 130 °C<br>
+    <strong>Water rated temperature output:</strong><br> 80 °C<br>
+    <strong>Water maximum temperature output:</strong><br> 110 °C<br>
+    <strong>Oil rated temperature output:</strong><br> 100 °C<br>
+    <strong>Oil maximum temperature output:</strong><br> 130 °C<br>
   max_air: |
     <strong>Maximum true air speed at sea level, engine mode - Climb:</strong><br> 424 km/h<br>
     <strong>Maximum true air speed at 2000 m, engine mode - Climb:</strong><br> 462 km/h<br>
@@ -4881,8 +4881,8 @@
     <strong>Fuel load:</strong> 334 kg / 464 l<br>
     <strong>Useful load:</strong> 896 kg<br>
   temp: |
-    <strong>Oil rated temperature in engine intake:</strong><br> 65..75 °C<br>
-    <strong>Oil maximum temperature in engine intake:</strong><br> 85 °C<br>
+    <strong>Oil rated temperature intake:</strong><br> 65..75 °C<br>
+    <strong>Oil maximum temperature intake:</strong><br> 85 °C<br>
     <strong>Cylinder head rated temperature:</strong><br> 180..215 °C<br>
     <strong>Cylinder head maximum temperature:</strong><br> 250 °C<br>
   max_air: |
@@ -5032,8 +5032,8 @@
     <strong>Fuel load:</strong> 370 kg / 521 l<br>
     <strong>Useful load:</strong> 945 kg<br>
   temp: |
-    <strong>Oil rated temperature in engine output:</strong><br> 55..90 °C<br>
-    <strong>Oil maximum temperature in engine output:</strong><br> 125 °C<br>
+    <strong>Oil rated temperature output:</strong><br> 55..90 °C<br>
+    <strong>Oil maximum temperature output:</strong><br> 125 °C<br>
     <strong>Cylinder head rated temperature:</strong><br> 140..210 °C<br>
     <strong>Cylinder head maximum temperature:</strong><br> 215 °C<br>
   max_air: |
@@ -5184,10 +5184,10 @@
     <strong>Fuel load:</strong> 348 kg / 467 l<br>
     <strong>Useful load:</strong> 1081 kg<br>
   temp: |
-    <strong>Water rated temperature in engine output:</strong><br> 90..100 °C<br>
-    <strong>Water maximum temperature in engine output:</strong><br> 110 °C<br>
-    <strong>Oil rated temperature in engine output:</strong><br> 90..100 °C<br>
-    <strong>Oil maximum temperature in engine output:</strong><br> 115 °C<br>
+    <strong>Water rated temperature output:</strong><br> 90..100 °C<br>
+    <strong>Water maximum temperature output:</strong><br> 110 °C<br>
+    <strong>Oil rated temperature output:</strong><br> 90..100 °C<br>
+    <strong>Oil maximum temperature output:</strong><br> 115 °C<br>
   max_air: |
     <strong>Maximum true air speed at sea level, engine mode - Nominal:</strong><br> 505 km/h<br>
     <strong>Maximum true air speed at 2000 m, engine mode - Nominal:</strong><br> 548 km/h<br>
@@ -5338,13 +5338,13 @@
     <strong>Fuel load:</strong> 307 kg / 430 l<br>
     <strong>Useful load:</strong> 749 kg<br>
   temp: |
-    <strong>Water rated temperature in engine intake:</strong><br> 70..80 °C<br>
-    <strong>Water rated temperature in engine output:</strong><br> 94 °C<br>
-    <strong>Water maximum temperature in engine output:</strong><br> 100 °C<br>
-    <strong>Oil rated temperature in engine intake:</strong><br> 60..75 °C<br>
-    <strong>Oil maximum temperature in engine intake:</strong><br> 85 °C<br>
-    <strong>Oil rated temperature in engine output:</strong><br> 90..100 °C<br>
-    <strong>Oil maximum temperature in engine output:</strong><br> 110 °C<br>
+    <strong>Water rated temperature intake:</strong><br> 70..80 °C<br>
+    <strong>Water rated temperature output:</strong><br> 94 °C<br>
+    <strong>Water maximum temperature output:</strong><br> 100 °C<br>
+    <strong>Oil rated temperature intake:</strong><br> 60..75 °C<br>
+    <strong>Oil maximum temperature intake:</strong><br> 85 °C<br>
+    <strong>Oil rated temperature output:</strong><br> 90..100 °C<br>
+    <strong>Oil maximum temperature output:</strong><br> 110 °C<br>
   max_air: |
     <strong>Maximum true air speed at sea level, engine mode - Combat:</strong><br> 500 km/h<br>
     <strong>Maximum true air speed at 2000 m, engine mode - Combat:</strong><br> 543 km/h<br>
@@ -5647,12 +5647,12 @@
     <strong>Fuel load:</strong> 352 kg / 480 l<br>
     <strong>Useful load:</strong> 826 kg<br>
   temp: |
-    <strong>Water rated temperature in engine output:</strong><br> 80..110 °C<br>
-    <strong>Water maximum temperature in engine output:</strong><br> 120 °C<br>
-    <strong>Oil rated temperature in engine intake:</strong><br> 40..80 °C<br>
-    <strong>Oil maximum temperature in engine intake:</strong><br> 85 °C<br>
-    <strong>Oil rated temperature in engine output:</strong><br> 115 °C<br>
-    <strong>Oil maximum temperature in engine output:</strong><br> 120 °C<br>
+    <strong>Water rated temperature output:</strong><br> 80..110 °C<br>
+    <strong>Water maximum temperature output:</strong><br> 120 °C<br>
+    <strong>Oil rated temperature intake:</strong><br> 40..80 °C<br>
+    <strong>Oil maximum temperature intake:</strong><br> 85 °C<br>
+    <strong>Oil rated temperature output:</strong><br> 115 °C<br>
+    <strong>Oil maximum temperature output:</strong><br> 120 °C<br>
   max_air: |
     <strong>Maximum true air speed at sea level, engine mode - Boosted:</strong><br> 525 km/h<br>
     <strong>Maximum true air speed at sea level, engine mode - Nominal:</strong><br> 493 km/h<br>
@@ -5817,10 +5817,10 @@
     <strong>Fuel load:</strong> 1132 kg (2496 lb) / 1575 l (416 gal)<br>
     <strong>Useful load:</strong> 3757 kg (8282 lb)<br>
   temp: |
-    <strong>Water rated temperature in engine output:</strong><br> 85 °C<br>
-    <strong>Water maximum temperature in engine output:</strong><br> 105 °C<br>
-    <strong>Oil rated temperature in engine output:</strong><br> 105 °C<br>
-    <strong>Oil maximum temperature in engine output:</strong><br> 115 °C<br>
+    <strong>Water rated temperature output:</strong><br> 85 °C<br>
+    <strong>Water maximum temperature output:</strong><br> 105 °C<br>
+    <strong>Oil rated temperature output:</strong><br> 105 °C<br>
+    <strong>Oil maximum temperature output:</strong><br> 115 °C<br>
   max_air: |
     <strong>Maximum true air speed at sea level, engine mode - WEP:</strong><br> 557 km/h (346 mph)<br>
     <strong>Maximum true air speed at 7860 m (25800 feet), engine mode - WEP:</strong><br> 674 km/h (419 mph)<br>
@@ -5978,10 +5978,10 @@
     <strong>Fuel load:</strong> 326,9 kg / 454 l<br>
     <strong>Useful load:</strong> 939 kg<br>
   temp: |
-    <strong>Water rated temperature in engine output:</strong><br> 105..115 °C<br>
-    <strong>Water maximum temperature in engine output:</strong><br> 125 °C<br>
-    <strong>Oil rated temperature in engine intake:</strong><br> 60..80 °C<br>
-    <strong>Oil maximum temperature in engine intake:</strong><br> 95 °C<br>
+    <strong>Water rated temperature output:</strong><br> 105..115 °C<br>
+    <strong>Water maximum temperature output:</strong><br> 125 °C<br>
+    <strong>Oil rated temperature intake:</strong><br> 60..80 °C<br>
+    <strong>Oil maximum temperature intake:</strong><br> 95 °C<br>
   max_air: |
     <strong>Maximum true air speed at sea level, engine mode - Take-off:</strong><br> 539 km/h<br>
     <strong>Maximum true air speed at 2850 m, engine mode - Take-off:</strong><br> 600 km/h<br>
@@ -6138,10 +6138,10 @@
     <strong>Fuel load:</strong> 404 kg / 561 l<br>
     <strong>Useful load:</strong> 1341 kg<br>
   temp: |
-    <strong>Water rated temperature in engine output:</strong><br> 105..115 °C<br>
-    <strong>Water maximum temperature in engine output:</strong><br> 125 °C<br>
-    <strong>Oil rated temperature in engine intake:</strong><br> 70..85 °C<br>
-    <strong>Oil maximum temperature in engine intake:</strong><br> 90 °C<br>
+    <strong>Water rated temperature output:</strong><br> 105..115 °C<br>
+    <strong>Water maximum temperature output:</strong><br> 125 °C<br>
+    <strong>Oil rated temperature intake:</strong><br> 70..85 °C<br>
+    <strong>Oil maximum temperature intake:</strong><br> 90 °C<br>
   max_air: |
     <strong>Maximum true air speed at sea level, engine mode - Take-off:</strong><br> 494 km/h<br>
     <strong>Maximum true air speed at 5000 m, engine mode - Take-off:</strong><br> 601 km/h<br>
@@ -6321,8 +6321,8 @@
     <strong>Fuel load:</strong> 1006 kg (3095 lb) / 1404 l (370 gal)<br>
     <strong>Useful load:</strong> 3408.1 kg (7514 lb)<br>
   temp: |
-    <strong>Oil rated temperature in engine intake:</strong><br> 60..95 °C<br>
-    <strong>Oil maximum temperature in engine intake:</strong><br> 100 °C<br>
+    <strong>Oil rated temperature intake:</strong><br> 60..95 °C<br>
+    <strong>Oil maximum temperature intake:</strong><br> 100 °C<br>
   max_air: |
     <strong>Maximum true air speed at sea level, engine mode - WEP:</strong><br> 557 km/h (346 mph)<br>
     <strong>Maximum true air speed at 7000 m (22960 feet), engine mode - WEP:</strong><br> 700 km/h (435 mph)<br>
@@ -6507,10 +6507,10 @@
     <strong>Fuel load:</strong> 732 kg (1614 lb) / 1020 l (269 gal)<br>
     <strong>Useful load:</strong> 2234 kg (4925 lb)<br>
   temp: |
-    <strong>Water rated temperature in engine output:</strong><br> 100..110 °C<br>
-    <strong>Water maximum temperature in engine output:</strong><br> 121 °C<br>
-    <strong>Oil rated temperature in engine intake:</strong><br> 80 °C<br>
-    <strong>Oil maximum temperature in engine intake:</strong><br> 90 °C<br>
+    <strong>Water rated temperature output:</strong><br> 100..110 °C<br>
+    <strong>Water maximum temperature output:</strong><br> 121 °C<br>
+    <strong>Oil rated temperature intake:</strong><br> 80 °C<br>
+    <strong>Oil maximum temperature intake:</strong><br> 90 °C<br>
   max_air: |
     <strong>Maximum true air speed at sea level, engine mode - WEP:</strong><br> 592 km/h (368 mph)<br>
     <strong>Maximum true air speed at 8000 m (26250 feet), engine mode - WEP:</strong><br> 717 km/h (446 mph)<br>
@@ -6675,10 +6675,10 @@
     <strong>Fuel load:</strong> 1129 kg / 1505 l<br>
     <strong>Useful load:</strong> 2634 kg<br>
   temp: |
-    <strong>Water rated temperature in engine output:</strong><br> 70..85 °C<br>
-    <strong>Water maximum temperature in engine output:</strong><br> 100 °C<br>
-    <strong>Oil rated temperature in engine output:</strong><br> 90..100 °C<br>
-    <strong>Oil maximum temperature in engine output:</strong><br> 110 °C<br>
+    <strong>Water rated temperature output:</strong><br> 70..85 °C<br>
+    <strong>Water maximum temperature output:</strong><br> 100 °C<br>
+    <strong>Oil rated temperature output:</strong><br> 90..100 °C<br>
+    <strong>Oil maximum temperature output:</strong><br> 110 °C<br>
   max_air: |
     <strong>Maximum true air speed at sea level, engine mode - Nominal:</strong><br> 434 km/h<br>
     <strong>Maximum true air speed at 2000 m, engine mode - Nominal:</strong><br> 476 km/h<br>
@@ -6833,10 +6833,10 @@
     <strong>Fuel load:</strong> 1113 kg / 1484 l<br>
     <strong>Useful load:</strong> 2612 kg<br>
   temp: |
-    <strong>Water rated temperature in engine output:</strong><br> 70..85 °C<br>
-    <strong>Water maximum temperature in engine output:</strong><br> 100 °C<br>
-    <strong>Oil rated temperature in engine output:</strong><br> 90..100 °C<br>
-    <strong>Oil maximum temperature in engine output:</strong><br> 115 °C<br>
+    <strong>Water rated temperature output:</strong><br> 70..85 °C<br>
+    <strong>Water maximum temperature output:</strong><br> 100 °C<br>
+    <strong>Oil rated temperature output:</strong><br> 90..100 °C<br>
+    <strong>Oil maximum temperature output:</strong><br> 115 °C<br>
   max_air: |
     <strong>Maximum true air speed at sea level, engine mode - Nominal:</strong><br> 446 km/h<br>
     <strong>Maximum true air speed at 2000 m, engine mode - Nominal:</strong><br> 476 km/h<br>
@@ -7313,10 +7313,10 @@
     <strong>Fuel load:</strong> 274 kg / 386 l / 85 gallons<br>
     <strong>Maximum useful load:</strong> 1302 kg<br>
   temp: |
-    <strong>Water rated temperature in engine output:</strong><br> 105..115 °C<br>
-    <strong>Water maximum temperature in engine output:</strong><br> 135 °C<br>
-    <strong>Oil rated temperature in engine intake:</strong><br> 90 °C<br>
-    <strong>Oil maximum temperature in engine intake:</strong><br> 105 °C<br>
+    <strong>Water rated temperature output:</strong><br> 105..115 °C<br>
+    <strong>Water maximum temperature output:</strong><br> 135 °C<br>
+    <strong>Oil rated temperature intake:</strong><br> 90 °C<br>
+    <strong>Oil maximum temperature intake:</strong><br> 105 °C<br>
   max_air: |
     <strong>Maximum true air speed at sea level, 3000 RPM, boost +18:</strong><br> 542 km/h<br>
     <strong>Maximum true air speed at 3350 m, 3000 RPM, boost +18:</strong><br> 610 km/h<br>
@@ -7500,10 +7500,10 @@
     <strong>Fuel load:</strong> 274 kg / 386 l / 85 gallons<br>
     <strong>Useful load:</strong> 564 kg<br>
   temp: |
-    <strong>Water rated temperature in engine output:</strong><br> 105..115 °C<br>
-    <strong>Water maximum temperature in engine output:</strong><br> 125 °C<br>
-    <strong>Oil rated temperature in engine intake:</strong><br> 70..85 °C<br>
-    <strong>Oil maximum temperature in engine intake:</strong><br> 105 °C<br>
+    <strong>Water rated temperature output:</strong><br> 105..115 °C<br>
+    <strong>Water maximum temperature output:</strong><br> 125 °C<br>
+    <strong>Oil rated temperature intake:</strong><br> 70..85 °C<br>
+    <strong>Oil maximum temperature intake:</strong><br> 105 °C<br>
   max_air: |
     <strong>Maximum true air speed at sea level, 3000 RPM, boost +9:</strong><br> 457 km/h<br>
     <strong>Maximum true air speed at sea level, 3000 RPM, boost +16:</strong><br> 515 km/h<br>
@@ -7658,10 +7658,10 @@
     <strong>Fuel load:</strong> 516 kg / 718 l / 158 gallons<br>
     <strong>Maximum useful load:</strong> 1836 kg<br>
   temp: |
-    <strong>Water rated temperature in engine output:</strong><br> 65..125 °C<br>
-    <strong>Water maximum temperature in engine output:</strong><br> 130 °C<br>
-    <strong>Oil rated temperature in engine intake:</strong><br> 60..90 °C<br>
-    <strong>Oil maximum temperature in engine intake:</strong><br> 95 °C<br>
+    <strong>Water rated temperature output:</strong><br> 65..125 °C<br>
+    <strong>Water maximum temperature output:</strong><br> 130 °C<br>
+    <strong>Oil rated temperature intake:</strong><br> 60..90 °C<br>
+    <strong>Oil maximum temperature intake:</strong><br> 95 °C<br>
   max_air: |
     <strong>Maximum true air speed at sea level, 3700 RPM, boost +9:</strong><br> 600 km/h<br>
     <strong>Maximum true air speed at 1950 m, 3700 RPM, boost +9:</strong><br> 664 km/h<br>
@@ -7817,8 +7817,8 @@
     <strong>Fuel load:</strong> 90 kg / 126 l<br>
     <strong>Useful load:</strong> 350 kg<br>
   temp: |
-    <strong>Oil rated temperature in engine output:</strong><br> 70..80 °C<br>
-    <strong>Oil maximum temperature in engine output:</strong><br> 115 °C<br>
+    <strong>Oil rated temperature output:</strong><br> 70..80 °C<br>
+    <strong>Oil maximum temperature output:</strong><br> 115 °C<br>
   max_air: |
     <strong>Maximum true air speed at sea level, engine mode - Takeoff, 1750 RPM:</strong><br> 151.7 km/h<br>
     <strong>Maximum true air speed at 500 m, engine mode - Takeoff, 1740 RPM:</strong><br> 150.3 km/h<br>
@@ -7952,10 +7952,10 @@
     <strong>Fuel load:</strong> 304 kg / 408 l<br>
     <strong>Useful load:</strong> 795 kg<br>
   temp: |
-    <strong>Water rated temperature in engine output:</strong><br> 70..85 °C<br>
-    <strong>Water maximum temperature in engine output:</strong><br> 100 °C<br>
-    <strong>Oil rated temperature in engine output:</strong><br> 90..100 °C<br>
-    <strong>Oil maximum temperature in engine output:</strong><br> 115 °C<br>
+    <strong>Water rated temperature output:</strong><br> 70..85 °C<br>
+    <strong>Water maximum temperature output:</strong><br> 100 °C<br>
+    <strong>Oil rated temperature output:</strong><br> 90..100 °C<br>
+    <strong>Oil maximum temperature output:</strong><br> 115 °C<br>
   max_air: |
     <strong>Maximum true air speed at sea level, engine mode - Nominal, 2550 RPM:</strong><br> 530 km/h<br>
     <strong>Maximum true air speed at 2000 m, engine mode - Nominal, 2700 RPM:</strong><br> 567 km/h<br>
@@ -8099,10 +8099,10 @@
     <strong>Fuel load:</strong> 304 kg / 408 l<br>
     <strong>Useful load:</strong> 805 kg<br>
   temp: |
-    <strong>Water rated temperature in engine output:</strong><br> 70..85 °C<br>
-    <strong>Water maximum temperature in engine output:</strong><br> 100 °C<br>
-    <strong>Oil rated temperature in engine output:</strong><br> 90..100 °C<br>
-    <strong>Oil maximum temperature in engine output:</strong><br> 115 °C<br>
+    <strong>Water rated temperature output:</strong><br> 70..85 °C<br>
+    <strong>Water maximum temperature output:</strong><br> 100 °C<br>
+    <strong>Oil rated temperature output:</strong><br> 90..100 °C<br>
+    <strong>Oil maximum temperature output:</strong><br> 115 °C<br>
   max_air: |
     <strong>Maximum true air speed at sea level, engine mode - Nominal, 2550 RPM:</strong><br> 514 km/h<br>
     <strong>Maximum true air speed at 2000 m, engine mode - Nominal, 2700 RPM:</strong><br> 549 km/h<br>
@@ -8242,10 +8242,10 @@
     <strong>Fuel load:</strong> 305 kg / 420 l<br>
     <strong>Useful load:</strong> 927 kg<br>
   temp: |
-    <strong>Water rated temperature in engine output:</strong><br> 70..85 °C<br>
-    <strong>Water maximum temperature in engine output:</strong><br> 100 °C<br>
-    <strong>Oil rated temperature in engine output:</strong><br> 90..100 °C<br>
-    <strong>Oil maximum temperature in engine output:</strong><br> 115 °C<br>
+    <strong>Water rated temperature output:</strong><br> 70..85 °C<br>
+    <strong>Water maximum temperature output:</strong><br> 100 °C<br>
+    <strong>Oil rated temperature output:</strong><br> 90..100 °C<br>
+    <strong>Oil maximum temperature output:</strong><br> 115 °C<br>
   max_air: |
     <strong>Maximum true air speed at sea level, engine mode - Nominal, 2700 RPM:</strong><br> 526 km/h<br>
     <strong>Maximum true air speed at 2000 m, engine mode - Nominal, 2700 RPM:</strong><br> 565 km/h<br>
@@ -8381,10 +8381,10 @@
     <strong>Fuel load:</strong> 324 kg / 440 l<br>
     <strong>Useful load:</strong> 604 kg<br>
   temp: |
-    <strong>Water rated temperature in engine output:</strong><br> 70..85 °C<br>
-    <strong>Water maximum temperature in engine output:</strong><br> 100 °C<br>
-    <strong>Oil rated temperature in engine output:</strong><br> 90..100 °C<br>
-    <strong>Oil maximum temperature in engine output:</strong><br> 115 °C<br>
+    <strong>Water rated temperature output:</strong><br> 70..85 °C<br>
+    <strong>Water maximum temperature output:</strong><br> 100 °C<br>
+    <strong>Oil rated temperature output:</strong><br> 90..100 °C<br>
+    <strong>Oil maximum temperature output:</strong><br> 115 °C<br>
   max_air: |
     <strong>Maximum true air speed at sea level, engine mode - Nominal, 2550 RPM:</strong><br> 537 km/h<br>
     <strong>Maximum true air speed at sea level, engine mode - Nominal, 2700 RPM:</strong><br> 529 km/h<br>
@@ -8520,10 +8520,10 @@
     <strong>Fuel load:</strong> 316 kg / 430 l<br>
     <strong>Useful load:</strong> 563 kg<br>
   temp: |
-    <strong>Water rated temperature in engine output:</strong><br> 70..85 °C<br>
-    <strong>Water maximum temperature in engine output:</strong><br> 100 °C<br>
-    <strong>Oil rated temperature in engine output:</strong><br> 90..100 °C<br>
-    <strong>Oil maximum temperature in engine output:</strong><br> 115 °C<br>
+    <strong>Water rated temperature output:</strong><br> 70..85 °C<br>
+    <strong>Water maximum temperature output:</strong><br> 100 °C<br>
+    <strong>Oil rated temperature output:</strong><br> 90..100 °C<br>
+    <strong>Oil maximum temperature output:</strong><br> 115 °C<br>
   max_air: |
     <strong>Maximum true air speed at sea level, engine mode - Nominal, 2550 RPM:</strong><br> 535 km/h<br>
     <strong>Maximum true air speed at sea level, engine mode - Nominal, 2700 RPM:</strong><br> 529 km/h<br>
