@@ -57,7 +57,7 @@
     MaxRollClimb           = 10.0
     RefRollFactor          = 0.8
     RefAltError            = 50.0
-    RefClimb               = 10.0
+    RefClimb               = 4.0
     RefClimbFactor         = 1.5
     RefDive                = 10.0
     RefDiveFactor          = 1.5
@@ -66,12 +66,12 @@
     TurnOffError           = -10
     TurnOnError            = -2
     MinRPM                 = 550
-    MinCruiseCAS           = 120.0		// нельзя меньше 120
-    MinWingmanCAS          = 100.0
+    MinCruiseCAS           = 100.0
+    MinWingmanCAS          = 95.0
     WingLeaderLagCorrectionK = 1.0		// коэфицент от 0.0 до 1.0(default), уменьшающий степень сброса скорости лидером при ожидании ведомых
     PursueWingmanDist      = 250.0		// пороговое расстояние до места в формации с которого начинает падать заданное превышение скорости
-    WingLeaderThrottleLowLimit = 0.4	// ограничение минимума газа ведущего в снижении и торможении
-    WingLeaderThrottleUpLimit  = 0.92	// ограничение максимума газа ведущего в наборе высоты и разгоне
+    WingLeaderThrottleLowLimit = 0.5	// ограничение минимума газа ведущего в снижении и торможении
+    WingLeaderThrottleUpLimit  = 0.95	// ограничение максимума газа ведущего в наборе высоты и разгоне
     LandRoundCAS0          = 150		// Скорость на подходе к аэродрому, уходе на 2й круг, ко 2му и 3му разворотам
     LandRoundCAS1          = 130		// Скорость на подходе к 4му развороту
     LandRoundCAS2          = 100		// Скорость на подходе к точке входа в глиссаду
@@ -156,7 +156,7 @@
         AttackDistance    = 400.0
         EngageDistance    = 700.0
         MinFireDistance   = 35.0
-        MaxFireDistance   = 150.0
+        MaxFireDistance   = 200.0
         MinOpenFireAngle  = 20.0
         MaxOpenFireAngle  = 3.0
         MinStopFireAngle  = 50.0
@@ -191,7 +191,7 @@
         AttackDistance    = 800.0
         EngageDistance    = 1200.0
         MinFireDistance   = 25.0
-        MaxFireDistance   = 200.0
+        MaxFireDistance   = 300.0
         MinOpenFireAngle  = 20.0
         MaxOpenFireAngle  = 3.0
         MinStopFireAngle  = 35.0
@@ -209,7 +209,7 @@
         AttackDistance    = 1000.0
         EngageDistance    = 1500.0
         MinFireDistance   = 20.0
-        MaxFireDistance   = 300.0
+        MaxFireDistance   = 400.0
         MinOpenFireAngle  = 20.0
         MaxOpenFireAngle  = 3.0
         MinStopFireAngle  = 30.0
@@ -248,11 +248,11 @@
     VFAngle              = 0.0
     ApproachCAS          = 150.0
     ApproachRadius       = 300.0
-    ApproachDistance     = 2500.0
-    ApproachAltitude     = 400.0
-    GroundAttackExitAltitude = 60.0	// минимальная высота выхода из пикирования при атаке ракетами и пушками (настроить над верхушками деревьев, а потом +40м)
+    ApproachDistance     = 2000.0
+    ApproachAltitude     = 150.0
+    GroundAttackExitAltitude = 50.0	// минимальная высота выхода из пикирования при атаке ракетами и пушками (настроить над верхушками деревьев, а потом +40м)
     GroundAttackDistance = 200.0
-    GroundEngageDistance = 1500.0
+    GroundEngageDistance = 1200.0
     GroundEngageRocketK  = 1.0		// к-т на который умножается m_GroundEngageDistance при атаке ракетами
     SpiralAttackApproach = true
     DiveBombAltitude     = 2500.0	// минимальная высота начала отвесного пикирования, если самолёт ниже и есть команда на атаку - будет набирать эту высоту перед бомбёжкой
@@ -269,6 +269,8 @@
     Salvo2WeaponSet      = 4,9		// набор payloads, при которых происходит залповый сброс/пуск бомб/ракет по 2 штуки, -1 не используется, до 15 значений в строке
     Salvo4WeaponSet      = 2,3,5,7,8,10	// набор payloads, при которых происходит залповый сброс/пуск бомб/ракет по 4 штуки, -1 не используется, до 15 значений в строке
     SalvoAllWeaponSet    = -1		// набор payloads, при которых происходит залповый сброс/пуск бомб/ракет всех сразу, -1 не используется, до 15 значений в строке
+    GunAimSmooth         = 5.0  //  Резкость наведения пушками по наземным целям. При <1 плавнее, при >1 резче. Дефолт =1.8
+    AimDamperCompensationTime = 1.0 // компенсация демпфера наведения, стремящегося остановить вращения самолёта.
 [end]
 
 [adapt_pid_0]

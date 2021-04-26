@@ -67,7 +67,7 @@
     MaxRollClimb           = 6.0
     RefRollFactor          = 0.8
     RefAltError            = 100.0
-    RefClimb               = 10.0
+    RefClimb               = 5.0
     RefClimbFactor         = 1.5
     RefDive                = 15.0
     RefDiveFactor          = 1.5
@@ -76,11 +76,11 @@
     TurnOffError           = -5
     TurnOnError            = -2
     MinRPM                 = 550
-    MinCruiseCAS           = 250.0
+    MinCruiseCAS           = 240.0
     MinWingmanCAS          = 210.0
     WingLeaderLagCorrectionK = 1.0		// коэфицент от 0.0 до 1.0(default), уменьшающий степень сброса скорости лидером при ожидании ведомых
     PursueWingmanDist      = 300.0		// пороговое расстояние до места в формации с которого начинает падать заданное превышение скорости
-    WingLeaderThrottleLowLimit = 0.5	// ограничение минимума газа ведущего в снижении и торможении
+    WingLeaderThrottleLowLimit = 0.6	// ограничение минимума газа ведущего в снижении и торможении
     WingLeaderThrottleUpLimit  = 0.95	// ограничение максимума газа ведущего в наборе высоты и разгоне
     LandRoundCAS0          = 265		// Скорость на подходе к аэродрому, уходе на 2й круг, ко 2му и 3му разворотам
     LandRoundCAS1          = 255		// Скорость на подходе к 4му развороту
@@ -166,7 +166,7 @@
         AttackDistance    = 500.0
         EngageDistance    = 1500.0
         MinFireDistance   = 50.0
-        MaxFireDistance   = 300.0
+        MaxFireDistance   = 400.0
         MinOpenFireAngle  = 14.0
         MaxOpenFireAngle  = 7.0
         MinStopFireAngle  = 28.0
@@ -184,7 +184,7 @@
         AttackDistance    = 800.0
         EngageDistance    = 2000.0
         MinFireDistance   = 50.0
-        MaxFireDistance   = 350.0
+        MaxFireDistance   = 500.0
         MinOpenFireAngle  = 11.0
         MaxOpenFireAngle  = 5.0
         MinStopFireAngle  = 19.2
@@ -202,7 +202,7 @@
         AttackDistance    = 1200.0
         EngageDistance    = 2500.0
         MinFireDistance   = 50.0
-        MaxFireDistance   = 400.0
+        MaxFireDistance   = 600.0
         MinOpenFireAngle  = 8.5
         MaxOpenFireAngle  = 3.0
         MinStopFireAngle  = 12.7
@@ -220,7 +220,7 @@
         AttackDistance    = 2000.0
         EngageDistance    = 3000.0
         MinFireDistance   = 50.0
-        MaxFireDistance   = 500.0
+        MaxFireDistance   = 800.0
         MinOpenFireAngle  = 5.5
         MaxOpenFireAngle  = 1.5
         MinStopFireAngle  = 6.8
@@ -259,7 +259,7 @@
     ApproachRadius       = 1000.0
     ApproachDistance     = 5000.0
     ApproachAltitude     = 600.0
-    GroundAttackExitAltitude = 130.0   // минимальная высота выхода из пикирования при атаке ракетами и пушками (настроить над верхушками деревьев, а потом +40м)
+    GroundAttackExitAltitude = 120.0   // минимальная высота выхода из пикирования при атаке ракетами и пушками (настроить над верхушками деревьев, а потом +40м)
     GroundAttackDistance = 300.0
     GroundEngageDistance = 2200.0
     GroundEngageRocketK  = 1.0					// к-т на который умножается m_GroundEngageDistance при атаке ракетами
@@ -278,6 +278,8 @@
     Salvo2WeaponSet      = -1					// набор payloads, при которых происходит залповый сброс/пуск бомб/ракет по 2 штуки, -1 не используется, до 15 значений в строке
     Salvo4WeaponSet      = -1				// набор payloads, при которых происходит залповый сброс/пуск бомб/ракет по 4 штуки, -1 не используется, до 15 значений в строке
     SalvoAllWeaponSet    = 1,2,3					// набор payloads, при которых происходит залповый сброс/пуск бомб/ракет всех сразу, -1 не используется, до 15 значений в строке
+    GunAimSmooth         = 1.8  //  Резкость наведения пушками по наземным целям. При <1 плавнее, при >1 резче. Дефолт =1.8
+    AimDamperCompensationTime = 0.5 // компенсация демпфера наведения, стремящегося остановить вращения самолёта.
 [end]
 
 [adapt_pid_0]

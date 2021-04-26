@@ -38,7 +38,7 @@ def extract_src():
 
 def parse_ai():
     path = os.getcwd()
-    ai_path = path + "/Ai"
+    ai_path = path + "/ai"
     ai_dir = os.listdir(ai_path)
 
     lst_ai = []

@@ -88,6 +88,16 @@
   CruiseCAS: 400.0
   ClimbCAS: 300.0
   PriorityType: Fighter
+- name: Bf109G6Late
+  MaxSpeed: 618.0
+  MaxClimbRate: 20.6
+  ServiceCeiling: 11800.0
+  TurnRate: 300.0, 67.0
+  MaxClimbCAS: 290
+  DiveCAS: 700.0
+  CruiseCAS: 400.0
+  ClimbCAS: 300.0
+  PriorityType: Fighter
 - name: Bf109K4
   MaxSpeed: 668.0
   MaxClimbRate: 27.0
@@ -148,6 +158,16 @@
   CruiseCAS: 350.0
   ClimbCAS: 280.0
   PriorityType: Bomber
+- name: C 47 A
+  MaxSpeed: 360.0
+  MaxClimbRate: 6.7
+  ServiceCeiling: 8000.0
+  TurnRate: 170.0, 30.4
+  MaxClimbCAS: 175
+  DiveCAS: 360.0
+  CruiseCAS: 220.0
+  ClimbCAS: 165.0
+  PriorityType: Cargo
 - name: Fokker Dr.I
   MaxSpeed: 169.0 
   MaxClimbRate: 6.1 
@@ -191,6 +211,16 @@
 - name: FW190A5
   MaxSpeed: 548.3
   MaxClimbRate: 15.9
+  ServiceCeiling: 11300.0
+  TurnRate: 300.0, 67.0
+  MaxClimbCAS: 280
+  DiveCAS: 700.0
+  CruiseCAS: 400.0
+  ClimbCAS: 300.0
+  PriorityType: Fighter
+- name: FW190A6
+  MaxSpeed: 662.0
+  MaxClimbRate: 20.0
   ServiceCeiling: 11300.0
   TurnRate: 300.0, 67.0
   MaxClimbCAS: 280
@@ -268,6 +298,16 @@
   CruiseCAS: 320.0
   ClimbCAS: 250.0
   PriorityType: Shturmovik
+- name: Hurricane Mk.II
+  MaxSpeed: 543.0 
+  MaxClimbRate: 14.0
+  ServiceCeiling: 11300.0
+  TurnRate: 230.0, 63.0 
+  MaxClimbCAS: 260
+  DiveCAS: 700.0
+  CruiseCAS: 400.0
+  ClimbCAS: 250.0
+  PriorityType: Fighter
 - name: Il-2m41
   MaxSpeed: 412.0
   MaxClimbRate: 6.8
@@ -398,6 +438,16 @@
   CruiseCAS: 400.0
   ClimbCAS: 280.0
   PriorityType: Fighter
+- name: Nieuport 28
+  MaxSpeed: 202.0 
+  MaxClimbRate: 7.0 
+  ServiceCeiling: 5600.0 
+  TurnRate: 140.0, 8.3
+  MaxClimbCAS: 130 
+  DiveCAS: 260.0
+  CruiseCAS: 170.0
+  ClimbCAS: 110.0
+  PriorityType: Fighter
 - name: Pe-2 ser.35
   MaxSpeed: 505.0
   MaxClimbRate: 10.5
@@ -468,6 +518,16 @@
   CruiseCAS: 400.0
   ClimbCAS: 250.0
   PriorityType: Fighter
+- name: P-47D-22
+  MaxSpeed: 700.0
+  MaxClimbRate: 19.0
+  ServiceCeiling: 11600.0
+  TurnRate: 322.0, 27.0
+  MaxClimbCAS: 265
+  DiveCAS: 700.0
+  CruiseCAS: 400.0
+  ClimbCAS: 280.0
+  PriorityType: Fighter
 - name: P-47D-28
   MaxSpeed: 700.0
   MaxClimbRate: 18.2
@@ -537,6 +597,16 @@
   DiveCAS: 700.0
   CruiseCAS: 400.0
   ClimbCAS: 250.0
+  PriorityType: Fighter
+- name: Spitfire Mk.XIV Griffon 65
+  MaxSpeed: 723.0
+  MaxClimbRate: 23.8
+  ServiceCeiling: 13000.0
+  TurnRate: 330.0, 63.0 
+  MaxClimbCAS: 280
+  DiveCAS: 740.0
+  CruiseCAS: 475.0
+  ClimbCAS: 280.0
   PriorityType: Fighter
 - name: S.E.5a
   MaxSpeed: 222.6 
